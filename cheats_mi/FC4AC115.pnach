@@ -1,0 +1,6 @@
+gametitle=ObsCure II (PAL-M5) (SLES-54782)
+
+[50 FPS]
+author=Gabominated
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,2013D188,extended,2C420001 //2C420002

@@ -1,0 +1,9 @@
+gametitle=Outlaw Golf 2 (PAL-M5) (SLES-52965)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Widescreen hack by sergx12
+//Ported to PAL (ElHecht)
+
+// 16:10
+patch=1,EE,00681448,word,3f8ccccd // 3f6aaaab hor fov

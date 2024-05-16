@@ -1,0 +1,12 @@
+gametitle=Marvel vs. Capcom 2: New Age of Heroes [NTSC-J] (SLPM-62227)
+
+[Progressive Scan]
+comment=Enable full frame mode + native progressive scan
+author=felixthecat1970
+patch=1,EE,003EE1D8,extended,24020002
+patch=1,EE,203EE1DC,extended,AC22F3C0
+patch=1,EE,203EE1EC,extended,AC20F3DC
+patch=1,EE,203EE714,extended,0000282D
+patch=1,EE,003EE718,extended,24060050
+patch=1,EE,203EE720,extended,24070001
+patch=1,EE,203EEB3C,extended,1040FFF6

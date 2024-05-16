@@ -1,0 +1,9 @@
+gametitle=The Punisher (NTSC-U) [SLUS-20864]
+
+[No-Interlacing]
+gsinterlacemode=1
+description=force progressive scan
+patch=1,EE,001a0204,word,3c050000
+patch=1,EE,001a0208,word,3c060050
+patch=1,EE,001a020c,word,3c070001
+patch=1,EE,001a0210,word,3c090010

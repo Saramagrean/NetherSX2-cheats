@@ -1,0 +1,6 @@
+gametitle=Bee Movie Game (U)(SLUS-21622) 07717046
+
+[60 FPS]
+author=PeterDelta
+comment=Unlocked at 60 FPS. Might need enable 180% EE Overclock to be stable.
+patch=1,EE,00209798,word,28420001 //28420002

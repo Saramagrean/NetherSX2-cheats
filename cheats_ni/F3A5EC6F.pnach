@@ -1,0 +1,9 @@
+gametitle=Armored Core - Nexus - Disc 1 - Evolution (PAL-M5) (SLES-82036)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,D1D47A22,extended,0100656D
+patch=1,EE,0023D32C,extended,00000001
+patch=1,EE,D1D47A22,extended,01006F73
+patch=1,EE,0023D32C,extended,00000000

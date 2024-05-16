@@ -1,0 +1,10 @@
+gametitle=Zettaizetsumei Toshi 2 - Itetsuita Kiokutachi [NTSC-J] (SLPS-25606)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Widescreen Hack by Little Giant
+
+//16:10
+patch=1,EE,0048ab28,word,3F555555 //3F800000 hor
+patch=1,EE,003a7c60,word,43C00000 //43A00000 (Increases hor. axis)
+patch=1,EE,003a7c80,word,43C00000 //43A00000 render fix

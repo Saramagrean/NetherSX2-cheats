@@ -1,0 +1,9 @@
+gametitle=Killer 7 (PAL-M3) (SLES-53366)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Widescreen hack by ElHecht
+
+// 16:10
+patch=1,EE,00281450,word,3c023fcc // 3c023faa hor fov
+patch=1,EE,00281454,word,3442cccd // 3442aaab hor fov

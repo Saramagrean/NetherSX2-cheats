@@ -1,0 +1,9 @@
+gametitle=Psychonauts SLUS_211.20
+
+[Remove post processing]
+//fixes bad ghosting in PCSX2 hardware mode
+patch=1,EE,20369F4C,word,00000000 //3f400000
+
+[Removes blue shadows]
+//PCSX2 hardware mode
+patch=1,EE,2112C014,word,00000000 //3f400000

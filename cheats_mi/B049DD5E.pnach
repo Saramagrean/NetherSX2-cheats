@@ -1,0 +1,8 @@
+gametitle=Shonen Jump's One Piece  Grand Battle [NTSC-U] (SLUS-20975)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Widescreen Hack by Little Giant
+
+//16:10
+patch=1,EE,003f5898,word,3F555555 //3f800000

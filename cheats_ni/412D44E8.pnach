@@ -1,0 +1,6 @@
+gametitle=Gregory Horror Show SLES_519.33
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2010210C,extended,00000000

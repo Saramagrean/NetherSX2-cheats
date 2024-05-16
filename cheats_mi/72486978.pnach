@@ -1,0 +1,13 @@
+gametitle=Armored Core - Nine Breaker SLUS_212.00
+
+[Remove Blur]
+author=001 & Berylskid
+description=Removes blur effects.
+patch=1,EE,D027CD3C,extended,02100000
+patch=1,EE,61D8A268,extended,00000000
+patch=1,EE,00000001,extended,0000005F
+
+[Correct HUD]
+author=001 & Berylskid
+description=Removes HUD artifacts on hardware renderer.
+patch=1,EE,00247C6A,extended,00000000

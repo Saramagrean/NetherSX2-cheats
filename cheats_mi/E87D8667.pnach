@@ -1,0 +1,6 @@
+gametitle=Bolt (U)(SLUS-21844)
+
+[60 FPS]
+author=asasega
+comment=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,007E15EC,word,00000001

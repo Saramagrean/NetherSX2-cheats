@@ -1,0 +1,6 @@
+gametitle=Shadow of Rome SLUS_209.02
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=No interleacing, videos still shake
+patch=1,EE,201E9274,extended,30420000

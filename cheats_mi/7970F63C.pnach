@@ -1,0 +1,8 @@
+gametitle=Saint Seiya The Sanctuary [NTSC-J] (SLPS-25476)
+
+[60 FPS]
+author=felixthecat1970
+patch=1,EE,20279150,extended,0000882D
+patch=1,EE,20278AE0,extended,0000802D
+patch=1,EE,20277A08,extended,0000802D
+patch=1,EE,201BAB50,extended,A040001C

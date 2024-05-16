@@ -1,0 +1,11 @@
+gametitle=Sly 3 - Honour Among Thieves NTSC-U
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=No Interlacing & No Motion Blur
+
+// No Interlacing by asasega
+patch=1,EE,20195D40,word,00000000
+
+// No Motion Blur by Meos
+patch=1,EE,201837E8,extended,00000000

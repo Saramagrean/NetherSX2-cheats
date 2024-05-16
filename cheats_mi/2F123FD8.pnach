@@ -1,0 +1,22 @@
+gametitle=God of War 2 (SCUS-97481)
+
+[Aspect Ratio 21:9]
+patch=1,EE,00234A48,word,46000406
+patch=1,EE,2032F300,word,401851ec
+patch=1,EE,2032F338,word,401851ec
+patch=1,EE,20363810,word,401851ec
+
+[Disable Shadow]
+patch=1,EE,001706E0,word,03e00008
+patch=1,EE,001706E4,word,00000000
+
+[Disable Bloom]
+patch=1,EE,00126EB0,word,03e00008
+patch=1,EE,00126EB4,word,00000000
+
+[Disable Stencil Layer]
+patch=1,EE,0016E720,word,03e00008
+patch=1,EE,0016E724,word,00000000
+
+[Allow Mpeg Skip (By Pressing X)]
+patch=1,EE,001DD8C8,word,00000000

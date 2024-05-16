@@ -1,0 +1,6 @@
+﻿gametitle=幻想水滸伝 V (SLPM-66286)
+
+[Game Fixes]
+//reflections fix by sergx12
+patch=1,EE,00263AC0,word,3c0241d5 //3c0241a0 
+patch=1,EE,00263ACC,word,3c024135 //3c024172

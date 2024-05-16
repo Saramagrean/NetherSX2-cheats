@@ -1,0 +1,22 @@
+gametitle=Burnout Dominator (PAL-E) (SLES-54627)
+
+//(En,Fr,De,Es,It) Game CRC = 0x8C9576B4
+
+[Progressive Scan Mode]
+comment=by felixthecat1970
+
+//[patches\Call US version parameters + pmode + langs *disable other code]
+//description=Call USA version parameters + LANGS + extend 640x480p, memory ID card changes, saves not compactible i guess...
+//patch=1,EE,003C5104,extended,55
+//patch=1,EE,2020A304,extended,24030002
+//patch=1,EE,001B4904,extended,24020001
+//patch=1,EE,201B4918,extended,00000000
+//patch=1,EE,101B4E50,extended,240601E0
+
+//patches\EUR autoboot progressive scan mode *disable other code]
+//description=Re-enable and autoboot progressive scan mode, extend 640x480p.
+patch=1,EE,0020967C,extended,24030004
+patch=1,EE,2020A304,extended,24030002
+patch=1,EE,001B4904,extended,24020001
+patch=1,EE,201B4918,extended,00000000
+patch=1,EE,101B4E50,extended,240601E0

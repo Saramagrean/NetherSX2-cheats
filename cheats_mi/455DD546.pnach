@@ -1,0 +1,20 @@
+gametitle=Mortal Kombat - Shaolin Monks (SLUS_21087)
+
+[Disable Characters Skinning]
+patch=1,EE,004F4C44,byte,0
+
+[Disable Characters Shadow]
+patch=1,EE,004F4BAC,byte,0
+patch=1,EE,004F5088,byte,0
+
+[Disable Characters Glow Effect]
+patch=1,EE,004F5094,byte,0
+
+[Disable Bloom]
+patch=1,EE,004F4B68,byte,0
+
+[Disable Fog]
+patch=1,EE,004F4C08,byte,0
+
+[Disable Light on Characters Skills]
+patch=1,EE,004F4C98,byte,0

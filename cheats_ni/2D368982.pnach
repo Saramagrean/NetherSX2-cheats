@@ -1,0 +1,7 @@
+gametitle=PaRappa the Rapper 2 (NTSC-U)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+//force progressive
+patch=1,EE,20103690,extended,00000000

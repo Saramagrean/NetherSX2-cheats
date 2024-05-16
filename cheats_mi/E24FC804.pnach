@@ -1,0 +1,8 @@
+gametitle=50 Cent - Bulletproof (U)(SLUS-21315)
+
+[60 FPS]
+description=Forces the game to run at 60.
+//60 FPS by asasega (4th)
+//2d20a003 f041013c 00608144
+//2d20a003 7042013c 00608144
+patch=1,EE,001B3B98,word,3C014270

@@ -1,0 +1,7 @@
+gametitle=Ridge Racer 5 (SCES_50000) 5BBC2F40
+
+[No-Interlacing]
+author=PeterDelta
+comment=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,00220738,word,24020000

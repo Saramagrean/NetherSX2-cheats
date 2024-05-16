@@ -1,0 +1,6 @@
+gametitle=Prince of Persia: The Two Thrones (SLUS-21287)
+
+[60 FPS]
+author=asasega
+comment=Unlocked at 60 FPS. Might need enable 180% EE Overclock to be stable.
+patch=1,EE,00A908F8,word,00000001

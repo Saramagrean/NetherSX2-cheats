@@ -1,0 +1,9 @@
+gametitle=Darkwatch [PAL] (SLES_535.64)
+
+[480p Mode]
+
+//480p
+patch=1,EE,0045B6A4,word,3C050000 //00052C00
+patch=1,EE,0045B6AC,word,3C060050 //00063400
+patch=1,EE,0045B6B4,word,3C070001 //00073C00
+patch=1,EE,0045B974,word,3C090010 //00094C00

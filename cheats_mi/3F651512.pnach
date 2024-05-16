@@ -1,0 +1,18 @@
+gametitle=Zero: Shisei no Koe [NTSC-J] (SLPS-25544)
+
+[Dither + Ghost post-process Effect Off]
+//patch=1,EE,00156024,word,00000000 //0c055954
+//Disable dark filter (cutscene)
+//patch=1,EE,0015609c,word,00000000 //0c05594c
+
+[Disable all bloom (speedup, but makes the game seem dull)]
+//patch=1,EE,00156164,word,00000000 //0c055942
+
+[Disable overbloom (cutscene)]
+//patch=1,EE,00156100,word,00000000 //0c0558f4
+//Decrease overbloom (gameplay)
+//patch=1,EE,20364FFC,word,3F400000 //3F800000
+
+//FMW's fix (old)
+//patch=1,EE,00368140,word,43f00000
+//patch=1,EE,00368148,word,42d40000

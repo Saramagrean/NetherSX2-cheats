@@ -1,0 +1,7 @@
+gametitle=Fantastic Four (PAL-E) SLES-53143 CC14A552
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+comment=Widescreen Hack 16:9
+patch=1,EE,0031DA70,word,3FB8E369

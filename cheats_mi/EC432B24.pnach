@@ -1,0 +1,13 @@
+gametitle=Drakengard 2 (PAL-M3) (SLES-53794)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Widescreen hack by ElHecht
+
+// 16:10
+patch=1,EE,002a1818,word,3c013f55 // 00000000 hor fov
+patch=1,EE,002a181c,word,34215555 // 00000000 hor fov
+patch=1,EE,002a1820,word,4481f000 // 00000000
+patch=1,EE,002a1824,word,c783c53c // 00000000
+patch=1,EE,002a1854,word,461e18c3 // c783c53c
+patch=1,EE,002d2b0c,word,3c014441 // 3c014420 renderfix

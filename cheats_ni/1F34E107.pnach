@@ -1,0 +1,7 @@
+gametitle=Armored Core - Last Raven SLUS_213.38
+
+[No-Interlacing]
+gsinterlacemode=1
+author=PsxFan107
+patch=1,EE,00112424,word,00000000
+patch=1,EE,00177D5C,word,0000102D

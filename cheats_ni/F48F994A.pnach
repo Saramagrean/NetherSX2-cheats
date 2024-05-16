@@ -1,0 +1,9 @@
+gametitle=Tekken 4 (PAL-M5) (SCES-50878) F48F994A
+
+[No-Interlacing]
+gsinterlacemode=1
+author=felixthecat1970
+comment=Autoboot progressive scan mode
+patch=0,EE,001E2254,extended,24020002
+patch=0,EE,0022B138,extended,24050006
+patch=0,EE,001EDC24,extended,24020009

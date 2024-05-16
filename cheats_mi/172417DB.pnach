@@ -1,0 +1,5 @@
+gametitle=Thrillville (SLUS-21413)
+
+[Increases Draw Distance]
+//Needed to restore effects lost in HW mode
+patch=1,EE,20CC5558,word,3FC00000

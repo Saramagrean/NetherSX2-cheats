@@ -1,0 +1,7 @@
+gametitle=Splinter Cell  * SLES-51466 * PAL-M5 * A7705A52
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=sergx12
+comment=Widescreen Hack
+patch=1,EE,001CF890,word,3C053F40 // 3C053F80 - X-axis

@@ -1,0 +1,10 @@
+gametitle=Ford Racing - Off Road SLUS-21696
+comment=Fix for ingame widescreen.
+patch=1,EE,00375934,word,3CAEFA34 //3c8efa34 fov
+
+
+
+
+
+
+

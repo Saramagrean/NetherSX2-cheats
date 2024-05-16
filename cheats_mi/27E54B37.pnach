@@ -1,0 +1,6 @@
+gametitle=Syphon Filter: The Omega Strain (SCES-52033)
+
+[50 FPS]
+author=Gabominated
+description=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,20543504,extended,00000032 //00000019

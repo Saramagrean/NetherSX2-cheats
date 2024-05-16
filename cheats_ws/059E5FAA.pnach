@@ -1,0 +1,7 @@
+gametitle=Dark Chronicle (PAL-M5) (SCES-51190) 059E5FAA
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=ElHecht
+comment=Widescreen Hack
+patch=1,EE,00139414,word,3c023f40

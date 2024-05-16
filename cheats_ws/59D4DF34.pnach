@@ -1,0 +1,11 @@
+gametitle=World Soccer Winning Eleven 6 International (SLUS-20623)
+comment=Widescreen patch by BloodRaynare
+
+patch=1,EE,0152b0b8,word,085d0306
+patch=1,EE,01740c18,word,3c013f40
+patch=1,EE,01740c1c,word,4481f000
+patch=1,EE,01740c20,word,c6010068
+patch=1,EE,01740c24,word,c602006c
+patch=1,EE,01740c28,word,461e0843
+patch=1,EE,01740c2c,word,e6010068
+patch=1,EE,01740c30,word,0854ac2f

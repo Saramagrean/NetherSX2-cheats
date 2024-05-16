@@ -1,0 +1,6 @@
+gametitle=Shin Megami Tensei - Lucifer's Call (SLES-53363) (CRC-AE0DE7B7)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,202B1AE8,extended,64040001

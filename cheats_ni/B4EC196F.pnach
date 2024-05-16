@@ -1,0 +1,7 @@
+gametitle=Tales of Rebirth (NTSC-J)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2019AB84,extended,00000000
+patch=1,EE,2019AC0C,extended,00000000

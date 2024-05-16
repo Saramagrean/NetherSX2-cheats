@@ -1,0 +1,7 @@
+gametitle=Midnight Club II (U)(SLUS-20209) E5F2DF38
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+comment=Renders the game in 16:9 aspect ratio
+patch=1,EE,0042FAB4,word,3FC71CEA //3F955553

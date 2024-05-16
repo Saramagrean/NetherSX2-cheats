@@ -1,0 +1,12 @@
+gametitle=Suikoden V (SLUS-21291)
+
+[Reflection fix]
+//by sergx12
+patch=1,EE,00265040,word,3c0241d5 //3c0241a0 new
+patch=1,EE,0026504C,word,3c024135 //3c024172
+
+//patch=1,EE,001b099c,word,3c023fab //obsolete
+//patch=1,EE,001b0a94,word,3c023fab
+//patch=1,EE,001b0d6c,word,3c023f40
+//patch=1,EE,001b7800,word,3c043f00 //3c043f80
+//patch=1,EE,001b7a40,word,3c043f00 //3c043f80

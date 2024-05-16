@@ -1,0 +1,12 @@
+gametitle=Ford Racing 3 SLUS-20976
+comment=Fix for ingame widescreen.
+patch=1,EE,001901E8,word,3C014010  //3c014040 car celection
+patch=1,EE,0019AFF4,word,3C014010 // 3c014040 car selection
+patch=1,EE,002FAD88,word,3CAEFA34 //3c8efa34 fov
+
+
+
+
+
+
+

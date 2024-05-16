@@ -1,0 +1,22 @@
+gametitle=Prince of Persia - The Two Thrones (Japan) SLPM-66391
+comment=Widescreen hack by nemesis2000 (Ported by pcsx2user156)
+
+//gameplay
+patch=1,EE,005BAD54,word,3C023F40
+patch=1,EE,005BAD70,word,4600B046
+patch=1,EE,005BAD78,word,4600A306
+patch=1,EE,005BAD7C,word,4600AB46
+
+//rfix
+patch=1,EE,005A426C,word,3C014455
+patch=1,EE,005A42A8,word,44810000
+
+//menu fix
+patch=1,EE,00560EF0,word,0C15D7CF
+patch=1,EE,00575F3C,word,3C014456
+patch=1,EE,00575F84,word,44813000
+patch=1,EE,00575F88,word,2407FF95
+
+//HUD fix
+patch=1,EE,00217D64,word,3C03BDDD
+patch=1,EE,00217D6C,word,3464DDDD

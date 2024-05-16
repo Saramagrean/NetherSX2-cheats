@@ -1,0 +1,6 @@
+gametitle=Space Channel 5 - Part 2 (SLUS_20807)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,0024bfc4,word,00000000 //64420008 no interlacing

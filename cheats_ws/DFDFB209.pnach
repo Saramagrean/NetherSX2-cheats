@@ -1,0 +1,10 @@
+gametitle=Off Road SLES-55032
+comment=Fix for ingame widescreen.
+patch=1,EE,003787CC,word,3CAEFA34 //3c8efa34 fov
+
+
+
+
+
+
+

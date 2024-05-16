@@ -1,0 +1,6 @@
+gametitle=Armored Core 3 [NTSC-J] (SLPS-25112)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,002D90A4,word,00000000

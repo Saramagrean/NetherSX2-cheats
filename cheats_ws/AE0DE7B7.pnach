@@ -1,0 +1,12 @@
+gametitle=Shin Megami Tensei - Lucifer's Call (SLES-53363) (CRC-AE0DE7B7)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen Hack (16:9)
+//
+// 16:9 (50Hz)
+//patch=1,EE,002fd2b4,word,3fe38e38 // 3f951eb8 hor fov
+//patch=1,EE,002fd654,word,3fe38e38 // 3f951eb8 unknown
+// 16:9 (60Hz)
+patch=1,EE,002fd2b4,word,3fc30000 // 3f951eb8 hor fov
+patch=1,EE,002fd654,word,3fc30000 // 3f951eb8 unknown

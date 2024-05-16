@@ -1,0 +1,7 @@
+gametitle=Bully [NTSC-J] (SLPS-25879) CRC 019CFA48
+
+[Disable Depth of Field]
+author=refraction
+description=Removes depth of field effect.
+
+patch=1,EE,003DB104,word,5000021A //Skips DoF code block.

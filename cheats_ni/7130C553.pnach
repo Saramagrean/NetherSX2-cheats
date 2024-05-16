@@ -1,0 +1,6 @@
+gametitle=Gitaroo Man (NTSC-U)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,201C8B14,extended,AF808048

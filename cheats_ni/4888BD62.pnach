@@ -1,0 +1,9 @@
+gametitle=Sega Rally Championship (NTSC-J) [SLPM-62703] [4888BD62]
+
+[No-Interlacing]
+gsinterlacemode=1
+author=felixthecat1970
+comment=Autoenable progressive scan mode
+patch=0,EE,0030F310,extended,0000001D
+patch=0,EE,001758F4,extended,00000003
+patch=0,EE,20176F68,extended,01E0782D

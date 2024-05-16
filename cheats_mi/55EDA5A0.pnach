@@ -1,0 +1,44 @@
+gametitle=Rayman Revolution (PAL-M5) (SLES-50044) 55EDA5A0
+
+[Widescreen 15:9]
+gsaspectratio=15:9
+author=ElHecht & ICUP321
+comment=Widescreen Hacks
+// 15:9
+patch=1,EE,0018c690,word,3c013f50 // 00000000 hor fov
+
+[Widescreen 16:10]
+gsaspectratio=16:10
+author=ElHecht & ICUP321
+comment=Widescreen Hacks
+// 16:10
+patch=1,EE,0018c690,word,3c013f55 // 00000000 hor fov
+patch=1,EE,0018c694,word,34215555 // 00000000 hor fov
+
+[Widescreen 21:9]
+gsaspectratio=21:9
+author=ElHecht & ICUP321
+comment=Widescreen Hacks
+// 21:9
+patch=1,EE,0018c690,word,3c013f10 // 00000000 hor fov
+
+[Widescreen 25:16]
+gsaspectratio=25:16
+author=ElHecht & ICUP321
+comment=Widescreen Hacks
+// 25:16
+patch=1,EE,0018c690,word,3c013f5a // 00000000 hor fov
+patch=1,EE,0018c694,word,3421740e // 00000000 hor fov
+
+[Widescreen 32:9]
+gsaspectratio=32:9
+author=ElHecht & ICUP321
+comment=Widescreen Hacks
+// 32:9
+patch=1,EE,0018c690,word,3c013ed5 // 00000000 hor fov
+patch=1,EE,0018c694,word,3421c28f // 00000000 hor fov
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,001011FC,word,24030000 //24030001

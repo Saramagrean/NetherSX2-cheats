@@ -1,0 +1,9 @@
+gametitle=Astro Boy (U)(SLUS-20867)
+
+[60 FPS]
+author=asasega
+comment=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,0069AD90,word,00000001
+patch=1,EE,0069AD98,word,42700000
+patch=1,EE,0069AD9C,word,3C888889
+patch=1,EE,0069ADA0,word,3F800000

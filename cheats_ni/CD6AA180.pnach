@@ -1,0 +1,10 @@
+gametitle=Cold Winter [PAL-M4] (SLES_529.63)
+
+[480 Mode]
+author=El_Patas
+
+//480p
+patch=1,EE,004F7DAC,word,3C050000 //00052C00
+patch=1,EE,004F7DB4,word,3C060050 //00063400
+patch=1,EE,004F7DBC,word,3C070001 //00073C00
+patch=1,EE,004F8014,word,3C090010 //00094C00

@@ -1,0 +1,5 @@
+gametitle=Shrek SuperSlam
+comment=Widescreen Hack (16:9) by Michael
+
+//Widescreen
+patch=1,EE,21C8111C,extended,3FE38E39 // 3FAAAAAB

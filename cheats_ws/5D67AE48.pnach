@@ -1,0 +1,6 @@
+gametitle=The Oneechanbara [SLPM-62525]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=NTSC-J Widescreen Hack by synce
+patch=1,EE,202BB874,extended,3F400000

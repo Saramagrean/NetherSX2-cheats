@@ -1,0 +1,6 @@
+gametitle=Twisted Metal: Black (NTSC-U) [SCUS-97101] [073696DA]
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=no interlacing hack someother1ne
+patch=1,EE,00203BCC,word,30420000

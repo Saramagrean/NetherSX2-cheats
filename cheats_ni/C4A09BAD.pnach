@@ -1,0 +1,6 @@
+gametitle=MTBikers: Bakusou Mountain Bikers (NTSC-J) [SCPS-15062]
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2024B074,word,30420000

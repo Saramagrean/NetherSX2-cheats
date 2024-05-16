@@ -1,0 +1,6 @@
+﻿gametitle=Gungrave [NTSC-J] (SLPM-65153)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,201AF9C4,word,00000000 // nop interleaced

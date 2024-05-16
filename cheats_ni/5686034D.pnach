@@ -1,0 +1,9 @@
+gametitle=The Punisher (PAL-M2) (SLES-53047)
+
+[Progressive Scan Mode]
+comment=by ElHecht
+
+// force progressive scan
+patch=1,EE,001a0bf4,word,3c050000
+patch=1,EE,001a0bfc,word,3c060050
+patch=1,EE,001a0c04,word,3c070001

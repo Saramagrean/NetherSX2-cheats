@@ -1,0 +1,6 @@
+gametitle=Namco x Capcom (NTSC-J) (English patch) [SLPS-25505]
+
+[No-Interlacing]
+comment=240p v-mode - nopi v2 by felixthecat
+patch=1,EE,0019DDE0,extended,24050000
+patch=1,EE,00338770,extended,24050000

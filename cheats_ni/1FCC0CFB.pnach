@@ -1,0 +1,7 @@
+gametitle= Driving Emotion Type-S NTSC-U (SLUS-20113)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2024C2B8,word,A0E00004
+patch=1,EE,20250C8C,word,A3805404

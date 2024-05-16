@@ -1,0 +1,10 @@
+gametitle=Valkyrie Profile 2: Silmeria [SLES-54644] (E)
+comment=Patches/Codes Hacked By Maori-Jigglypuff [Savas Guercebe]
+
+patch=1,EE,E0010800,extended,0037979C
+patch=1,EE,2037979C,extended,0803FC00
+patch=1,EE,000FF000,word,3C043F40
+patch=1,EE,000FF004,word,44840800
+patch=1,EE,000FF008,word,46000802
+patch=1,EE,000FF00C,word,080DE5E9
+patch=1,EE,000FF010,word,C66100C8

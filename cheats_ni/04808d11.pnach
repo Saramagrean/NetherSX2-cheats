@@ -1,0 +1,6 @@
+gametitle=NBA 2k6 [SLES 53687] (E)
+comment=fixes hang at start
+patch=1,EE,00441ff8,word,00000000
+//NBA 2k7 [SLES 54210] has same crc and this patch
+//patch=1,EE,0044f0f8,word,00000000
+

@@ -1,0 +1,17 @@
+gametitle=Need for Speed - Underground (PAL-M7) (SLES-51967)
+
+[Widescreen 16:10]
+gsaspectratio=stretch
+author=ElHecht
+comment=Widescreen Hack 16:9
+
+// 16:10
+patch=1,EE,00438adc,word,3f555555 // 3f800000
+patch=1,EE,00438a14,word,3f555555 // 3f800000
+patch=1,EE,004ff628,word,3f19999a // 3f000000
+patch=1,EE,004ff630,word,3f19999a // 3f000000
+
+[50 FPS]
+author=asasega
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,2011060C,extended,2C420001 //2C420002

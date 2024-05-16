@@ -1,0 +1,16 @@
+gametitle=The Typing of the Dead - Zombie Panic (J)(SLPM-62566)
+comment=Widescreen hack by Arapapa
+
+//Widescreen hack 16:9
+
+//Zoom
+patch=1,EE,001f74cc,word,3c023f9e //3c023f6d
+patch=1,EE,001f74d0,word,34424207 //3442631a
+
+//Y-Fov
+patch=1,EE,001f74e8,word,3c023f9f //3c023f6e
+patch=1,EE,001f74ec,word,344249f1 //3442eeef
+
+//Remove 'Black Bar'
+patch=1,EE,001e6b60,word,00000000 //3c023f80 Upper
+patch=1,EE,001e6b98,word,00000000 //3c023f80 Bottom

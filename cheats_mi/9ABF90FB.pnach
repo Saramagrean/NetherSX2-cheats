@@ -1,0 +1,6 @@
+gametitle=Señor de Los Anillos, El - Las Dos Torres (PAL-S) SLES-51256 9ABF90FB
+
+[50 FPS]
+author=asasega
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,00381744,word,00000000

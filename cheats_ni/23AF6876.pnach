@@ -1,0 +1,6 @@
+gametitle=DOA2: Hardcore (SLUS-20071)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,203962FC,word,00000000

@@ -1,0 +1,6 @@
+gametitle=Melty Blood: Actress Again [SLPM-55184]
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20101594,extended,00000000

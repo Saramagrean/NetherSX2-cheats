@@ -1,0 +1,6 @@
+gametitle=Onimusha: Dawn of Dreams (Disc 1) (SLUS-21180) / Onimusha: Dawn of Dreams (Disc 2) (SLUS-21362)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20178424,extended,00001825

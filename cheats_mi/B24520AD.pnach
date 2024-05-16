@@ -1,0 +1,6 @@
+gametitle=The Incredibles (K)(SLKA-25226)
+
+[Game Fixes]
+author=by Prafull
+comment=Hang fix (Only needed for pcsx2, is not needed for the PS2)
+patch=1,EE,0010EC20,word,00000000 //40036000

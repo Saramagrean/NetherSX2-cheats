@@ -1,0 +1,10 @@
+gametitle=Maximo vs Army of Zin (SLUS_20722)
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+comment=Widescreen hack by No.47
+
+// 21:9
+patch=1,EE,202C43D0,word,401907F6 //3FAC28F6 hor FOV
+patch=1,EE,202CFB54,word,401F5C29 //3FB33333 render fix
+patch=1,EE,20301750,word,3f100000 //3f800000 menu & HUD

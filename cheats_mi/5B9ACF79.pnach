@@ -1,0 +1,6 @@
+gametitle=Hitman 2 - Silent Assassin (PAL-S) (SLES-51110) (v1.01 and 2.00)
+
+[50 FPS]
+author=Gabominated
+description=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,20508090,extended,00000001 //00000002

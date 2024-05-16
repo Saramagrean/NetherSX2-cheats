@@ -1,0 +1,6 @@
+gametitle=Twisted Metal - Head-On [Extra Twisted Edition] (NTSC-U) [SCUS-97621] [3DC2FE45]
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=no interlacing hack someother1ne
+patch=1,EE,00264034,word,30420000

@@ -1,0 +1,4 @@
+gametitle=Kingdom Hearts (PAL-G) (SCES-50969)
+
+[60 FPS]
+patch=1,EE,001104d8,word,24820000 // 24820001

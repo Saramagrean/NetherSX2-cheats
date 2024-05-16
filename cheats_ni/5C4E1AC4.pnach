@@ -1,0 +1,6 @@
+gametitle=Armored Core - Nine Breaker [NTSC-J] (SLPS-25408)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2011F014,extended,00000000

@@ -1,0 +1,7 @@
+gametitle=Sly 2 - Band of Thieves (PAL-M11) (SCUS-97316)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=Meos
+comment=No Motion Blur
+patch=1,EE,20160FC8,extended,00000000

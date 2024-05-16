@@ -1,0 +1,13 @@
+gametitle=SSX 3 SLUS_207.72
+comment=Fix for ingame widescreen.
+patch=1,EE,20622600,extended,3f400000 //3f800000 force ingame widescreen
+patch=1,EE,20622604,extended,3f800000 //3f800000 cutscenes fix
+patch=1,EE,e0023f40,extended,006225FE //fix for vert- cutscenes
+patch=1,EE,20622600,extended,3f100000 //
+patch=1,EE,20622604,extended,3f400000 //
+
+
+
+
+
+

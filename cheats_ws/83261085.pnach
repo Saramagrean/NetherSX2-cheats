@@ -1,0 +1,11 @@
+gametitle=Tenchu - Wrath of Heaven (PAL-G) (SLES-51402)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen hack
+
+// 16:9
+patch=1,EE,00154998,word,3c033f40 // 3c033f80 hor fov
+patch=1,EE,001549e0,word,3c033f40 // 3c033f80 hor fov
+patch=1,EE,00155168,word,3c024458 // 3c024422 render fix
+patch=1,EE,001553d0,word,3c024458 // 3c024422 render fix

@@ -1,0 +1,5 @@
+gametitle=Baldur's Gate: Dark Alliance (J) (SLPS_25140)
+
+[No-Interlacing]
+//by asasega
+patch=1,EE,201fd4ac,word,34030001

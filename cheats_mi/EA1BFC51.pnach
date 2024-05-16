@@ -1,0 +1,6 @@
+gametitle=Medal of Honor: Vanguard  (SLUS-21597) / Medal of Honor: Vanguard  (SLES-54683)
+
+[50 FPS]
+author=asasega
+comment=Unlocked at 50 FPS. Might need enable 180% EE Overclock to be stable.
+patch=1,EE,2012ED40,extended,28420001

@@ -1,0 +1,6 @@
+gametitle=Shin Megami Tensei III Nocturne Maniax
+
+[No-Interlacing]
+//by asasega
+//01003126 2d206002 2d380000
+patch=1,EE,002b0960,word,64040001

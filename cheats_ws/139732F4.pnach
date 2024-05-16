@@ -1,0 +1,6 @@
+gametitle=Goblin Commander - Unleash the Horde SLUS-20792
+comment=Widescreen Hack GUI combines 2D and 3D elements and doesn't look good in widescreen
+patch=1,EE,001dc5d0,word,3c013f40 //3c013f80 hor fov
+patch=1,EE,001ea5a4,word,3c013f2b //3c013f00 render fix
+
+

@@ -1,0 +1,6 @@
+gametitle=Saint Seiya - The Hades SLES_541.62
+
+[50 FPS]
+author=Gabominated
+description=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=0,EE,005FD520,word,00000000 //00000001

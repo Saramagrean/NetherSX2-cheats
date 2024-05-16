@@ -1,0 +1,10 @@
+gametitle=Devil May Cry 3 - Special Edition (SLUS_21361)
+
+[Progressive scan]
+comment=Progressive scan, deinterlacing
+patch=1,EE,201029C4,extended,3C050000
+patch=1,EE,201029CC,extended,3C060050
+patch=1,EE,201029D4,extended,3C070001
+patch=1,EE,20102C84,extended,3C0700E0
+patch=1,EE,0013CCFC,extended,30630000
+patch=1,EE,20134B64,extended,0804D2FC

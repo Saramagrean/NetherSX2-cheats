@@ -1,0 +1,7 @@
+gametitle=Klonoa 2:Lunatea's Veil (SLPS_25033)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2018F15C,word,AE000340
+patch=1,EE,2018EA1C,word,AE000340

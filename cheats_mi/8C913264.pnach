@@ -1,0 +1,7 @@
+gametitle=Sonic Unleashed (PAL-M5) (SLES-55380) 8C913264
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,0087C3B4,word,00000032 //00000019
+patch=1,EE,00870A2C,word,3F99999A //3F800000

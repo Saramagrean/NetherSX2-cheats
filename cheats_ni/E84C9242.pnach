@@ -1,0 +1,8 @@
+gametitle=Tekken Tag Tournament (NTSC-U)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,208BCFC8,word,00000066
+patch=1,EE,208BCFD0,word,00000001
+patch=1,EE,208BCFD8,word,00009400

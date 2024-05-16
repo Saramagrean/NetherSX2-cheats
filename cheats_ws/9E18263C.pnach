@@ -1,0 +1,37 @@
+gametitle=Grand Theft Auto: San Andreas (SLPM-55292) (Rockstar Classics)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment==Widescreen fix originally by nemesis2000
+
+//Widescreen fix
+patch=1,EE,001130bc,word,3c013f9d
+patch=1,EE,001130c0,word,44810000
+patch=1,EE,001130c4,word,46006302
+patch=1,EE,001130c8,word,03e00008
+patch=1,EE,001130cc,word,e78c9a90
+patch=1,EE,00242a04,word,0c044c32
+
+//Conditional codes for widescreen toggle in display menu
+patch=1,EE,e1010000,extended,0070211f
+patch=1,EE,2021dd04,extended,0c044c32
+
+patch=1,EE,e1010001,extended,0070211f
+patch=1,EE,2021dd04,extended,0c044c2f
+
+//Restore original FOV for cutscenes
+patch=1,EE,e1010001,extended,00700cfd
+patch=1,EE,2021dd04,extended,0c044c32
+
+//Skybox fixes for the widescreen fix
+patch=1,EE,002eefc8,word,34420000
+patch=1,EE,002ef298,word,34420000
+patch=1,EE,002ef544,word,34420000
+patch=1,EE,002efbc4,word,34420000
+patch=1,EE,002ef868,word,34420000
+
+patch=1,EE,002eefc0,word,3c024120
+patch=1,EE,002ef290,word,3c024120
+patch=1,EE,002ef53c,word,3c024120
+patch=1,EE,002efbbc,word,3c024120
+patch=1,EE,002ef864,word,3c024120

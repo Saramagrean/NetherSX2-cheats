@@ -1,0 +1,37 @@
+gametitle=Shin Megami Tensei - Lucifer's Call (SLES-53363) (CRC-AE0DE7B7)
+
+[Shadow Override]
+//Optional shadow alpha hack
+//comment=Krisan Thyme
+patch=1,EE,20303680,extended,00000000
+patch=1,EE,20303684,extended,00000000
+patch=1,EE,20303688,extended,00000000
+patch=1,EE,2030368C,extended,00000000
+patch=1,EE,20303690,extended,00000000
+patch=1,EE,20303694,extended,00000000
+patch=1,EE,20303698,extended,00000000
+patch=1,EE,2030369C,extended,00000000
+patch=1,EE,203036A0,extended,00000000
+patch=1,EE,203036A4,extended,00000000
+patch=1,EE,203036A8,extended,00000000
+patch=1,EE,203036AC,extended,00000000
+patch=1,EE,203036B0,extended,00000000
+patch=1,EE,203036B4,extended,00000000
+patch=1,EE,203036B8,extended,00000000
+patch=1,EE,203036BC,extended,00000000
+patch=1,EE,203036C0,extended,00000000
+patch=1,EE,203036C4,extended,00000000
+patch=1,EE,203036C8,extended,00000000
+patch=1,EE,203036CC,extended,00000000
+patch=1,EE,203036D0,extended,00000000
+patch=1,EE,203036D4,extended,00000000
+patch=1,EE,203036D8,extended,00000000
+patch=1,EE,203036DC,extended,00000000
+patch=1,EE,203036E0,extended,00000000
+patch=1,EE,203036E4,extended,00000000
+patch=1,EE,203036E8,extended,00000000
+patch=1,EE,203036EC,extended,00000000
+patch=1,EE,203036F0,extended,00000000
+patch=1,EE,203036F4,extended,00000000
+patch=1,EE,203036F8,extended,00000000
+patch=1,EE,203036FC,extended,00000000

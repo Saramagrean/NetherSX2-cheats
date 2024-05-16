@@ -1,0 +1,5 @@
+﻿gametitle=Total Overdose - A Gunslinger's Tale in Mexico (Jun 2, 2005 prototype) SLES-53492
+comment=Widescreen Hack
+
+patch=1,EE,20683D0C,word,3F47AE14 // Zoom
+patch=1,EE,206B7A4C,word,3F400000 // Vert fov

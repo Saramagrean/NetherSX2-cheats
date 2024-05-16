@@ -1,0 +1,8 @@
+gametitle=Echo Night - Beyond (U)(SLUS-20928)
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=No-Interlacing + 60FPS by asasega
+
+//No Interlacing + 60FPS
+patch=1,EE,0013FFDC,word,10000014

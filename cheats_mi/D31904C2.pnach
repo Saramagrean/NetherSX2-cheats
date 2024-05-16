@@ -1,0 +1,8 @@
+gametitle=Crimson Tears SLUS_209.48
+
+[Remove Ghosting and Bloom (Optional)]
+//Remove "//" before patch to activate
+patch=1,EE,006C4D58,word,00000000
+patch=1,EE,00E36888,word,00000000
+patch=1,EE,00E363A8,word,00000000
+patch=1,EE,00E38B78,word,00000000

@@ -1,0 +1,12 @@
+gametitle=Shin Megami Tensei: Persona 3 FES (SLPM-66690)
+
+[Progressive Scan]
+comment=by felixthecat1970
+//Clean Image dump (redump.org hash verified) Game CRC = 0x232C7D72
+
+patch=1,EE,00197C90,extended,24040057
+patch=1,EE,107809EC,extended,000001C0
+patch=1,EE,104E185C,extended,240201C0
+patch=1,EE,2019D4C8,extended,03601020
+patch=1,EE,2019D4D4,extended,0000D82D
+patch=1,EE,2019D4E8,extended,241B0001

@@ -1,0 +1,6 @@
+gametitle=Legacy of Kain: Defiance (SLUS-20773)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,201C3070,word,30420000

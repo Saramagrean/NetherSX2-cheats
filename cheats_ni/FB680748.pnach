@@ -1,0 +1,8 @@
+gametitle=The Suffering PAL (SLES_524.39)
+
+[60 FPS]
+author=PeterDelta
+comment=Forces progressive scan and run at 60 fps
+patch=1,EE,00418544,word,24110000
+patch=1,EE,00418548,word,24120052
+patch=1,EE,00418554,word,24130001

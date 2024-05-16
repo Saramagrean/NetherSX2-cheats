@@ -1,0 +1,6 @@
+gametitle=Manhunt SLES_520.23 FE419424
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50FPS
+patch=1,EE,0054A1E0,word,08000001 //08000002 j 0x00000008

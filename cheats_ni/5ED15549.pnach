@@ -1,0 +1,8 @@
+gametitle=Despicable Me - The Game (E)(SLES-55625) 5ED15549
+
+[Mode 480p]
+author=PeterDelta
+comment=Forces progressive scan mode 480p at startup
+patch=1,EE,004006E4,word,3C050000
+patch=1,EE,004006EC,word,3C060050
+patch=1,EE,004006F4,word,3C070001

@@ -1,0 +1,12 @@
+gametitle=Downhill Domination (NTSC-U) (SCUS_97177)
+
+[Max LOD Distance]
+patch=1,EE,0029DAA8,word,00000000
+[Disable Fog]
+patch=1,EE,0027ED00,word,00000000
+[Disable Most of Post-proc Effects (Sun, Lens flare, etc...)]
+patch=1,EE,0029DBA5,byte,0
+[Disable Characters Shadows]
+patch=1,EE,0029E268,byte,0
+[Disable Stages Backdrop]
+patch=1,EE,0029E200,byte,0

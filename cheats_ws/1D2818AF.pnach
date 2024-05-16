@@ -1,0 +1,18 @@
+gametitle=Need for Speed - Hot Pursuit 2 (NTSC-U) (SLUS-20362)
+
+[Widescreen 16:9]
+author=nemesis2000
+gsaspectratio=16:9
+description=Fixes the game to run in a widescreen 16:9 scale.
+patch=1,EE,0010e994,word,46011702
+patch=1,EE,0032f6ec,word,3f400000
+patch=1,EE,0032f850,word,3f2aaaaa
+
+[HUD fixed for widescreen]
+author=Aero_
+description=Fixes the HUD to run in a widescreen 16:9 scale.
+patch=1,EE,0032F6F4,word,3F19999A
+patch=1,EE,002CFD64,word,00000040
+patch=1,EE,00330188,word,44555555
+patch=1,EE,0010EDEC,short,42F0
+patch=1,EE,0010EE0C,short,4384

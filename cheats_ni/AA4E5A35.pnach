@@ -1,0 +1,6 @@
+gametitle=Bloody Roar 3 SLUS_202.12
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,201CF8DC,word,00000000

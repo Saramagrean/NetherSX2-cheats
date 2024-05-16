@@ -1,0 +1,5 @@
+gametitle=ESPN NBA 2K5 (E)(SLES-53022)
+
+[Game Fixes]
+comment=fixes hang at start
+patch=1,EE,0034DA98,word,00000000

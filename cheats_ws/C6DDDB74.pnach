@@ -1,0 +1,11 @@
+gametitle=R Racing Evolution SLUS-20721
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen Hack
+patch=1,EE,204df8a0,extended,00000001 // enable widescreen
+patch=1,EE,0035cbe8,word,3c013f40 //3c013f80 fov
+//patch=1,EE,00237698,word,3c013fdd //3c013fa6 vert fov
+//patch=1,EE,0023769c,word,3421bba5 //34214cd9
+//patch=1,EE,002557f0,word,3c013fdd //3c013fa6
+//patch=1,EE,002557f4,word,3421bba5 //34214cd9

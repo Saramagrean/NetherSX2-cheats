@@ -1,0 +1,6 @@
+gametitle=Shin Contra (Japan) SLPM-62247
+patch=1,EE,005DBF14,word,3C013F40 // hor fov
+patch=1,EE,005DBF18,word,44810000
+patch=1,EE,005DBF20,word,4600C602
+patch=1,EE,00677B74,word,44D8AAAB // increase enemy spawn point right
+patch=1,EE,00677B78,word,4600C602 // increase enemy spawn point left

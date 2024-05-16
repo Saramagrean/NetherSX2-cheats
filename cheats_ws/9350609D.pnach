@@ -1,0 +1,11 @@
+gametitle=Tales of Destiny 2 [Mega Hits] (Japan) SLPS-72502
+comment=Widescreen hack by arapapa (Ported by pcsx2user156)
+
+//battle
+patch=1,EE,201835E4,extended,3C013F40
+patch=1,EE,201835E8,extended,44810000
+patch=1,EE,201835F0,extended,4600C602
+
+//3D map Texture breaks
+//patch=1,EE,D02EEEA2,extended,00004448
+//patch=1,EE,202EEEA0,extended,44160000

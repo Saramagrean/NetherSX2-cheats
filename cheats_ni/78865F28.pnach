@@ -1,0 +1,7 @@
+gametitle=Rocky (J)(SLPM-65463)
+
+[No-Interlacing]
+//patch by Prafull
+//fix shaking issue ingame
+//38290500 08004264
+patch=1,EE,0010b03c,word,00000000 //64420008

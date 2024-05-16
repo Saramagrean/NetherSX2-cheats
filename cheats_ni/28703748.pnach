@@ -1,0 +1,9 @@
+gametitle=Bully [NTSC-U] (SLUS-21269) CRC 28703748
+
+[480p Mode]
+author=nemesis2000
+description=Force 480p progressive
+
+patch=1,EE,0023ea90,word,24060050
+patch=1,EE,0023ea94,word,24050000
+patch=1,EE,0023ea9c,word,23070001

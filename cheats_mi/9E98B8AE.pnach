@@ -1,0 +1,12 @@
+﻿gametitle=Ikki Tousen - Shining Dragon NTSC-J (SLPS-25798)
+
+[No hud R1+L3=Off - L3=On]
+patch=1,EE,D05E8802,extended,F7FD
+patch=1,EE,00B1369D,extended,01
+patch=1,EE,D05E8802,extended,FFFD
+patch=1,EE,00B1369D,extended,00
+
+//???
+patch=1,EE,202284B8,extended,0000102D
+patch=1,EE,00217BBC,extended,00000000
+patch=1,EE,00371834,extended,00000000

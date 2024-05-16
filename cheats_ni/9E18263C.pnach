@@ -1,0 +1,23 @@
+gametitle=Grand Theft Auto: San Andreas (SLPM-55292) (Rockstar Classics)
+
+[Progressive Scan]
+
+//480p codes
+//Only activate the 480p codes if the intro FMV is skipped/finished playing
+patch=1,EE,e003ffe0,extended,00891180
+patch=1,EE,2035a00c,extended,24050000
+patch=1,EE,2035a008,extended,24060050
+patch=1,EE,2035a014,extended,24070001
+
+//DISPLAY2 Fix - Only needed for the real PS2 hardware to fix the cut-off pictures (Does nothing in emulators, at least for now)
+//patch=1,EE,00513098,word,8c430008
+
+//Screen position fixes for 480p - Optional (Again, only for real hardware)
+//patch=1,EE,1082cdba,extended,00000083
+//patch=1,EE,1082cde2,extended,00000083
+//patch=1,EE,1082d0da,extended,00000083
+//patch=1,EE,1082d0ea,extended,00000083
+//patch=1,EE,1082d10a,extended,00000083
+//patch=1,EE,1082d132,extended,00000083
+//patch=1,EE,1082d14a,extended,00000083
+//patch=1,EE,1082d15a,extended,00000083

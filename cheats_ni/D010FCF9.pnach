@@ -1,0 +1,7 @@
+gametitle=Tales of Destiny 2 (NTSC-K)(SCKA-20008)
+
+[No interlacing]
+//by asasega
+//38290500 08004264 -> 38290500 00000000
+patch=1,EE,00171094,word,00000000 //64420008
+patch=1,EE,0017111c,word,00000000 //64420008

@@ -1,0 +1,8 @@
+gametitle=Mafia [PAL-G] (SLES_522.79)
+comment=Widescreen Hack by El_Patas, Render fixes by arapapa
+
+//Rendering distancce 
+//patch=1,EE,20FFAC78,extended,44000000 //43660000
+
+//Gameplay 16:9
+patch=1,EE,20FFAC20,extended,3f3fffff //3f7fffff hor fov

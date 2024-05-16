@@ -1,0 +1,7 @@
+gametitle=Crash Bandicoot Wrath Of Cortex (SLUS_202.38) (Version 1.1)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2016A048,extended,AF80E750
+patch=1,EE,2016A054,extended,AF80E750

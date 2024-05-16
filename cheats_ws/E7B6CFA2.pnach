@@ -1,0 +1,8 @@
+gametitle=Arc - Twilight of the Spirits (NTSC-U) [SCUS-97231]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+//Widescreen Hack (16:9)
+patch=1,EE,20256F84,extended,3F0cCCCD
+patch=1,EE,20257440,extended,3F0cCCCD
+patch=1,EE,20257978,extended,3F0cCCCD

@@ -1,0 +1,6 @@
+gametitle=NASCAR '07 (PAL-E) SLES-54223 8AE96AEE
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,002E068C,word,28420001 //28420002

@@ -1,0 +1,7 @@
+gametitle=The Bouncer (NTSC-U)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,202ECD74,word,00000000
+patch=1,EE,202ECFDC,word,00000000

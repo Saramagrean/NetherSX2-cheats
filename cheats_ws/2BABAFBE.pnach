@@ -1,0 +1,7 @@
+gametitle= Pro Evolution Soccer 6  v1.01 SLES-54204
+comment= Widescreen pnach 
+
+//Gameplay
+patch=1,EE,00397a20,word,3faaaaab //3f800000
+//Render fix
+patch=1,EE,0012a53c,word,3C053FAB //3C053F80 (increases hor. render area)

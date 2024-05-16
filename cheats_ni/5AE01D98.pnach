@@ -1,0 +1,6 @@
+gametitle=Downhill Domination (NTSC-U) (SCUS_97177)
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=no interlacing by someother1ne
+patch=1,EE,00243D34,word,30420000

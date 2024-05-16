@@ -1,0 +1,6 @@
+gametitle=Gundam Musou Special (SLPM-66940) (NTSC/Japan) 
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen Hack by Wyngale
+patch=1,EE,204FCAD8,extended,3F19999A // 3F4CCCCD

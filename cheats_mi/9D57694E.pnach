@@ -1,0 +1,12 @@
+gametitle=tsugunai [SLUS-20292]
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+comment=Widescreen Hack
+patch=1,EE,0017cf94,word,3c013f40 //field
+//patch=1,EE,0018c1ac,word,3c013f40 //?
+patch=1,EE,001c1f30,word,3c013f40 //battle
+patch=1,EE,001b7e28,word,3c013f40 //amulet
+patch=1,EE,001acb94,word,3c013f40 //+
+patch=1,EE,001ac534,word,3c013f40 //+
+patch=1,EE,001c1ea4,word,3c013f40 //strage attack

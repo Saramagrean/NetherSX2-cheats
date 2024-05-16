@@ -1,0 +1,5 @@
+gametitle=Samurai Warriors 2: Xtreme Legends * NTSC-U * SLUS-21726 * 3C93E16A
+
+[No-Interlacing]
+author=xMichael
+patch=1,EE,00102298,word,30420000

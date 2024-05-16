@@ -1,0 +1,24 @@
+gametitle=Burnout Revenge (U)(SLUS-21242)
+
+[Widescreen 16:9]
+author=SuperType1/remco
+description=Fixes the game and the HUD to run in a 16:9 Scale (only enable one and not both of them).
+gsaspectratio=16:9
+patch=1,EE,201398C0,extended,00000000
+patch=1,EE,2016BCA8,extended,3C013A9D
+patch=1,EE,21C02438,extended,3FAA3D71
+patch=1,EE,21C02448,extended,3FAA3D71
+patch=1,EE,21C02398,extended,44610000
+patch=1,EE,21C02410,extended,3f2e147b
+patch=1,EE,21BFE698,extended,438C0000
+patch=1,EE,2010DA78,extended,3C014448
+patch=1,EE,20167844,extended,3C014F23
+patch=1,EE,21C02108,extended,43C30000
+patch=1,EE,2032677C,extended,3C013C9A
+
+////Force turn on Internal Widescreen (Full boot bypassing)
+//patch=1,EE,003a6308,word,24020002 //30420003
+
+//Zoom Fix
+//9A 99 99 3F 39 8E E3 3F 80 02 00 00 C0 01 00 00
+//patch=1,EE,21bfe890,extended,3FAAAAAB // 3F800000

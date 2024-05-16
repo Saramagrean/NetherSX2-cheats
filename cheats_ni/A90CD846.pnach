@@ -1,0 +1,7 @@
+gametitle=Tales of Destiny (J)(SLPS-25715)
+
+[No-Interlacing]
+gsnointerlace=1
+comment=by asasega
+patch=1,EE,001a3d64,word,00000000
+patch=1,EE,001a3dec,word,00000000

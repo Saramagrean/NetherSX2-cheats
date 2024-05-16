@@ -1,0 +1,7 @@
+gametitle=Bully [NTSC-U] (SLUS-21269) CRC 28703748
+
+[Disable Depth of Field]
+author=refraction
+description=Removes depth of field effect.
+
+patch=1,EE,003D9AD4,word,50000198 //Skips DoF code block.

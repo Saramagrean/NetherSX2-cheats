@@ -1,0 +1,6 @@
+gametitle=Armored Core 2 SLUS_200.14
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20282AFC,extended,00000000

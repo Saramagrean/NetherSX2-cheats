@@ -1,0 +1,3 @@
+gametitle=Katamari Damacy SLPS-25360 v1.03
+comment=Widescreen Hack
+patch=1,EE,00167640,word,3C0143D5 //3c0143a0

@@ -1,0 +1,10 @@
+gametitle=Tales of Destiny: Director's Cut (SLPS-25842)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20109FA8,extended,A620066C
+
+//No interlacing by asasega
+//patch=1,EE,201A7054,word,00000000
+//patch=1,EE,201A70DC,word,00000000

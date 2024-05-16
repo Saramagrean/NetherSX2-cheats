@@ -1,0 +1,11 @@
+gametitle=Devil May Cry 3 - Special Edition (SLUS_21361)
+
+[Remove Effects]
+//Disable Bloom, Blur, Noise, Filters
+patch=1,EE,001C4BD0,word,1000000B
+patch=1,EE,001AA2B4,word,3C033BB0
+
+patch=1,EE,200FFF98,extended,341B0003
+patch=1,EE,200FFF9C,extended,145B0002
+patch=1,EE,200FFFA4,extended,34020000
+patch=1,EE,200FFFAC,extended,341B0001

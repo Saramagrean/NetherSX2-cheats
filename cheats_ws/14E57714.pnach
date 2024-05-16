@@ -1,0 +1,4 @@
+gametitle=Ka SCPS-11009
+comment=Widescreen Hack
+patch=1,EE,002A3530,word,3c023f40
+patch=1,EE,002A3780,word,3c023f40

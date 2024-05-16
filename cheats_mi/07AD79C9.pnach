@@ -1,0 +1,14 @@
+gametitle=Yu-Gi-Oh! The Duelist of the Roses [NTSC-U]
+
+[Game Fixes]
+//fix for the zoom graphic glitch(you can additionally also change EE/IOP rounding to negative and clamping to extra+preserve sign, but I didn't really saw much if any improvement of doing it;p)
+patch=1,EE,D1FE04F0,extended,00000000
+patch=1,EE,21FE04F0,extended,3727C5AC
+
+//Duel Master(use only one code) in custom duel:
+//T
+patch=1,EE,203173AC,extended,00000003
+//S
+patch=1,EE,203173AC,extended,00000002
+//I
+patch=1,EE,203173AC,extended,00000004

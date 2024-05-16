@@ -1,0 +1,11 @@
+gametitle=Dance Summit 2001: Bust A Move (J)(SLPM-62029)
+
+[No-Interlacing]
+//CRC: 0xF881A604
+patch=1,EE,002AEEA8,byte,00
+patch=1,EE,002AEFB8,byte,00
+patch=1,EE,002AEFCC,word,000DF9FF
+patch=1,EE,002AEEBC,word,000DF9FF
+patch=1,EE,002AEFC0,word,00001070
+patch=1,EE,002AEEB0,word,00001070
+patch=1,EE,0020C064,word,30630000

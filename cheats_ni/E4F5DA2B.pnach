@@ -1,0 +1,23 @@
+gametitle=Tales of Legendia (NTSC-K)(SCKA-20050)
+
+[No Interlacing]
+comment=Code by asasega
+//00 10 00 00 00 00 00 00 7C 22 03 02 FF F9 1B 00
+patch=1,EE,D03F84D0,extended,00001000
+patch=1,EE,103F84D0,extended,000010E0
+
+/////////////////////////////////////////////////////////
+//µ¿¿µ»ó ÀÚ¸· ±ÛÀÚ
+//Y-position
+//patch=1,EE,00208480,word,3c034020 //3c034024
+
+//X-position
+//patch=1,EE,00230154,word,3c0344f0 //3c0344e0
+
+//Y-Position
+//patch=1,EE,0023015c,word,3c0244e0 //3c0244e4
+
+//2D Zoom
+//patch=1,EE,0015efbc,word,3c033fab //3c033f80
+//X-Fov
+//patch=1,EE,0015bad4,word,3c023ec0 //3c023f00

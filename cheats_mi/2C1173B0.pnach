@@ -1,0 +1,6 @@
+gametitle=F1 Career Challenge (PAL & NTSC-U)(SLUS-20693 & SLES-51584)
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,0033DF50,extended,00000001

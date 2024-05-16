@@ -1,0 +1,5 @@
+gametitle=Tom Clancy's Rainbow Six 3 SLES_522.88
+
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,00653878,word,00000001 //00000002

@@ -1,0 +1,8 @@
+gametitle=Nickelodeon SpongeBob SquarePants in: Battle for Bikini Bottom (PAL)
+
+[480p]
+patch=1,EE,002635fc,word,24050000
+patch=1,EE,00263600,word,24060050
+patch=1,EE,00262948,word,24060050
+patch=1,EE,0026294c,word,24050000
+patch=1,EE,00102254,word,3c090010

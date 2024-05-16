@@ -1,0 +1,7 @@
+gametitle=Virtua Fighter 4 (U)(SLUS-20323)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20266F20,word,A0800004
+patch=1,EE,2026C334,word,A080D294

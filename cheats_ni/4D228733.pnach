@@ -1,0 +1,7 @@
+gametitle=Marvel vs. Capcom 2: New Age of Heroes (SLUS204.86;1)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20101E5C,extended,00000000
+patch=1,EE,201020C4,extended,00000000

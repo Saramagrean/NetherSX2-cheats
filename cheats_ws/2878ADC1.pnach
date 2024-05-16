@@ -1,0 +1,10 @@
+gametitle=Pro Race Driver SLUS-20329
+comment=Widescreen Hack
+patch=1,EE,0014dc08,word,3c013f40 //3c013f80 hor fov
+patch=1,EE,0017f9b8,word,3c013fab //3c013f80 vert- widescreen for menus
+
+#patch=1,EE,0014dc08,word,3c013f40 //3c013f80 hor fov
+// switch to vert- widescreen for menus
+#patch=1,EE,201C4E5C,extended,3c013f00
+#patch=1,EE,d048918A,extended,00003e4c
+#patch=1,EE,201C4E5C,extended,3c013ec0

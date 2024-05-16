@@ -1,0 +1,12 @@
+gametitle=Ford Racing 3 SLES-52720
+comment=Fix for ingame widescreen.
+patch=1,EE,00190208,word,3C014010 // 3c014040 car selection
+patch=1,EE,0019B014,word,3C014010  //3c014040 car selection
+patch=1,EE,002FAD08,word,3CAEFA34 //3c8efa34 fov
+
+
+
+
+
+
+

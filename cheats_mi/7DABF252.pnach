@@ -1,0 +1,6 @@
+gametitle=Astro Boy - The Video Game (PAL-M) SLES-55593 7DABF252
+
+[50/60 FPS]
+author=asasega
+comment=Unlocked at 50/60 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,00283678,word,00000001

@@ -1,0 +1,6 @@
+gametitle=Crash - Mind Over Mutant (PAL)
+
+[Progressive Scan]
+author=CRASHARKI
+comment=Run the game with Progressive Scan enabled from the start.
+patch=1,EE,20715330,byte,1 //00000000 //Progressive Scan\60 FPS from the beginning

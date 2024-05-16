@@ -1,0 +1,5 @@
+gametitle=Dynasty Warriors 4 (Jan 5, 2003 prototype) (Shin Sangoku Musou 3 (J)(SLPM-65248))
+comment=Widescreen Hack
+
+patch=1,EE,00132140,word,3c0243d6 //widescreen
+patch=1,EE,0017A450,word,3c023f2b //renderfix

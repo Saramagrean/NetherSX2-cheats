@@ -1,0 +1,9 @@
+gametitle=Armored Core - Nexus SLUS_209.86
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,D02C1050,extended,01001400
+patch=1,EE,0023C9AC,extended,00000001
+patch=1,EE,D02C1050,extended,01009000
+patch=1,EE,0023C9AC,extended,00000000

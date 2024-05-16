@@ -1,0 +1,7 @@
+gametitle=Clock Tower 3 (PAL-E) [SLES-51619]
+
+[50/60 FPS]
+author=Gabominated
+description=Unlocked at 50/60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,218A8C5C,extended,24040000 //24040001 fps
+patch=1,EE,219453C0,extended,0000003C //0000001E timer fix

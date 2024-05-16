@@ -1,0 +1,12 @@
+gametitle=Drakengard (NTSC) SLUS_207
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Ported by InfiniteNine from PAL code by ElHecht
+
+// 16:9
+patch=1,EE,002fd034,word,3c013f40 // 00000000 hor fov
+patch=1,EE,002fd040,word,4481f000 // 00000000
+patch=1,EE,002fd044,word,461ec602 // 00000000
+patch=1,EE,002640a4,word,3c0143d6 // 3c0143a0 renderfix1
+patch=1,EE,00129fc0,word,3c014456 // 3c014420 renderfix2

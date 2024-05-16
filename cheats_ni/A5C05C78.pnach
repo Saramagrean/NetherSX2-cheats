@@ -1,0 +1,7 @@
+gametitle=Dark Cloud (SCUS-97111)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20113EB4,word,00000000
+patch=1,EE,20172300,word,1000000D

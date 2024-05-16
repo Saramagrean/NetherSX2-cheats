@@ -1,0 +1,9 @@
+gametitle=Rocky (U)(SLUS-20559)
+
+[No-Interlacing]
+gsaspectratio=16:9
+gsinterlacemode=1
+author=patch by Prafull
+comment=fix shaking issue ingame
+//38290500 08004264
+patch=1,EE,0010c624,word,00000000

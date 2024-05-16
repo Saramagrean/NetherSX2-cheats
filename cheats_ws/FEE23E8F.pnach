@@ -1,0 +1,5 @@
+gametitle=The Bouncer (NTSC-U)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+patch=1,EE,203923BC,extended,3F400000

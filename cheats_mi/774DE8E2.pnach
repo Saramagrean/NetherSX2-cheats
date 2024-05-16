@@ -1,0 +1,137 @@
+gametitle=Valkyrie Profile 2 - Silmeria [NTSC-J] (SLPM-66419)
+
+[Enhanced Code]
+comment=Patches/Codes Hacked By Maori-Jigglypuff [Savas Guercebe]. A NTSC-J port by Agrippa.
+// Disable Game Protection and enable to save with Cheat Codes
+// Condition to initiate Countdown Game-Kill Timer Deceiver: 00428b28 3C1E0010
+//  If Condition 00428b28 3C1E0010 is true assign Zero-Value to Timer: 003897CC AC600000
+//  If Condition 00428b28 3C1E0010 is true assign Value 24160000 to Address 00428af4
+//  If Condition 00428b28 3C1E0010 is true assign Value 24160000 to Address 00428d10
+//  If Condition 00428b28 3C1E0010 is true assign Value 24160000 to Address 00428f30
+//  Condition to disable the Save File Corruptor: 004a5cc0 3C120010
+//  If Condition 004a5cc0 3C120010 is true assign Zero-Value to Address 004a424c
+//  Condition to disable AFTER-"Battle Mode" Instruction Scanner and Game-Kill Timer: 00372bbc 0c10d7f0
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Addresses 00436084 and 004360ec
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Timer: 0043713c ac400000
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Address 0039d468
+//  If Condition 00372bbc 0c10d7f0 is true assign Value 10000017 to Address 003b1720
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Address 003b49cc
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Address 003b4b64
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Address 003b4c24
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Address 003cb1c4
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Address 003d57bc
+//  If Condition 00372bbc 0c10d7f0 is true assign Value 10000014 to Address 003d7efc
+//  If Condition 00372bbc 0c10d7f0 is true assign Zero-Value to Address 003da1b4
+//  If Condition 00372bbc 0c10d7f0 is true assign Value 1000002E to Address 003b2864
+//  If Condition 00372bbc 0c10d7f0 is true assign Value 1000002E to Address 003b2d14
+//  If Condition 00372bbc 0c10d7f0 is true assign Value 10000050 to Address 003b294c
+//  If Condition 00372bbc 0c10d7f0 is true assign Value 10000050 to Address 003b2aec
+//  If Condition 00372bbc 0c10d7f0 is true assign Value 64030000 to Address 003b2dec
+//  If Condition 00372bbc 0c10d7f0 is true assign Value 64030000 to Address 0043718c
+//  Countdown-Timer Address spotted at 00591460
+
+patch=1,EE,00100A7C,word,1400fffa
+patch=1,EE,00100BB4,word,1400fffa
+patch=1,EE,00100C64,word,1400fffa
+patch=1,EE,00143514,word,1400fffa
+patch=1,EE,0014523C,word,1400fffa
+patch=1,EE,002059d8,word,087fac70
+patch=1,EE,002059dc,word,00000000
+patch=1,EE,01feb1c0,word,90830099
+patch=1,EE,01feb1c4,word,a0233198
+patch=1,EE,01feb1c8,word,3c020043
+patch=1,EE,01feb1cc,word,8c438b28
+patch=1,EE,01feb1d0,word,3c063c1e
+patch=1,EE,01feb1d4,word,34c60010
+patch=1,EE,01feb1d8,word,1466000b
+patch=1,EE,01feb1dc,word,0000102d
+patch=1,EE,01feb1e0,word,3c020039
+patch=1,EE,01feb1e4,word,3c07ac60
+patch=1,EE,01feb1e8,word,34e70000
+patch=1,EE,01feb1ec,word,ac4797cc
+patch=1,EE,01feb1f0,word,3c0a0043
+patch=1,EE,01feb1f4,word,3c0b2416
+patch=1,EE,01feb1f8,word,356b0000
+patch=1,EE,01feb1fc,word,ad4b8af4
+patch=1,EE,01feb200,word,ad4b8d10
+patch=1,EE,01feb204,word,ad4b8f30
+patch=1,EE,01feb208,word,0000102d
+patch=1,EE,01feb20c,word,3c02004a
+patch=1,EE,01feb210,word,8c435cc0
+patch=1,EE,01feb214,word,3c063c12
+patch=1,EE,01feb218,word,34c60010
+patch=1,EE,01feb21c,word,14660003
+patch=1,EE,01feb220,word,0000102d
+patch=1,EE,01feb224,word,3c02004a
+patch=1,EE,01feb228,word,ac40424c
+patch=1,EE,01feb22c,word,0000102d
+patch=1,EE,01feb230,word,3c020037
+patch=1,EE,01feb234,word,8c432bbc
+patch=1,EE,01feb238,word,3c060c10
+patch=1,EE,01feb23c,word,34c6d7f0
+patch=1,EE,01feb240,word,14660025
+patch=1,EE,01feb244,word,0000102d
+patch=1,EE,01feb248,word,3c020043
+patch=1,EE,01feb24c,word,ac406084
+patch=1,EE,01feb250,word,ac4060ec
+patch=1,EE,01feb254,word,3c07ac40
+patch=1,EE,01feb258,word,34e70000
+patch=1,EE,01feb25c,word,ac47713c
+patch=1,EE,01feb260,word,3c08003a
+patch=1,EE,01feb264,word,ad00d468
+patch=1,EE,01feb268,word,3c08003b
+patch=1,EE,01feb26c,word,3c091000
+patch=1,EE,01feb270,word,35290017
+patch=1,EE,01feb274,word,ad091720
+patch=1,EE,01feb278,word,ad0049cc
+patch=1,EE,01feb27c,word,ad004b64
+patch=1,EE,01feb280,word,ad004c24
+patch=1,EE,01feb284,word,3c08003d
+patch=1,EE,01feb288,word,ad00b1c4
+patch=1,EE,01feb28c,word,ad0057bc
+patch=1,EE,01feb290,word,2529fffd
+patch=1,EE,01feb294,word,ad097efc
+patch=1,EE,01feb298,word,3c03003e
+patch=1,EE,01feb29c,word,ac60a1b4
+patch=1,EE,01feb2a0,word,3c0a003b
+patch=1,EE,01feb2a4,word,3c0b1000
+patch=1,EE,01feb2a8,word,356b002e
+patch=1,EE,01feb2ac,word,ad4b2864
+patch=1,EE,01feb2b0,word,ad4b2d14
+patch=1,EE,01feb2b4,word,256b0022
+patch=1,EE,01feb2b8,word,ad4b294c
+patch=1,EE,01feb2bc,word,ad4b2aec
+patch=1,EE,01feb2c0,word,3c08003b
+patch=1,EE,01feb2c4,word,3c096403
+patch=1,EE,01feb2c8,word,35290000
+patch=1,EE,01feb2cc,word,ad092dec
+patch=1,EE,01feb2d0,word,3c080043
+patch=1,EE,01feb2d4,word,ad09718c
+patch=1,EE,01feb2d8,word,08081678
+patch=1,EE,01feb2dc,word,00000000
+
+// Disable the cutscene's A/V sync to prevent the freeze in some cutscenes
+patch=1,EE,0010d168,word,24020000
+
+// Disable Alicia's shadows
+patch=1,EE,002b7b68,word,64010000
+
+// Disable others' shadows
+patch=1,EE,00246b24,word,46010030
+patch=1,EE,00246b28,word,450000a1
+
+// Disable the bright sky and the blur
+patch=1,EE,002dbcdc,word,64030000
+
+// Disable the sun
+patch=1,EE,00256058,word,4600a030
+patch=1,EE,0025605c,word,450001a2
+
+// Disable the graphics overlay
+patch=1,EE,00220534,word,64030000
+
+// Disable the purple filter in the Lost Forest
+patch=1,EE,002e0aac,word,64030000
+
+// Disable the foliage's shadows in the Lost Forest
+patch=1,EE,0023e09c,word,64020000

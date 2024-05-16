@@ -1,0 +1,7 @@
+gametitle=Armored Core - Last Raven [NTSC-J] (SLPS-25462)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,00112424,word,00000000
+patch=1,EE,00177D5C,word,0000102D

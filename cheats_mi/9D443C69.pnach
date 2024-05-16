@@ -1,0 +1,6 @@
+gametitle=Darkwatch [PAL] (SLES_535.64)
+
+[50 FPS]
+author=someother1ne
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,20721368,extended,00000001

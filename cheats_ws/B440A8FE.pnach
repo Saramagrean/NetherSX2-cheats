@@ -1,0 +1,44 @@
+gametitle=Grand Theft Auto: San Andreas [PAL-M5] (v2.01) (SLES-52541)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=El_Patas
+comment=Select widescreen in game otherwise image is zoomed out 4:3
+
+//Widescreen fix
+patch=1,EE,001130BC,word,3C013F9D
+patch=1,EE,001130C0,word,44810000
+patch=1,EE,001130C4,word,46006302
+patch=1,EE,001130C8,word,03E00008
+patch=1,EE,001130CC,word,E78C9A90
+
+patch=1,EE,0021DFE4,word,0C044C2F //0C044C30
+patch=1,EE,00242DB4,word,0C044C32 //0C044C30
+
+[Remove Radiosity Filter]
+description=Removes the radiosity filter which causes a ghosting effect on the people and environment.
+patch=1,EE,2051A7C8,extended,00000000
+
+//Conditional codes for widescreen toggle in display menu
+//patch=1,EE,e1010001,extended,007005ef
+//patch=1,EE,2021dfe4,extended,0c044c2f //0c044c30
+
+//patch=1,EE,e1010000,extended,007005ef
+//patch=1,EE,2021dfe4,extended,0c044c32 //0c044c30
+
+//Restore original FOV for cutscenes
+//patch=1,EE,e1010001,extended,006ff1cd
+//patch=1,EE,2021dfe4,extended,0c044c32 //0c044c30
+
+//Skybox fixes for the widescreen fix
+//patch=1,EE,002ee300,word,3c024120
+//patch=1,EE,002ee5d0,word,3c024120
+//patch=1,EE,002ee87c,word,3c024120
+//patch=1,EE,002eeefc,word,3c024120
+//patch=1,EE,002eeba4,word,3c024120
+
+//patch=1,EE,002ee308,word,34420000
+//patch=1,EE,002ee5d8,word,34420000
+//patch=1,EE,002ee884,word,34420000
+//patch=1,EE,002eef04,word,34420000
+//patch=1,EE,002eeba8,word,34420000

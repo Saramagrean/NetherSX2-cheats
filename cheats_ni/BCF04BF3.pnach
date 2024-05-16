@@ -1,0 +1,8 @@
+gametitle=Fatal Frame (Project Zero) (K)(SCPS-56008)
+
+[No-Interlacing]
+//by asasega
+patch=1,EE,20234e64,extended,00000000
+
+//HUD Y-Fov
+//patch=1,EE,0015dd74,word,3c013ec0 //3c013f00

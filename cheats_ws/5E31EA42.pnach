@@ -1,0 +1,7 @@
+gametitle=Metal Gear Solid 3 - Subsistence (PAL-I) (SLES-82044) 
+comment=Widescreen Hack by ElHecht
+
+gsaspectratio=16:9
+
+patch=1,EE,20205D4C,extended,3F400000 // 3F800000 X-RES
+//patch=1,EE,20205D90,extended,3FAAA993 // 3F800000 Y-RES

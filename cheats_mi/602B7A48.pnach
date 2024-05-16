@@ -1,0 +1,7 @@
+gametitle=Simple 2000 Series Ultimate Vol.29 - K-1 Premium 2005 Dynamite!! (J)(SLPS-20453)
+
+[Game Fixes]
+comment= Make the game work in HW mode
+//also requires vu xgkick sync to fix colors in fighters
+patch=1,EE,00336a20,word,0000948c
+patch=1,EE,00336a48,word,0000948c

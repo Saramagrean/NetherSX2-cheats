@@ -1,0 +1,11 @@
+gametitle=Saint Seiya - The Sanctuary SLES_532.01
+
+[Native Call NTSC Mode + 60FPS]
+author=felixthecat1970
+description=Native call NTSC mode + 60FPS.
+patch=1,EE,203527E4,extended,0000182D
+patch=1,EE,10352760,extended,240201C0
+patch=1,EE,20279BAC,extended,A040001C
+patch=1,EE,202794D0,extended,0000802D
+patch=1,EE,202783F8,extended,0000802D
+patch=1,EE,201BAE80,extended,A040001C

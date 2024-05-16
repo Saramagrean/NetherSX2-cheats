@@ -1,0 +1,29 @@
+gametitle=Drakengard (NTSC) SLUS_207
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Ported by InfiniteNine from PAL code by ElHecht
+
+// 16:10
+patch=1,EE,0030101c,word,3c013f55 // 00000000 hor fov
+patch=1,EE,00301020,word,34215555 // 00000000 hor fov
+patch=1,EE,00301028,word,4481f000 // 00000000
+patch=1,EE,0030102c,word,461ec602 // 00000000
+patch=1,EE,00264980,word,3c0143c1 // 3c0143a0 renderfix1
+patch=1,EE,0012a0ac,word,3c014441 // 3c014420 renderfix2
+
+[Progressive Scan]
+//for PCSX2 emulator only - HW untested but it wil give black screen - bugs (missing lot of code corrections)
+patch=1,EE,20289A54,extended,AC801034
+patch=1,EE,20277F50,extended,0000382D
+patch=1,EE,10127664,extended,240601E0
+patch=1,EE,20285050,extended,0000382D
+patch=1,EE,20289C80,extended,0000282D
+patch=1,EE,20289A50,extended,AC981030
+patch=1,EE,20277F44,extended,0000282D
+patch=1,EE,00277F48,extended,24060050
+patch=1,EE,10124474,extended,244302D0
+patch=1,EE,201244FC,extended,2523FFFF
+patch=1,EE,10124514,extended,34054FF0
+patch=1,EE,20285044,extended,0000282D
+patch=1,EE,00285048,extended,24060050

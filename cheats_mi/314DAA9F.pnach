@@ -1,0 +1,6 @@
+gametitle=Constantine (U)(SLUS-21142)
+
+[60 FPS]
+author=asasega
+comment=Unlocked at 60 FPS. Might need enable 180% EE Overclock to be stable.
+patch=1,EE,004B7B78,word,00000000

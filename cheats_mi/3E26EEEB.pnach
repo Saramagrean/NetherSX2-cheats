@@ -1,0 +1,25 @@
+﻿gametitle=Armored Core - Formula Front [NTSC-J] (SLPS-25461)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+// 16:10
+patch=1,EE,0013e12c,word,3c013f55 // 00000000 hor fov menu
+patch=1,EE,0013e130,word,34215555 // 00000000
+patch=1,EE,0013e138,word,44810000 // 00000000
+patch=1,EE,0013e13c,word,4600c602 // 00000000
+patch=1,EE,001d84d0,word,3c033f2a // 3c033f4c hor fov gameplay
+patch=1,EE,001d84d8,word,3462aaab // 3462cccd hor fov gameplay
+patch=1,EE,00201e70,word,3c0243c1 // 3c0243a0 renderfix
+
+[Remove Blur]
+author=001 & Berylskid
+description=Removes blur effects.
+patch=1,EE,D02C0B54,extended,02100000
+patch=1,EE,61C07A08,extended,00000000
+patch=1,EE,00000001,extended,0000005F
+
+[Correct HUD]
+author=001 & Berylskid
+description=Removes HUD artifacts on hardware renderer.
+patch=1,EE,D1CCE7FA,extended,01001040
+patch=1,EE,01CCE7FA,extended,00000000

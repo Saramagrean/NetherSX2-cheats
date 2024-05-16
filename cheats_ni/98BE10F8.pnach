@@ -1,0 +1,9 @@
+gametitle=Armored Core - Nine Breaker (PAL-E) (SLES-53819)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,D1DF6722,extended,0100656D
+patch=1,EE,0011F014,extended,00000001
+patch=1,EE,D1DF6722,extended,01006F73
+patch=1,EE,0011F014,extended,00000000

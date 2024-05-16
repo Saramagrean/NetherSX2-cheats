@@ -1,0 +1,8 @@
+gametitle=Genji - Dawn of the Samurai SCUS-97471
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+//Genji: Dawn of The Samurai (USA)
+patch=1,EE,202394B4,word,00000000
+patch=1,EE,20308674,word,00000000

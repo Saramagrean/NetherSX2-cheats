@@ -1,0 +1,7 @@
+gametitle=Gran Turismo 3 - A-Spec (PAL-M) SCES-50294 B590CE04
+
+[No-Interlacing]
+gsinterlacemode=1
+author=PeterDelta
+description=Enable progressive interlacing.
+patch=1,EE,0028F81C,word,3C050000

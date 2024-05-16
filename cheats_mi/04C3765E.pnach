@@ -1,0 +1,6 @@
+gametitle=King's Field IV (J)(SLPS-25057)
+
+[Remove Scanmask Blur]
+author=refraction
+description=Disables scanmask usage to reduce blur when turning.
+patch=1,EE,20107588,extended,24050000

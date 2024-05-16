@@ -1,0 +1,7 @@
+gametitle=Another Century's Episode 3 - The Final (J)(SLPS-25784)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+//Interlace Fix
+patch=1,EE,00101184,word,00000000 //64420008

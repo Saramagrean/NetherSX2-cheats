@@ -1,0 +1,7 @@
+gametitle=Harry Potter y la Cámara Secreta (S)[SLES-51195] CRC C5473413
+
+[50 FPS]
+author=asasega
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,00544168,word,00000001
+

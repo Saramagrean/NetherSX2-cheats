@@ -1,0 +1,17 @@
+gametitle=Evil Dead - Regeneration (U)(SLUS-21048)
+comment=Widescreen Hack by Arapapa
+
+//Widescreen hack 16:9
+
+//Zoom (need render fix)
+//00bf023c 1000bfff 00408244 (1st)
+patch=1,EE,0036b8e4,word,3c02bec0 //3c02bf00
+
+//Y-Fov
+//02420146 02410446 00010446
+patch=1,EE,0036b9a8,word,08177fd4
+patch=1,EE,005dff50,word,46014202
+patch=1,EE,005dff54,word,3c013f40
+patch=1,EE,005dff58,word,4481f000
+patch=1,EE,005dff5c,word,461e4203
+patch=1,EE,005dff60,word,080dae6b

@@ -1,0 +1,10 @@
+gametitle=Shin Megami Tensei - Devil Summoner 1 (SLPM_662.46)
+
+[No-Interlacing]
+gsinterlacemode=1
+//progressive scan by Red_Tv
+patch=1,EE,003575a8,word,00000000 //007c1021
+patch=1,EE,00376c4c,word,24110000 //00058c03
+patch=1,EE,00376c50,word,24120050 //00069403
+patch=1,EE,00376c54,word,24020001
+patch=1,EE,0035b4d8,word,00000000 //a382db52

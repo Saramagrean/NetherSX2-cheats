@@ -1,0 +1,8 @@
+gametitle=Okami (K)(SLKA-20094)
+comment=Widescreen Hack by Arapapa
+
+//Widescreen hack 16:9
+
+patch=1,EE,0015c364,word,3c014455 //3c014420
+patch=1,EE,0033b8d0,word,3c014455 //3c014420
+patch=1,EE,0015c33c,word,3c014388 //3c0143e0

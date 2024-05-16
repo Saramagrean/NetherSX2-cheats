@@ -1,0 +1,8 @@
+gametitle=Max Payne 2 - The Fall of Max Payne (PAL-E) SLES-51954 564F352C
+
+[50 FPS]
+comment=Widescreen Hack by Arapapa
+
+//Zoom fix (Internal widescreen)
+//abaaaa3e 8988083e
+patch=1,EE,0056a0c8,word,3faccccd //3eaaaaab

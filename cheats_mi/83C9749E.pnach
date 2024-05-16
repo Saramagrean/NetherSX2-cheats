@@ -1,0 +1,4 @@
+gametitle=Gungrave Overdose (NTSC-U)
+
+[16:9 HUD fix]
+patch=1,EE,00105afc,word,3c013f40 //3c013f80

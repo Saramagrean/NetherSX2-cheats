@@ -1,0 +1,11 @@
+gametitle=Kingdom Hearts (PAL-UK) (SCES-50971)
+
+[50 FPS]
+author=PeterDelta
+comment=Gameplay at 50 fps, Gumi ship and scenes at 25 fps. Might need enable EE Overclock to be stable.
+patch=1,EE,002B6ACC,word,00000000 //00000001
+patch=1,EE,E0010000,extended,00571954
+patch=1,EE,202B6ACC,extended,00000001
+
+[60 FPS]
+//patch=0,EE,001104d8,word,24820000 // 24820001

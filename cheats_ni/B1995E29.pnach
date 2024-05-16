@@ -1,0 +1,7 @@
+gametitle=Shadow of Rome SLES_529.50
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+//no interleacing, videos still shake
+patch=1,EE,201E9384,extended,30420000

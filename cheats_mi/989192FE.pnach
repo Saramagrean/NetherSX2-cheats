@@ -1,0 +1,7 @@
+gametitle=Knight Rider (PAL-M4)(SLES-51011)
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,E0010011,extended,0079B31C
+patch=1,EE,00367BD4,extended,24020001 //24020002

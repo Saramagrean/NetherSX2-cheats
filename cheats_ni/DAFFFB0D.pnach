@@ -1,0 +1,6 @@
+gametitle=Onimusha 3 - Demon Siege (K)(SLKA-25093)
+
+[No-Interlacing]
+comment=by asasega
+//00 79 63 24 44 00 23 A6 50 00 22 A6 54 00 23 A6
+patch=1,EE,2027864c,extended,34037900

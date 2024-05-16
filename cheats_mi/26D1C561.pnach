@@ -1,0 +1,27 @@
+﻿gametitle=Armored Core - Nexus - Disc 1 - Evolution [NTSC-J] (SLPS-25338) / Disc 2 - Revolution [NTSC-J] (SLPS-25339)
+comment=Widescreen hack by ElHecht
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+description=Widescreen Hack
+// 16:10
+patch=1,EE,0023f6bc,word,3c013f55 // 00000000 hor fov menu
+patch=1,EE,0023f6c0,word,34215555 // 00000000 hor fov menu
+patch=1,EE,0023f6c8,word,44810000 // 00000000
+patch=1,EE,0023f6cc,word,4600c602 // 00000000
+patch=1,EE,00120f70,word,3c033f2a // 3c033f4c hor fov gameplay
+patch=1,EE,00120f78,word,3462aaab // 3462cccd hor fov gameplay
+patch=1,EE,00158370,word,3c0243c1 // 3c0243a0 renderfix
+
+[Remove Blur]
+author=001 & Berylskid
+description=Removes blur effects.
+patch=1,EE,201317F0,extended,00000000
+patch=1,EE,D1D46A22,extended,02006F73
+patch=1,EE,61CC66E8,extended,00000000
+patch=1,EE,00000001,extended,0000005F
+
+[Correct HUD]
+author=001 & Berylskid
+description=Removes HUD artifacts on hardware renderer.
+patch=1,EE,002096EA,extended,00000000

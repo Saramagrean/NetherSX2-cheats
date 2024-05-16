@@ -1,0 +1,8 @@
+gametitle=Metal Gear Solid 2 - Substance (PAL-M5) (SLES-82009)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=ElHecht
+comment=Widescreen Hack
+// 16:9
+patch=1,EE,0011ffd0,word,3c013f40

@@ -1,0 +1,9 @@
+gametitle=Robots (E)(SLES-53052)
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,0037B6A8,word,00000019 //00000032 tlt zero,zero
+patch=1,EE,0037B6E0,word,3F99999A //4019999A mfc0 t9,C0r19 speed npc
+patch=1,EE,0037B6C4,word,3F99999A //4019999A mfc0 t9,C0r19 speed jump
+patch=1,EE,0037B6CC,word,3F99999A //4019999A mfc0 t9,C0r19 speed subtitles

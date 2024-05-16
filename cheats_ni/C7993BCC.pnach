@@ -1,0 +1,7 @@
+gametitle=Kaido Racer 2 PAL (SLES_539.00)
+
+[No Interlacing]
+gsinterlacemode=1
+author=val
+description=Attempts to disable interlaced offset rendering.
+patch=1,EE,001539E8,word,00000000

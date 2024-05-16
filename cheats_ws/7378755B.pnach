@@ -1,0 +1,10 @@
+gametitle=Grand Theft Auto - Vice City Stories (Japan) SLPM-66917
+comment=Widescreen fix by nemesis2000 (Ported by pcsx2user156)
+
+//widescreen fix
+patch=1,EE,000FFFEC,word,3C013F9D
+patch=1,EE,000FFFF0,word,44810000
+patch=1,EE,000FFFF4,word,46006302
+patch=1,EE,000FFFF8,word,03E00008
+patch=1,EE,000FFFFC,word,E78CC6EC
+patch=1,EE,0030AA70,word,0C03FFFB

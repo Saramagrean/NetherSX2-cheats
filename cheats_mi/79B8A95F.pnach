@@ -1,0 +1,6 @@
+gametitle=Devil May Cry (SLUS-20216)
+
+[Disable blur]
+description=Disables some effects, like blur etc.
+patch=1,EE,20149490,word,03E00008
+patch=1,EE,20149494,word,00000000

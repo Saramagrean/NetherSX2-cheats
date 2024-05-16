@@ -1,0 +1,5 @@
+gametitle=Kingdom Hearts (PAL)
+
+[60 FPS]
+description=Forces the game to run at 60.
+patch=1,EE,002B67CC,extended,00000000

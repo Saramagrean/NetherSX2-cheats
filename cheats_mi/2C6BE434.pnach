@@ -1,0 +1,47 @@
+gametitle=Grand Theft Auto: San Andreas (SLUS-20946GH) 2C6BE434 / Ver 3.00
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+author=nemesis2000
+comment=Widescreen fix
+patch=1,EE,001130bc,word,3c013f9d
+patch=1,EE,001130c0,word,44810000
+patch=1,EE,001130c4,word,46006302
+patch=1,EE,001130c8,word,03e00008
+patch=1,EE,001130cc,word,e78c9a90
+patch=1,EE,00242db4,word,0c044c32
+
+//Conditional codes for widescreen toggle in display menu
+patch=1,EE,e1010001,extended,007004ef
+patch=1,EE,2021dfe4,extended,0c044c2f
+
+patch=1,EE,e1010000,extended,007004ef
+patch=1,EE,2021dfe4,extended,0c044c32
+
+//Restore original FOV for cutscenes
+patch=1,EE,e1010001,extended,006ff0cd
+patch=1,EE,2021dfe4,extended,0c044c32
+
+//Skybox fixes for the widescreen fix
+patch=1,EE,002ee210,word,3c024120
+patch=1,EE,002ee4e0,word,3c024120
+patch=1,EE,002ee78c,word,3c024120
+patch=1,EE,002eeab4,word,3c024120
+patch=1,EE,002eee0c,word,3c024120
+
+patch=1,EE,002ee218,word,34420000
+patch=1,EE,002ee4e8,word,34420000
+patch=1,EE,002ee794,word,34420000
+patch=1,EE,002eeab8,word,34420000
+patch=1,EE,002eee14,word,34420000
+
+[Remove Radiosity Filter]
+description=Removes the radiosity filter which causes a ghosting effect on the people and environment.
+//Remove Radiosity Filter
+patch=1,EE,2051A6D8,extended,00000000
+
+[60 FPS]
+author=someother1ne
+description=Unlocked at 60 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,D066804C,extended,00000002
+patch=1,EE,0066804C,extended,10000001

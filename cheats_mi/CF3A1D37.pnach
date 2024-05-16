@@ -1,0 +1,6 @@
+gametitle=NASCAR '06 - Total Team Control (PAL-E) SLES-53635 CF3A1D37
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,002BBE7C,word,28420001 //28420002

@@ -1,0 +1,6 @@
+gametitle=TMNT - Teenage Mutant Ninja Turtles (PAL-M5) (SLES-54478)
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,0091E6C8,word,00000001 //00000002

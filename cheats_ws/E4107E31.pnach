@@ -1,0 +1,26 @@
+gametitle=Prince of Persia - The Sands of Time (Japan) SCPS-15066
+comment=Widescreen hack by nemesis2000 (Ported by pcsx2user156)
+
+//gameplay
+patch=1,EE,004B6014,word,3C033F40
+patch=1,EE,004B6044,word,4600A886
+patch=1,EE,004B604C,word,46000346
+patch=1,EE,004B6050,word,4600A306
+
+//rfix
+patch=1,EE,004A6270,word,3C014455
+patch=1,EE,004A62AC,word,44810000
+
+//menu fix
+patch=1,EE,004654B8,word,0C11E7FF
+patch=1,EE,00479FFC,word,3C014456
+patch=1,EE,0047A044,word,2407FF95
+patch=1,EE,0047A048,word,44812800
+
+//HUD fix
+patch=1,EE,001D7C40,word,3C03BDDD
+patch=1,EE,001D7C48,word,3464DDDD
+
+//partial bb fix
+patch=1,EE,00252B10,word,00000000
+patch=1,EE,002BD76C,word,00000000

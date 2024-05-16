@@ -1,0 +1,6 @@
+gametitle=TMNT - Teenage Mutant Ninja Turtles (NTSC-U)
+
+[60 FPS]
+author=asasega
+comment=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,0091EEC8,word,00000001

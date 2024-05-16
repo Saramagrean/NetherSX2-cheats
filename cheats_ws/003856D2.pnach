@@ -1,0 +1,12 @@
+gametitle=Onmyou Taisenki - Hasha no In (J)(SLPS-25501)
+comment=Widescreen Hack by Arapapa
+
+//Widescreen hack 16:9
+
+//Y-Fov
+//803f033c 00408344 01000324
+patch=1,EE,00451f78,word,3c033fab //3c033f80
+
+//Zoom
+//803f023c 1000bfff 0000b4e7
+patch=1,EE,00454c94,word,3c023f40 //3c023f80

@@ -1,0 +1,6 @@
+gametitle=Bad Boys II (E)(SLES-51772) 41771EBC
+
+[50 FPS]
+author=user234
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,0052D7C4,word,42480000 //41C80000

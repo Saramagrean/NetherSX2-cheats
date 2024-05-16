@@ -1,0 +1,6 @@
+gametitle=Shin Megami Tensei - Digital Devil Saga (SLUS-20974) (CRC-D7273511)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Disabled due to causing TLB misses on boot.
+patch=1,EE,203245E4,word,3FC6E2B5

@@ -1,0 +1,6 @@
+gametitle=Final Fantasy X (PAL-G) (SCES-50492)
+
+[No-Interlacing]
+gsinterlacemode=1
+description=Progressive Scan
+patch=1,EE,002D98B4,word,3C050000

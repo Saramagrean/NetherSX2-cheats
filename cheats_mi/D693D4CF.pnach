@@ -1,0 +1,6 @@
+gametitle=Grand Theft Auto: Liberty City Stories (SLES_541.35)
+
+[50 FPS]
+author=Snake356
+comment=Patches the game to run at 50 FPS (Might need 180% EE Overclock to be stable).
+patch=1,EE,202D9384,word,00000000 //14820017

@@ -1,0 +1,6 @@
+gametitle=Armored Core 3 - Silent Line [NTSC-J] (SLPS-25169)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,003107F4,word,00000000

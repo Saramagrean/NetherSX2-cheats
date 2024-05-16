@@ -1,0 +1,10 @@
+gametitle=Need for Speed - ProStreet (PAL-M2) (SLES-55003)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Widescreen Hack by ElHecht
+
+// 16:10
+patch=1,EE,00682bd4,word,3f555555 // 3f800000
+patch=1,EE,00682bec,word,3f555555 // 3f800000
+patch=1,EE,00685c38,word,3f19999a // 3f000000

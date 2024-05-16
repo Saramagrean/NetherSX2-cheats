@@ -1,0 +1,12 @@
+gametitle=Marvel vs. Capcom 2: New Age of Heroes (SLUS204.86;1)
+
+[Progressive Scan]
+comment=Enable full frame mode + native progressive scan
+author=by felixthecat1970
+patch=1,EE,003EC218,extended,24020002
+patch=1,EE,203EC21C,extended,AC22BC00
+patch=1,EE,203EC22C,extended,AC20BC1C
+patch=1,EE,203EC754,extended,0000282D
+patch=1,EE,003EC758,extended,24060050
+patch=1,EE,203EC760,extended,24070001
+patch=1,EE,203ECB7C,extended,1040FFF6

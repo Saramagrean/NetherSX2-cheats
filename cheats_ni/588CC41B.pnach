@@ -1,0 +1,7 @@
+gametitle=Breath of Fire: Dragon Quarter (SLUS-20499)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20102104,extended,00000000
+patch=1,EE,2010236c,extended,00000000

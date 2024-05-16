@@ -1,0 +1,7 @@
+gametitle=Obscure II (SCKA-20114)
+
+[480p Progressive scan]
+patch=1,EE,0010cedc,word,3c050000 //00052c00
+patch=1,EE,0010cee4,word,3c060050 //00063400
+patch=1,EE,0010ceec,word,3c070001 //00073c00
+patch=1,EE,0010d1ac,word,3c090010 //00094c00

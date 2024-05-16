@@ -1,0 +1,9 @@
+gametitle=Ford Bold Moves Street Racing SLUS-21290
+comment=Fix for ingame widescreen.
+patch=1,EE,00314E18,word,3CAEFA34 //3c8efa34 fov
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+gametitle=Armored Core - Nine Breaker SLUS_212.00
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2011F014,extended,00000000

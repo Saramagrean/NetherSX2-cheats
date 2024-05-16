@@ -1,0 +1,4 @@
+gametitle=Major League Baseball 2K7 [SLUS 21561] (U)
+comment=fixes hang at start
+patch=1,EE,003CDE10,word,00000000
+

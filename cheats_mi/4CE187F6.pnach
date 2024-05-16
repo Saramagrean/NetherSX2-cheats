@@ -1,0 +1,6 @@
+gametitle=LotR The - The Return of the King  SLUS_207.70
+
+[60 FPS]
+author=Gabominated
+description=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,2014B768,extended,10000013 //14400003

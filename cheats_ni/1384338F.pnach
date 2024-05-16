@@ -1,0 +1,6 @@
+gametitle=Bujingai [NTSC-J] (SLPS-65459)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20122DF8,word,30420000

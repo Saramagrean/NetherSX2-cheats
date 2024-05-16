@@ -1,0 +1,6 @@
+gametitle=Sonic Gems Collection (PAL-M) SLES-53350 4A198252 Main CRC
+
+[Widescreen]
+comment=Widescreen hack by Esppiral
+patch=1,EE,00290960,word,3FAAAAAB
+patch=1,EE,216CC190,word,3F400000

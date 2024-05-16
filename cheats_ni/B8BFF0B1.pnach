@@ -1,0 +1,6 @@
+gametitle=Armored Core - Silent Line SLUS_206.44
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,0030F9AC,word,00000000

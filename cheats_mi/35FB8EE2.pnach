@@ -1,0 +1,6 @@
+gametitle=Gun Survivor 2 - BioHazard Code - Veronica (with GunCon2) [NTSC-J] (SLPM-65059)
+
+[RE4 Style Camera]
+patch=1,EE,20375c40,extended,40900000 // tori_x (horizontal)
+patch=1,EE,20375c50,extended,C0000000 // tory_y (height)
+patch=1,EE,20375c60,extended,41100000 // tori_z (distance)

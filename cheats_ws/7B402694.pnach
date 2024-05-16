@@ -1,0 +1,18 @@
+gametitle=Virtua Fighter 4 Evolution (SLKA_250.43)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=widescreen 16:9 (NTSC-K) hack by 99skull
+
+//X-Fov by ElHecht
+patch=1,EE,003aa864,word,3c194455 // 3c034420 hor fov
+patch=1,EE,003aa86c,word,37395555 // 44830800 hor fov
+patch=1,EE,003aa884,word,44990800 // 00000000
+patch=1,EE,00217ab8,word,3c024456 // 3c024420 renderfix
+
+//dural selectable
+patch=1,EE,201A4D30,word,24020001
+patch=1,EE,2023D994,word,00000000
+patch=1,EE,2023D9A8,word,00000000
+//dural random map
+patch=1,EE,0022CA5C,word,00000000

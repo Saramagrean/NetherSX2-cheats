@@ -1,0 +1,6 @@
+gametitle=Grand Theft Auto: Vice City (v2.03) (SLES_510.61)
+
+[50 FPS]
+author=Snake356
+comment=Patches the game to run at 50 FPS (Might need 180% EE Overclock to be stable).
+patch=1,EE,20272AD4,extended,28420001

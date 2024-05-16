@@ -1,0 +1,6 @@
+gametitle=Silent Hill 3 (SLES-51434)
+
+[50 FPS]
+author=SeriMax
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,2013064C,extended,00000000

@@ -1,0 +1,20 @@
+gametitle=Marvel vs Capcom 2 PAL (SLES_511.74)
+
+[Enhanced]
+what=Despalettized + Enable full frame mode + Native progressive scan
+comment=by felixthecat1970
+
+patch=1,EE,003ED1E8,extended,24020002
+patch=1,EE,203ED1EC,extended,AC22CBC0
+patch=1,EE,203ED1FC,extended,AC20CBDC
+patch=1,EE,203D79F8,extended,A0640003
+patch=1,EE,003D2E90,extended,24420007
+patch=1,EE,203D3180,extended,00000000
+patch=1,EE,203ED724,extended,0000282D
+patch=1,EE,003ED728,extended,24060050
+patch=1,EE,203ED730,extended,24070001
+patch=1,EE,203EDB4C,extended,1040FFF6
+patch=1,EE,203D3288,extended,0000282D
+patch=1,EE,003D328C,extended,24060050
+patch=1,EE,203D3294,extended,24070001
+patch=1,EE,203D32F4,extended,1040FFF6

@@ -1,0 +1,4 @@
+gametitle=Shutokou Battle 01 Taikenban (Trial Version) (SLPM-60206)
+comment=(nemesis2000)Widescreen port by someother1ne
+patch=1,EE,00140F48,word,3c043f53
+patch=1,EE,00140F4C,word,34853333

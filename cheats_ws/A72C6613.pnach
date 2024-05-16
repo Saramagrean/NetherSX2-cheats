@@ -1,0 +1,5 @@
+// NFS ProStreet MilestoneOpt/Debug NTSC-U (CRC: A72C6613)
+// by xan1242/Xanvier
+
+// force widescreen -- make DALOptions::GetWidescreen always return 1
+patch=1,EE,0016C310,word,24020001

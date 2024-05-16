@@ -1,0 +1,10 @@
+gametitle=Robot Alchemic Drive (NTSC-U) [SLUS-20445]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen hacks by ElHecht; updates by Aced14
+
+// 16:9
+patch=1,EE,001c63b4,word,3c033f00 // 3c033f80 menu meganite hor pos
+patch=1,EE,0013e568,word,3c023f40 // 3c023f80 menu hor fov
+patch=1,EE,001472b8,word,3c023f40 // 3c023f80 in-game hor fov

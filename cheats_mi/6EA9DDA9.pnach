@@ -1,0 +1,11 @@
+gametitle=Resident Evil - Code Veronica X (PAL-M4) (SLES-50306)
+
+[Widescreen 16:10]
+gsaspectratio=16:10
+author=ElHecht
+comment=Widescreen Hack
+
+// 16:10
+patch=1,EE,21140300,extended,3f555555 // 3f800000 hor fov
+patch=1,EE,21E394C0,extended,01800280 // 01400280 fmv fix
+patch=1,EE,21E394C4,extended,00200000 // 00400000 fmv fix

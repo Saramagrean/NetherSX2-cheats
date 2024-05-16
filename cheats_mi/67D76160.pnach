@@ -1,0 +1,5 @@
+gametitle=Shin Megami Tensei - Devil Summoner 1 (SLPM_662.46)
+
+[60 FPS]
+//60 FPS by Red_Tv
+patch=1,EE,0011b560,word,10000006 //14400006

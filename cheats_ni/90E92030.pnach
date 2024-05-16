@@ -1,0 +1,6 @@
+gametitle=Lupin the 3rd: Treasure of the Sorcerer King [NTSC-U] (SLUS_206.83)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,0020B1F8,extended,00000000

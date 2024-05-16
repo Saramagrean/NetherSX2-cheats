@@ -1,0 +1,6 @@
+gametitle=Mystic Nights (K)(SCKA-20055)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,001011E4,word,30420000

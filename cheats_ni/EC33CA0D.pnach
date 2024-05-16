@@ -1,0 +1,6 @@
+gametitle=Kaido - Touge no Densetsu [NTSC-J] (SLPM-66022)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,201532C4,extended,30840000

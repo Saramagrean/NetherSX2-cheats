@@ -1,0 +1,6 @@
+gametitle=Coraline [PAL] (SLES_554.70)
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,001002EC,word,00000000 //46000834

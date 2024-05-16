@@ -1,0 +1,9 @@
+gametitle=Fate/Unlimited Codes (SLPM-55108)
+
+[Progressive Scan]
+
+//480p Mode
+patch=1,EE,00300340,word,24060050
+patch=1,EE,00300f98,word,24060050
+patch=1,EE,00300344,word,24050000
+patch=1,EE,00300f94,word,24050000

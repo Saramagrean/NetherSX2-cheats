@@ -1,0 +1,6 @@
+gametitle=Grand Theft Auto: San Andreas (v1.03) (SLES-52541)
+
+[50 FPS]
+author=Boludoz
+comment=Patches the game to run at 50 FPS (Might need 180% EE Overclock to be stable).
+patch=1,EE,006679CC,extended,00000001

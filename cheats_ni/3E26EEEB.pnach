@@ -1,0 +1,6 @@
+gametitle=Armored Core - Formula Front [NTSC-J] (SLPS-25461)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20128CBC,extended,00000000

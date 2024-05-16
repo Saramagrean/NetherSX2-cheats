@@ -1,0 +1,7 @@
+gametitle=Armored Core - Last Raven (PAL-E) (SLES-53820)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=PsxFan107
+patch=1,EE,2011236C,extended,00000000
+patch=1,EE,20177E5C,extended,0000102D

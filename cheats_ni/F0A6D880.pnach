@@ -1,0 +1,6 @@
+gametitle=Harvest Moon - Save the Homeland (NTSC-U)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2011D608,extended,AF808744

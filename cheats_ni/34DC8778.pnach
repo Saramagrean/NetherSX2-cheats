@@ -1,0 +1,8 @@
+gametitle=Technic Beat (U)(SLUS-21019)
+
+[No-Interlacing]
+author=wakfu[CK]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,00103684,word,00000000
+patch=1,EE,001039f4,word,00000000

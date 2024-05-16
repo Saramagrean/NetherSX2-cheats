@@ -1,0 +1,5 @@
+gametitle=Ridge Racer V (J)(SLPS-20001)
+
+[No-Interlacing]
+//by asasega
+patch=1,EE,20220740,word,24020000

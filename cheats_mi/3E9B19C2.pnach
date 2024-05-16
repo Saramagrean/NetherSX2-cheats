@@ -1,0 +1,6 @@
+gametitle=Eragon (E)(SLES-54159) 3E9B19C2
+
+[50 FPS]
+author=user234
+comment=Unlocked at 50 FPS. Might need enable 180% EE Overclock to be stable.
+patch=1,EE,00399A30,word,00000000 //00000001

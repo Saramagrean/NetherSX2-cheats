@@ -1,0 +1,4 @@
+﻿gametitle=Tekken Tag Tournament [NTSC-J] (SLPS-20015)
+patch=1,EE,0040AF4C,word,3c013f40
+patch=1,EE,0040AF50,word,44810000
+patch=1,EE,0040AF58,word,4600c602

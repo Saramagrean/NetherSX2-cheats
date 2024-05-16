@@ -1,0 +1,12 @@
+gametitle=Canis Canem Edit (Bully) PAL (SLES-53561) CRC C78A495D
+
+[Disable Depth of Field]
+author=refraction
+description=Removes depth of field effect
+
+patch=1,EE,003DA2D4,word,5000021A //Skips DoF code block.
+
+[50 FPS]
+author=Gabominated
+description=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,201F3EF8,extended,28420001 //28420002

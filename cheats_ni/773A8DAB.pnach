@@ -1,0 +1,4 @@
+gametitle=Baldur's Gate: Dark Alliance * SLUS-20035 * NTSC-U * 773A8DAB
+
+[No-Interlacing]
+patch=1,EE,20203B9C,word,34030001

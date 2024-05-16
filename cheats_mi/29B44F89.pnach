@@ -1,0 +1,48 @@
+gametitle=Phantasy Star Universe (NTSC-U) (SLUS-21194)
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+
+// 16:9
+patch=1,EE,e0014380,extended,01711C70 // check 0170f470 matches value 00004380
+patch=1,EE,21711C70,extended,3c034340 // 3c034380 hor fov 60Hz
+//patch=1,EE,2170f4c8,extended,3c034340 // 3c034380 hor fov 50Hz
+
+// renderfix
+patch=1,EE,e0053f80,extended,00283d78 // check 00283d78 matches value 00003f80
+patch=1,EE,20283db0,extended,3c043f40 // 00000000 renderfix hor fov
+patch=1,EE,20283dbc,extended,4484f000 // 00000000
+patch=1,EE,20283dc4,extended,461ead43 // 0c09b1a8
+patch=1,EE,20283dc8,extended,0c09b1a8 // 4616b31c
+patch=1,EE,20283dcc,extended,4616b31c // 00000000
+
+// cursor/aiming position fix on objects
+patch=1,EE,e0033f00,extended,002ACFC0 // check 002ad040 matches value 00003f00
+patch=1,EE,202ACFF4,extended,3c013f40 // 00000000
+patch=1,EE,202ACFF8,extended,4481f000 // 00000000
+patch=1,EE,202AD000,extended,461ead42 // 00000000
+
+// map fix
+patch=1,EE,e0120d03,extended,003ADEF0 // check 003adfc0 matches value 00000d03
+patch=1,EE,20374334,extended,46042303 // 3c023f80
+patch=1,EE,20374338,extended,3c184410 // 3c023f80 hor fov map background 60Hz
+patch=1,EE,203764FC,extended,46010b03 // 3c023f80
+patch=1,EE,20376500,extended,3c184410 // 3c023f80 hor fov map background 50Hz
+patch=1,EE,20432EC8,extended,46000303 // 3c023f80
+patch=1,EE,20432ECC,extended,3c184410 // 44826000 hor pos collected seeds next to map
+patch=1,EE,203774E0,extended,3c024020 // 3c024280 do not show enemies beyond map border
+patch=1,EE,203ADEF8,extended,0c074a44 // 00000000 
+patch=1,EE,201d2910,extended,3c014410 // 00000000
+patch=1,EE,201d2914,extended,14380002 // 00000000
+patch=1,EE,201d2918,extended,3c184420 // 00000000
+patch=1,EE,201d291c,extended,3c184410 // 00000000
+patch=1,EE,201d2920,extended,00000000 // 00000000
+patch=1,EE,201d2924,extended,080eb7bf // 00000000
+patch=1,EE,203ADF34,extended,44986000 // 3c034420
+patch=1,EE,203ADF3C,extended,3c184420 // 44836000
+patch=1,EE,203ADF54,extended,44986000 // 3c034420
+patch=1,EE,203ADF5C,extended,3c184420 // 44836000
+
+// cut-scenes black bar removal
+patch=1,EE,e001f8b5,extended,00766E44 // check 00767F94 matches value 0000f8b5
+patch=1,EE,20766E44,extended,40000000 // 3ee4f8b5

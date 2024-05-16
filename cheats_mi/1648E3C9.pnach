@@ -1,0 +1,16 @@
+gametitle=Drakengard 2 (NTSC-U)
+
+[Full Frame Mode]
+comment=Extended to 640x480
+author=by Felixthecat1970
+//for PCSX2 emulator only - HW untested but it wil give black screen - bugs (missing lot of code corrections)
+patch=1,EE,201BE224,extended,AC801730
+patch=1,EE,201A0444,extended,0000382D
+patch=1,EE,101E1040,extended,240401E0
+patch=1,EE,201E1064,extended,0000502D
+patch=1,EE,201BF79C,extended,2523FFFF
+patch=1,EE,201BE4D8,extended,AE111718
+patch=1,EE,2019B4F4,extended,00000000
+patch=1,EE,2019B834,extended,0000502D
+patch=1,EE,201BF7A8,extended,0000202D
+patch=1,EE,0019B840,extended,24070002

@@ -1,0 +1,6 @@
+gametitle=Splinter Cell - Pandora Tomorrow (PAL-M) SLES-52149 80FAC91D SC2A.ELF
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,0018D7FC,word,00000000 //1440FFFA

@@ -1,0 +1,6 @@
+gametitle=The Flintstones - Bedrock Racing (E)(SLES-54473) 8B0725D5
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 180% EE Overclock to be stable.
+patch=1,EE,005AEDE0,word,00000001 //00000002

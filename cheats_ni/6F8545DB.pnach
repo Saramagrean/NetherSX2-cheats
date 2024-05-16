@@ -1,0 +1,9 @@
+gametitle=ICO (SCUS-97113)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,00274EF8,extended,00000001
+patch=1,EE,00274F20,extended,00000001
+patch=1,EE,00274F00,extended,00000040
+patch=1,EE,00274F28,extended,00000040

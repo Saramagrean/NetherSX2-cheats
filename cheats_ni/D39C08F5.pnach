@@ -1,0 +1,7 @@
+gametitle=Kinetica (NTSC-U)
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=No Interlacing
+
+patch=1,EE,201ABB34,word,00000000

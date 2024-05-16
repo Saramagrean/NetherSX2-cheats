@@ -1,0 +1,6 @@
+gametitle=Resident Evil - Dead Aim (PAL-M5) (SLES-51448)
+
+[Ammo Cheat]
+comment=by ElHecht
+patch=1,EE,20252b68,extended,0000000F // 0000000F Ammo#1
+patch=1,EE,202deadc,extended,0000000F // 0000000F Ammo#2

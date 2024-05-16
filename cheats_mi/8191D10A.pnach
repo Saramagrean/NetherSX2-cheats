@@ -1,0 +1,6 @@
+gametitle=Fahrenheit (PAL-M) SLES-53540 8191D10A
+
+[50/60 FPS]
+author=Gabominated
+description=Unlocked at 50/60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,20836F04,extended,00000001 //00000002

@@ -1,0 +1,6 @@
+gametitle=Bujingai - The Forsaken City SLUS_208.95
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,00127878,word,30420000

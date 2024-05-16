@@ -1,0 +1,8 @@
+gametitle=Trigger Man (U)(SLUS-20931)
+
+[60 FPS]
+author=asasega
+comment=Unlocked at 60 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,20115F80,extended,00000000
+patch=1,EE,201FC95C,extended,00000000
+patch=1,EE,201FC978,extended,00000000

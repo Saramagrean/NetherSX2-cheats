@@ -1,0 +1,25 @@
+﻿gametitle=Armored Core - Nine Breaker [NTSC-J] (SLPS-25408)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+description=Widescreen Hack
+// 16:10
+patch=1,EE,00139fac,word,3c013f55 // 00000000 hor fov menu
+patch=1,EE,00139fb0,word,34215555 // 00000000 hor fov menu
+patch=1,EE,00139fb8,word,44810000 // 00000000
+patch=1,EE,00139fbc,word,4600c602 // 00000000
+patch=1,EE,00171790,word,3c033f2a // 3c033f4c hor fov gameplay
+patch=1,EE,00171798,word,3462aaab // 3462cccd hor fov gameplay
+patch=1,EE,001a78c0,word,3c0243c1 // 3c0243a0 renderfix
+
+[Remove Blur]
+author=001 & Berylskid
+description=Removes blur effects.
+patch=1,EE,D1DF5F22,extended,02006F73
+patch=1,EE,61D8D4C8,extended,00000000
+patch=1,EE,00000001,extended,0000005F
+
+[Correct HUD]
+author=001 & Berylskid
+description=Removes HUD artifacts on hardware renderer.
+patch=1,EE,002470CA,extended,00000000

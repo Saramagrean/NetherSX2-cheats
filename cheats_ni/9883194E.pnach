@@ -1,0 +1,7 @@
+gametitle=Zero 零 Zero (J)(SLPS-25074)
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=Progressive Scan Hack
+author=by asasega
+patch=1,EE,2022E3CC,extended,00000000

@@ -1,0 +1,9 @@
+gametitle=Ford Street Racing SLES-53639
+comment=Fix for ingame widescreen.
+patch=1,EE,00318298,word,3CAEFA34 //3c8efa34 fov
+
+
+
+
+
+

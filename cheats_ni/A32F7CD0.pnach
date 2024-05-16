@@ -1,0 +1,11 @@
+gametitle=Ace Combat 04: Shattered Skies (SLUS-20152)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,E0050003,extended,0029F418
+patch=1,EE,0029F418,extended,00000001
+patch=1,EE,D029F420,extended,0000948C
+patch=1,EE,0029F420,extended,00000000
+patch=1,EE,D029F420,extended,00009070
+patch=1,EE,0029F420,extended,00000000

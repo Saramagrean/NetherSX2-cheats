@@ -1,0 +1,6 @@
+gametitle=Genji [NTSC-J] (SCPS-15095)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2030B69C,extended,00000000

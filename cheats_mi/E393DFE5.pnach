@@ -1,0 +1,6 @@
+gametitle=Family Guy (SLES-54126)
+
+[50 FPS]
+author=CRASHARKI
+comment=Patches the game to run at 50 FPS. (Original NTSC-U pnach by asasega)
+patch=1,EE,2025989C,word,00000001 //00000002

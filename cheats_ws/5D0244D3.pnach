@@ -1,0 +1,6 @@
+gametitle=Test Drive: Eve of Destruction (NTSC-U) (SLUS-20910)(5D0244D3)
+
+[Disable 16:9 Edge Borders]
+author=Virjoinga
+description=Disables the edge border when using 16:9 (from game options). WARNING, menus don't have a skybox so expect artifacts on edges of screen.
+patch=1,EE,203DD64C,extended,00000000 //16:9 Edge Border (0 = off, 1 = on)

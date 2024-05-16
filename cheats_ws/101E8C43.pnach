@@ -1,0 +1,11 @@
+gametitle= Portal Runner NTSC-U (SLUS-20003)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=VIRGIN KLM
+comment=Widescreen Hack
+//P1 Screen
+patch=1,EE,0030ADD0,word,3FA1C40E // 3FD7B013
+
+//P2 Screen
+patch=1,EE,0030B000,word,3FA1C40E // 3FD7B013

@@ -1,0 +1,8 @@
+gametitle=Dynasty Warriors 5: Xtreme Legends (SLUS-21299)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen hack by nemesis2000 (pnach by nemesis2000 )
+patch=1,EE,00146d7c,word,3c0243d6
+patch=1,EE,0019814c,word,3c023f2b
+patch=1,EE,00146ac4,word,3c023e10 // cutscene zoom (fixes crash)

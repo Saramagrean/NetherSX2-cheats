@@ -1,0 +1,6 @@
+gametitle=Monsters vs. Aliens (U)(SLUS-21870)
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,002338EC,word,28420001 //28420002

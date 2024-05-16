@@ -1,0 +1,6 @@
+gametitle=WipeOut Fusion (SLUS_20462)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20216A64,word,00000000

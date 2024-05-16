@@ -1,0 +1,15 @@
+gametitle=Crash - Mind Over Mutant (NTSC-U)
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+patch=1,EE,20413A3C,word,3C013FE0
+patch=1,EE,20413A40,word,00000000
+patch=1,EE,20583528,word,3C013FE0
+patch=1,EE,2058352C,word,44810800
+patch=1,EE,20583530,word,3C013ED8
+patch=1,EE,20583534,word,34216DA8
+
+[60 FPS]
+author=asasega
+description=Patches the game to run at 60 FPS.
+patch=1,EE,205823A0,extended,24020000

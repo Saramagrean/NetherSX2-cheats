@@ -1,0 +1,4 @@
+gametitle=Ghost Vibration (PAL-E) SLES_514.33 CDD0C904
+
+[No-Interlacing]
+patch=1,EE,201020CC,extended,64420000

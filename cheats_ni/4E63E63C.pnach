@@ -1,0 +1,7 @@
+gametitle=Shin Megami Tensei: Persona 4 NTSC-J (SLPM-66978)
+
+[Progressive Scan]
+//Progressive Scan & 60fps
+patch=1,EE,004246ac,word,3c050000
+patch=1,EE,004246b4,word,3c060050
+patch=1,EE,004246bc,word,3c070001

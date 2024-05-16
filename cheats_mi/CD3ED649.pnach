@@ -1,0 +1,6 @@
+gametitle=Resident Evil - Survivor 2 - Code Veronica (PAL-E) (SLES-50650)
+
+[RE4 Style Camera]
+patch=1,EE,2037e2c0,extended,40900000 // tori_x (horizontal)
+patch=1,EE,2037e2d0,extended,C0000000 // tory_y (height)
+patch=1,EE,2037e2e0,extended,41100000 // tori_z (distance)

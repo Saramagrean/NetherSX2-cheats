@@ -1,0 +1,7 @@
+gametitle=K-1 World Grand Prix 2005 (J)(SLPS-25578)
+
+[Game Fixes]
+comment= Make the game work in HW mode
+
+patch=1,EE,004269f0,word,0000948c
+patch=1,EE,00426a18,word,0000948c

@@ -1,0 +1,15 @@
+gametitle=Sly 2 - Band of Thieves (SCUS-97316)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen Fix by PsxFan107
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=No Interlacing & No Motion Blur
+
+// No Interlacing by asasega
+patch=1,EE,20240B4C,word,00000000
+
+// No Motion Blur by Meos
+patch=1,EE,20160FA0,extended,00000000

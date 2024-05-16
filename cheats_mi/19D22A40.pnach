@@ -1,0 +1,24 @@
+gametitle=Lara Croft Tomb Raider: Utsukushiki Toubousha * NTSC-J * SLPS-25246 * 19D22A40
+// Lara Croft Tomb Raider: The Angel of Darkness
+
+[Widescreen/16:10]
+gsaspectratio=Stretch
+
+// Fast Boot 4:3 hack - 16:10
+patch=1,EE,002091bc,word,3C013FCC
+patch=1,EE,002091c0,word,342149BB
+
+// Full Boot 16:10
+patch=1,EE,002091d0,word,3C013FCC
+patch=1,EE,002091d4,word,342149BB
+
+//[Widescreen/15:10]
+//gsaspectratio=Stretch
+
+// Fast Boot 4:3 hack - 15:10
+//patch=1,EE,002091bc,word,3C013FBF
+//patch=1,EE,002091c0,word,3421851F
+
+// Full Boot 15:10
+//patch=1,EE,002091d0,word,3C013FBF
+//patch=1,EE,002091d4,word,3421851F

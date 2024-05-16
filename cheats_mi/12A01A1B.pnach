@@ -1,0 +1,9 @@
+gametitle=Mahoroba Stories [NTSC-J] (SLPM-66751)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Widescreen hack by Little Giant
+
+//16:10
+patch=1,EE,001F331C,word,3C053F56 //3c013f80 hor
+patch=1,EE,001F334C,word,3C0343A0 //3C034380 render fix

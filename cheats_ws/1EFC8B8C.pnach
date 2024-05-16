@@ -1,0 +1,6 @@
+gametitle= Winning Eleven 6 - Final Evolution (NTSC-J) (SLPM-62268)
+comment= Widescreen hack by BloodRaynare
+
+// 16:9
+patch=1,EE,01400610,word,3fc00000 // FOV
+patch=1,EE,01310bdc,word,24040356 // Renderfix

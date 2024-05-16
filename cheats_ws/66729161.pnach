@@ -1,0 +1,33 @@
+gametitle=Biohazard 4 (K)(SCKA-20089)
+comment=Widescreen hack by Arapapa
+
+//Widescreen hack 16:9
+
+//Iternal Widescreen on
+//00 00 00 48 00 00 00 00 01 01 40 00 01 00 00 00
+patch=1,EE,20430F60,extended,48000000
+
+//Render fix
+//00 3F 01 3C 00 C0 81 44 18 01 B7 E7 02 60 18 46 (ELF)
+patch=1,EE,002810e0,word,3c013f2b //3c013f00
+
+//Wide Zoom Fix
+//01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 E0 5B 87 01 14 00 00 00 18 01 00 00 02 00 00 00
+//6043013c 00088144 00000000 030b0046
+//80bf013c 00008144 00000000 ??????e4
+patch=1,EE,E0020001,extended,1041c0b8
+patch=1,EE,20252f18,extended,3c014360
+patch=1,EE,2021d2b4,extended,3c01bf80
+
+patch=1,EE,E0020001,extended,0041c0b8
+patch=1,EE,20252f18,extended,3c014328 //3c014360
+patch=1,EE,2021d2b4,extended,3c01bfaa
+
+//4:3 Wide hack
+//patch=1,EE,00252f40,word,08030000
+//patch=1,EE,000c0000,word,46016042
+//patch=1,EE,000c0004,word,3c013faa
+//patch=1,EE,000c0008,word,3421aaab
+//patch=1,EE,000c000c,word,4481f000
+//patch=1,EE,000c0010,word,461e0002
+//patch=1,EE,000c0014,word,08094bd1

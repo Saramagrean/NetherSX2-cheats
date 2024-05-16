@@ -1,0 +1,6 @@
+gametitle=Racing Battle C1 Grand Prix (J)(SLPM-65897)
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=No Interlacing Patch by Tokman5
+patch=1,EE,2014AC58,extended,24022000

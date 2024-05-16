@@ -1,0 +1,6 @@
+gametitle=Predator Concrete Jungle SLES_530.91
+
+[50 FPS]
+author=Gabominated
+description=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,2044E350,extended,00000032 //00000019

@@ -1,0 +1,6 @@
+gametitle=Tim Burton's The Nightmare Before Christmas (NTSC-U)(SLUS-20860)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2021C60C,extended,30420000

@@ -1,0 +1,11 @@
+gametitle=Barnyard (K)(SCKA-20096)
+
+[Black Bar Fix (Event Scene Top and Bottom)]
+// TLB miss
+patch=1,EE,21bb5d04,extended,00000000 //42300000
+patch=1,EE,21bb5d7c,extended,00000000 //42300000
+
+[Zoom]
+patch=1,EE,00472820,word,3c013f69 //3c013f00 Causing glitches some event scene
+patch=1,EE,0045a9c8,word,3c01bf40 //3c01bf80 Graphic glitches
+patch=1,EE,004cb61c,word,3f820000 //3f800000 little different than Original Graphic

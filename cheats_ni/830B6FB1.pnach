@@ -1,0 +1,7 @@
+gametitle=Tales of Symphonia (NTSC-J)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20100600,extended,34030001
+patch=1,EE,20100614,extended,34021400

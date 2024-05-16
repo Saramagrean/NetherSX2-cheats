@@ -1,0 +1,6 @@
+gametitle=Spider-Man 3 SLPS-25823 NTSC-J
+comment=Widescreen Hack
+author=Anijha
+
+patch=1,EE,0032ac64,word,3c023f22
+patch=1,EE,00348bb8,word,3c023f22

@@ -1,0 +1,8 @@
+gametitle=Technictix (J)(SLPS-20055)
+
+[No-Interlacing]
+author=pcsx2user156
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,00102FFC,word,00000000
+patch=1,EE,0010336C,word,00000000

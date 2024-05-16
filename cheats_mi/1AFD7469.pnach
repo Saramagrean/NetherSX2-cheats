@@ -1,0 +1,6 @@
+gametitle=Monster House (NTSC-K)(SCKA-20084)
+
+[50 FPS]
+author=asasega
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,0015BCC4,word,2C620000

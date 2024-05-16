@@ -1,0 +1,8 @@
+gametitle=Grandia Xtreme (NTSC-U)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+comment=Grandia Xtreme (NTSC-U) Widescreen Patches
+
+// 16:10
+patch=1,EE,204B53A8,extended,3F555555

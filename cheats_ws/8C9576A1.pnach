@@ -1,0 +1,32 @@
+gametitle=Burnout - Dominator (U)(SLUS-21596)
+
+[Widescreen 16:9]
+author=SuperType1/remco
+description=Fixes the game and the HUD to run in a 16:9 Scale (only enable one and not both of them).
+gsaspectratio=16:9
+
+//Force 16:9
+patch=1,EE,001A2798,word,00000000
+//FOV
+patch=1,EE,001F60FC,word,3C013C9A
+//Hud Width
+patch=1,EE,0022BE50,extended,3C013A9D
+//Hud Elements
+patch=1,EE,21C91FB8,extended,3F28F5C3//score offset
+patch=1,EE,21C91FF8,extended,3FAA3D71//timer race pos offset
+patch=1,EE,21C91FE0,extended,3FAA3D71//speedometer offset
+patch=1,EE,21C92000,extended,3f28f5c3//pop up offset
+patch=1,EE,21C91AA0,extended,44610000//offscreen popup offset
+patch=1,EE,21C91FF0,extended,3FAA3D71//unlock car text pos
+patch=1,EE,203C5314,extended,41500000//chevron spacing
+patch=1,EE,21C91980,extended,41A00000//chevron spacing
+patch=1,EE,21C91690,extended,434E0000//boost bar fire width
+patch=1,EE,21C91988,extended,41A00000//black chevron spacing
+patch=1,EE,21CADE10,extended,41A00000//yellow chevron spacing
+patch=1,EE,21C9BD40,extended,43C80000//maniac star counter score add end pos
+patch=1,EE,21C9BD48,extended,43C80000//maniac star counter score add end pos
+patch=1,EE,21C9BD50,extended,43C80000//maniac star counter score add end pos
+patch=1,EE,21C91A78,extended,43AA0000//maniac boost chain combo score pos
+patch=1,EE,21C91A70,extended,43AA0000//maniac boost chain combo score pos
+patch=1,EE,21C91F60,extended,C4430000//crashbreaker text offset
+patch=1,EE,20441078,extended,438C0000//ea trax pop up width

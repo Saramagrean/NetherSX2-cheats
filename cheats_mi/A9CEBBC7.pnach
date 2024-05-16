@@ -1,0 +1,6 @@
+gametitle=Tak and the Guardians of Gross (E)(SLES-55376)
+
+[50 FPS]
+author=asasega
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,01FAF278,word,42700000

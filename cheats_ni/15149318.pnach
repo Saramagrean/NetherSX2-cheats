@@ -1,0 +1,7 @@
+gametitle=Capcom vs SNK 2 (NTSC) (SLUS-20246)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20101B74,extended,00000000
+patch=1,EE,20101DDC,extended,00000000

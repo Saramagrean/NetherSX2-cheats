@@ -1,0 +1,5 @@
+gametitle=Tony Hawk's Underground (SLUS-20731)
+comment=Ultrawide screen hack by RhinoKneel
+
+patch=1,EE,0038a0ec,word,3fe55aed
+patch=1,EE,00394268,word,40190190

@@ -1,0 +1,7 @@
+gametitle=Armored Core 3 SLUS_204.35
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20261294,word,8F83A8EC
+patch=1,EE,202D9C1C,word,64420000

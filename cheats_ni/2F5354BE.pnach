@@ -1,0 +1,8 @@
+gametitle= Rumble Racing NTSC-U [SLUS-20174]
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+//No Interlacing
+patch=1,EE,00100A64,extended,30420000
+patch=1,EE,00100A88,extended,30440000

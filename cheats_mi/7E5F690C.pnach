@@ -1,0 +1,14 @@
+gametitle=Armored Core - Nexus SLUS_209.86
+
+[Remove Blur]
+author=001 & Berylskid
+description=Removes blur effects.
+patch=1,EE,20131AB0,extended,00000000
+patch=1,EE,D0298C50,extended,02100000
+patch=1,EE,61CC6EE8,extended,00000000
+patch=1,EE,00000001,extended,0000005F
+
+[Correct HUD]
+author=001 & Berylskid
+description=Removes HUD artifacts on hardware renderer.
+patch=1,EE,00209A9A,extended,00000000

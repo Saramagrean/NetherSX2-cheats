@@ -1,0 +1,8 @@
+gametitle=Forever Kingdom SLUS_203.43
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+// credit goes to nemesis2000
+patch=1,EE,0021e024,word,3c013f40
+patch=1,EE,0021e028,word,44810000
+patch=1,EE,0021e030,word,4600c602

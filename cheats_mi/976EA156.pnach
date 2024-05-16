@@ -1,0 +1,7 @@
+gametitle=Star Wars - Episode III - Revenge of the Sith SLUS_211.43
+
+[60 FPS]
+author=asasega
+comment=Patches the game to run at 60 FPS. 180% EE Overclock recommended.
+patch=1,EE,E0010002,extended,001B4344
+patch=1,EE,201AF538,extended,00000001

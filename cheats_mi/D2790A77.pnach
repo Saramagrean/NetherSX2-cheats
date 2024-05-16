@@ -1,0 +1,6 @@
+gametitle=Family Guy (SLUS-20718)
+
+[60 FPS]
+author=asasega
+comment=Patches the game to run at 60 FPS.
+patch=1,EE,20259698,word,00000001 //00000002

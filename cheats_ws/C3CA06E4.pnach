@@ -1,0 +1,11 @@
+gametitle=R-Racing  SLES-52309
+comment=Widescreen Hack
+patch=1,EE,204eb7f0,extended,00000001 // enable widescreen
+patch=1,EE,00360ca8,word,3c013f40 //3c013f80 fov
+//patch=1,EE,002392b8,word,3c013fe9 //3c013fae vert fov
+//patch=1,EE,002392bc,word,34211661 //3421d0cc
+//patch=1,EE,002574e4,word,3c013fe9 //3c013fae
+//patch=1,EE,002574e8,word,34211661 //3421d0cc
+
+
+

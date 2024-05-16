@@ -1,0 +1,6 @@
+gametitle=Maximo - Ghosts to Glory (SLUS_20017)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2010128C,word,00000000

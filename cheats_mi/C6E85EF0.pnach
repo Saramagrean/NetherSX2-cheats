@@ -1,0 +1,19 @@
+gametitle=Crash of the Titans (NTSC-U)
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+author=by psxfan107
+
+//Internal 16-9 to 21:9
+patch=1,EE,2032CB04,word,3C013FBC
+patch=1,EE,2032CB08,word,00000000
+patch=1,EE,2032CB18,word,00000000
+patch=1,EE,20491A80,word,3C013FE0
+patch=1,EE,20491A84,word,44810800
+patch=1,EE,20491A88,word,3C013ED8
+patch=1,EE,20491A8C,word,34216DA8
+
+[60 FPS]
+author=asasega
+description=Patches the game to run at 60 FPS (Might need 130% EE Overclock to be stable).
+patch=1,EE,20490340,extended,24020000

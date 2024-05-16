@@ -1,0 +1,6 @@
+gametitle=Sengoku Musou: Moushouden [NTSC-J] (SLPM-65718)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2013EF38,extended,AF808708

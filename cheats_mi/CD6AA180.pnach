@@ -1,0 +1,8 @@
+gametitle=Cold Winter [PAL-M4] (SLES_529.63)
+
+[50 FPS]
+author=felixthecat1970
+comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+patch=0,EE,201FE134,extended,24020001 //fps unlock reg 50fps
+patch=0,EE,2042BB4C,extended,24630000
+patch=0,EE,2042BB60,extended,24840000

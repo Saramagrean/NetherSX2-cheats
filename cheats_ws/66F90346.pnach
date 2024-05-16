@@ -1,0 +1,8 @@
+gametitle=BCV: Battle Construction Vehicles [PAL] (SLES_517.14)
+comment=Widescreen hack by El_Patas
+ 
+//Gameplay 16:9
+patch=1,EE,0011D270,word,3C013F40 //3C013F80 (Increases hor. axis)
+
+//Render fix
+patch=1,EE,001184A0,word,3C014FFF //3C013F80

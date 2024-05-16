@@ -1,0 +1,6 @@
+gametitle=SpongeBob's Atlantis SquarePantis (E)(SLES-55024)
+
+[50 FPS]
+author=asasega
+comment=Patches the game to run at 50 FPS.
+patch=1,EE,21FAFC98,extended,42700000

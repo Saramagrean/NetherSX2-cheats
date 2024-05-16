@@ -1,0 +1,6 @@
+gametitle=The Sword of Etheria (SLES-53768)
+
+[50/60 FPS]
+author=Gabominated
+comment=Unlocked at 50/60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,00511F14,word,24020001 //24020002

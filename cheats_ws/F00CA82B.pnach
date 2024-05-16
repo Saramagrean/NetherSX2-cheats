@@ -1,0 +1,8 @@
+gametitle=Project - Snowblind (PAL-M4) (SLES-53124) F00CA82B
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=ElHecht
+comment=Widescreen Hack
+patch=1,EE,201D98A0,extended,3C013FE3 //3C013FAA hor fov
+patch=1,EE,201D98A4,extended,34218E39 //3421AAAB hor fov

@@ -1,0 +1,4 @@
+gametitle=Baldur's Gate: Dark Alliance
+
+[No-Interlacing]
+patch=1,EE,00204C58,word,30420000

@@ -1,0 +1,5 @@
+gametitle=Baroque (NTSC-U)
+
+[Remove Effects]
+//patch=1,EE,00237914,word,3c014500 // 3c013f80 remove ghosting effect
+//patch=1,EE,0010fc60,word,3c023e80 // 3c023f80 remove grain effect

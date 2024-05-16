@@ -1,0 +1,9 @@
+gametitle=Teenage Mutant Ninja Turtles 3 - Mutant Nightmare (PAL-M5) (SLES-53850)
+
+[Mode 480p]
+author=PeterDelta
+comment=Force progressive scan when selecting 60hz
+patch=1,EE,E0030000,extended,005B30C0
+patch=1,EE,201009F4,extended,24110000
+patch=1,EE,201009F8,extended,24120050
+patch=1,EE,20100A04,extended,24130001

@@ -1,0 +1,9 @@
+gametitle=Sonic Heroes (NTSC-K)(SLKA-25122)
+
+[Progressive Scan]
+
+//480p Mode
+patch=1,EE,001009c4,word,3c050000 //00052c00
+patch=1,EE,001009cc,word,3c060050 //00063400
+patch=1,EE,001009d4,word,3c070001 //00073c00
+patch=1,EE,00100c94,word,3c090010 //00094c00

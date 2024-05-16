@@ -1,0 +1,37 @@
+gametitle=Grand Theft Auto - San Andreas (SLPM-65984)
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+comment=Widescreen fix by BloodRaynare
+
+//Widescreen fix
+patch=1,EE,001130bc,word,3c013f9d
+patch=1,EE,001130c0,word,44810000
+patch=1,EE,001130c4,word,46006302
+patch=1,EE,001130c8,word,03e00008
+patch=1,EE,001130cc,word,e78c9a90
+patch=1,EE,00242c94,word,0c044c32
+
+//Conditional codes for widescreen toggle in display menu
+patch=1,EE,e1010001,extended,0070259f
+patch=1,EE,2021dd04,extended,0c044c2f
+
+patch=1,EE,e1010000,extended,0070259f
+patch=1,EE,2021dd04,extended,0c044c32
+
+//Restore original FOV for cutscenes
+patch=1,EE,e1010001,extended,0070117d
+patch=1,EE,2021dd04,extended,0c044c32
+
+//Skybox fixes for the widescreen fix
+patch=1,EE,002ef3f0,word,3c024120
+patch=1,EE,002ef6c0,word,3c024120
+patch=1,EE,002ef96c,word,3c024120
+patch=1,EE,002efc94,word,3c024120
+patch=1,EE,002effec,word,3c024120
+
+patch=1,EE,002ef3f8,word,34420000
+patch=1,EE,002ef6c8,word,34420000
+patch=1,EE,002ef974,word,34420000
+patch=1,EE,002efc98,word,34420000
+patch=1,EE,002efff4,word,34420000

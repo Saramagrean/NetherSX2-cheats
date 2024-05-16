@@ -1,0 +1,6 @@
+gametitle=.Hack//G.U Vol. II Reminisce Undub (NTSC-U)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=by cloudalmasai
+patch=1,EE,20A0CD94,word,3F400000

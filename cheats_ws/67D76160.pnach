@@ -1,0 +1,17 @@
+gametitle=Shin Megami Tensei - Devil Summoner 1 (SLPM_662.46)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen Hack by Arapapa and Red_Tv
+
+//fields and battles
+patch=1,EE,203aca64,extended,3fc65461  // 3f951eb8
+
+//event
+patch=1,EE,203ace14,extended,3fc65461  // 3f951eb8
+
+//black borders's fix (optional)
+//patch=1,EE,001068CC,word,2404FF00
+//patch=1,EE,001C8EF8,word,24040000
+//patch=1,EE,00114310,word,24040000
+//patch=1,EE,00106AD8,word,a3809b13

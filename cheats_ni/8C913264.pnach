@@ -1,0 +1,9 @@
+gametitle=Sonic Unleashed (PAL-M5) (SLES-55380) 8C913264
+
+[60 FPS]
+author=PeterDelta
+comment=Forces progressive scan mode at 60 fps
+patch=1,EE,00671CFC,word,3C050000
+patch=1,EE,00671D04,word,3C060052
+patch=1,EE,00671D0C,word,3C070001
+patch=1,EE,00671FCC,word,3C090010

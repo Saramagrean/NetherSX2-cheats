@@ -1,0 +1,6 @@
+gametitle=Tekken Nina Williams In Death By Degree (K)(SCKA-20039)
+
+[No interlacing]
+comment=codes by noblur88
+//10 00 02 DE 00 00 C2 FC 18 00 03 DE 00 00 A3 FC
+patch=1,EE,00102a84,word,34021400

@@ -1,0 +1,6 @@
+gametitle=Grand Theft Auto: Vice City Stories (SLES_546.22)
+
+[50 FPS]
+author=Snake356
+comment=Patches the game to run at 50 FPS (Might need 180% EE Overclock to be stable).
+patch=1,EE,203704F4,word,00000000 //14820019

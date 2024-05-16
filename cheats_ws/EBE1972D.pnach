@@ -1,0 +1,7 @@
+gametitle=Midnight Club 3 - DUB Edition (E)(SLES-52942) EBE1972D
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+comment=Renders the game in 16:9 aspect ratio
+patch=1,EE,00617D30,word,3FC71CEB //3F955554

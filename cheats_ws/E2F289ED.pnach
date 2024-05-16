@@ -1,0 +1,10 @@
+gametitle=DragonBall Z - Sparking! Neo SLPS-25690 
+comment=Widescreen Mode (by SolidSnake11)
+patch=1,EE,0012b750,word,3c013f10
+patch=1,EE,003867C8,word,3FC71C55
+patch=1,EE,003867A4,word,3FC71C55
+patch=1,EE,003867D8,word,4410553E
+patch=1,EE,003867A0,word,4410553E
+patch=1,EE,00386800,word,4410553E
+patch=1,EE,003867F4,word,4410553E
+patch=1,EE,0025B1B4,word,3C013f40

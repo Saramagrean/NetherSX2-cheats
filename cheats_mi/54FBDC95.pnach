@@ -1,0 +1,5 @@
+gametitle=Sword of the Samurai [PAL] (SLES_512.90)
+
+[Enhanced]
+//Removes black box cutscenes texts (Optional)
+patch=1,EE,001B3CE0,word,3C013D00 //3C013F80

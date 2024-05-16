@@ -1,0 +1,6 @@
+gametitle=Medal of Honor - Rising Sun (NTSC-K)(SLKA-25140)
+
+[50 FPS]
+author=asasega
+comment=Unlocked at 50 FPS. Might need enable 180% EE Overclock to be stable.
+patch=1,EE,2015A15C,extended,2C420001

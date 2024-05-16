@@ -1,0 +1,11 @@
+gametitle=Sly Raccoon (PAL-M5) (SCES-50917)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=Meos
+comment=No Motion Blur
+patch=1,EE,2015F32C,extended,08057CCF
+patch=1,EE,20190210,extended,08064088
+patch=1,EE,201EACD8,extended,0807AB39
+patch=1,EE,2012B958,extended,0804AE5F
+patch=1,EE,2015F944,extended,24060000

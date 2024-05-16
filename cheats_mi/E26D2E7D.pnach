@@ -1,0 +1,8 @@
+﻿gametitle=Evergrace II [NTSC-J] (SLPS-25044)
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+//credit goes to nemesis2000
+patch=1,EE,0021cf5c,word,3c013f40
+patch=1,EE,0021cf60,word,44810000
+patch=1,EE,0021cf68,word,4600c602

@@ -1,0 +1,10 @@
+gametitle=Silent Hill Origins (SLUS-21731)
+
+[No-Interlacing]
+gsinterlacemode=1
+comment=Enhacement by felixthecat1970
+
+//Progressive
+patch=0,EE,2029445C,extended,3C050000
+patch=0,EE,20294464,extended,3C060050
+patch=0,EE,2029446C,extended,3C070001

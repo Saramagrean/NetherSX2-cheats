@@ -1,0 +1,6 @@
+gametitle=Sengoku Musou [NTSC-J] [SLPM-65517]
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2013DFD8,extended,AF808508

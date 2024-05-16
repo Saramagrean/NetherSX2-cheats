@@ -1,0 +1,21 @@
+gametitle=Tony Hawk's Pro Skater 3 German (PAL)
+comment=Widescreen Hack
+
+patch=1,EE,0017a588,word,3c013ff3 //3c013fb6
+patch=1,EE,0017c520,word,3c013ff3 //3c013fb6
+patch=1,EE,001f3fac,word,3c013ff3 //3c013fb6
+patch=1,EE,001f89e0,word,3c013ff3 //3c013fb6
+patch=1,EE,001f8e98,word,3c013ff3 //3c013fb6
+
+patch=1,EE,0017a58c,word,3421cf00 //3421db40
+patch=1,EE,0017c524,word,3421cf00 //3421db40
+patch=1,EE,0017c544,word,3421cf00 //3421db40
+patch=1,EE,0017c598,word,3421cf00 //3421db40
+patch=1,EE,001f3fb0,word,3421cf00 //3421db40
+patch=1,EE,001f3fd0,word,3421cf00 //3421db40
+patch=1,EE,001f3ff0,word,3421cf00 //3421db40
+patch=1,EE,001f89e4,word,3421cf00 //3421db40
+patch=1,EE,001f8e9c,word,3421cf00 //3421db40
+
+patch=1,EE,0017c540,word,3c013f73 //3c013f36
+patch=1,EE,001f3fcc,word,3c013f73 //3c013f36

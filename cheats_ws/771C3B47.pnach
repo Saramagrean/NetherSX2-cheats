@@ -1,0 +1,8 @@
+gametitle=Alpine Racer 3 (Japan) [SLPS-20181]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+comment=Widescreen Hack
+patch=1,EE,201A60C8,extended,3c044455 //gameplay
+patch=1,EE,D06972D2,extended,00003f80 //menu
+patch=1,EE,20697290,extended,3f400000 //

@@ -1,0 +1,11 @@
+gametitle=Technictix (J)(SLPS-20055)
+
+[Widescreen 16:9]
+author=Arapapa
+gsaspectratio=16:9
+comment=Widescreen hack
+
+//Widescreen hack 16:9
+
+//X-Fov
+patch=1,EE,0013bfa0,word,3c023f40 //3c023f80

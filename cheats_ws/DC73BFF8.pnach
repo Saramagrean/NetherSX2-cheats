@@ -1,0 +1,6 @@
+gametitle=Ka 2 - Let's Go Hawaii (NTSC-J)[SCPS-15045]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+//Widescreen Hack (16:9)
+patch=1,EE,203DF6BC,extended,3F400000

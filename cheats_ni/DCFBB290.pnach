@@ -1,0 +1,6 @@
+gametitle=Trapt (NTSC-U)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,00120e14,word,00000000 //64420008

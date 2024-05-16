@@ -1,0 +1,8 @@
+gametitle=Test Drive (SLUS-20213)
+comment=Widescreen Hack by BloodRaynare
+
+//X-FOV (16:9)
+patch=1,EE,001a73b4,word,3c013f40 // 3c013f80
+
+//Render fix
+patch=1,EE,001a865c,word,3c013fc0 // 3c013f80

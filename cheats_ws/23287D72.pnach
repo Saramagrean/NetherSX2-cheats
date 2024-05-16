@@ -1,0 +1,129 @@
+// Controllable party members (by TGE) (Japan version offset fixes by The Snowman)
+// Game CRC: 0x232C7D72
+
+patch=1,EE,0029B058,word,00000000 // nop check for if battle unit is not mc -> ai
+
+patch=1,EE,0020218C,word,00000000 // load proper unit id for battle menu skill list
+patch=1,EE,0020219C,word,8F84B78C
+patch=1,EE,002021A0,word,8C840254
+patch=1,EE,002021A4,word,8C840030
+patch=1,EE,002021A8,word,8C8400A4
+
+patch=1,EE,0028DEA4,word,2405001B // fix escape
+patch=1,EE,002969BC,word,00000000
+
+patch=1,EE,0028AD5C,word,9683001A // disable persona menu for non-mc
+patch=1,EE,0028AD60,word,3063FFBF
+patch=1,EE,0028AD64,word,A683001A
+patch=1,EE,0028AD68,word,96830018
+patch=1,EE,0028AD6C,word,00000000
+// Modified jump address (Jump to 0069C5A0)
+patch=1,EE,0028AD70,word,081a7168
+patch=1,EE,0028AD74,word,00000000
+patch=1,EE,0069C5A0,word,8F82B78C
+patch=1,EE,0069C5A4,word,8C420148
+patch=1,EE,0069C5A8,word,14540004
+patch=1,EE,0069C5AC,word,00000000
+patch=1,EE,0069C5B0,word,34630400
+patch=1,EE,0069C5B4,word,A6830018
+patch=1,EE,0069C5B8,word,34630400
+patch=1,EE,0069C5BC,word,080A2B5D
+patch=1,EE,0069C5C0,word,00000000
+
+patch=1,EE,001FF6A8,word,8E300254 // fix skill requirements
+patch=1,EE,001FF6AC,word,8E100030
+patch=1,EE,001FF6B0,word,8E1000A4
+patch=1,EE,001FF6B4,word,00000000
+patch=1,EE,001FF6B8,word,00000000
+patch=1,EE,001FF6BC,word,00000000
+
+patch=1,EE,002D8130,word,00000000 // fix items
+patch=1,EE,002D8140,word,00000000
+patch=1,EE,002D8144,word,00000000
+patch=1,EE,002D815C,word,00000000
+
+// Modified jump address (Jump to 0069C604)
+patch=1,EE,002A3974,word,081A7181 // fix boss battle camera
+patch=1,EE,0069C604,word,1240000B
+patch=1,EE,0069C608,word,00000000
+patch=1,EE,0069C60C,word,8E420030
+patch=1,EE,0069C610,word,844700A2
+patch=1,EE,0069C614,word,20030001
+patch=1,EE,0069C618,word,14E00006
+patch=1,EE,0069C61C,word,00000000
+patch=1,EE,0069C620,word,844200A4
+patch=1,EE,0069C624,word,10430003
+patch=1,EE,0069C628,word,00001021
+patch=1,EE,0069C62C,word,080A8E5F
+patch=1,EE,0069C630,word,00000000
+patch=1,EE,0069C634,word,0C0BE1D0
+patch=1,EE,0069C638,word,00000000
+patch=1,EE,0069C63C,word,080A8E5F
+patch=1,EE,0069C640,word,00000000
+
+//16:9 by CeruleansBlue
+patch=1,EE,007ccc1c,word,3fe38e38
+
+//partial HUD fix
+patch=1,EE,00106cb0,word,3c043f40 
+patch=1,EE,00106cb8,word,00701821
+patch=1,EE,00106cbc,word,24634b2c
+patch=1,EE,00106cc4,word,00000000 
+patch=1,EE,00106cc8,word,24630004
+patch=1,EE,00106ccc,word,3c043f80
+
+//persona art fix by devina and nemesis2000
+//003f033c 3001a3af 3401a0af 7001a0af 803f023c
+patch=1,EE,0011486c,word,3c033ec0 // 3c033f00
+patch=1,EE,0011487c,word,3c023f90 // 3c023f80
+
+//FMV's fix by nemesis2000
+patch=1,EE,0010ae10,word,1462000a
+patch=1,EE,0010ae18,word,3c02c294
+patch=1,EE,0010ae1c,word,10000008
+patch=1,EE,0010ae2c,word,00000000
+patch=1,EE,0010ae3c,word,3c02c1a8
+patch=1,EE,0010ae50,word,00000000
+
+//popup character portraits fix by sergx12
+patch=1,EE,0010f5a0,word,3c024455 //3c024420
+patch=1,EE,001114f4,word,3c024455 //3c024420
+
+patch=1,EE,004aabac,word,00000000 //ac600ce0
+
+patch=1,EE,004c427c,word,00000000 //e4800030
+
+patch=1,EE,20960ce0,extended,3e800000 //00000000
+
+//Font fix by nemesis2000
+//patch=1,EE,003b11a4,word,00118903
+//patch=1,EE,003b11a8,word,02338818
+//patch=1,EE,003b11b0,word,8E93001c
+//patch=1,EE,003b1260,word,82970003
+//patch=1,EE,003b13ac,word,24130015
+
+//patch=1,EE,003b3458,word,2415000c
+//patch=1,EE,003b346c,word,3c0241a8
+//patch=1,EE,003b3498,word,01154018
+//patch=1,EE,003b349c,word,00084103
+//patch=1,EE,003b34a0,word,0100a82d
+
+//480p by asmodean
+//patch=1,EE,0019d4c0,word,3c040010
+//patch=1,EE,0019d4c4,word,348426dc
+//patch=1,EE,0019d4c8,word,8c820000
+//patch=1,EE,0019d4cc,word,38420001
+//patch=1,EE,0019d4d0,word,ac820000
+//patch=1,EE,0019d4d4,word,000217fc
+//patch=1,EE,0019d4d8,word,000217ff
+//patch=1,EE,0019d4dc,word,0000000f
+//patch=1,EE,0019d4e0,word,42000038
+//patch=1,EE,0019d4e4,word,03e00008
+//patch=1,EE,0019d4e8,word,00000000
+//patch=1,EE,0019d4ec,word,00000001
+
+//patch=1,EE,004f9acc,word,24110000
+//patch=1,EE,004f9ad0,word,24120050
+//patch=1,EE,004f9ad4,word,24020001
+//patch=1,EE,004f9ad8,word,10820031
+//patch=1,EE,004f9adc,word,24130001

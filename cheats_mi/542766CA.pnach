@@ -1,0 +1,6 @@
+gametitle=Tak y el Poder Juju (PAL-S) SLES-52286 542766CA
+
+[50 FPS]
+author=PeterDelta
+comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,00440738,word,00000001 //00000002

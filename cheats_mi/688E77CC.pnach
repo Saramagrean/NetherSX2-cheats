@@ -1,0 +1,15 @@
+gametitle=BLACK (K)(SLKA-25372)
+
+[Font Fix]
+//00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 A0 43 44 44 A4 41
+patch=1,EE,20431FD8,extended,3f400000
+patch=1,EE,20431FD0,extended,43aaaaaa //43a00000
+patch=1,EE,20432098,extended,3f400000
+patch=1,EE,20432090,extended,43aaaaaa //43a00000
+patch=1,EE,20432278,extended,3f400000
+patch=1,EE,20432370,extended,43aaaaaa //43a00000
+
+[60 FPS]
+//60 FPS by asasega
+patch=1,EE,1040dff4,extended,00000001
+patch=1,EE,2040ec2c,extended,3C888889

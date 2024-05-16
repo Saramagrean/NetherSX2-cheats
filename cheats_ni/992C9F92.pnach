@@ -1,0 +1,5 @@
+gametitle=Gregory Horror Show - Soul Collector (J)(SLPM-65324)
+
+[No-Interlacing]
+//by asasega
+patch=1,EE,2010210C,extended,00000000

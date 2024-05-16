@@ -1,0 +1,7 @@
+gametitle=Kaido Battle 2 - Chain Reaction [NTSC-J] (SLPM-65514)
+
+[No Interlacing]
+gsinterlacemode=1
+author=val
+description=Attempts to disable interlaced offset rendering.
+patch=1,EE,0013A204,word,00000000

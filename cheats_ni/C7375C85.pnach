@@ -1,0 +1,9 @@
+gametitle=TMNT Teenage Mutant Ninja Turtles 2 - Battle Nexus (PAL-M5) SLES-54478 D76BF975
+
+[Mode 480p]
+author=PeterDelta
+comment=Force progressive scan when selecting 60hz
+patch=1,EE,E0030000,extended,00558788
+patch=1,EE,201009B4,extended,24110000
+patch=1,EE,201009B8,extended,24120050
+patch=1,EE,201009C4,extended,24130001

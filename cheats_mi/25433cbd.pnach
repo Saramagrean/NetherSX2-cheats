@@ -1,0 +1,5 @@
+gametitle=Flipnic (J)(SCPS-15050)
+
+[Fixes Hang]
+//In some stages due to ipu issues
+patch=1,EE,0011c000,word,00000000

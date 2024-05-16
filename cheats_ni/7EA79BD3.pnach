@@ -1,0 +1,5 @@
+[No Interlacing]
+gsinterlacemode=1
+comment=Attempts to disable interlacing
+author=Strawberry Shortcake
+patch=1,EE,001382BC,word,30840000 //30842000

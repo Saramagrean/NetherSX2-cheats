@@ -1,0 +1,6 @@
+gametitle=Crash - Mind Over Mutant (NTSC-U)
+
+[Progressive Scan]
+author=CRASHARKI
+comment=Run the game with Progressive Scan enabled from the start.
+patch=1,EE,207155B0,byte,1 //00000000 //Progressive Scan from the beginning

@@ -1,0 +1,6 @@
+gametitle=Samurai Warriors 2 (U)(SLUS-21462)
+
+[Skip Videos]
+patch=0,EE,0013CD10,word,24020001
+//ZeroGS patches
+//zerogs=00000002

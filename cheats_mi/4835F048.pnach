@@ -1,0 +1,7 @@
+gametitle=Lemony Snicket's A Series of Unfortunate Events (U)(SLUS-21078) 4835F048
+
+[60 FPS]
+author=asasega
+comment=Unlocked at 60 FPS. Might need enable 130% EE Overclock to be stable.
+patch=1,EE,20447740,extended,42EFC28F
+patch=1,EE,20447744,extended,3C08AB86

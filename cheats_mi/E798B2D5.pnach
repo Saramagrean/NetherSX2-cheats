@@ -1,0 +1,10 @@
+gametitle=Hot Wheels - Stunt Track Challenge (U)(SLUS-20954)
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+
+//Widescreen hack 16:9
+
+patch=1,EE,001f48e4,word,3c013f40 //3c013f80 render fix
+patch=1,EE,00201e2c,word,3c013fc0 //3c014000 fov
+patch=1,EE,00362c1c,word,3c013f10 //3c013f40 vert fov

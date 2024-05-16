@@ -1,0 +1,13 @@
+gametitle=Star Wars - Battlefront 2 (PAL-M) SLES-53501 02F4B541 secondary SWBFRNT2.ELF=B68D35CA
+//Corresponds to the main crc to activate the secondary crc B68D35CA called SWBFRNT2.ELF
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=nemesis2000 and Arapapa
+comment=Widescreen Hack 16:9
+
+//00000000 00000000 83051646 00000000
+//403f013c 00008144 83051646 03000046
+patch=1,EE,00580784,word,3c013f40 //hor fov
+patch=1,EE,00580788,word,44810000
+patch=1,EE,00580790,word,46000003

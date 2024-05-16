@@ -1,0 +1,9 @@
+gametitle=Shrek 2 (U) (SLUS_207.45)
+//Main CRC 11D7EC66
+//SHREK2.ELF CRC 9C41124B
+
+[60 FPS]
+author=asasega
+comment=Patches the game to run at 60 FPS.
+patch=1,EE,2014B6C8,word,24040001
+patch=1,EE,202ADFA8,word,3C013F00

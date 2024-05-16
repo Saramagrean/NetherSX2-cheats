@@ -1,0 +1,6 @@
+gametitle=Tokyo Xtreme Racer 3 (SLUS-20831)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20131684,extended,00000000

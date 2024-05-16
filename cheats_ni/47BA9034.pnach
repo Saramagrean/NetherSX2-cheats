@@ -1,0 +1,6 @@
+gametitle=Shin Megami Tensei - Nocturne Maniax Chronicle Edition (J) (SLPM_66681)
+
+[No-Interlacing]
+//by asasega
+//01003126 2d206002 2d380000
+patch=1,EE,002b0b68,word,64040001
