@@ -1,0 +1,7 @@
+gametitle=Obscure: The Aftermath  (SLUS-21709)
+
+[Remove Blackbars]
+description=Removes black bars in cutscenes
+patch=1,EE,001f4b58,word,3c020000
+patch=1,EE,001f4a68,word,3c030000
+patch=1,EE,001f4ad8,word,3c020000

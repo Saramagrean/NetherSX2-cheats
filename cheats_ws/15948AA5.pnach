@@ -16,6 +16,3 @@ patch=1,EE,00148718,word,46016303
 patch=1,EE,00148368,word,0c0521bf
 patch=1,EE,00197ddc,word,0c0521bf
 patch=1,EE,00197df8,word,0c0521bf
-
-//black borders fix
-patch=1,EE,0017f75c,word,3c013f80

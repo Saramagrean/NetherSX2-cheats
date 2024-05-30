@@ -13,6 +13,3 @@ patch=1,EE,20560f94,extended,44550000 // 44200000
 //patch=1,EE,002a161c,word,c783c51c // 00000000
 //patch=1,EE,002a1674,word,461e18c3 // c783c51c
 //patch=1,EE,002d2b0c,word,3c014456 // 3c014420 renderfix
-
-// black border fix
-patch=1,EE,003323dc,word,3c010000 // 3c014300

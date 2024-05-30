@@ -7,3 +7,8 @@ patch=1,EE,E0030002,extended,0047b210
 patch=1,EE,2047b210,extended,00000001 //00000002 //fps
 patch=1,EE,205210a8,extended,3f800000 //40000000 //speed modifiers
 patch=1,EE,2015b274,extended,3c013f40 //3c013f80 //environment speed
+
+[Remove Blackbars]
+description=Removes black bars in cutscenes
+patch=1,EE,00109e90,word,3c01c380 // 3c01c316
+patch=1,EE,00109ec4,word,3c014380 // 3c014316

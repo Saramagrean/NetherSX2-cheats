@@ -1,0 +1,7 @@
+gametitle=Kingdom Hearts (SLUS-20370)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,00104264,word,00000000
+patch=1,EE,00104384,word,00000000

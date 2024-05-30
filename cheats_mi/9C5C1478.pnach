@@ -1,0 +1,6 @@
+gametitle=The Godfather (PAL)(SLES-53967)
+
+[Remove Blackbars]
+author=Arapapa
+description=Removes black bars in cutscenes
+patch=1,EE,006617B8,word,00000001

@@ -14,3 +14,8 @@ patch=1,EE,1018606C,extended,3C023FE3
 patch=1,EE,10186070,extended,3443BBD6
 patch=1,EE,101F5C88,extended,3C023FE3
 patch=1,EE,101F5C90,extended,3442BBD6
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,0032b0a8,word,3c023f80

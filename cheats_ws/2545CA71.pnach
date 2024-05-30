@@ -26,10 +26,6 @@ patch=1,EE,0042b41c,word,461e2102 //46001103 Left
 patch=1,EE,0042b428,word,4600a143 //00000000
 patch=1,EE,0042b42c,word,461e2942 //4600a143 Right
 
-//Black Bar Fix(Get rid of Black Bar)
-//4842013c 00a08144 80730e46
-patch=1,EE,002ea0f0,word,3c010000 //3c014248
-
 //Get rid of fading effect (Black Scene)
 patch=1,EE,002ea018,word,3c010000 //3c013f80
 patch=1,EE,002ea4a0,word,3c010000 //3c013f80

@@ -1,0 +1,7 @@
+gametitle=Red Ninja - End of Honor (PAL-E) (SLES-53025)
+
+[Remove Blackbars]
+author=ElHecht
+description=Removes black bars in cutscenes
+patch=1,EE,0010a694,word,3c01c380 // 3c01c316
+patch=1,EE,0010a6c8,word,3c014380 // 3c014316

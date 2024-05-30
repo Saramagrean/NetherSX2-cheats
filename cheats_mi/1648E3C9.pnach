@@ -14,3 +14,8 @@ patch=1,EE,2019B4F4,extended,00000000
 patch=1,EE,2019B834,extended,0000502D
 patch=1,EE,201BF7A8,extended,0000202D
 patch=1,EE,0019B840,extended,24070002
+
+[Remove Blackbars]
+author=ElHecht
+description=Removes black bars in cutscenes
+patch=1,EE,003323dc,word,3c010000 // 3c014300

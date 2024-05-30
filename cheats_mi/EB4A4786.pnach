@@ -1,0 +1,5 @@
+﻿gametitle=Wild Arms Advanced 3rd  [NTSC-J] (SCPS-15024)
+
+[Remove Blackbars]
+description=Removes black bars in cutscenes
+patch=1,EE,001a962c,word,24079400 //24076c00

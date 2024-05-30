@@ -21,7 +21,3 @@ patch=1,EE,0029a930,word,3c024415 // 3c0243e0 loading screen ver fov
 
 // font fix for cut-scenes
 patch=1,EE,001c5a4c,word,3c024190 // 3c0241c0
-
-// remove black bars in cut-scenes
-patch=1,EE,001e4654,word,3c020000 // 3c024420
-patch=1,EE,001e46a0,word,3c020000 // 3c024420

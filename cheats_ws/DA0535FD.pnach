@@ -22,11 +22,5 @@ patch=1,EE,2037ae44,word,3F400000 // 3F800000
 patch=1,EE,2037ae48,word,3F400000 // 3F800000
 patch=1,EE,2037ae4c,word,3F400000 // 3F800000
 
-//black bar fix
-patch=1,EE,0014aaf0,word,24050000
-patch=1,EE,0014ab18,word,24050000
-patch=1,EE,0014ab40,word,24050000
-patch=1,EE,0014ab70,word,24050000
-
 //lower subtitles
 patch=1,EE,001aae88,word,240a0190

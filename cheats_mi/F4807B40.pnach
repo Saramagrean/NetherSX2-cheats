@@ -1,0 +1,6 @@
+gametitle=Legend of Kay (SLUS_21248)
+
+[Remove Blackbars]
+author=No.47
+description=Removes black bars in cutscenes
+patch=1,EE,003047a4,word,3c0141f0 // 3c014180

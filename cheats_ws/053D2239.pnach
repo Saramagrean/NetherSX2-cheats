@@ -57,6 +57,3 @@ patch=1,EE,E00367C8,extended,004AD5E0
 patch=1,EE,204AD5D8,extended,3FB00000
 patch=1,EE,204AD5DC,extended,3F2F7CEE
 patch=1,EE,204AD5E4,extended,BFB00000
-patch=1,EE,0025E69C,extended,00000000 //black bands in scenes
-patch=1,EE,E0010001,extended,0020C174
-patch=1,EE,0025E69C,extended,00000001

@@ -1,28 +1,44 @@
 gametitle=Baldur's Gate: Dark Alliance * SLUS-20035 * NTSC-U * 773A8DAB
 
-[Widescreen 16:10]
+[Widescreen/16:10]
 gsaspectratio=Stretch
+author=nemesis2000 & No.47, converted by pgert
 // ==========
-comment=Baldur's Gate: Dark Alliance * SLUS-20035 * NTSC-U * 773A8DAB
-// ==========
-
-// 16:10 - pgert
-// ==========
-// vert fov-
+// Y-FoV-
 patch=1,EE,00320fd0,word,3F0F5C2A
 patch=1,EE,0032102c,word,3F0F5C2A
 patch=1,EE,00322950,word,3F0F5C2A
 patch=1,EE,00320efc,word,3F0F5C2A
 patch=1,EE,00320f44,word,3F0F5C2A
 // ==========
-// both fov+
+// both FoV+
 patch=1,EE,0014ca8c,word,3C014455
 patch=1,EE,00152998,word,3C014455
 patch=1,EE,00200bf8,word,3C014455
 patch=1,EE,0013d048,word,3C014455
 patch=1,EE,00144f60,word,3C014455
 // ==========
-// render fix value by No.47
+// Render fix value by No.47
 patch=1,EE,00320fa8,word,3FCC49BB
 patch=1,EE,00320fcc,word,3FCC49BB
+// ==========
+
+[Widescreen/15:10]
+gsaspectratio=Stretch
+author=nemesis2000 & No.47, converted by pgert
+// ==========
+patch=1,EE,00320fd0,word,3F066665
+patch=1,EE,0032102c,word,3F066665
+patch=1,EE,00322950,word,3F066665
+patch=1,EE,00320efc,word,3F066665
+patch=1,EE,00320f44,word,3F066665
+// ==========
+patch=1,EE,0014ca8c,word,3C014464
+patch=1,EE,00152998,word,3C014464
+patch=1,EE,00200bf8,word,3C014464
+patch=1,EE,0013d048,word,3C014464
+patch=1,EE,00144f60,word,3C014464
+// ==========
+patch=1,EE,00320fa8,word,3FBF851F
+patch=1,EE,00320fcc,word,3FBF851F
 // ==========

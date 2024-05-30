@@ -11,11 +11,6 @@ patch=1,EE,0010e328,word,4600c602
 patch=1,EE,002ba3ec,word,34a98c00
 patch=1,EE,002ba3d4,word,34a67400
 
-//black borders fix
-patch=1,EE,002c9ea8,word,00000000
-patch=1,EE,002c9eac,word,03e00008
-patch=1,EE,002c9eb0,word,00000000
-
 //dynamic zoom
 //patch=1,EE,2045FD40,word,3F800000
 

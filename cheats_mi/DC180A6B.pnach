@@ -1,0 +1,11 @@
+gametitle=Silent Hill Origins (SLES-55147)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,001832d4,word,3c010000 //3c014220
+
+[50 FPS]
+author=PeterDelta
+description=Unlocks internal FPS. Might need EE Overclock at 130%.
+patch=1,EE,006B3974,extended,04000001 //04000002

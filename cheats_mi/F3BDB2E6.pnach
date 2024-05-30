@@ -1,0 +1,6 @@
+gametitle=Shadow Hearts Covenant SLUS_210.41
+
+[Remove Blackbars]
+description=Removes black bars in cutscenes
+// (c843033c 803f023c to c843033c 0000023c)
+patch=1,EE,00402f24,word,3c020000 //3c023f80

@@ -1,0 +1,9 @@
+gametitle=Disney Princess - Enchanted Journey (E)(SLES-54837)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=Forces progressive scan mode 480p at startup.
+patch=1,EE,003313DC,word,24110000
+patch=1,EE,003313E0,word,24120050
+patch=1,EE,003313EC,word,24130001

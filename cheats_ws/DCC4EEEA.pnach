@@ -1,0 +1,7 @@
+gametitle=Primal * PAL-M5 * SCES-51135 * DCC4EEEA
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=pgert
+description=Native Widescreen is set on start.
+patch=1,EE,204886FC,extended,00000001 // 00000000

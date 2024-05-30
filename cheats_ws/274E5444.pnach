@@ -13,8 +13,5 @@ patch=1,EE,018bd5b8,word,34028260
 patch=1,EE,018bcf38,word,3c026fa0
 patch=1,EE,018bcf84,word,34028260
 
-//black borders fix by nemesis2000
-patch=1,EE,018f37e4,word,3c030000
-
 //remove black square near Panic Meter
 patch=1,EE,2041C240,word,00000000

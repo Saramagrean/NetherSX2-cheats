@@ -4,3 +4,8 @@ gametitle=Silent Hill Origins (SLUS-21731)
 author=asasega
 comment=Patches the game to run at 60 FPS
 patch=1,EE,006B3474,extended,00000001
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,00183548,word,24020000 //24020001

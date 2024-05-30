@@ -1,0 +1,6 @@
+gametitle=Disney's Treasure Planet (E)(SCES-51177)
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,002E8B34,extended,00000000

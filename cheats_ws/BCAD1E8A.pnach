@@ -16,9 +16,6 @@ patch=1,EE,0011a644,word,00000000
 patch=1,EE,0028E8C0,word,00000001
 // Sub black background off
 patch=1,EE,0013d458,word,3c013b30
-// Cutscenes black border fix
-patch=1,EE,001522e0,word,3c01bf80 // top value
-patch=1,EE,001522ec,word,3c013f80 // bottom value
 // Cutscenes render fix
 patch=1,EE,00119a34,word,3c01c340 // top value
 patch=1,EE,00119a50,word,3c014340 // bottom value

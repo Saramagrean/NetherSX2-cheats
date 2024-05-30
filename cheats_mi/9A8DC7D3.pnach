@@ -1,0 +1,6 @@
+gametitle=Blood Omen 2: The Legacy of Kain Series (SLUS-20024)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,002d443c,word,00000000

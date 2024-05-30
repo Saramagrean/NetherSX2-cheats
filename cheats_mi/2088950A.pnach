@@ -1,0 +1,7 @@
+gametitle=Xenosaga Episode III: Also sprach Zarathustra (Disc 1) (SLUS-21389) / Xenosaga Episode III: Also sprach Zarathustra (Disc 2) (SLUS-21417)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,00244d90,word,24060000
+patch=1,EE,00244da4,word,24c801c0

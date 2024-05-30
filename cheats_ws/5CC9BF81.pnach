@@ -11,9 +11,3 @@ patch=1,EE,0059af00,word,3fe38e38
 patch=1,EE,0059af98,word,3fe38e38
 patch=1,EE,0059afa8,word,3fe38e38
 patch=1,EE,0059d7dc,word,3fe38e38
-
-//black border's fix
-patch=1,EE,003c7714,word,24150000
-patch=1,EE,003c771c,word,24160200
-patch=1,EE,003c7d4c,word,24070000
-patch=1,EE,003c7d5c,word,24050200

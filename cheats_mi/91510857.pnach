@@ -8,9 +8,6 @@ comment=Widescreen Hack by ElHecht
 patch=1,EE,002147e0,word,3c013f55 // 00000000 hor fov
 patch=1,EE,00214800,word,34215555 // 00000000 hor fov
 
-// cut-scenes black bar removal
-patch=1,EE,002027a8,word,3c030000 // 3c034420 remove black bars in cut-scenes
-
 // 16:9 and 16:10 main modifications
 // no need to change anything here! all modifications are calculated
 // based on the hor fov value in the upper 16:9/16:10 section
@@ -36,3 +33,7 @@ patch=1,EE,001afa50,word,46002103 // 44882000 crosshair/aiming fix unit vector
 patch=1,EE,001afa54,word,461e26c3 // 46002103 crosshair/aiming fix unit vector
 patch=1,EE,001afa58,word,461b0842 // 46040842 crosshair/aiming fix unit vector
 
+[Remove Blackbars]
+author=ElHecht
+description=Removes black bars in cutscenes
+patch=1,EE,002027a8,word,3c030000 // 3c034420

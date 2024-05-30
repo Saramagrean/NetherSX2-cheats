@@ -13,11 +13,10 @@ patch=1,EE,00144aa8,word,3c053f40
 patch=1,EE,00144b24,word,3c033f40
 patch=1,EE,00144b74,word,3c023f40
 
-//render fix
+// Render fix
 patch=1,EE,0013e380,word,3c023f2b
-
-//Font fix
-//003d053c 0042033c
-//003d053c c041033c
-patch=1,EE,0010eb34,word,3c0341c0 //3c034200 X-Fov
-//patch=1,EE,0010eb40,word,3c054140 //3c054180 Y-Fov
+// Font fix - by Arapapa
+// 003d053c 0042033c
+// 003d053c c041033c
+patch=1,EE,0010eb34,word,3c0341c0 // 3c034200 - X-FoV
+//patch=1,EE,0010eb40,word,3c054140 // 3c054180 - Y-FoV

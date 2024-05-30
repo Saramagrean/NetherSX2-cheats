@@ -10,8 +10,3 @@ patch=1,EE,0010e328,word,4600c602
 //cutscenes fix
 patch=1,EE,0028aecc,word,34a98c00
 patch=1,EE,0028aeb4,word,34a67400
-
-//black borders fix
-patch=1,EE,0035e628,word,00000000
-patch=1,EE,0035e62c,word,03e00008
-patch=1,EE,0035e630,word,00000000

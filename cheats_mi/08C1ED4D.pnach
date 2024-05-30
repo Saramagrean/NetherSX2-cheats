@@ -1,0 +1,8 @@
+gametitle=Haunting Ground (SLES-52877)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,0035e628,word,00000000
+patch=1,EE,0035e62c,word,03e00008
+patch=1,EE,0035e630,word,00000000

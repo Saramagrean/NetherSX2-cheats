@@ -1,0 +1,6 @@
+gametitle=Rogue Galaxy (SCUS-97490)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,002611D4,word,3c020000

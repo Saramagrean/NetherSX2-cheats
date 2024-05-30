@@ -1,0 +1,56 @@
+gametitle=The Bard's Tale (K) (SLKA_252.46)
+
+[Widescreen/16:10]
+gsaspectratio=Stretch
+author=nemesis2000 & Arapapa, converted by pgert
+patch=1,EE,0011cbc4,word,3c023f55
+patch=1,EE,0012f09c,word,3c033f55
+patch=1,EE,00144aa8,word,3c053f55
+patch=1,EE,00144b24,word,3c033f55
+patch=1,EE,00144b74,word,3c023f55
+patch=1,EE,0013e380,word,3c023f1a
+patch=1,EE,0010eb34,word,3c0341d5
+
+[Widescreen/15:10]
+gsaspectratio=Stretch
+author=nemesis2000 & Arapapa, converted by pgert
+patch=1,EE,0011cbc4,word,3c023f64
+patch=1,EE,0012f09c,word,3c033f64
+patch=1,EE,00144aa8,word,3c053f64
+patch=1,EE,00144b24,word,3c033f64
+patch=1,EE,00144b74,word,3c023f64
+patch=1,EE,0013e380,word,3c023f10
+patch=1,EE,0010eb34,word,3c0341e4
+
+[Widescreen/20:9]
+gsaspectratio=Stretch
+author=nemesis2000 & Arapapa, converted by pgert
+patch=1,EE,0011cbc4,word,3c023f12
+patch=1,EE,0012f09c,word,3c033f12
+patch=1,EE,00144aa8,word,3c053f12
+patch=1,EE,00144b24,word,3c033f12
+patch=1,EE,00144b74,word,3c023f12
+patch=1,EE,0013e380,word,3c023f55
+patch=1,EE,0010eb34,word,3c034192
+
+[Widescreen/21:9]
+gsaspectratio=Stretch
+author=nemesis2000 & Arapapa, converted by pgert
+patch=1,EE,0011cbc4,word,3c023f1a
+patch=1,EE,0012f09c,word,3c033f1a
+patch=1,EE,00144aa8,word,3c053f1a
+patch=1,EE,00144b24,word,3c033f1a
+patch=1,EE,00144b74,word,3c023f1a
+patch=1,EE,0013e380,word,3c023f60
+patch=1,EE,0010eb34,word,3c03419a
+
+[Widescreen/32:9]
+gsaspectratio=Stretch
+author=nemesis2000 & Arapapa, converted by pgert
+patch=1,EE,0011cbc4,word,3c023ec0
+patch=1,EE,0012f09c,word,3c033ec0
+patch=1,EE,00144aa8,word,3c053ec0
+patch=1,EE,00144b24,word,3c033ec0
+patch=1,EE,00144b74,word,3c023ec0
+patch=1,EE,0013e380,word,3c023fab
+patch=1,EE,0010eb34,word,3c0342ab

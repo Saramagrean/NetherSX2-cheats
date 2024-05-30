@@ -3,4 +3,11 @@ gametitle=Champions of Norrath (SLUS_20565)
 [No-Interlacing]
 description=Attempts to disable interlaced offset rendering.
 gsinterlacemode=1
-patch=1,EE,201912D8,extended,AE200008
+author=Agrippa
+comment=EE overclock is needed to avoid infrequent frame rate drops.
+patch=1,EE,204843E0,extended,00000000
+patch=1,EE,204843E4,extended,00000001
+patch=1,EE,20484474,extended,00000001
+patch=1,EE,20190AE4,extended,10000010
+patch=1,EE,20190B48,extended,10000005
+patch=1,EE,201913D8,extended,24020001

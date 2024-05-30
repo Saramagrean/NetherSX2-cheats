@@ -1,0 +1,5 @@
+﻿gametitle=ICO [NTSC-J] (SCPS-11003)
+
+[Remove Blackbars]
+description=Removes black bars in cutscenes
+patch=1,EE,00113380,word,3c010000 //3c014300

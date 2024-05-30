@@ -1,0 +1,5 @@
+gametitle=Rogue Galaxy - Director's Cut (J) (SCPS_170.13)
+
+[Remove Blackbars]
+description=Removes black bars in cutscenes
+patch=1,EE,00261050,word,3c020000

@@ -1,0 +1,5 @@
+gametitle=Gladiator - Sword of Vengeance NTSC-U
+
+[Remove Blackbars]
+description=Removes black bars in cutscenes
+patch=1,EE,0028462c,word,3c010000

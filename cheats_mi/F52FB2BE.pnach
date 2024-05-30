@@ -3,3 +3,8 @@ gametitle=Kingdom Hearts (PAL)
 [60 FPS]
 description=Forces the game to run at 60.
 patch=1,EE,002B67CC,extended,00000000
+
+[Remove Blackbars]
+description=Removes black bars in cutscenes
+patch=1,EE,0010430c,word,00000000
+patch=1,EE,0010442c,word,00000000

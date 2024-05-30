@@ -1,0 +1,7 @@
+gametitle=Full Spectrum Warrior (U)(SLUS-21145)
+
+[Remove Blackbars]
+author=Arapapa
+description=Removes black bars in cutscenes
+//4842013c 00a08144 80730e46
+patch=1,EE,002ea0f0,word,3c010000 //3c014248

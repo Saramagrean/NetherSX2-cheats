@@ -1,0 +1,8 @@
+gametitle=Obscure II (SCKA-20114)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,001f4a38,word,3c020000 //3c023f80
+patch=1,EE,001f49c8,word,3c030000 //3c033f80
+patch=1,EE,001f4ab8,word,3c020000 //3c023f80

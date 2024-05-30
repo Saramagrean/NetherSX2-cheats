@@ -12,5 +12,3 @@ patch=1,EE,00114C80,word,46181082
 //render fix
 patch=1,EE,00114624,word,240302AB
 patch=1,EE,00549578,word,44FA0000
-//black borders fix
-patch=1,EE,00113380,word,3C010000

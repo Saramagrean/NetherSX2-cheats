@@ -8,6 +8,3 @@ patch=1,EE,0013bd7c,extended,3c013f10
 
 //noise off
 patch=1,EE,2073D6A0,extended,00000000
-
-//black borders's fix
-patch=1,EE,00190e58,word,24050000

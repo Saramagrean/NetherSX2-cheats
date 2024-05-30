@@ -16,6 +16,8 @@ patch=1,EE,0018f9a8,word,4615ad03 // 3c013f80 renderfix
 patch=1,EE,0018f9ac,word,461e2743 // 4481a000 renderfix
 patch=1,EE,0018f9e0,word,e79dbcb4 // e784bcb4 renderfix
 
-//Black bar fix by Arapapa (Get rid of 'Black Bar')
+[Remove Blackbars]
+author=Arapapa
+description=Removes black bars in cutscenes
 //9a99993f 5555553f 5655553e
-patch=1,EE,00586d04,word,00000000 /3f99999a
+patch=1,EE,00586d04,word,00000000 //3f99999a

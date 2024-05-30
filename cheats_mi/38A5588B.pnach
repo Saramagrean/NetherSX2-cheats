@@ -54,4 +54,9 @@ patch=1,EE,203ae02c,extended,3c184420 // 44836000
 
 // cut-scenes black bar removal
 patch=1,EE,e001f8b5,extended,00767F94 // check 00767F94 matches value 0000f8b5
-patch=1,EE,20767F94,extended,40000000 // 3ee4f8b5
+//patch=1,EE,20767F94,extended,40000000 // 3ee4f8b5
+
+[Remove Blackbars]
+author=ElHecht
+description=Removes black bars in cutscenes
+patch=1,EE,00767F94,word,40000000

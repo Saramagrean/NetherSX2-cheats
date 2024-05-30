@@ -20,12 +20,6 @@ patch=1,EE,0042ed64,word,0805ca2e // 00000000 jump back to 00172928
 //00088344 803f023c 00a08244
 patch=1,EE,0025619c,word,3c023fab
 
-
-//black borders fix by nemesis2000
-patch=1,EE,001f4a38,word,3c020000 //3c023f80
-patch=1,EE,001f49c8,word,3c030000 //3c033f80
-patch=1,EE,001f4ab8,word,3c020000 //3c023f80
-
 //FMV's fix by nemesis2000
 patch=1,EE,002110ac,word,24020188 //10200007
 patch=1,EE,002110b0,word,14480003 //e7b40000

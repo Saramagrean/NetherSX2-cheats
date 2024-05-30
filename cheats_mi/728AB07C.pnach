@@ -1,0 +1,7 @@
+gametitle=Legacy of Kain: Defiance (SLUS-20773)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,00151ef8,word,3c01bf80 //top value
+patch=1,EE,00151f04,word,3c013f80 //bottom value

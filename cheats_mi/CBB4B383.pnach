@@ -20,3 +20,8 @@ patch=1,EE,2048cb8c,extended,3f800000 //Fix FMV
 patch=1,EE,E0020001,extended,004B2660 //Fix Subtitles in FMV
 patch=1,EE,2048cb8c,extended,3f800000 //Fix Subtitles in FMV
 patch=1,EE,201ce098,extended,3c033f80 //Fix Subtitles in FMV
+
+[Remove Blackbars]
+author=El_Patas
+description=Removes black bars in cutscenes
+patch=1,EE,00261FB4,word,3C020000 //3C023F80

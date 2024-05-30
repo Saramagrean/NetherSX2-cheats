@@ -1,5 +1,12 @@
 gametitle=Champions: Return to Arms (NTSC-U)
 
-[No-Interlacing
+[No-Interlacing]
 gsinterlacemode=1
-patch=1,EE,2019D9D4,extended,ACA00008
+author=Agrippa
+comment=EE overclock is needed to avoid infrequent frame rate drops.
+patch=1,EE,2044FD40,extended,00000000
+patch=1,EE,2044FD44,extended,00000001
+patch=1,EE,2044FDB4,extended,00000001
+patch=1,EE,2019DB0C,extended,10000010
+patch=1,EE,2019DB6C,extended,10000004
+patch=1,EE,2019E3AC,extended,24020001

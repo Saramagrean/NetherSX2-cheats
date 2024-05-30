@@ -12,3 +12,10 @@ comment=description=30 fps patch.
 //patch=1,EE,001D5AD8,extended,00000040
 //patch=1,EE,001D6DB8,extended,00000002
 //patch=1,EE,001D6DBC,extended,00000001
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,0025E69C,extended,00000000
+patch=1,EE,E0010001,extended,0020C174
+patch=1,EE,0025E69C,extended,00000001

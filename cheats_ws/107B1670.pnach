@@ -26,7 +26,3 @@ patch=1,EE,0018f0f0,word,e79dbca4 // e784bca4 renderfix
 //patch=1,EE,0018f0b8,word,4615ad03 // 3c013f80 renderfix
 //patch=1,EE,0018f0bc,word,461e2743 // 4481a000 renderfix
 //patch=1,EE,0018f0f0,word,e79dbca4 // e784bca4 renderfix
-
-//Black bar fix by Arapapa (Get rid of 'Black Bar')
-//9a99993f 5555553f 5655553e
-patch=1,EE,00585104,word,00000000 /3f99999a

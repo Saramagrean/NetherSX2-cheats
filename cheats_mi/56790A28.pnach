@@ -1,0 +1,13 @@
+gametitle=Disney Princess - Enchanted Journey (U)(SLUS-21660)
+
+[Remove Blackbars]
+author=Arapapa
+description=Removes black bars in cutscenes
+patch=1,EE,00188978,word,00000000 //44810000
+
+[60 FPS]
+author=asasega & PeterDelta
+description=Unlocks internal FPS. Might need EE Overclock at 130%.
+patch=1,EE,201002F4,extended,10000011
+patch=1,EE,E0010000,extended,003A67B0 //fixed fmv
+patch=1,EE,201002F4,extended,45000011

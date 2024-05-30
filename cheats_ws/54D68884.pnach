@@ -19,5 +19,3 @@ patch=1,EE,0010579c,word,3c014300 // 3c013e80 render fix
 patch=1,EE,002fce20,word,3c013f2e // 00000000 inventory fix
 patch=1,EE,002fce24,word,4481f000 // 00000000
 patch=1,EE,002ff9e4,word,461ea503 // 4600a502
-
-patch=1,EE,003032fc,word,3c0141f0 // 3c014180 remove black bars in cut-scenes

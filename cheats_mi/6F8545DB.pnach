@@ -1,0 +1,6 @@
+gametitle=ICO (SCUS-97113)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,00113030,word,3c010000

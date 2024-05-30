@@ -18,10 +18,6 @@ patch=1,EE,003ad0a8,word,4481f000
 patch=1,EE,003ad0ac,word,461e1082
 patch=1,EE,003ad0b0,word,08067060
 
-//Black bar fix (Gameplay)
-//803f013c 00008144 34100046 00000000
-patch=1,EE,001c2e10,word,3c013a00 //3c013f80
-
 //X-Fov (Menu, Text and Cutscene)
 //0000acc7 803f013c (2nd)
 patch=1,EE,002ea5c4,word,080eb42d

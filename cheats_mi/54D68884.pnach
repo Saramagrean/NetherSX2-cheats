@@ -1,0 +1,6 @@
+gametitle=Legend of Kay (PAL-M5) (SLES-52931)
+
+[Remove Blackbars]
+author=ElHecht
+description=Removes black bars in cutscenes
+patch=1,EE,003032fc,word,3c0141f0 // 3c014180

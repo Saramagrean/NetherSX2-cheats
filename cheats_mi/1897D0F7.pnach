@@ -1,0 +1,6 @@
+gametitle=Blood Omen 2: The Legacy of Kain Series (PAL/G) [SLES-50815]
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,002d24cc,word,00000000

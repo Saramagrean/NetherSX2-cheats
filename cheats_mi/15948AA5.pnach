@@ -1,0 +1,6 @@
+gametitle=Without Warning (SLUS)
+
+[Remove Blackbars]
+author=nemesis2000
+description=Removes black bars in cutscenes
+patch=1,EE,0017f75c,word,3c013f80

@@ -5,3 +5,9 @@ author=PeterDelta
 comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
 patch=1,EE,0047D2C0,word,42C80000 //42480000
 patch=1,EE,0047D2C4,word,3C23D70A //3CA3D70A
+
+[Remove Blackbars]
+author=Arapapa
+description=Removes black bars in cutscenes
+//803f013c 00008144 34100046 00000000
+patch=1,EE,001c2e10,word,3c013a00 //3c013f80

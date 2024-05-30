@@ -1,0 +1,7 @@
+gametitle=Worms 4 - Mayhem (E)(SLES-53096)
+
+[Remove Blackbars]
+author=Arapapa
+description=Removes black bars in cutscenes
+//803f013c 00088144 480003c6
+patch=1,EE,0017a6b4,word,3c010000 //3c013f80

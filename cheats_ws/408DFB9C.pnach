@@ -21,11 +21,6 @@ patch=1,EE,00211be8,word,1000ffdf
 //rfix by ElHecht
 patch=1,EE,00256234,word,3c033f2b
 
-//black borders fix
-patch=1,EE,001f4b58,word,3c020000
-patch=1,EE,001f4a68,word,3c030000
-patch=1,EE,001f4ad8,word,3c020000
-
 //resolution fix (upped from 512x448 to 640x448) by nemesis2000
 patch=1,EE,002125b4,word,24020280
 
