@@ -1,0 +1,8 @@
+gametitle=DragonBall Z - Budokai SLUS_205.91
+
+[No-Interlacing]
+author=Josh_7774
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+////Disable Interlacing Instruction
+patch=1,EE,20155814,extended,00000000

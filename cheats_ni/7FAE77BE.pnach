@@ -1,0 +1,5 @@
+gametitle=Shin Megami Tensei - Devil Summoner 2: Raidou Kuzunoha vs. King Abaddon * NTSC-U * SLUS-21845 * 7FAE77BE
+
+[No-Interlacing]
+author=Red_Tv
+patch=1,EE,003d1ca0,word,00000000 // a382016a
