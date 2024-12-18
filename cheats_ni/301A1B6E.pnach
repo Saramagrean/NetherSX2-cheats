@@ -1,0 +1,7 @@
+gametitle=Scarface - The World is Yours (MULTI4) (SLES-54182)
+
+[480p Mode]
+gsinterlacemode=1
+author=Gabominated
+description=SDTV 480p mode at start. Might need enable EE Overclock to be stable.
+patch=1,EE,2072dc38,extended,24120050

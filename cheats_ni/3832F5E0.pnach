@@ -1,8 +1,7 @@
 gametitle=Everblue (PAL)(SLES-50639)
 
-[240p Mode]
-author=felixthecat1970
-comment=240p mode games is field render
-
-//240p mode 
-patch=1,EE,20134898,extended,0000282D
+[No-Interlacing]
+gsinterlacemode=1
+author=PeterDelta
+description=Enable progressive interlacing.
+patch=1,EE,001001D4,word,3C050000

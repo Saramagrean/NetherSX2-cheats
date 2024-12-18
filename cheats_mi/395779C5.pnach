@@ -1,0 +1,6 @@
+gametitle=Sniper Elite (U)(SLUS-21231)
+
+[60 FPS]
+author=Gabominated
+description=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,00199018,word,1460000A //1060000A

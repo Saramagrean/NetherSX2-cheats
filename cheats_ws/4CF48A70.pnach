@@ -1,0 +1,17 @@
+gametitle=Shrek 2 (Spain) (SLES_523.82)
+//This pnach corresponds to the main CRC of the game, but it's just meant to activate SLES-52382_76C01D41.pnach
+//Main CRC 4CF48A70
+//SHREK2.ELF CRC 76C01D41
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Renders the game in 16:9 aspect ratio
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+
+[480p Mode]
+author=PeterDelta
+description=SDTV 480p mode at start.

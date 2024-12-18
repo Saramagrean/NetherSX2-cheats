@@ -1,0 +1,7 @@
+gametitle=Hitman - Blood Money (PAL-S) (SLES-53032)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=Any Hz selection will output in 480p.
+patch=1,EE,0049AF94,word,00000003

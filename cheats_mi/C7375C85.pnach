@@ -2,9 +2,11 @@ gametitle=TMNT Teenage Mutant Ninja Turtles 2 - Battle Nexus (PAL-M5) SLES-54478
 
 [50/60 FPS]
 author=PeterDelta
-comment=Unlocked at 50/60 FPS. Might need enable EE Overclock to be stable.
+description=Might need EE Overclock at 130%.
 patch=1,EE,10557B6C,extended,04000001 //04000002
-patch=1,EE,E001D70A,extended,00558200
+patch=1,EE,E002D70A,extended,00558200
 patch=1,EE,20558200,extended,3CA3D70A //3D23D70A 50hz
-patch=1,EE,E0018889,extended,00558200
+patch=1,EE,205581FC,extended,42480000
+patch=1,EE,E0028889,extended,00558200
 patch=1,EE,20558200,extended,3C888889 //3D088889 60hz
+patch=1,EE,205581FC,extended,42700000

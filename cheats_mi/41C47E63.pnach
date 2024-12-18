@@ -1,0 +1,6 @@
+gametitle=Prince Of Persia : The Sands Of Time (SLKA_251.20)
+
+[Remove Blur/Bloom]
+author=fobes
+description=Removes the post-processing blur/bloom effect
+patch=1,EE,004A9D94,word,00000000

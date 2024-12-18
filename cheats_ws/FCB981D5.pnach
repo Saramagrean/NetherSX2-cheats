@@ -1,0 +1,8 @@
+gametitle=Ratchet & Clank - Size Matters PAL-M SCES-55019 FCB981D5
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Enable native widescreen
+patch=1,EE,01EF5718,word,00000001 //00000000
+patch=1,EE,01F4AB20,word,00000001 //00000000

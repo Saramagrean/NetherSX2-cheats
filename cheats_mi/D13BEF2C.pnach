@@ -1,6 +1,11 @@
 gametitle=Max Payne 2 - Fall of Max Payne (Spain) (SLES-52256)
 
-[50 FPS]
+[Remove Blackbars]
 author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable 300% EE Overclock to be stable.
+description=Removes black bars in cutscenes
+patch=1,EE,20729AE8,extended,3F800000
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 30
 patch=1,EE,005C0DF8,word,00000001 //00000002

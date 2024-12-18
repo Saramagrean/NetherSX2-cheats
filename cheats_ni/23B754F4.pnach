@@ -1,0 +1,19 @@
+gametitle=Project Zero 3 - The Tormented
+
+[Disable Overbloom on Cutscenes]
+author=nemesis2000 & pgert
+patch=1,EE,001573FC,word,00000000 // 0C055DD2
+
+[Upscaling offset fix]
+author=pgert
+description=Fixes offset glitch
+patch=1,EE,0036E268,word,43A30000 // 43A00000 - TC X-offset
+// - corresponds to having "TC Offset X" set to 395 (GSdx).
+patch=1,EE,0036E26C,word,43660000 // 43600000 - TC Y-offset
+// - corresponds to having "TC Offset Y" set to 790 (GSdx).
+
+[Upscaling MenuZoom fix]
+author=pgert
+description=Fixes MenuZoom glitch
+patch=1,EE,0037098C,word,439F8000 // 43A00000
+patch=1,EE,00370990,word,435F8000 // 43600000

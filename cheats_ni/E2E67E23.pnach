@@ -1,8 +1,9 @@
 gametitle=Red Dead Revolver [PAL-M] SLES-52478 E2E67E23
 
-[Mode 480p]
+[480p Mode]
+gsinterlacemode=1
 author=PeterDelta
-comment=Force progressive scan when selecting 60hz
+description=SDTV 480p mode when selecting 60 Hz
 patch=1,EE,E004F9FF,extended,007A25EC
 patch=1,EE,203CBA1C,extended,3C050000
 patch=1,EE,203CBA24,extended,3C060050

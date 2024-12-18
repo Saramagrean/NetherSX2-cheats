@@ -1,0 +1,6 @@
+gametitle=The Thing SLUS-20371 3F0DC9DC
+
+[60 FPS]
+author=asasega
+description=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,20968CA8,word,00000001 //00000002

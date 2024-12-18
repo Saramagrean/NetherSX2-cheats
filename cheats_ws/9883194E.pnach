@@ -26,11 +26,3 @@ patch=1,EE,001349a8,word,3C01428C //3c0142a0
 patch=1,EE,00134a8c,word,3C01410C //3c014120
 patch=1,EE,00134a54,word,3C014128 //3c014140
 patch=1,EE,00134a10,word,3C0141A8 //3c0141c0
-
-//Remove effects (Memory Hack)
-//6666f643 0000803f 0000803f
-//patch=1,EE,203496CC,extended,00000000 //blurry bloom
-//00002044 0000e043 0000803f 0000803f 00000000 00000000 (10)
-//patch=1,EE,20349B4C,extended,00000000 //dark filter
-//00002044 0000e043 0000803f 0000803f 00000000 00000000 (8)
-//patch=1,EE,203499DC,extended,00000000 //post process and noise

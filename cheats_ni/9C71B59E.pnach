@@ -1,0 +1,7 @@
+gametitle=Psi-Ops: The Mindgate Conspiracy (SLUS-20688)
+
+[No-interlacing]
+gsinterlacemode=1
+author=Gabominated
+description=Force progressive mode.
+patch=1,EE,00566524,word,3c051000

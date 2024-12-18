@@ -1,0 +1,6 @@
+gametitle=Crime Life - Gang Wars (E)(SLES-52122)
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,006388D8,word,00000000 //00000001

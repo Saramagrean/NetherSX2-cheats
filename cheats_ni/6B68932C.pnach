@@ -1,9 +1,9 @@
 gametitle=Spider-Man 2 (PAL) (SLES_523.72) 6B68932C
 
-[Mode 480p]
+[480p Mode]
+gsinterlacemode=1
 author=PeterDelta
-comment=Forces progressive scan mode 480p at startup
+description=SDTV 480p mode at start.
 patch=1,EE,00578864,word,3C050000
 patch=1,EE,0057886C,word,3C060050
 patch=1,EE,00578874,word,3C070001
-patch=1,EE,1060AD04,extended,01E0

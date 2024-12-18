@@ -3,5 +3,5 @@ gametitle=Midnight Club II (PAL-M) SLES-51054 ACB1989A
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-comment=Renders the game in 16:9 aspect ratio
-patch=1,EE,0042F134,word,3FC71CEA //3F955553
+description=Renders the game in 16:9 aspect ratio
+patch=1,EE,0042F134,word,3FC71C65 //3F955553

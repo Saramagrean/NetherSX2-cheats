@@ -1,0 +1,7 @@
+gametitle=Conan - The Dark Axe (E)(SLES-52451)
+
+[480p Mode]
+gsinterlacemode=1
+author=Gabominated
+description=SDTV 480p mode at start. Might need enable EE Overclock to be stable.
+patch=1,EE,201011E4,extended,24060050 //24060003 progressive scan mode

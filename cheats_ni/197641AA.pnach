@@ -1,0 +1,10 @@
+gametitle=Increíbles, Los (PAL-S) SLES-52816 197641AA
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,00104760,word,34050050
+patch=1,EE,00104764,word,24030002
+patch=1,EE,00104768,word,0000000C
+patch=1,EE,0010476C,word,03E00008

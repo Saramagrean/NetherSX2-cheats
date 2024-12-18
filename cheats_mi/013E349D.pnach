@@ -1,0 +1,24 @@
+gametitle=Resident Evil 4 (NTSC-U)[Larger FOV codes]
+comment=Patches by arapapa and Devina
+
+//Hold X and triangle at start for progressive scan
+
+//Keep on alwayspatch=1,EE,20252F40,word,00000000 //Real widescreen
+patch=1,EE,20430F60,word,40000000 //Internal widescreen setting on
+patch=1,EE,002810e0,word,3c013f2b //3c013f00 //Render fix
+
+//Use if doing Leon's campaign (disable if not doing Leon's campaign)
+patch=1,EE,2031E3F4,word,42820000 //FOV1
+patch=1,EE,2031DC74,word,42820000 //FOV2
+patch=1,EE,2031C2F4,word,42700000 //knife/grenade
+patch=1,EE,2031C474,word,42700000 //knife/grenade
+
+//Use if not doing Leon's campaign (disable if doing Leon's campaign)
+//Force zoom out
+//patch=1,EE,E0020001,extended,1041c0b8
+//patch=1,EE,20252f18,extended,3c014360
+//patch=1,EE,2021d2b4,extended,3c01bf80
+
+//patch=1,EE,E0020001,extended,0041c0b8
+//patch=1,EE,20252f18,extended,3c014328 //3c014360
+//patch=1,EE,2021d2b4,extended,3c01bfaa

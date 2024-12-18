@@ -1,0 +1,7 @@
+gametitle=Resident Evil 4 (PAL)[480p Mode]author=Patches by arapapa and Devina
+comment=larger FOV codesdescription=Hold X and triangle at start for progressive scan
+//Use if doing Leon's campaign (disable if not doing Leon's campaign)
+patch=1,EE,2031E674,extended,42820000 //FOV1
+patch=1,EE,2031DEF4,extended,42820000 //FOV2
+patch=1,EE,2031C574,extended,42700000 //knife/grenade
+patch=1,EE,2031C6F4,extended,42700000 //knife/grenade

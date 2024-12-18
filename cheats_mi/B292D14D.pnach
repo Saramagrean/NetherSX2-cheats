@@ -1,0 +1,18 @@
+﻿gametitle=Zero: Akai Chou (SLPS-25303)
+
+[Disable Dither effect]
+patch=1,EE,0019ed14,word,10000012 // 54400012
+
+[Cutscenes Focus Effect fix]
+patch=1,EE,0020b95c,word,00000000 // 0c08308a
+
+// ==========
+
+[Aspect ratio of 16:10]
+comment=by wagrenier
+patch=1,EE,003ff6b8,word,3F400000 // X-FoV
+patch=1,EE,00336d0c,word,3F4A3D71 // Y-FoV
+
+[Aspect ratio of 21:9 (3440x1440)]
+comment=by wagrenier
+patch=1,EE,003ff6b8,word,3F400000 // X-FoV

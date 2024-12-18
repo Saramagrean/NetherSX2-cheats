@@ -1,6 +1,10 @@
 gametitle=Fatal Frame (SLUS-20388)
 
-[Remove effects]
-patch=1,EE,2034A8FC,word,00000000 //blurry bloom
-patch=1,EE,2034AD7C,word,00000000 //dark filter
-patch=1,EE,2034AC0C,word,00000000 //post process and noise
+[Disable Blurry Bloom effect]
+patch=1,EE,2034A8FC,word,00000000
+
+[Disable Dark Filter effect]
+patch=1,EE,2034AD7C,word,00000000
+
+[Disable Post-Process and Noise effect]
+patch=1,EE,2034AC0C,word,00000000

@@ -1,0 +1,7 @@
+gametitle=Prince of Persia - Warrior Within (Japan) SLPM-66002
+comment=Widescreen hack by nemesis2000 (Ported by pcsx2user156)
+
+[Remove Blur/Bloom]
+author=fobes
+description=Removes the post-processing blur/bloom effect
+patch=1,EE,00537F14,word,00000000

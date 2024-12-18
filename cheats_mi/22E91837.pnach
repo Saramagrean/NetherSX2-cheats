@@ -29,6 +29,7 @@ patch=1,EE,00182748,word,24091F00 // 24092800 - width of Cinematics.
 // - 1E00h = 7680d : 7680 + 256 = 7936 : 7936d = 1F00h
 // ==========
 
+[Widescreen 15:10]
 // ==========
 //15:10 (MS Surface Book) support.
 // ==========
@@ -81,4 +82,35 @@ patch=1,EE,002039C0,word,3C014438 // 3C014360 - Y-axis placement of photos (affe
 // patch=1,EE,00185CA0,word,3C014348 // 3C014334 - Zoom-in of IntroCutscenes.
 // patch=1,EE,0035c760,word,3EA6AA8F // 3ED05532 - Y-axis of Cutscenes (including IntroCutscenes).
 // - 3ED05532h = 0,4069f : 0.8 * 0.4069 = 0,32552 : 0,32552f = 3EA6AA8Fh
+// ==========
+
+[Disable Blurry Bloom effect]
+author=ported by br4zil from NTSC-U
+patch=1,EE,00350C0C,word,00000000
+
+[Disable Dark Filter effect]
+author=ported by br4zil from NTSC-U
+patch=1,EE,0035108C,word,00000000
+
+[Disable Post-Process and Noise effect - gameplay]
+author=ported by br4zil from NTSC-U
+patch=1,EE,00350F1C,word,00000000
+
+[Disable Post-Process and Noise effect - menus]
+author=ported by br4zil from NTSC-U
+comment=Makes main menu bland looking
+patch=1,EE,0035905C,word,00000000
+
+[Remove Post Processing]
+// patch=1,EE,0011C58C,word,3C013F40 // 3C013F00 - required for the display of the glimmering star of a hidden collectible.
+// patch=1,EE,0011C5BC,word,3C013F40 // 3C013F80 - size (aspect ratio) of the glimmering star of a hidden collectible.
+// patch=1,EE,0011DF3C,word,3C014510 // 3C014500 - detail-richness of the purple smoke dispatching a door-seal.
+// patch=1,EE,0013BF98,word,3C014220 // 3C0141C8 - detail-richness of the blue spirit-torch.
+// ==========
+// patch=1,EE,0011D604,word,3C014510 // 3C014500 - HD-fixes for GameMenu, GamePlay & CameraView.
+// patch=1,EE,001B5F84,word,3C013C82 // 3C013C80 - corrects the display of the Camera TargetTracker (due to 0011D604).
+// patch=1,EE,002039B4,word,3C014410 // 3C0143A0 - X-axis placement of photos (affected by 0011D604).
+// patch=1,EE,002039C0,word,3C014438 // 3C014360 - Y-axis placement of photos (affected by 0011D604).
+// - An unfixed side-effect of 0011D604 is that the graining-effect (dark filtering)
+//    in GameMenu & CameraView disappears.
 // ==========

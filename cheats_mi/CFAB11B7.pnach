@@ -1,0 +1,18 @@
+gametitle=DreamWorks Shrek 2 (PAL-E) SLES-52379 CFAB11B7 (SHREK2.ELF)
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,0014B6D0,extended,24040001
+patch=1,EE,E0050000,extended,00362714
+patch=1,EE,E0013F99,extended,00386B02
+patch=1,EE,20386B00,extended,3F19999A
+patch=1,EE,E0020280,extended,0037C2E0
+patch=1,EE,0014B6D0,extended,24040002
+patch=1,EE,20386B00,extended,3F99999A
+patch=1,EE,E0050001,extended,00362714
+patch=1,EE,E0013F80,extended,00386B02
+patch=1,EE,20386B00,extended,3F000000
+patch=1,EE,E0020280,extended,0037C2E0
+patch=1,EE,0014B6D0,extended,24040002
+patch=1,EE,20386B00,extended,3F800000

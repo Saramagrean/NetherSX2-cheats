@@ -1,0 +1,7 @@
+gametitle=Time Crisis 2 SLUS_202.19
+
+[Sound Fix for FMV Scenes]
+author=kozarovv
+description=Sound fix for stuttering glitchy audio during FMV/cut-scenes
+patch=1,EE,00154954,extended,10000009
+//Fix code was posted at PCSX2 wiki. Additional info given was "Skip 1200000 cy

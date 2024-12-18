@@ -3,4 +3,14 @@ gametitle=World War Zero - IronStorm (E)(SLES-51924)
 [50 FPS]
 author=Gabominated
 description=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
-patch=1,EE,20339dc0,extended,00000000 //00000001
+patch=1,EE,001934BC,word,14600009 //10600009
+
+[Old Widescreen hack 16:9]
+
+//Force turn on Widedscreen
+patch=1,EE,203393DC,extended,00000001
+patch=1,EE,20366E50,extended,00000001
+patch=1,EE,203393D8,extended,3fe38e39
+
+//Zoom fix
+patch=1,EE,0010b990,word,3c013f40 //3c013f80

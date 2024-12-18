@@ -1,0 +1,20 @@
+gametitle=Shrek 2 (Spain) (SLES_523.82)
+//Main CRC 4CF48A70
+//SHREK2.ELF CRC 76C01D41
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,0014B7A8,extended,24040001
+patch=1,EE,E0050000,extended,00362E34
+patch=1,EE,E0013F99,extended,00387282
+patch=1,EE,20387280,extended,3F19999A
+patch=1,EE,E0020280,extended,0037CA60
+patch=1,EE,0014B7A8,extended,24040002
+patch=1,EE,20387280,extended,3F99999A
+patch=1,EE,E0050001,extended,00362E34
+patch=1,EE,E0013F80,extended,00387282
+patch=1,EE,20387280,extended,3F000000
+patch=1,EE,E0020280,extended,0037CA60
+patch=1,EE,0014B7A8,extended,24040002
+patch=1,EE,20387280,extended,3F800000

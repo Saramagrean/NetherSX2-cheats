@@ -1,0 +1,7 @@
+gametitle=Crimson Sea 2 (PAL-F) (SLES-52557)
+
+[480p Mode]
+gsinterlacemode=1
+author=Gabominated
+description=SDTV 480p mode at start.  Might need enable EE Overclock to be stable.
+patch=1,EE,00114938,word,24120050 //00069403

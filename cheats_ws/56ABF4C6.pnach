@@ -1,4 +1,5 @@
-gametitle=Fatal Frame 2 (Project Zero 2) (K)(SCKA-20023)
+gametitle=Fatal Frame II: Crimson Butterfly * NTSC-K * SCKA-20023 * 56ABF4C6
+// Project Zero II: Crimson Butterfly
 
 [Widescreen 16:9]
 gsaspectratio=16:9
@@ -34,11 +35,3 @@ patch=1,EE,0013a10c,word,0c053da7 //0c053da8
 patch=1,EE,0013a194,word,0c053da7 //0c053da8
 patch=1,EE,0013a1fc,word,0c053da7 //0c053da8
 patch=1,EE,0013a274,word,0c053da7 //0c053da8
-
-//Dither Effect Off
-//12004054 1800838e
-//patch=1,EE,0019ec5c,word,10000012
-
-//Focus Effect Off
-//a82e080c 2d282002
-//patch=1,EE,0020b1d4,word,00000000 //0c080ea8

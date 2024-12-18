@@ -1,0 +1,13 @@
+gametitle=Zero 零 Zero (J)(SLPS-25074)
+
+[Disable Blurry Bloom effect]
+// 6666f643 0000803f 0000803f
+patch=1,EE,203496CC,extended,00000000
+
+[Disable Dark Filter effect]
+// 00002044 0000e043 0000803f 0000803f 00000000 00000000 (10)
+patch=1,EE,20349B4C,extended,00000000
+
+[Disable Post-Process and Noise effect]
+// 00002044 0000e043 0000803f 0000803f 00000000 00000000 (8)
+patch=1,EE,203499DC,extended,00000000

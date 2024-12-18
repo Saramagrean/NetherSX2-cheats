@@ -1,6 +1,12 @@
 gametitle=Ghostbusters (PAL-M) SCES-55571 7030A01C
 
-[50 FPS]
+[Remove Blackbars]
+author=ElHecht
+description=Removes black bars in cutscenes
+patch=1,EE,0031d1f4,word,3c013f80 //3c014000
+
+[50/60 FPS]
 author=PeterDelta
-comment=Requires having a save game before enabling it. Might need enable 300% EE Overclock.
-patch=1,EE,003194C0,word,00000000
+description=Might need EE Overclock at 300%.
+patch=1,EE,E0010001,extended,00700EA0 //to avoid a bug if there is no profile
+patch=1,EE,203194C0,extended,00000000 //1440FFF5

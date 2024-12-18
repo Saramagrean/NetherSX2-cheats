@@ -1,0 +1,9 @@
+gametitle=Batman - Rise of Sin Tzu (E)(SLES-51756)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,0010C03C,word,24110000
+patch=1,EE,0010C040,word,24120050
+patch=1,EE,0010C04C,word,24130001

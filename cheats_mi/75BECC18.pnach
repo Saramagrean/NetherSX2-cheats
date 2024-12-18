@@ -1,0 +1,17 @@
+gametitle=Burnout 3 - Takedown (Europe, Australia) (En,Es,Nl,Sv) SLES-52584 crc 75BECC18
+
+[50/60 FPS]
+author=PeterDelta 
+description=Might need EE Overclock 
+patch=1,EE,E0051885,extended,0049B384 //50hz
+patch=1,EE,004E1D5C,extended,00000001
+patch=1,EE,2051C024,extended,00000001
+patch=1,EE,204E2CC0,extended,3CA3D70A
+patch=1,EE,204F561C,extended,3CA3D70A
+patch=1,EE,2051AE34,extended,3CA3D70A
+patch=1,EE,E005177A,extended,0049B384 //60hz
+patch=1,EE,004E1D5C,extended,00000001
+patch=1,EE,2051C024,extended,00000001
+patch=1,EE,204E2CC0,extended,3C888889
+patch=1,EE,204F561C,extended,3C888889
+patch=1,EE,2051AE34,extended,3C88AB85

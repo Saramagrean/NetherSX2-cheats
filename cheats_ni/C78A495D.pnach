@@ -1,0 +1,10 @@
+gametitle=Canis Canem Edit (Bully) PAL (SLES-53561) CRC C78A495D
+
+[480p Mode]
+gsinterlacemode=1
+author=Gabominated
+description=SDTV 480p mode at start, use Software renderer for FMVs. Might need enable EE Overclock to be stable.
+patch=1,EE,D1C9C84E,extended,00000002
+patch=1,EE,20112320,extended,24120050
+patch=1,EE,D1C9C84E,extended,00000001
+patch=1,EE,20112320,extended,00069403

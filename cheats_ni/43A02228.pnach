@@ -1,0 +1,9 @@
+gametitle=Serie de Catastróficas Desdichas de Lemony Snicket, Una (PAL-S) SLES-52825 43A02228
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,0036C26C,word,24110000
+patch=1,EE,0036C270,word,24120050
+patch=1,EE,0036C27C,word,24130001

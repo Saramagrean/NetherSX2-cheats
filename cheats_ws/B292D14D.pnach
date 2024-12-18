@@ -32,9 +32,3 @@ patch=1,EE,0013a214,word,0c053df7 //0c053df8
 patch=1,EE,0013a29c,word,0c053df7 //0c053df8
 patch=1,EE,0013a304,word,0c053df7 //0c053df8
 patch=1,EE,0013a37c,word,0c053df7 //0c053df8
-
-//Dither Effect Off
-//patch=1,EE,0019ed14,word,10000012 //54400012
-
-//Cutscenes Focus Effect fix (optional)
-patch=1,EE,0020b95c,word,00000000 //0c08308a

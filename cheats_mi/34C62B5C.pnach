@@ -1,0 +1,6 @@
+gametitle=Just Cause (NTSC-U)(SLUS-21436)
+
+[60 FPS]
+author=asasega
+description=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,203B8A08,extended,00000000 //45000010

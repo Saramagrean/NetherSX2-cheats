@@ -1,0 +1,6 @@
+gametitle=Max Payne [PAL-M4] (SLES_503.26)
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,001F235C,extended,3C033F40

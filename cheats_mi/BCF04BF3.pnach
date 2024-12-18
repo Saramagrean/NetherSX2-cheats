@@ -1,12 +1,16 @@
 gametitle=Fatal Frame (Project Zero) (K)(SCPS-56008)
 
-[Remove effects (Memory Hack)]
-//6666f643 0000803f 0000803f
-patch=1,EE,2035210C,extended,00000000 //blurry bloom
-//00002044 0000e043 0000803f 0000803f 00000000 00000000 (10)
-patch=1,EE,2035258C,extended,00000000 //dark filter
-//00002044 0000e043 0000803f 0000803f 00000000 00000000 (8)
-patch=1,EE,2035241C,extended,00000000 //post process and noise
+[Disable Blurry Bloom effect]
+// 6666f643 0000803f 0000803f
+patch=1,EE,2035210C,extended,00000000
+
+[Disable Dark Filter effect]
+// 00002044 0000e043 0000803f 0000803f 00000000 00000000 (10)
+patch=1,EE,2035258C,extended,00000000
+
+[Disable Post-Process and Noise effect]
+// 00002044 0000e043 0000803f 0000803f 00000000 00000000 (8)
+patch=1,EE,2035241C,extended,0000000
 
 //HUD Y-Fov
 //patch=1,EE,0015dd74,word,3c013ec0 //3c013f00

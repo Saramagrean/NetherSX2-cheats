@@ -1,0 +1,7 @@
+gametitle=Project - Snowblind SLUS-21037 2BDA8ADB secundary crc 7849F069
+//Game changes ELF when select single player to BO3GM.ELF with active CRC 7849F069
+
+[60 FPS]
+author=asasega & Gabominated
+description=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
+patch=1,EE,002d4c04,word,2c620000 //0062102B

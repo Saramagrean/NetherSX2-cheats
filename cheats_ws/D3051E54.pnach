@@ -1,0 +1,13 @@
+gametitle=Madagascar (PAL-E) SLES-53225 D3051E54
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Arapapa, ported by PeterDelta
+description=Renders the game in 16:9 aspect ratio
+patch=1,EE,0014A0E0,word,3C013F1F
+patch=1,EE,00288500,word,08045CA0
+patch=1,EE,00117280,word,46010043
+patch=1,EE,00117284,word,3C013F40
+patch=1,EE,00117288,word,4481F000
+patch=1,EE,0011728C,word,461E1082
+patch=1,EE,00117290,word,080A2141

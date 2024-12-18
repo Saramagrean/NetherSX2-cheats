@@ -1,0 +1,9 @@
+gametitle=Star Wars - Episode III - Revenge of the Sith (PAL-M3) (SLES-53155) 99AD19EE
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,00110704,word,24110000
+patch=1,EE,00110708,word,24120050
+patch=1,EE,00110714,word,24130001

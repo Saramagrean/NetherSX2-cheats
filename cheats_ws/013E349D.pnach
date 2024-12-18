@@ -1,24 +1,2 @@
 gametitle=Resident Evil 4 (NTSC-U)
-comment=Patches by arapapa and Devina, larger FOV codes
-
-//Hold X and triangle at start for progressive scan
-
-//Keep on alwayspatch=1,EE,20252F40,word,00000000 //Real widescreen
-patch=1,EE,20430F60,word,40000000 //Internal widescreen setting on
-patch=1,EE,002810e0,word,3c013f2b //3c013f00 //Render fix
-
-//Use if doing Leon's campaign (disable if not doing Leon's campaign)
-patch=1,EE,2031E3F4,word,42820000 //FOV1
-patch=1,EE,2031DC74,word,42820000 //FOV2
-patch=1,EE,2031C2F4,word,42700000 //knife/grenade
-patch=1,EE,2031C474,word,42700000 //knife/grenade
-
-//Use if not doing Leon's campaign (disable if doing Leon's campaign)
-//Force zoom out
-//patch=1,EE,E0020001,extended,1041c0b8
-//patch=1,EE,20252f18,extended,3c014360
-//patch=1,EE,2021d2b4,extended,3c01bf80
-
-//patch=1,EE,E0020001,extended,0041c0b8
-//patch=1,EE,20252f18,extended,3c014328 //3c014360
-//patch=1,EE,2021d2b4,extended,3c01bfaa
+[Widescreen 16:9]gsaspectratio=16:9author=Gabominateddescription=Widescreen improvement.patch=1,EE,20326d78,extended,3f5ced91 //x-fovpatch=1,EE,20250564,extended,3c013f5cpatch=1,EE,20250568,extended,3421ed91patch=1,EE,20326d7c,extended,3faaaaab //y-fovpatch=1,EE,20250574,extended,3c013faapatch=1,EE,20250578,extended,3421aaabpatch=1,EE,2021d26c,extended,3c013f00patch=1,EE,202810e0,extended,3c013f80patch=1,EE,20430F60,extended,48000000patch=1,EE,E0080000,extended,004175ACpatch=1,EE,20326d78,extended,3f25b22d //3f5ced91patch=1,EE,20250564,extended,3c013f25 //3c013f5cpatch=1,EE,20250568,extended,3421b22d //3421ed91patch=1,EE,20326d7c,extended,3f800000 //3faaaaabpatch=1,EE,20250574,extended,3c013f80 //3c013faapatch=1,EE,20250578,extended,34210000 //3421aaabpatch=1,EE,2021d26c,extended,3c013f25 //3c013f00patch=1,EE,202810e0,extended,3c013f80 //3c013f00 render fix

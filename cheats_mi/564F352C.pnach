@@ -1,6 +1,11 @@
 gametitle=Max Payne 2 - The Fall of Max Payne (PAL-E) SLES-51954 564F352C
 
-[50 FPS]
+[50/60 FPS]
 author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable 300% EE Overclock to be stable.
+description=Might need EE Overclock at 300%.
 patch=1,EE,005D8F78,word,00000001 //00000002
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,207419F8,extended,3F800000

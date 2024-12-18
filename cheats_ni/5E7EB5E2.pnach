@@ -1,0 +1,7 @@
+gametitle=Psi-Ops: The Mindgate Conspiracy [PAL-M5] (SLES_527.02)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=PeterDelta
+description=Enable progressive interlacing.
+patch=1,EE,00568624,word,3C051000

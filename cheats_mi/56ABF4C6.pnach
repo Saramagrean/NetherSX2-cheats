@@ -1,0 +1,10 @@
+gametitle=Fatal Frame II: Crimson Butterfly * NTSC-K * SCKA-20023 * 56ABF4C6
+// Project Zero II: Crimson Butterfly
+
+[Disable Dither effect]
+// 12004054 1800838e
+patch=1,EE,0019ec5c,word,10000012
+
+[Disable Focus effect]
+// a82e080c 2d282002
+patch=1,EE,0020b1d4,word,00000000 // 0c080ea8

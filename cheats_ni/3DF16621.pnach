@@ -1,0 +1,9 @@
+gametitle=NBA Live 2005 (PAL-S) SLES-52727 3DF16621
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,005D12E4,word,24110000
+patch=1,EE,005D12E8,word,24120050
+patch=1,EE,005D12F4,word,24130001
