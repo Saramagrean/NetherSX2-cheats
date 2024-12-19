@@ -1,0 +1,9 @@
+gametitle=FlatOut 2 [PAL-M4] (SLES_540.02)
+
+[50/60 FPS]
+author=PeterDelta 
+description=Might need EE Overclock at 130%.
+patch=1,EE,004A3494,extended,00000001
+patch=1,EE,004CCFD8,extended,00000000
+patch=1,EE,E001FFFE,extended,0041F7C4
+patch=1,EE,004A3494,extended,00000002

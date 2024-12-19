@@ -1,7 +1,6 @@
 gametitle=Flushed Away [PAL-M5] (SLES_545.27) 4CB5D96E
 
-[50 FPS]
+[Remove Blackbars]
 author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable 180% EE Overclock to be stable.
-patch=1,EE,002AE4A4,word,00000000 //00031A38
-patch=1,EE,003537A4,word,2405003C //2405001E
+description=Removes black bars in cutscenes
+patch=1,EE,00466630,word,00000000 //00000003

@@ -2,5 +2,10 @@ gametitle=Need for Speed Underground (SLUS-20811)
 
 [60 FPS]
 author=asasega
-comment=Patches the game to run at 60 FPS.
-patch=1,EE,2011060C,word,2C420001 
+description=Might need EE Overclock at 130%.
+patch=1,EE,2011060C,word,2C420001
+
+[Remove blur]
+author=PeterDelta
+description=Remove blur effect
+patch=1,EE,204D9D10,word,00000000

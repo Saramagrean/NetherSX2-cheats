@@ -4,3 +4,4 @@ gametitle=Armored Core - Nexus - Disc 1 - Evolution [NTSC-J] (SLPS-25338)
 description=Attempts to disable interlaced offset rendering.
 gsinterlacemode=1
 patch=1,EE,2023C2DC,extended,34020001 //30420001
+patch=1,EE,20235568,extended,00000000 //1202FFF9

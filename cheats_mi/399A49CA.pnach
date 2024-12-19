@@ -58,6 +58,9 @@ patch=1,EE,20358fc4,extended,24070001
 
 [Remove Radiosity Filter]
 description=Removes the radiosity filter which causes a ghosting effect on the people and environment.
-
-//Remove Radiosity Filter
 patch=1,EE,20519FD8,extended,00000000
+
+[60 FPS]
+author=asasega
+comment=Make sure you set your EE Cycle Rate to 130-180% 
+patch=1,EE,006678CC,extended,00000001

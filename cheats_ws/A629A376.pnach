@@ -7,15 +7,3 @@ description=Native Widescreen activation hack.
 patch=1,EE,20398590,extended,3F800000 // 00000000
 patch=1,EE,203BED10,extended,00000001 // 00000000
 patch=1,EE,20992524,extended,00000001 // 00000000
-
-[Blackbars/Bisect]
-author=pgert
-description=Bisects the Blackbars
-patch=1,EE,0016F374,word,3C01BF60 // 3C01BF40 - upper
-patch=1,EE,0016F380,word,3C013F60 // 3C013F40 - lower
-
-[Blackbars/Remove]
-author=pgert
-description=Removes the Blackbars
-patch=1,EE,0016F374,word,3C01BF80
-patch=1,EE,0016F380,word,3C013F80

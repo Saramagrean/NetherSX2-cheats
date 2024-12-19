@@ -1,9 +1,9 @@
 gametitle=Alone in the Dark (SLES-55207)
 
 [Widescreen 16:9]
+gsaspectratio=16:9
 author=nemesis2000
 description=Renders the game in 16:9 aspect ratio, instead of 4:3.
-gsaspectratio=16:9
 
 patch=1,EE,0035033c,word,46000003
 patch=1,EE,00350340,word,7fb00010

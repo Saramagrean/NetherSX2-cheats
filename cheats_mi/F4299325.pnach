@@ -1,0 +1,7 @@
+gametitle=Ben 10 - Ultimate Alien - Cosmic Destruction (PAL-M) SLES-55639 F4299325
+
+[50/60 FPS]
+author=asasega & PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,E0010000,extended,004F8140
+patch=1,EE,201002F4,extended,10000011

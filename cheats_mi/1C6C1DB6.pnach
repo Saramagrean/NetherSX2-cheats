@@ -1,6 +1,6 @@
 gametitle=Fatal Frame II - Crimson Butterfly (NTSC-U) SLUS-20766 1C6C1DB6 (Undub)
 
-[Widescreen/16:10]
+[Widescreen 16:10]
 gsaspectratio=Stretch
 author=nemesis2000 & pgert
 patch=1,EE,0033760C,word,3F555555 // - 16:10

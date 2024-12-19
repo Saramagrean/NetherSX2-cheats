@@ -1,10 +1,10 @@
 gametitle=Torrente 3 - The Protector (E)(SLES-54117)
 
-[Mode 480p]
+[480p Mode]
+gsinterlacemode=1
 author=PeterDelta
-comment=Forces progressive scan mode 480p at startup.
+description=SDTV 480p mode at start.
 patch=1,EE,20102CD8,extended,00069403
-patch=1,EE,20A87D90,extended,000001E0
-patch=1,EE,E0020000,extended,0056FA3C
+patch=1,EE,E0010000,extended,0056FA3C
 patch=1,EE,20102CD8,extended,24120050
-patch=1,EE,20A87D90,extended,00000200
+patch=1,EE,0010471C,extended,64420000

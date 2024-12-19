@@ -1,0 +1,9 @@
+gametitle=Looney Tunes - ACME Arsenal (PAL-M) SLES-54931 91C2DF01
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,00371A4C,word,24110000
+patch=1,EE,00371A50,word,24120050
+patch=1,EE,00371A5C,word,24130001

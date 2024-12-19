@@ -1,0 +1,8 @@
+gametitle=Ice Age 2 - The Meltdown (PAL-M) SLES-53984 2EC49E65
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,003B4DF0,extended,00000032
+patch=1,EE,E0010001,extended,003C6744
+patch=1,EE,003B4DF0,extended,00000019

@@ -1,8 +1,9 @@
 gametitle=TMNT - Teenage Mutant Ninja Turtles (PAL-M5) (SLES-54478)
 
-[Mode 480p]
+[480p Mode]
+gsinterlacemode=1
 author=PeterDelta
-comment=Unlocked progressive Mode 480p at startup
+description=SDTV 480p mode at start.
 patch=1,EE,001053EC,word,24110000
 patch=1,EE,001053F0,word,24120050
 patch=1,EE,001053FC,word,24130001

@@ -1,0 +1,6 @@
+gametitle=Crash Bandicoot Gacchanko World (J)(SLPM-66090)
+
+[Unlock PSP Exclusive Content]
+author=CRASHARKI
+description=Unlocks the PSP Exclusive Content (Cars, Battle Arenas and Co-op mode).
+patch=1,EE,209EF50C,byte,1 //0

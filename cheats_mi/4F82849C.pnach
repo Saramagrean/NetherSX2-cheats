@@ -1,6 +1,12 @@
 gametitle=Coraline [PAL] (SLES_554.70)
 
-[50 FPS]
+[50/60 FPS]
 author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
+description=Might need EE Overclock at 130%.
 patch=1,EE,001002EC,word,00000000 //46000834
+
+[Remove Blackbars]
+author=El_Patas
+description=Removes black bars in cutscenes
+patch=1,EE,00225ea8,word,3c014000 //3c014299
+patch=1,EE,00225eac,word,00000000 //3421999a

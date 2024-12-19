@@ -1,0 +1,9 @@
+gametitle=Total Overdose (E)(SLES-53492)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,005F5F14,word,24110000
+patch=1,EE,005F5F18,word,24120050
+patch=1,EE,005F5F24,word,24130001

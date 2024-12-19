@@ -1,0 +1,9 @@
+gametitle=NBA Live 06 (PAL-S) SLES-53581 3FA0F2FB
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,004730AC,word,24110000
+patch=1,EE,004730B0,word,24120050
+patch=1,EE,004730BC,word,24130001

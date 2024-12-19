@@ -1,0 +1,11 @@
+gametitle=Reservoir Dogs (PAL-M) SLES-53775 36C11474
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Widescreen fix
+patch=1,EE,00396EF8,extended,3C013F00
+patch=1,EE,003767B8,extended,3C013F00
+patch=1,EE,E0010001,extended,004F11EC
+patch=1,EE,00396EF8,extended,3C013F25
+patch=1,EE,003767B8,extended,3C013F25

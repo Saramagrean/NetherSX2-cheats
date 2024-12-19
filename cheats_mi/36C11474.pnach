@@ -1,0 +1,7 @@
+gametitle=Reservoir Dogs (PAL-M) SLES-53775 36C11474
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,003A8E7C,extended,3C02000A //3C02004A
+patch=1,EE,00310734,extended,3C013F00 //3C013F80

@@ -1,0 +1,7 @@
+gametitle=Ice Age 3 - Dawn of the Dinosaurs (PAL-M) SLES-55487 61E4C8E7
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Enable native widescreen
+patch=1,EE,00582828,word,00000100

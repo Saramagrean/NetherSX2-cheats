@@ -1,0 +1,8 @@
+gametitle=Obscure: The Aftermath  (SLUS-21709)
+
+[480p Mode]
+description=Forces progressive scan mode
+patch=1,EE,0010cedc,word,3c050000
+patch=1,EE,0010cee4,word,3c060050
+patch=1,EE,0010ceec,word,3c070001
+patch=1,EE,0010d1ac,word,3c090010

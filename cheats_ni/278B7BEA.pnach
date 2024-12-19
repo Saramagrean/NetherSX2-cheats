@@ -1,0 +1,9 @@
+gametitle=George Of The Jungle (PAL-M) SLES-54975 278B7BEA
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,0038665C,word,24110000
+patch=1,EE,00386660,word,24120050
+patch=1,EE,0038666C,word,24130001

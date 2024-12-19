@@ -2,5 +2,7 @@ gametitle=Stuntman Ignition (PAL-M) SLES-54820 9454F864
 
 [50 FPS]
 author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
-patch=1,EE,0033FC60,word,00000000 //1440FFF7
+description=Might need EE Overclock at 130%.
+patch=1,EE,0033FC7C,extended,24A20001
+patch=1,EE,E0010001,extended,0059D170
+patch=1,EE,0033FC7C,extended,24A20002

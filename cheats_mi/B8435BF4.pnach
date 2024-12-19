@@ -1,8 +1,8 @@
 gametitle=Cars [PAL-Spain] (SLES_540.07)
 
-[50 FPS]
+[50/60 FPS]
 author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
-patch=1,EE,001B0F88,word,28630001 //0072182A slt v1,s2
-patch=1,EE,E0010000,extended,008B86A4 //004976B8 00000001
+description=Might need EE Overclock at 130%.
+patch=1,EE,001B0F88,word,28630001 //0072182A
+patch=1,EE,E0010000,extended,008B86A4
 patch=1,EE,201B0F88,extended,0072182A

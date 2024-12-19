@@ -1,8 +1,9 @@
 gametitle=Ghostbusters (PAL-M) SCES-55571 7030A01C
 
-[Mode 480p]
+[480p Mode]
+gsinterlacemode=1
 author=PeterDelta
-comment=Forces progressive scan mode 480p at startup
+description=SDTV 480p mode at start.
 patch=1,EE,00412E2C,word,3C050000
 patch=1,EE,00412E34,word,3C060050
 patch=1,EE,00412E3C,word,3C070001

@@ -1,8 +1,9 @@
 gametitle=Cars [PAL-Spain] (SLES_540.07)
 
-[60 FPS]
+[480p Mode]
+gsinterlacemode=1
 author=PeterDelta
-comment=Forces progressive scan and run at 60 fps
+description=SDTV 480p mode at start.
 patch=1,EE,00458B0C,word,3C050000
 patch=1,EE,00458B14,word,3C060050
 patch=1,EE,00458B1C,word,3C070001

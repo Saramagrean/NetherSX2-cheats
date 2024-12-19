@@ -1,0 +1,6 @@
+gametitle=Disney's Chicken Little - Ace in Action (U)(SLUS-21420)
+
+[60 FPS]
+author=asasega
+description=Patches the game to run at 60 FPS (Might need 130% EE Overclock to be stable).
+patch=1,EE,005698F8,extended,00000001

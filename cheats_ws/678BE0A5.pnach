@@ -3,5 +3,5 @@ gametitle=Spider-Man: Friend or Foe (PAL-M5) (SLES_549.01) 678BE0A5
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=El_Patas
-comment=Renders the game in 16:9 aspect ratio
+description=Renders the game in 16:9 aspect ratio
 patch=1,EE,203EC6C8,extended,3FE38E38 //3FAAAAAB (Increases hor. axis)

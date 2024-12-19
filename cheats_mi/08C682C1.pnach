@@ -1,0 +1,7 @@
+gametitle=Reservoir Dogs (NTSC-U) SLUS-21479 08C682C1
+
+[60 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,003A96F4,word,3C02000A //3C02004A
+patch=1,EE,00310FAC,word,3C013F00 //3C013F80

@@ -24,12 +24,6 @@ patch=1,EE,00256234,word,3c033f2b
 //resolution fix (upped from 512x448 to 640x448) by nemesis2000
 patch=1,EE,002125b4,word,24020280
 
-//480p
-patch=1,EE,0010cedc,word,3c050000
-patch=1,EE,0010cee4,word,3c060050
-patch=1,EE,0010ceec,word,3c070001
-patch=1,EE,0010d1ac,word,3c090010
-
 //FMV's fix  by nemesis2000
 patch=1,EE,0021114c,word,24020188
 patch=1,EE,00211150,word,14480003

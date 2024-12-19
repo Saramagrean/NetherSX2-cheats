@@ -1,8 +1,10 @@
 gametitle=Despicable Me - The Game (E)(SLES-55625) 5ED15549
 
-[Mode 480p]
+[NTSC Mode]
 author=PeterDelta
-comment=Forces progressive scan mode 480p at startup
-patch=1,EE,004006E4,word,3C050000
-patch=1,EE,004006EC,word,3C060050
-patch=1,EE,004006F4,word,3C070001
+description=NTSC mode on startup at 60 FPS.
+patch=1,EE,0023556C,extended,00000000
+patch=1,EE,00237504,extended,00000000
+patch=1,EE,E0010001,extended,005FC0B4
+patch=1,EE,00237504,extended,00000001
+patch=1,EE,0012FBE4,extended,2402003C

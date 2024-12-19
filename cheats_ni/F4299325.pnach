@@ -1,0 +1,9 @@
+gametitle=Ben 10 - Ultimate Alien - Cosmic Destruction (PAL-M) SLES-55639 F4299325
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,0045A394,word,3C050000
+patch=1,EE,0045A39C,word,3C060050
+patch=1,EE,0045A3A4,word,3C070001

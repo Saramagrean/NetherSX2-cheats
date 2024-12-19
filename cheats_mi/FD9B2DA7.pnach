@@ -1,0 +1,7 @@
+gametitle=Final Armada (E)(SLES-54467)
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,001843BC,word,3C033F00
+patch=1,EE,001843E8,word,3C033F00
