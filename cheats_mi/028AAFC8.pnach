@@ -1,0 +1,8 @@
+gametitle=George of the Jungle and the Search for the Secret (U)(SLUS-21668)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,20286928,extended,00000000
+patch=1,EE,E0010001,extended,00469BD0
+patch=1,EE,20286928,extended,0C0DE852

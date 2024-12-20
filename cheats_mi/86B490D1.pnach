@@ -1,0 +1,6 @@
+gametitle=Disney's Kim Possible - What's the Switch (NTSC-U)(SLUS-21437)
+
+[60 FPS]
+author=asasega
+comment=Patches the game to run at 60 FPS.
+patch=1,EE,0015C844,word,2C620000

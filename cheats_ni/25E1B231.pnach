@@ -1,0 +1,8 @@
+gametitle=Chulip (U)(SLUS-20742)
+
+[No-Interlacing]
+author=NineKain
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+//Remove Interlacing
+patch=1,EE,201878D4,extended,30420000

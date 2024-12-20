@@ -1,0 +1,9 @@
+gametitle=Space Chimps (PAL-M) SLES-55340 C423A2DC
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,004213B4,word,24110000
+patch=1,EE,004213B8,word,24120050
+patch=1,EE,004213C4,word,24130001

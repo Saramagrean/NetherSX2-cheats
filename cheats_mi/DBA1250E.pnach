@@ -5,3 +5,10 @@ author=refraction (ported by Prafull)
 comment=fixes COP2 instruction order to resolve SPS
 patch=1,EE,001Cb778,word,484E9000
 patch=1,EE,001CB77C,word,4BDBD9FF
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,2019222C,extended,24040001
+patch=1,EE,E0010001,extended,004292A8
+patch=1,EE,2019222C,extended,24040002

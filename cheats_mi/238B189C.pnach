@@ -1,0 +1,6 @@
+gametitle=Disney's Dinosaur (E)(SLES-50042 & SLES-50043)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0015EF14,word,3C023F0C //3C023F8C

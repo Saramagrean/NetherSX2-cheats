@@ -1,0 +1,7 @@
+gametitle=Reign of Fire (U)(SLUS_205.56)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,00264E70,word,00000001 //00000002
+patch=1,EE,001409b4,word,2402003c //2402001e

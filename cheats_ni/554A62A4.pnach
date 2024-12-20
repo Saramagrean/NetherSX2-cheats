@@ -1,0 +1,7 @@
+gametitle=Hobbit - The Prelude to the Lord of the Rings (E)(SLES-51723)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,003BF5E8,word,24120050

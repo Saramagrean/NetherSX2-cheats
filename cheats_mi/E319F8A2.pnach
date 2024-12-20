@@ -1,0 +1,6 @@
+gametitle=Disney's Meet the Robinsons (U)(SLUS-21453)
+
+[60 FPS]
+author=asasega
+description=Unlocks internal FPS. Might need EE Overclock at 130%.
+patch=1,EE,0060EA9C,word,00000001 //00000002

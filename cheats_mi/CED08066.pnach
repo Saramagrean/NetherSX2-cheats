@@ -1,0 +1,6 @@
+gametitle=Tak: The Great Juju Challenge [PAL] (SLES_536.95)
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock 
+patch=1,EE,005AE718,extended,01

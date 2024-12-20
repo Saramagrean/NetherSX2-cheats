@@ -1,0 +1,8 @@
+gametitle=DreamWorks Shark Tale (PAL-M) SLES-52537 C649A46C
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock
+patch=1,EE,0034AAE4,extended,00000001
+patch=1,EE,E0010001,extended,00333E10
+patch=1,EE,0034AAE4,extended,00000002

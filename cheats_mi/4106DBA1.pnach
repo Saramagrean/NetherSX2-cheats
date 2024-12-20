@@ -1,0 +1,9 @@
+gametitle=Despicable Me - The Game (U)(SLUS-21933)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,2023749C,extended,2C420000
+patch=1,EE,E0010001,extended,005FBFB4
+patch=1,EE,2023749C,extended,2C420001
+patch=1,EE,2012fb54,extended,2402003c

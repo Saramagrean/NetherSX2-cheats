@@ -1,27 +1,29 @@
-gametitle=Burnout 3: Takedown (SLUS-21050)
+gametitle=Burnout 3: Takedown (U) (SLUS-21050)
 
 [60 FPS for Menus]
-description=Menus will render at 60 FPS
 author=Nehalem
-
-patch=1,EE,201D3F2C,extended,1000000A
-patch=1,EE,20130DD8,extended,C7958074
-patch=1,EE,20130DDC,extended,3C084000
-patch=1,EE,20130DE0,extended,4488A000
-patch=1,EE,20130DE4,extended,4614AD03
-patch=1,EE,20130DE8,extended,00000000
+description=Menus will render at 60 FPS
+// 60 FPS in menus only
+patch=0,EE,201D3F2C,extended,1000000A
+// Fix FMVs playback speed while using 60 FPS patches
+patch=0,EE,20130DD8,extended,C7958074
+patch=0,EE,20130DDC,extended,3C084000
+patch=0,EE,20130DE0,extended,4488A000
+patch=0,EE,20130DE4,extended,4614AD03
+patch=0,EE,20130DE8,extended,00000000
 
 [60 FPS for Crashes]
-description=Crashes will render at 60 FPS
-author=Unknown
-
-patch=1,EE,204E17DC,extended,01800001 // Frame Rate
-patch=1,EE,2051BAC4,byte,01 // Game Speed
-patch=1,EE,00132F64,extended,00000000
+author=Nehalem
+description=Enable 60 FPS in crashes
+patch=0,EE,201320D8,extended,1000004B
 
 [MPH to KPH]
-description=Change speedometer unit from MPH to KPH
 author=Nehalem
+description=Change speedometer unit from MPH to KPH
+patch=0,EE,101A3BA0,extended,000082F0
+patch=0,EE,101A3D78,extended,000007D7
 
-patch=1,EE,101A3BA0,extended,000082F0
-patch=1,EE,101A3D78,extended,000007D7
+[Extra Particles While Driving]
+author=Nehalem
+description=Render all extra particles while driving
+patch=0,EE,20261E6C,extended,24120001

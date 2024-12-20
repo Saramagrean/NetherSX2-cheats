@@ -1,0 +1,6 @@
+gametitle=Rise of the Kasai SCUS_974.16
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,00345A00,word,10A00003 //14A00003

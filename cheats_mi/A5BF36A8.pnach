@@ -1,0 +1,6 @@
+gametitle=Paris-Dakar Rally (PAL-M) SLES-50212 A5BF36A8
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+patch=1,EE,0012A15C,byte,01

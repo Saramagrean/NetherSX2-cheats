@@ -1,6 +1,7 @@
 gametitle=Burnout - Dominator (U)(SLUS-21596)
 
 [Widescreen 16:9]
+gsaspectratio=16:9
 author=SuperType1/remco
 description=Fixes the game and the HUD to run in a 16:9 Scale (only enable one and not both of them).
 gsaspectratio=16:9

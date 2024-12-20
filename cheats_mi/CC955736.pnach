@@ -1,0 +1,6 @@
+gametitle=The Fairly OddParents! Shadow Showdown (U)(SLUS-20880)
+
+[60 FPS]
+author=PeterDelta and ICUP321
+description=Unlocks internal FPS. Might need EE Overclock at 130%.
+patch=1,EE,004D1814,word,42700000 //41F00000

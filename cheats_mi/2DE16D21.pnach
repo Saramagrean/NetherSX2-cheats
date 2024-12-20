@@ -1,0 +1,6 @@
+gametitle=Echo Night - Beyond (U)(SLUS-20928)
+
+[Performance Fix]
+author=Red-tv
+description=Remove flashlight shadows to increase performance.
+patch=1,EE,00144034,word,3c020000 //3c023f80

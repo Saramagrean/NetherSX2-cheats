@@ -1,0 +1,7 @@
+gametitle=Nitrobike (U)(SLUS-21738)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0039C584,word,10400003 //14400003
+patch=1,EE,003816d0,word,3c013c88 //3c013d08

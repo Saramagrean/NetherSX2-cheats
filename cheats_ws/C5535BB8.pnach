@@ -1,13 +1,18 @@
-gametitle=Shark Tale (U)(SLUS-20925)
-comment=Widescreen Hack by Arapapa
+gametitle=DreamWorks Shark Tale (NTSC-U) SLUS-20925 C5535BB8
 
-//Widescreen hack 16:9
-
-//X-Fov
-//46030046 a0004ec6
-patch=1,EE,00135ca0,word,0806c8d4
-patch=1,EE,001b2350,word,46000346
-patch=1,EE,001b2354,word,3c013f40
-patch=1,EE,001b2358,word,4481f000
-patch=1,EE,001b235c,word,461e6b43
-patch=1,EE,001b2360,word,0804d729
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Arapapa & PeterDelta
+description=Renders the game in 16:9 aspect ratio
+patch=1,EE,00135CA0,word,0806C8D4
+patch=1,EE,001B2350,word,46000346
+patch=1,EE,001B2354,word,3C013F40
+patch=1,EE,001B2358,word,4481F000
+patch=1,EE,001B235C,word,461E6B43
+patch=1,EE,001B2360,word,0804D729
+patch=1,EE,0029E3E0,word,3C013F80
+patch=1,EE,0027A6A0,word,3C013F80
+//patch=1,EE,001D3030,word,3C013F40 //render not necesary in this version, just in case
+patch=1,EE,E0020001,extended,00483E98
+patch=1,EE,0029E3E0,extended,3C013FAB
+patch=1,EE,0027A6A0,extended,3C013F84

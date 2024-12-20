@@ -1,6 +1,6 @@
 gametitle=Burnout Revenge (U)(SLUS-21242)
 
 [Progressive Scan]
-author=Nahelam
-comment=Always ask for 480p mode during boot
-patch=1,EE,2019778C,extended,10A2001C
+author=Nehalem
+description=Always ask for 480p mode during boot
+patch=0,EE,2019778C,extended,10A2001C

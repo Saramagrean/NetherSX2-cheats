@@ -1,0 +1,6 @@
+gametitle=G.I. Joe - The Rise of Cobra (NTSC-U)(SLUS-21886)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,00253BA4,word,28630001 //28630002

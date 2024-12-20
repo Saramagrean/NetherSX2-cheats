@@ -1,11 +1,12 @@
 gametitle=Metal Gear Solid 3 - Subsistence (SLUS_21359) 053D2239
 
 [60 FPS]
-author=Kabuto_Kun
-description=60 fps patch (may need overclocking EE).
+author=Kabuto_Kun & PeterDelta
+description=60 fps patch (may need overclocking EE 130%).
 patch=1,EE,001D5AD8,extended,00000000
 patch=1,EE,001D6DB8,extended,00000001
 patch=1,EE,001D6DBC,extended,00000000
+patch=1,EE,001D6DCC,extended,00000000
 
 [30 FPS]
 comment=description=30 fps patch.

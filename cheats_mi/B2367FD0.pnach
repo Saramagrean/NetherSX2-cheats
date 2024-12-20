@@ -1,0 +1,7 @@
+gametitle=Nitrobike (E)(SLES-55192)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0039C6AC,word,10400003 //14400003
+patch=1,EE,00361e50,word,3c013ca3 //3c013d23

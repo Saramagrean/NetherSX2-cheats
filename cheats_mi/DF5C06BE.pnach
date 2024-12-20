@@ -1,0 +1,8 @@
+gametitle=Mat Hoffman's Pro BMX 2 [PAL] (SLES_508.70)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,2062D5E4,extended,00000002
+patch=1,EE,E0010001,extended,0040EF70
+patch=1,EE,2062D5E4,extended,00000001

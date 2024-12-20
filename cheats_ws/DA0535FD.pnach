@@ -2,9 +2,8 @@ gametitle=Kingdom Hearts II NTSC-U
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=KH2 - NTSC-U
-
-// new 16:9 hack by - ElHecht
+author=ElHecht
+description=Renders the game in 16:9 aspect ratio
 patch=1,EE,00106c70,word,3c013f4c // c480004c
 patch=1,EE,00106c88,word,3421cccc // 4600a7c6
 patch=1,EE,00106c8c,word,4481f800 // 00000000

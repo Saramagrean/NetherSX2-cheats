@@ -1,0 +1,6 @@
+gametitle=Jacked (PAL)(SLES-53778)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,004BCF60,word,00000032 //00000019

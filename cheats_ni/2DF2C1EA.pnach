@@ -1,8 +1,9 @@
 gametitle=ICO (NTSC-K) (SCPS-56001)
 
 [No-Interlacing]
-comment=by asasega
- 
+gsinterlacemode=1
+author=asasega
+description=Attempts to disable interlaced offset rendering.
 patch=1,EE,0028D478,extended,00000001
 patch=1,EE,0028D4A0,extended,00000001
 patch=1,EE,0028D480,extended,00000040

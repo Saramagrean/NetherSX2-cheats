@@ -1,0 +1,6 @@
+gametitle=Polar Express, The (U)(SLUS-20989)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,00352AB8,word,24020002 //24020001

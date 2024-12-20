@@ -1,15 +1,16 @@
 gametitle=Metal Gear Solid 3 - Snake Eater (PAL-S) SLES-82026 98D4BC93
 
-[50 FPS]
-author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
-patch=1,EE,001D5E78,word,00000001 //00000002
-patch=1,EE,001D5E7C,word,00000000 //00000001
-patch=1,EE,001D4BA8,word,00000000 //00000040
-
 [Remove Blackbars]
 author=PeterDelta
 description=Removes black bars in cutscenes
 patch=1,EE,002501DC,extended,00000000
 patch=1,EE,E0010001,extended,0020B0D4
 patch=1,EE,002501DC,extended,00000001
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+patch=1,EE,001D5E78,extended,00000001 //00000002
+patch=1,EE,001D5E7C,extended,00000000 //00000001
+patch=1,EE,001D4BA8,extended,00000000 //00000040
+patch=1,EE,001D5E8C,extended,00000000

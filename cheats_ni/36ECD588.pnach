@@ -1,0 +1,7 @@
+gametitle=The Hobbit (PAL-R) SLES-52247 36ECD588
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,003BEFE8,word,24120050

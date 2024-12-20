@@ -1,0 +1,8 @@
+gametitle=Smash Cars (PAL-M) SLES-51800 7FE15107
+
+[50/60 FPS]
+author=PeterDelta & Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,001B403C,extended,2C410001
+patch=1,EE,E0010000,extended,003985B0
+patch=1,EE,001B403C,extended,2C410002

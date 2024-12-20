@@ -1,0 +1,8 @@
+gametitle=Cars: Mater-National Championship [NTSC-U] (SLUS_216.37)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,201B8AE4,extended,24040001 //24040002
+patch=1,EE,E0010001,extended,004B8138
+patch=1,EE,201B8AE4,extended,24040002

@@ -1,0 +1,6 @@
+gametitle=ICO * PAL-M5 * SCES-50760 * 5C991F4E
+
+[No-Interlacing]
+comment=Don't combine with the 60 fps hacks.
+patch=1,EE,0013CAD0,word,30420000
+patch=1,EE,001144AC,word,30420000

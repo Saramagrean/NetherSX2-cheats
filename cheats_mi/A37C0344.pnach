@@ -1,0 +1,8 @@
+gametitle=Matt Hoffman's Pro BMX 2 SLUS_203.35
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,2061F29C,extended,00000002
+patch=1,EE,E0010001,extended,003FF570
+patch=1,EE,2061F29C,extended,00000001

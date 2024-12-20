@@ -1,0 +1,7 @@
+gametitle=Jeep Thrills (U)(SLUS 21760)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,0019E3E0,word,14600007 //10600007
+patch=1,EE,00144A44,word,24420003 //24420001

@@ -12,6 +12,7 @@ patch=1,EE,203B233C,word,3F19999A // 3F4CCCCC (continue screen proportions)
 patch=1,EE,203840D0,word,3F19999A // 3F4CCCCC (world map cutscene proportions)
 
 [Remove Blackbars]
+author=ElHecht
 description=Removes black bars in cutscenes
 patch=1,EE,0014aaf0,word,24050000
 patch=1,EE,0014ab18,word,24050000
@@ -19,8 +20,15 @@ patch=1,EE,0014ab40,word,24050000
 patch=1,EE,0014ab70,word,24050000
 
 [Subtitles off]
+author=ElHecht
+description=Disable subtitles during scenes
 patch=1,EE,002274cc,word,11e00019
 
 [60 FPS]
-description=Forces the game to run at 60.
+author=PeterDelta
+description=Might need EE Overclock (130%).
 patch=1,EE,00356F4C,extended,00000000
+patch=1,EE,E0010005,extended,0033E784 //by PeterDelta
+patch=1,EE,00356F4C,extended,00000001
+patch=1,EE,20379178,extended,3F800000
+patch=1,EE,2037CE98,extended,3F800000

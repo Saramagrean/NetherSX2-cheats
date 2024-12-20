@@ -1,0 +1,10 @@
+gametitle=Hobbit, The (U) (SLUS-20655) 2D29C32F
+
+[60 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+patch=1,EE,004033DC,extended,00000001
+patch=1,EE,E0010000,extended,003E7410
+patch=1,EE,004033DC,extended,00000002
+patch=1,EE,E0010001,extended,00471A34
+patch=1,EE,004033DC,extended,00000002

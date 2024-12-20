@@ -1,0 +1,6 @@
+gametitle=Tekken 5 (SLUS-21059)
+
+[480p Mode]
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,003EF450,extended,01

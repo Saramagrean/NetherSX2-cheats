@@ -1,0 +1,6 @@
+gametitle=World Racing 2 PAL-M SLES-53646 2A4A9916
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0028724C,word,14400008 //10400008

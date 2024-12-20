@@ -1,0 +1,6 @@
+gametitle=25 to Life (U)(SLUS-21016)
+
+[60 FPS]
+author=asasega
+description=Unlocks internal FPS. Might need EE Overclock at 130%.
+patch=1,EE,007067D8,word,00000001 //00000002

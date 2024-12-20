@@ -1,0 +1,6 @@
+gametitle=Gladiator - Sword of Vengeance SLES_517.66
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,0020D54C,word,14800006 //10800006

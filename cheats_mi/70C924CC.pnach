@@ -1,0 +1,6 @@
+gametitle=WarJetz (U)(SLUS-20007)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0025FD04,word,00000000 //0C09E194

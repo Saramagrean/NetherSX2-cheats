@@ -1,0 +1,12 @@
+gametitle=Hokuto no Ken - Shinpan no Sousousei - Kengou Retsuden 北斗の拳 審判の双蒼星 拳豪列伝 (Japan) SLPM_666.60
+
+[480p sdtv mode + 640x480]
+author=felixthecat1970
+description=Native 480p sdtv mode + extend 640x480 v4
+comment=disable antialias options is not required anymore and cause bugs
+
+patch=1,EE,20292720,extended,A38286E8
+patch=1,EE,202ACA50,extended,0000102D
+patch=1,EE,202B3EB8,extended,0000102D
+patch=1,EE,202B4068,extended,0000102D
+patch=1,EE,002B3D38,extended,24060000

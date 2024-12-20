@@ -1,0 +1,6 @@
+gametitle=Curse - The Eye Of Isis (PAL-M6) (SLES-51934) 7100A15F
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at startup, FMVs remain in PAL.
+patch=1,EE,002b45b0,word,240201c0 //24020200

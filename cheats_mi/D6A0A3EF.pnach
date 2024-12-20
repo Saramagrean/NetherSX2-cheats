@@ -1,0 +1,6 @@
+gametitle=Free Running (E)(SLES-54559)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,001AB670,word,10400003 //14800003

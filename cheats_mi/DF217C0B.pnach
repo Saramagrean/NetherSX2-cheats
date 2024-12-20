@@ -1,0 +1,12 @@
+gametitle=X-Men - The Official Game PAL-M SLES-54066 DF217C0B
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,00B0B198,extended,00000000
+patch=1,EE,00B0B1D8,extended,00000000
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,004A3C54,word,42480000 //41C80000

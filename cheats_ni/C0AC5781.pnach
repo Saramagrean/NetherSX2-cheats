@@ -1,0 +1,8 @@
+gametitle=Magna Carta - Tears of Blood - Widescreen Hack (16:9) (NTSC-U)
+
+[No-Interlacing]
+author=NineKain
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+//Remove Interlacing
+patch=1,EE,001E5668,word,00000000

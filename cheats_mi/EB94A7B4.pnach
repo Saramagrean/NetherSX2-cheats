@@ -1,0 +1,6 @@
+gametitle=MXRider (E)(SLES-50132)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,003229F0,word,C6400030 //C6400034

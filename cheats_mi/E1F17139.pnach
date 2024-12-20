@@ -1,0 +1,6 @@
+gametitle=Teen Titans (PAL-E) (SLES-54431)
+
+[60 FPS]
+author=asasega
+comment=Patches the game to run at 60 FPS.
+patch=1,EE,0015FF94,word,2C620000

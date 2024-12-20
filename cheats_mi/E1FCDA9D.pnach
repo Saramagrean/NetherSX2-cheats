@@ -1,0 +1,6 @@
+gametitle=Home Alone (E)(SLES-54469)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock (180%).
+patch=1,EE,005B03F4,word,00000001 //00000002

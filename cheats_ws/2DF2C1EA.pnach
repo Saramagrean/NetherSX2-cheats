@@ -1,14 +1,14 @@
-gametitle=ICO (NTSC-K) (SCPS-56001)
+gametitle=ICO * NTSC-K * SCPS-56001 * 2DF2C1EA
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=16:9 widescreen hack
+author=nemesis2000, ported by 99skull
 
-//16:9 widescreen hack by nemesis2000, porting by 99skull
-
+// 16:9 widescreen
 patch=1,EE,00114C6C,word,3C013F40
 patch=1,EE,00114C70,word,4481C000
 patch=1,EE,00114C80,word,46181082
-//render fix
+
+// 16:9 Render fix
 patch=1,EE,00114624,word,240302AB
 patch=1,EE,00549578,word,44FA0000

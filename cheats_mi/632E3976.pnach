@@ -1,0 +1,6 @@
+gametitle=Pirates of The Caribbean - The Legend of Jack Sparrow NTSC-U (SLUS_211.10)
+
+[60 FPS]
+author=asasega
+comment=Patches the game to run at 60 FPS.
+patch=1,EE,00384CD0,word,10000004

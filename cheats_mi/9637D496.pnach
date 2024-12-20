@@ -1,0 +1,6 @@
+gametitle=Knights of the Temple II PAL-M SLES-53645 9637D496
+
+[50 FPS]
+author=Gabominated & PeterDelta
+description=Might need EE Overclock (130%).
+patch=1,EE,0010AF04,word,2C620001 //2C620002

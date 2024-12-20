@@ -1,0 +1,23 @@
+gametitle=Kingdom Hearts II (PAL-I) SLES-54234 C39FF377
+
+[Remove Blackbars]
+author=ElHecht
+description=Removes black bars in cutscenes
+patch=1,EE,0014aac8,word,24050000 //24050200
+patch=1,EE,0014aaf0,word,24050000 //24050200
+patch=1,EE,0014ab18,word,24050000 //24050200
+patch=1,EE,0014ab48,word,24050000 //24050200
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,2035744C,extended,00000000
+patch=1,EE,E0010005,extended,0033EC84 //fmv
+patch=1,EE,2035744C,extended,00000001
+patch=1,EE,203795E8,extended,3F99999A
+patch=1,EE,2037D318,extended,3F99999A
+
+[Subtitles off]
+author=ElHecht
+description=Disable subtitles during scenes
+patch=1,EE,00227774,word,11e00019 //15e00019

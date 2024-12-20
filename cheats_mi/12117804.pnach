@@ -1,0 +1,6 @@
+gametitle=Alarm for Cobra 11 - Vol. 2 - Hot Pursuit(E)(SLES-53360)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,00136430,word,24020000 //24020001

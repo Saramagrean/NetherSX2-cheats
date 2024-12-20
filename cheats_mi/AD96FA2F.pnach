@@ -1,0 +1,6 @@
+gametitle=Disney's Chicken Little (NTSC-U)(SLUS-21088)
+
+[60 FPS]
+author=asasega
+description=Unlocks internal FPS. Might need EE Overclock at 130%.
+patch=1,EE,00520128,word,00000001 //00000002

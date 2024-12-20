@@ -1,7 +1,6 @@
-gametitle=Burnout 3: Takedown (SLUS-21050)
+gametitle=Burnout 3: Takedown (U) (SLUS-21050)
 
 [Progressive Scan]
-description=Always ask for 480p mode during boot
 author=Nehalem
-
-patch=1,EE,20437758,extended,100000F1
+description=Always ask for 480p mode during boot
+patch=0,EE,20437758,extended,100000F1

@@ -1,0 +1,8 @@
+gametitle=MX Unleashed [NTSC-U] (SLUS_207.67)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,2019210c,extended,24040001
+patch=1,EE,E0010001,extended,00425DA8
+patch=1,EE,2019210c,extended,24040002

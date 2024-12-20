@@ -1,0 +1,7 @@
+gametitle=X-Men - The Official Game PAL-M SLES-54066 DF217C0B
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,0042C538,word,24120050

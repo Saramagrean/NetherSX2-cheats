@@ -1,0 +1,6 @@
+gametitle=World Racing (E)(SLES-51387)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,001CF670,word,10400004 //14400004

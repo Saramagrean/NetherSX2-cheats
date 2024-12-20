@@ -1,0 +1,6 @@
+gametitle=Autobahn Raser IV (G)(SLES-51009)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0013D210,word,24020000 //24020001

@@ -1,0 +1,6 @@
+gametitle=Snow Rider (E)(SLES-53936)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0014E4F4,word,1460000A //1060000A

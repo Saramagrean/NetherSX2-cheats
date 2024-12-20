@@ -4,3 +4,8 @@ gametitle=Gladiator - Sword of Vengeance SLES_517.66
 author=sergx12
 description=Removes black bars in cutscenes
 patch=1,EE,00284084,word,3c010000
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0020D3D4,word,28420001 //28420002

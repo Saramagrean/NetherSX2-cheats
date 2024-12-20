@@ -1,14 +1,14 @@
-gametitle=ICO (SCES-50760)
+gametitle=ICO * PAL-M5 * SCES-50760 * 5C991F4E
 
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=nemesis2000
-comment=Widescreen Hack
-//widescreen
+
+// 16:9 widescreen
 patch=1,EE,00114dd0,word,3c013f40
 patch=1,EE,00114dd4,word,4481c000
 patch=1,EE,00114de0,word,46181082
 
-//render fix
+// 16:9 Render fix
 patch=1,EE,001146F4,word,240302ab
 patch=1,EE,0054E478,word,44fa0000

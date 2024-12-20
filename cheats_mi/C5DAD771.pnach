@@ -3,3 +3,8 @@ gametitle=Gladiator - Sword of Vengeance NTSC-U
 [Remove Blackbars]
 description=Removes black bars in cutscenes
 patch=1,EE,0028462c,word,3c010000
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,0020d97c,word,28420001 //28420002
