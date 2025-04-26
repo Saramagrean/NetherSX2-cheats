@@ -1,0 +1,7 @@
+gametitle=Rockman Power Battle Fighters (NTSC-J)
+
+[Game Fixes]
+// Return from DIntr regardless of EIE status after 2048 cycles.
+patch=1,EE,0010d64c,word,24020800
+patch=1,EE,0010d650,word,2442ffff
+patch=1,EE,0010d654,word,1440fffe

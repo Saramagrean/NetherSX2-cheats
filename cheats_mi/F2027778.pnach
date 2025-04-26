@@ -1,0 +1,6 @@
+gametitle=NHL 2K8 [SLES 54881] (E)
+
+[Game Fixes]
+author=by Prafull
+comment=avoid hanging at loading screen
+patch=1,EE,004323b8,word,00000000

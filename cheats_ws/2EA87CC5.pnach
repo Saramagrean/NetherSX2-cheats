@@ -1,0 +1,6 @@
+gametitle=NASCAR - Dirt to Daytona (SLUS-20441)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=mks1
+patch=1,EE,2033130C,word,3F100000

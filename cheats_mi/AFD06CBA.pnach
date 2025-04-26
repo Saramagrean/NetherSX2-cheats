@@ -1,0 +1,17 @@
+gametitle=WRC 4 (SCES-52389)
+
+[Widescreen 20:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,2043F4A8,word,3EE66666
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,2043F4A8,word,3EDB6DB7
+
+[Widescreen 32:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,2043F4A8,word,3E900000
+patch=1,EE,004A5768,word,00000002

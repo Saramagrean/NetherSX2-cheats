@@ -1,0 +1,9 @@
+gametitle=Primal (NTSC-J)
+
+[Game Fixes]
+author=by RazielZnot (ported by tova)
+comment=Makes the game playable in HW-mode.
+patch=1,EE,003CB930,word,00051842
+patch=1,EE,003CB938,word,AC450014
+patch=1,EE,003CB93C,word,AC430008
+patch=1,EE,003CB944,word,AC430010

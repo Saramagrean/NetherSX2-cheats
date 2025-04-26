@@ -1,7 +1,6 @@
-#gametitle: SingStar Singalong with Disney [SCES-55255]
+gametitle: SingStar Singalong with Disney [SCES-55255]
 
 [No-Interlacing]
 description=Attempts to disable interlaced offset rendering.
 gsinterlacemode=1
-
 patch=1,EE,002CB81C,word,30420000

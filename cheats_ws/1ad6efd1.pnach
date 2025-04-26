@@ -1,0 +1,6 @@
+gametitle=NHL 2K7 [SLES 54211] (E)
+//Patched by Prafull
+//avoid hanging at loading screen
+patch=1,EE,004412a8,word,00000000
+
+

@@ -1,0 +1,6 @@
+gametitle=Burnout (SLES-50445) [4D2E6ACB]
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+author Peter Delta
+patch=1,EE,003730D0,word,400E38E4 //3FE38E39

@@ -1,0 +1,7 @@
+gametitle=???
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=by mks1
+patch=1,EE,20161BCC,word,24091038
+patch=1,EE,20161C34,word,24030001

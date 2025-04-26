@@ -1,0 +1,13 @@
+gametitle=Growlanser III - The Dual Darkness [SLUS 20759] (U) [4CD3663F]
+
+[Game Fixes]
+patch=1,EE,20267858,word,00000000
+patch=1,EE,001153DC,word,0C04261
+
+[Save Freeze Fix]
+comment=CRC=03f9c6d1
+patch=1,EE,001153DC,word,0C042618
+
+[Save Freeze Fix]
+comment=CRC=4ad529bb
+patch=1,EE,00114CBC,word,0C042618

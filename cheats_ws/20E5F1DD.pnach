@@ -1,0 +1,11 @@
+gametitle=Dynasty Warriors 6 Special [???]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+patch=1,EE,0014701C,word,3C024040 //Zoom 3C024049(3.1415923)
+patch=1,EE,001471B0,word,3C054370 //Y-Axis 3C054370(240)->(320)
+patch=1,EE,00147AF4,word,3C0241f9 //render fix 3C024049(3.1415923)
+patch=1,EE,00147178,word,3c0243A0 // 3c0243a0 hor fov value1
+patch=1,EE,00147238,word,3c0243f9 // 3c0243a0 hor fov value2
+patch=1,EE,001556a4,word,3C0241f9 // 3c023f00 render fix
+patch=1,EE,20250578,extended,340aaaaa // reduce animation 

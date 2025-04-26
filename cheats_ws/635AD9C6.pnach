@@ -1,0 +1,6 @@
+gametitle=.Hack//G.U Vol. III Redemption Undub (NTSC-U)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=cloudalmasai
+patch=1,EE,20A87C94,word,3F300000

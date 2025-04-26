@@ -1,0 +1,35 @@
+gametitle=???
+
+comment=by Xan
+
+[Fast Boot]
+comment=__snIsDebuggerRunning for faster boot time
+patch=1,EE,0064B850,word,00000001
+
+[SkipOLDnas]
+patch=1,EE,00618CCC,word,00000001
+
+[DoScreenPrintf]
+patch=1,EE,00618D08,word,00000001
+
+[SkipFE]
+//patch=1,EE,00618B94,word,00000001
+
+[Disable IsEurope]
+patch=1,EE,0034666C,word,00421026
+
+[Fix Change Car]
+patch=1,EE,00273834,word,2466D940
+patch=1,EE,00272810,word,2446D948
+patch=1,EE,0026D948,word,3C030064
+patch=1,EE,0026D954,word,AC625620
+
+comment=nlgzrgn
+
+[Debug Menu Opacity]
+patch=1,EE,006115BC,word,00000000 //0% (text only)
+//patch=1,EE,006115BC,word,3F000000 //50%
+//patch=1,EE,006115BC,word,3F400000 //75%
+
+[Disable Visual Treatment]
+patch=1,EE,005F4348,word,00000000

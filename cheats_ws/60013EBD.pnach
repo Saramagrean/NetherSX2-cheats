@@ -1,0 +1,10 @@
+gametitle: Gran Turismo Concept: 2002 Tokyo-Geneva (SCES-50858)
+
+[Widescreen 20:9]
+gsaspectratio=Stretch
+author=by l-kobra
+patch=1,EE,21F948F4,extended,4AE9A5EC
+patch=1,EE,21F8D924,extended,4AE9A5EC
+patch=1,EE,21F97C94,extended,4AE9A5EC
+patch=1,EE,17CA18,byte,28 //change to 18 for 21:9 aspect ratio
+patch=1,EE,1C8374,byte,28 //change to 18 for 21:9 aspect ratio

@@ -1,0 +1,16 @@
+gametitle=NASCAR - Thunder 2002 (SLUS-20266)
+
+[Widescreen 20:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,207AE7F8,word,4380E40
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,207AE7F8,word,40155555
+
+[Widescreen 32:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,207AE7F8,word,40638E39

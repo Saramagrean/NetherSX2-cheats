@@ -9,3 +9,10 @@ patch=1,EE,006B3474,extended,00000001
 author=nemesis2000
 description=Removes black bars in cutscenes
 patch=1,EE,00183548,word,24020000 //24020001
+
+[No Noise Filter]
+ author=Maori-Jigglypuff
+ comment=Noise filter removal
+ patch=1,EE,00338998,word,00000000
+ patch=1,EE,0033E700,word,00000000
+ 

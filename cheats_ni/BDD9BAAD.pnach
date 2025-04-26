@@ -1,0 +1,6 @@
+gametitle=Urban Reign (SLUS_212.09)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,0034D30A,extended,00000000

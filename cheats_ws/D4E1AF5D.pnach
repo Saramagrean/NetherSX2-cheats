@@ -1,0 +1,10 @@
+gametitle=Legaia 2: Duel Saga (SLES_508.91) [Game CRC=D4E1AF5D]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=by Arapapa
+//no blur
+patch=1,EE,205F6E80,extended,00000000
+patch=1,EE,202C0F04,extended,00000000
+patch=1,EE,202A6040,extended,AE000060
+note=Then I would like to add as codes, money, items, HP Infinite.

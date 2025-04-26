@@ -1,0 +1,6 @@
+gametitle=???
+
+[No-Interlacing]
+description=???
+gsinterlacemode=1
+patch=1,EE,20274CE0,extended,00000000

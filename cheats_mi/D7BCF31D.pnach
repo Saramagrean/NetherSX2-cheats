@@ -1,0 +1,16 @@
+gametitle=NASCAR 08 (SLUS-21639)
+
+[Widescreen 20:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,2052B8F8,word,400E38E4
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,2052B8F8,word,40155555
+
+[Widescreen 32:9]
+gsaspectratio=Stretch
+author=by mks1
+patch=1,EE,2052B8F8,word,40638E39

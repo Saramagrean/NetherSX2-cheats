@@ -1,0 +1,7 @@
+gametitle=Horsez 2 [SLUS 21689] (U)
+comment=Petz
+
+[Game Fixes]
+//Prafull's Patch to fix hang at first loading screen
+//Game also works with ee timing rate +2 or +3
+patch=1,EE,002f6d70,word,00000000

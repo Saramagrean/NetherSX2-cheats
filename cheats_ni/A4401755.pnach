@@ -1,0 +1,7 @@
+gametitle=Tenchu Fatal Shadows SLUS_211.29
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,201381B8,word,24027900
+patch=1,EE,201018D4,word,64420000

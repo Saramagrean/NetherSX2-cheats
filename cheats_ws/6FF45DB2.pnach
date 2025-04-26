@@ -1,0 +1,6 @@
+gametitle=NASCAR 2005 - Chase for the Cup (SLUS-21003)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=by mks1
+patch=1,EE,2040EC40,word,3FE38E39

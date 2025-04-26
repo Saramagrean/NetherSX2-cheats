@@ -1,0 +1,80 @@
+gametitle=Gran Turismo 3 NTSC-J
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+author=Duxi
+comment=Ultrawidescreen fix (21:9)
+patch=1,EE,17D908,short,3F0F
+patch=1,EE,17DA58,short,4366
+patch=1,EE,17DA70,short,4334
+patch=1,EE,1C9400,short,3F0F
+patch=1,EE,1920BC,short,3F08
+patch=1,EE,2B9394,short,AF
+patch=1,EE,2B93A4,short,73
+patch=1,EE,2B93B4,short,AF
+patch=1,EE,2B93C4,short,FF91
+patch=1,EE,2B93D4,short,91
+patch=1,EE,2B93E4,short,1E
+patch=1,EE,2B93F4,short,1E
+patch=1,EE,2B9404,short,104
+patch=1,EE,2B9414,short,91
+patch=1,EE,19669C,word,2403009B
+patch=1,EE,197628,word,2402FEB0
+patch=1,EE,19767C,word,2402FEB0
+patch=1,EE,19CAD4,word,2402FEB0
+patch=1,EE,19CC74,word,2405FEB0
+patch=1,EE,349F60,word,3F892329
+patch=1,EE,349FD4,word,3F360000
+patch=1,EE,101FD700,extended,3F90 //camera zoom
+
+[Shine cars]
+patch=1,EE,201E90A4,extended,0803FFB3
+patch=1,EE,200FFECC,extended,3C0F7777 // the smaller the last 4 digits, the more shiny the car
+patch=1,EE,200FFED0,extended,448FF800
+patch=1,EE,200FFED4,extended,03E00008
+patch=1,EE,200FFED8,extended,461F0001
+
+[Make rear view tracking to GT4 specification]
+patch=1,EE,1034CAD2,extended,42F0
+patch=1,EE,1034CADA,extended,4170
+
+[Hide body and wheel LOD models and draw wheels in any orientation]
+patch=1,EE,21BD8A,short,1000
+patch=1,EE,21CA16,short,1000
+patch=1,EE,21F2E2,short,1000
+patch=1,EE,2212A2,short,1000
+
+[Erase the white haze in the distance]
+patch=1,EE,201A6768,extended,3C0F7FFF
+patch=1,EE,201A6774,extended,448F6000
+
+[Turning off most light sources]
+patch=1,EE,2017DAE0,extended,10000021
+patch=1,EE,2017FA10,extended,03E00008
+patch=1,EE,2017FA14,extended,00000000 
+patch=1,EE,201A6DA0,extended,03E00008
+
+[Once you start the race, the break-in is completed]
+comment=horsepower increases slightly
+patch=1,EE,2012E588,extended,0803C458
+patch=1,EE,2012E58C,extended,8C43137C
+patch=1,EE,200F1160,extended,8C461388
+patch=1,EE,200F1164,extended,00007827
+patch=1,EE,200F1168,extended,000F783E
+patch=1,EE,200F116C,extended,0804B966
+patch=1,EE,200F1170,extended,71CF3488
+note=In addition, the oil does not deteriorate while the cord is on
+
+[All cars 0 credits]
+patch=1,EE,20234BB8,extended,34020000
+
+[No license disqualification]
+patch=1,EE,201ECDBC,extended,10000018
+You will no longer be disqualified if you go off the track or hit a wall
+
+[GOLD for passing the license]
+patch=1,EE,201ECF28,extended,34100000
+
+//“CLASS C” → “VIEW CLASS”
+patch=1,EE,20291E80,word,00308360
+In ARCADE MODE, "CLASS C" has been changed to "VIEW CLASS" (almost all cars can be selected).

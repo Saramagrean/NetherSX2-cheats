@@ -1,0 +1,10 @@
+gametitle=???
+
+[Disable Sun and Its Cones]
+patch=1,EE,0029E268,byte,0
+
+[Disable Characters Shadows]
+patch=1,EE,0029DBA5,byte,0
+
+[Disable Stages Backdrop]
+patch=1,EE,0029E200,byte,0

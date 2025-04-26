@@ -4,3 +4,4 @@ gametitle=Growlanser Generations 3 [SLUS-20759]
 description=Attempts to disable interlaced offset rendering.
 gsinterlacemode=1
 patch=1,EE,202C3A30,word,00000000
+patch=1,EE,00114CBC,word,0C042618

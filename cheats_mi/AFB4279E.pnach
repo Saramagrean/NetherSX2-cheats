@@ -1,0 +1,8 @@
+gametitle=Wrath Unleashed (NTSC-U) crc=AFB4279E
+
+[Game Fixes]
+//Skip DmaListClass::EndSimpleShadowRendering and DmaListClass::BeginSimpleShadowRendering
+//Fix broken colors (something seems to go wrong in Swap RG and BA function, i wasn't able to figure out what)
+//Still need texture cache fixes
+patch=1,EE,004F4D60,double,03e00008
+patch=1,EE,004F5220,double,03e00008

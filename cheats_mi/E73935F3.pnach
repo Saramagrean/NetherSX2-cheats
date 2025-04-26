@@ -1,0 +1,15 @@
+gametitle=Resident Evil 4 [SLES-53702] (E)
+
+comment=Patches/Codes Hacked By Maori-Jigglypuff [Savas Guercebe]
+
+[No Body Shadow of the Characters on the Ground]
+patch=1,EE,00258148,word,34020100
+
+[Disable Fog]
+patch=1,EE,00229b5c,word,3C020010
+
+[Disable moving Fog Clouds]
+patch=1,EE,0028f184,word,64020000
+
+[Collectable Items from killed Enemies never disappear]
+patch=1,EE,0026be40,word,24c20000

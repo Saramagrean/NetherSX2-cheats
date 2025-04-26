@@ -1,0 +1,16 @@
+gametitle=Yu-Gi-Oh! The Duelist of the Roses (NTSC-U) [Patches]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+//X-Fov
+patch=1,EE,21FE0528,word,3F6F0000 //3c033f80
+
+//Render Fix
+patch=1,EE,00209344,word,3c023f99 //3c024000
+//Y -- works fine?
+patch=1,EE,21FE052C,extended,3FA05e10
+//different Y 
+patch=1,EE,20326194,extended,3FAAAAAA - works fine as well?
+//Zoom Correction for Y
+//doesn't work for cards when they fight, soo they fill up the screen(looks ok actually), but works for everything else
+patch=1,EE,21FE0524,extended,43EFFF00

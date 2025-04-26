@@ -1,0 +1,29 @@
+gametitle=Yu-Gi-Oh Duelist Of The Roses (EU)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+
+/X-Fov
+patch=1,EE,001f9c94,word,3c033f10 //3c033f80
+
+//Render Fix
+patch=1,EE,00209f84,word,3c023f99 //3c024000
+
+//deck dc 0
+patch=1,EE,20305E76,extended,00000000
+
+//deck 2 dc 0
+patch=1,EE,20305ECA,extended,00000000
+
+[MasterCode]
+comments=patch developed by leo9090
+patch=1,EE,F0193454,extended,00193457
+
+//Y FIX
+patch=1,EE,001853A0,extended,00000001
+patch=1,EE,00185448,extended,00000001
+patch=1,EE,00185400,extended,00000001
+patch=1,EE,001854C8,extended,00000001
+
+//X fix
+patch=1,EE,101853CC,extended,000002A0

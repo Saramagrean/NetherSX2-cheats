@@ -1,0 +1,23 @@
+gametitle=???
+
+[Game Fixes]
+author=refraction
+// Fix for Depth precision.
+// Game fills upper 16bits of depth with 0xFFFF.
+// This results in a really high 32 bit value which is then converted to float
+// because both hw and sw renderers lack double precision the lower 16 bits of the initial 32 bit value lose precision.
+// Modifies GIF Packets to use 24bit Z and fill in FOG (unused in game).
+patch=1,EE,00100cc8,word,24050004
+patch=1,EE,00168b7c,word,3c050041
+patch=1,EE,00168b80,word,34a63413
+patch=1,EE,00436f48,word,24020004
+patch=1,EE,00436f54,word,3c021341
+patch=1,EE,00436f5c,word,34423413
+patch=1,EE,001de210,word,24084343
+patch=1,EE,00177524,word,24084343
+patch=1,EE,00176BF4,word,24084343
+patch=1,EE,0015D890,word,24084343
+patch=1,EE,004475c4,word,3c030041
+patch=1,EE,004475c8,word,346c3413
+patch=1,EE,004370b0,word,3c020043
+patch=1,EE,004370b4,word,34424343

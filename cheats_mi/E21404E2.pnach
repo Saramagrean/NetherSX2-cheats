@@ -1,5 +1,10 @@
 gametitle=Getaway, The [NTSC-U] SCUS-97133 E21404E2
 
+[Widescreen 21:9]
+gsaspectratio=Stretch
+author=by P8M3
+patch=1,EE,204CFA88,word,BFC5B05A
+
 [60 FPS]
 author=asasega
 comment=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.

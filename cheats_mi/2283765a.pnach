@@ -1,0 +1,6 @@
+gametitle=Major League Baseball 2K10 [SLUS 21929] (U)
+
+[Game Fixes]
+author=by Prafull
+comment=Avoid hanging at loading screen
+patch=1,EE,003cd6d8,word,00000000

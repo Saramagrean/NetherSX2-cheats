@@ -1,0 +1,11 @@
+gametitle=WRC II Extreme (SCES-50934)
+comment=Ultrawidescreen Hack by mks1
+
+[20:9]
+patch=1,EE,202642C8,word,3EE66666
+
+[21:9]
+patch=1,EE,202642C8,word,3EDB6DB7
+
+[32:9]
+patch=1,EE,202642C8,word,3E900000

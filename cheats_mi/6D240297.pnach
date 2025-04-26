@@ -1,0 +1,26 @@
+gametitle=God Hand (SLUS-21503)
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+comment=Widescreen hack by nemesis2000 and Arapapa
+
+// 21:9
+patch=1,EE,0030b8f0,word,3c013FD1
+patch=1,EE,0030b8f4,word,34211111
+patch=1,EE,002af4f8,word,3c013F03
+patch=1,EE,002af4fc,word,3421A83B
+patch=1,EE,0014300c,word,3c013F12
+
+//HP Color
+patch=1,EE,005cdc2c,word,802F2F8F
+
+[God Hand Camera]
+
+//Camera
+patch=1,EE,2013AC90,extended,00000000
+patch=1,EE,2013AC9C,extended,00000000
+patch=1,EE,20463454,extended,3FA00000
+patch=1,EE,20463460,extended,3E500000
+
+//FOV
+patch=1,EE,0030B8AC,extended,00000070

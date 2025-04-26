@@ -1,0 +1,9 @@
+gametitle: Gran Turismo Concept: 2002 Tokyo-Geneva (SCES-50858)
+
+[Hide the LOD Model]
+//Car body and wheels & draw the wheels in any direction
+//The camera will not switch to a low-quality model even if it is far away, so it will look slightly better
+patch=1,EE,220D0E,short,1000
+patch= 1,EE,2219D6,short,1000
+patch=1,EE,222A9E,short,1000
+patch=1,EE,224B1A,short,1000

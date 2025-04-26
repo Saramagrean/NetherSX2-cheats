@@ -1,0 +1,8 @@
+gametitle=NASCAR Thunder 2003 (SLUS-20535)
+
+comment=Ultrawidescreen Hack
+author=by mks1
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+patch=1,EE,207FDC08,word,3FE38E39

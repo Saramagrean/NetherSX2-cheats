@@ -1,0 +1,11 @@
+Game title Burnout 2 Point of Impact PAL SLES-51004
+
+[Widescreen 20:9]
+comment=Aspect ratio in race
+author=Peter Delta
+patch=1,EE,0047D584,word,40055547
+
+[Widescreen 21:9]
+comment=Aspect ratio in race
+author=Peter Delta
+patch=1,EE,0047D584,word,40155547

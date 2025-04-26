@@ -1,8 +1,7 @@
 gametitle=K-1 Premium Dynamite!! [SLES 53809] (E)
+
+[Game Fixes]
 comment= Make the game work in HW mode
-//also requires vu xgkick sync to fix colors in fighters
+description=also requires vu xgkick sync to fix colors in fighters
 patch=1,EE,0030a420,word,0000948c
 patch=1,EE,0030a448,word,0000948c
-
-
-

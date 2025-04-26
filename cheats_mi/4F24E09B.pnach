@@ -1,0 +1,7 @@
+gametitle=Burnout 2 Point of Impact [PAL] (SLES-52968)
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+by Peter Delta
+//Ultrawidescreen 21:9 aspect ratio in race
+patch=1,EE,0047D584,word,40155547 //40055547 for 20:9

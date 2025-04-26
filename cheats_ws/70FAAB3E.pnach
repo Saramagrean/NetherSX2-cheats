@@ -1,0 +1,6 @@
+gametitle=NASCAR 06 - Total Team Control (SLUS-21266)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=by mks1
+patch=1,EE,204A5190,word,3FE38E39

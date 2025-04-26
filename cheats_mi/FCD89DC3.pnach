@@ -6,3 +6,12 @@ comment=Unlocked at 60 FPS. Might need enable 130% EE Overclock to be stable.
 patch=1,EE,204874FC,extended,00000001
 patch=1,EE,E0010000,extended,0048572C
 patch=1,EE,204874FC,extended,00000002
+
+[Game Fixes]
+author=by RazielZnot
+comment=that makes the game playable in HW-mode.
+patch=1,EE,003C67E8,word,00051842
+patch=1,EE,003C67F0,word,AC450014
+patch=1,EE,003C67F4,word,AC430008
+patch=1,EE,003C67FC,word,AC430010
+ 

@@ -1,0 +1,6 @@
+gametitle=Dynasty Warriors 6 Special [???]
+
+[Draw Distance]
+patch=1,EE,2015CEBC,word,3C03811A
+patch=1,EE,2015CED4,word,34A61000
+patch=1,EE,2015CEF0,word,3C04165A

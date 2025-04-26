@@ -1,0 +1,6 @@
+gametitle=NASCAR 08 (SLUS-21639)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=by mks1
+patch=1,EE,2052B8F8,word,3FE38E39

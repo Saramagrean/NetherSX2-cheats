@@ -1,0 +1,18 @@
+gametitle=Sprint Cars - Road to Knoxville [SLES 54463] (E)
+
+[Game Fixes]
+author=by Prafull
+comment=Rearrange COP2 instructions to fix bad mac flag stuff. Fixes ingame physics.
+patch=1,EE,002657d0,word,48448800
+patch=1,EE,002657d4,word,309000E0
+patch=1,EE,002657dc,word,4BF0116C
+patch=1,EE,002657e4,word,00908024
+patch=1,EE,002657e8,word,4A0002FF
+patch=1,EE,002657ec,word,4BF019AC
+patch=1,EE,00265800,word,48448800
+patch=1,EE,00265804,word,309000E0
+patch=1,EE,00265808,word,4BE2896C
+patch=1,EE,0026580c,word,48448800
+patch=1,EE,00265810,word,4BE389AC
+patch=1,EE,00265814,word,4A0002FF
+patch=1,EE,00265818,word,4A0002FF

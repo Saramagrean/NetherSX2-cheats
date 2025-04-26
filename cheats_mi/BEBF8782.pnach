@@ -1,0 +1,8 @@
+gametitle=Burnout 3 (NTSC) (SLES-21050)
+
+[Widescreen 32:9]
+gsaspectratio=Stretch
+author=by Sam0971
+comment=32:9 Superwide
+patch=1,EE,20665FC4,extended,40730000 // Y-axis
+patch=1,EE,20665FC0,extended,40400000 // Zoom 

@@ -1,0 +1,13 @@
+gametitle=NASCAR 09 (SLUS-21744)
+
+[Widescreen 20:9]
+author=by mks1
+patch=1,EE,205158A0,word,400E38E4
+
+[Widescreen 21:9]
+author=by mks1
+patch=1,EE,205158A0,word,40155555
+
+[Widescreen 32:9]
+author=by mks1
+patch=1,EE,205158A0,word,40638E39

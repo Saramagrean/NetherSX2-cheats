@@ -1,0 +1,10 @@
+gametitle=God of War (SCUS-97399)
+
+[Widescreen 21:9]
+gsaspectratio==Stretch
+comment=21:9 Ultrawide hack by P8M3
+
+patch=1,EE,202FD930,word,4018318e
+patch=1,EE,202FD968,word,4018318e
+patch=1,EE,2032F1B0,word,4018318e
+patch=1,EE,20169268,word,3c013f52

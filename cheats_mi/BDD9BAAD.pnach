@@ -1,0 +1,5 @@
+gametitle=Urban Reign (SLUS_212.09)
+
+[De-Blur Patch]
+description=Removes screen blur.
+patch=1,EE,0034D308,extended,00000000

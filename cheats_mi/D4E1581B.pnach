@@ -1,0 +1,6 @@
+gametitle=Metal Slug 5 SLUS_209.90;1) Game CRC = 0xD4E1581B
+
+[NTSC Mode / No Interleacing]
+comment=Disable another Interlaced code before
+patch=0,EE,20428148,extended,03E00008
+patch=0,EE,2042814C,extended,00000000

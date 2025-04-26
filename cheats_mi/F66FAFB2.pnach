@@ -1,0 +1,12 @@
+gametitle=Silent Hill - Shattered Memories (J)(SLPM-55231)
+
+[No Noise Filter]
+ author=IWILLCRAFT
+ comment=Noise filter removal
+patch=1,EE,2047B0C0,extended,00000000
+
+[Remove Blackbars]
+ author=Maori-Jigglypuff (NTSC-J by IWILLCRAFT)
+ description=Removes black bars in cutscenes
+ // No black Borders
+ patch=1,EE,0019E400,word,3C010000

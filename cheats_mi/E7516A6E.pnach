@@ -1,0 +1,23 @@
+gametitle=???
+
+[Game Fixes]
+author=refraction
+// Fix for Depth precision.
+// Game fills upper 16bits of depth with 0xFFFF.
+// This results in a really high 32 bit value which is then converted to float
+// because both hw and sw renderers lack double precision the lower 16 bits of the initial 32 bit value lose precision.
+// Modifies GIF Packets to use 24bit Z and fill in FOG (unused in game).
+// Menu is still broken only in 50hz mode, 60hz is mostly fine.
+patch=1,EE,00100cc8,word,24050004
+patch=1,EE,004492ec,word,3c020041
+patch=1,EE,004492f0,word,34453413
+patch=1,EE,00438a3c,word,3c021341
+patch=1,EE,00438a44,word,34423413
+patch=1,EE,001699d0,word,34853413
+patch=1,EE,001699cc,word,3c040041
+patch=1,EE,00438a30,word,24020004
+patch=1,EE,00438b98,word,3c020043
+patch=1,EE,00438b9c,word,34424343
+patch=1,EE,001dfa60,word,24034343
+patch=1,EE,00178614,word,24064343
+patch=1,EE,0015e5b8,word,240a4343

@@ -1,0 +1,123 @@
+gametitle=Jak X [SCES-53286] (E)
+
+comment=Patches/Codes Hacked By Maori-Jigglypuff [Savas Guercebe]
+
+[Enable Game Boot]
+// Full Boot preferred!
+// Disable potential Playstation 2 System Traps
+// And disable System Synchronization Error Calculator!
+patch=1,EE,00262A90,word,00000000
+patch=1,EE,00262BDC,word,00000000
+patch=1,EE,00262944,word,00000000
+patch=1,EE,00262cd4,word,00000000
+patch=1,EE,00275cf4,word,3c0f0001
+patch=1,EE,0011e260,word,3c030001
+patch=1,EE,0011e280,word,3c020000
+patch=1,EE,00275d04,word,14000023
+patch=1,EE,00275d1c,word,54000001
+patch=1,EE,00275d2c,word,14000016
+patch=1,EE,00275d34,word,14000014
+patch=1,EE,00275d3c,word,14000012
+patch=1,EE,00275d44,word,14000010
+patch=1,EE,00275d4c,word,1400000e
+patch=1,EE,00275d58,word,1400000b
+patch=1,EE,00275d70,word,14000005
+patch=1,EE,00275d80,word,1000000c
+patch=1,EE,00268eb4,word,00000000
+patch=1,EE,00269004,word,00000000
+patch=1,EE,00270d98,word,00000000
+patch=1,EE,00274f94,word,00000000
+patch=1,EE,00275e78,word,00000000
+patch=1,EE,00279cb0,word,00000000
+patch=1,EE,00279d00,word,00000000
+patch=1,EE,0027c410,word,00000000
+patch=1,EE,0027c504,word,00000000
+patch=1,EE,0027c55c,word,00000000
+patch=1,EE,0027c748,word,00000000
+patch=1,EE,0027c790,word,00000000
+patch=1,EE,0027c7f0,word,00000000
+patch=1,EE,0027c834,word,00000000
+
+
+[Enhanced World, Vehicle and Character Brightness]
+//  The MIPS-Instructions maintaining these three Effects are:
+//  c.f.s $f0, $f1
+//  bc1f $009a8de0
+//  lui a3, $0000
+//  c.f.s $f0, $f1
+//  bc1t $009a8e24
+//  lui a3, $3fe0]
+patch=1,EE,009a8db4,word,46010030
+patch=1,EE,009a8db8,word,45000009
+patch=1,EE,009A8Dcc,word,3C070000
+patch=1,EE,009a8df8,word,46010030
+patch=1,EE,009a8dfc,word,45010009
+patch=1,EE,009a8e0c,word,3c073fe0
+
+[Special Vehicle Brightness and Shadowlight Handler]
+patch=1,EE,00f19ab4,word,3c043fa0
+patch=1,EE,00f19ab8,word,ac640010
+patch=1,EE,00f19ad8,word,3c043fa0
+patch=1,EE,00f19adc,word,ac640014
+patch=1,EE,00f19afc,word,3c043fa0
+patch=1,EE,00f19b00,word,ac640018
+patch=1,EE,00f19b24,word,3c040000
+patch=1,EE,00f19b28,word,ac640020
+patch=1,EE,00f19b4c,word,3c040000
+patch=1,EE,00f19b50,word,ac640024
+patch=1,EE,00f19b74,word,3c040000
+patch=1,EE,00f19b78,word,ac640028
+
+[Disable Blur Effect]
+//  The MIPS-Instructions maintaining this Effect are:
+//  daddiu v1, zero, $0000
+//  movz v1, v1, zero
+//  bne v1, zero, $008c8250]
+patch=1,EE,008c848c,word,64030000
+patch=1,EE,008c8490,word,0060180a
+patch=1,EE,008c8494,word,1460ff6e
+
+[Disable Vehicle Shadow]
+//  The MIPS-Instructions maintaining this Effect are:
+//  daddiu t3, zero, $0000
+//  movz t3, t3, zero
+//  bne t3, zero, $0089e14c]
+patch=1,EE,0089e298,word,640b0000
+patch=1,EE,0089e29c,word,0160580a
+patch=1,EE,0089e2a0,word,1560ffaa
+
+[Disable Renderer Layer on Buildings in Background]
+//  The MIPS-Instructions maintaining this Effect are:
+//  lui a1, $0000
+//  ori a1, a1, $0000]
+patch=1,EE,009b1b14,word,3c050000
+patch=1,EE,009b1b18,word,34a50000
+
+[Disable Renderer Layer on the Sky]
+//  The MIPS-Instructions maintaining this Effect are:
+//  lui a0, $0000
+//  ori a0, a0, $0000]
+patch=1,EE,009b1b74,word,3c040000
+patch=1,EE,009b1b78,word,34840000
+
+[Camera Zoom Out]
+//  The MIPS-Instruction maintaining this Effect is:
+//  lui v1, $3f88]
+patch=1,EE,00BF8F18,word,3C033F88
+
+[Disable overall City Lights at Night in Town]
+//  Tunnel Lights,
+//  Moon Shining and the
+//  Heatwaves of the Torches
+//  The MIPS-Instructions maintaining this Effect are:
+//  movz v1, zero, zero
+//  bne v1, zero, $0088ce44]
+patch=1,EE,0088Cf28,word,0000180a
+patch=1,EE,0088Cf2C,word,1460ffc5
+
+[Disable Lap Counter]
+//  The MIPS-Instructions maintaining this Effect are:
+//  sb zero, $01d8(gp)
+//  sb zero, $005a(a0)]
+patch=1,EE,00ec1100,word,a38001d8
+patch=1,EE,00ec10a4,word,a080005a

@@ -1,0 +1,6 @@
+﻿gametitle=Tekken Tag Tournament [NTSC-J] (SLPS-20015)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,203978B0,extended,30630000

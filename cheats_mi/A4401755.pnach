@@ -1,0 +1,8 @@
+gametitle=Tenchu Fatal Shadows SLUS_211.29
+
+[Disable Fog]
+patch=1,EE,00150980,double,03e00008
+
+[Disable Letterboxing]
+patch=1,EE,20137E00,word,10000009
+patch=1,EE,20251FE8,word,AC400000

@@ -4,3 +4,14 @@ gametitle=Incredible Hulk, The - Ultimate Destruction (PAL-M) SLES-53430 6B3D50A
 author=PeterDelta
 comment=Unlocked at 50 FPS. Might need enable 180% EE Overclock to be stable.
 patch=1,EE,0046F3D0,word,24020001 //24020002
+
+[Widescreen 20:9]
+gsaspectratio=Stretch
+author=by Lycantrophic
+description=Set Vertical Fov to 125% from aethersx2 menu
+comment=Turn on widescreen from game menu.
+patch=1,EE,205F5F40,extended,3ecccccd
+patch=1,EE,21e58bb0,extended,3f700000
+patch=1,EE,21e58bc4,extended,3f99999a
+patch=1,EE,21E5B014,extended,3fA66666
+patch=1,EE,21E5B000,extended,3f666666

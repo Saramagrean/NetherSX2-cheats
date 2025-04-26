@@ -1,0 +1,11 @@
+gametitle=Vampire Darkstalkers Collection [NTSC-J] (SLPM-65998)
+
+[Change Main Menu Text to English]
+comment=Code from "The Cutting Room Floor".
+description=Change Main Menu Text to English
+patch=1,EE,01942819,extended,00000001
+
+[Map Circle button to X]
+comment=Code from "The Cutting Room Floor".
+description=Map Buttons to English Style (Circle to X)
+patch=1,EE,01942818,extended,00000001

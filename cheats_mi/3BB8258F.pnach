@@ -1,0 +1,6 @@
+gametitle=Konjiki no Gashbell!! Go! Go! Mamono Fight!! (J)(SLPS-25596)
+
+[Game Fixes]
+author=by Prafull
+//fix freeze after logos
+patch=1,EE,002d9aa4,word,00000000

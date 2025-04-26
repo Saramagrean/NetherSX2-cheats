@@ -5,3 +5,9 @@ gsinterlacemode=1
 author=PeterDelta
 description=Enable progressive interlacing.
 patch=1,EE,0028F81C,word,3C050000
+
+#[No-Interlacing v2]
+#author=junfurano
+#description=Attempts to disable interlaced offset rendering.
+#gsinterlacemode=1
+#patch=1,EE,2025B4E8,extended,34020001

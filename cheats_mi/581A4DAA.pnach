@@ -1,0 +1,13 @@
+gametitle=???
+
+[Game Fixes]
+author=kozarovv
+// Fix for Depth precision.
+// Game fills upper 16bits of depth with 0xFFFF.
+// This results in a really high 32 bit value which is then converted to float
+// because both hw and sw renderers lack double precision the lower 16 bits of the initial 32 bit value lose precision.
+patch=1,EE,000ffc00,word,f88a0000
+patch=1,EE,000ffc04,word,a080000b
+patch=1,EE,000ffc08,word,08087ea3
+patch=1,EE,0021fa84,word,0803ff00
+patch=1,EE,0021fa88,word,4bea497d

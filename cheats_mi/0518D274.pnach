@@ -1,6 +1,20 @@
 gametitle=Need for Speed - Most Wanted [Black Edition] [NTSC-U] [SLUS-21351]
 
+[60 FPS]
+//Remove Sun Effects
+patch=1,EE,00386D04,word,C4000000
+
+[Skip Videos]
+patch=0,EE,00242418,word,00000000
+
 [Remove Brown Filter]
 author=fobes
 description=Disables the brownish yellow post processing filter
 patch=1,EE,00550d58,extended,20000001
+
+[Remove Yellow Filter]
+patch=1,EE,0040A500,word,C4000000
+
+[Driving Easier]
+author=by NMY
+patch=1,EE,2057E70C,extended,40500000

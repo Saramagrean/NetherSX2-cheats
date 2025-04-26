@@ -1,0 +1,17 @@
+gametitle=WRC3 (SCES-51684)
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+author=by Leza
+
+//21:9 //0.562
+patch=1,EE,203271D8,extended,3ED7CED9
+
+// 206 onboard wide fov
+patch=1,EE,21AE0A30,extended,42C80000
+
+// 206 cockpit widefov
+patch=1,EE,21AE0D70,extended,42AC0000
+ 
+// 206 bumper wide fov
+patch=1,EE,21AE0F10,extended,42AA0000

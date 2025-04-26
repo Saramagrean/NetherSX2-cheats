@@ -1,0 +1,7 @@
+gametitle=Fuuraiki [SLPM 66458](J)
+
+[Game Fixes]
+comment=patched by Prafull
+//Skip sceipusync
+//Fixes hang before going ingame
+patch=1,EE,0023122c,word,00000000

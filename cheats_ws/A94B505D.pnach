@@ -1,0 +1,10 @@
+gametitle=Bratz: Forever Diamondz [PAL-M2] (SLES_543.42) A94B505D
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Bigdemon
+comment=Widescreen Hack Conversion
+
+patch=1,EE,0031F5a8,word,3C013F1E //3C013F00 Zoom
+patch=1,EE,00300904,word,3C013ED3 //3C013F00 Y-FOV
+patch=1,EE,00300818,word,3C013F2B //3C013F00 Render fix

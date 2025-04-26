@@ -1,3 +1,5 @@
+gametitle=???
+
 [No Interlacing]
 gsinterlacemode=1
 comment=Attempts to disable interlacing

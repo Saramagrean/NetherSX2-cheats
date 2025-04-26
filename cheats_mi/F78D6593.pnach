@@ -1,0 +1,6 @@
+gametitle=Disney Pixar - Up [SLUS 21864] (U)
+
+[Game Fixes]
+author=by Kozarrov
+comment=Fixes invisible text
+patch=1,EE,004012FC,word,46021002

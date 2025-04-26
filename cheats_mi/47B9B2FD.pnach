@@ -1,0 +1,74 @@
+gametitle=Radiata Stories [SLUS-21262] (U)
+comment=Patches/Codes Hacked By Maori-Jigglypuff [Savas Guercebe]
+
+[Disable Game Protection Traps]
+patch=1,EE,0012181c,word,1400fffa
+patch=1,EE,00125004,word,1400fffa
+patch=1,EE,001250a4,word,1400fffa
+patch=1,EE,0014205c,word,1400fffa
+
+[No black Borders]
+patch=1,EE,00300ea0,word,10000001
+patch=1,EE,00300ea4,word,AE200018
+patch=1,EE,00300ea8,word,1000001B
+patch=1,EE,00300eac,word,A220000D
+
+[Disable Blur-Effect & enhance Game Sharpness]
+patch=1,EE,001cd75c,word,0000182d
+
+[No Body-Shadow of the Characters on the Ground]
+patch=1,EE,0022f754,word,0000182d
+
+[Constant correct World, Rooms & Character Brightness Adjust]
+patch=1,EE,002219ec,word,3c063f80
+patch=1,EE,002219f8,word,ac460310
+patch=1,EE,002219fc,word,ac460314
+patch=1,EE,00221a04,word,ac460318
+patch=1,EE,00272724,word,3c063f80
+patch=1,EE,00272730,word,ac660310
+patch=1,EE,00272734,word,ac660314
+patch=1,EE,00272738,word,ac660318
+patch=1,EE,00274cd4,word,3c063f80
+patch=1,EE,00274ce4,word,ac660310
+patch=1,EE,00274ce8,word,ac660314
+patch=1,EE,00274cec,word,ac660318
+patch=1,EE,00277c2c,word,3c063f80
+patch=1,EE,00277c38,word,ac660310
+patch=1,EE,00277c3c,word,ac660314
+patch=1,EE,00277c44,word,ac660318
+patch=1,EE,002b5404,word,3c063f80
+patch=1,EE,002b5410,word,ac460310
+patch=1,EE,002b5414,word,ac460314
+patch=1,EE,002b5418,word,ac460318
+patch=1,EE,002c28bc,word,3c063f80
+patch=1,EE,002c28cc,word,ac460310
+patch=1,EE,002c28d0,word,ac460314
+patch=1,EE,002c28d4,word,ac460318
+patch=1,EE,002c2934,word,3c063f80
+patch=1,EE,002c2940,word,ac860310
+patch=1,EE,002c2944,word,ac860314
+patch=1,EE,002c2948,word,ac860318
+patch=1,EE,003f66f4,word,3c063f80
+patch=1,EE,003f6704,word,ac460310
+patch=1,EE,003f6708,word,ac460314
+patch=1,EE,003f670c,word,ac460318
+patch=1,EE,003f675c,word,3c063f80
+patch=1,EE,003f676c,word,ac660310
+patch=1,EE,003f6770,word,ac660314
+patch=1,EE,003f6774,word,ac660318
+patch=1,EE,004111fc,word,3c063f80
+patch=1,EE,0041120c,word,ac460310
+patch=1,EE,00411210,word,ac460314
+patch=1,EE,00411214,word,ac460318
+patch=1,EE,00411264,word,3c063f80
+patch=1,EE,00411274,word,ac660310
+patch=1,EE,00411278,word,ac660314
+patch=1,EE,0041127c,word,ac660318
+patch=1,EE,004182cc,word,3c063f80
+patch=1,EE,004182dc,word,ac460310
+patch=1,EE,004182e0,word,ac460314
+patch=1,EE,004182e4,word,ac460318
+patch=1,EE,00418334,word,3c063f80
+patch=1,EE,00418344,word,ac660310
+patch=1,EE,00418348,word,ac660314
+patch=1,EE,0041834c,word,ac660318

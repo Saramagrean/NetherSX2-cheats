@@ -1,8 +1,7 @@
 gametitle=K-1 Premium 2004 Fighting Dynamite!! [SLPM 65281] (J)
+
+[Game Fixes]
 comment= Make the game work in HW mode
 //also requires vu xgkick sync to fix colors in fighters
 patch=1,EE,00301de0,word,0000948c
 patch=1,EE,00301e08,word,0000948c
-
-
-

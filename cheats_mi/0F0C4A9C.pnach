@@ -1,0 +1,78 @@
+gametitle=Shadow of the Colossus [SCES-53326] (E)
+
+[Disable overall Fog Effect]
+patch=1,EE,0117f218,word,44800000
+patch=1,EE,0117f264,word,3c02437f
+patch=1,EE,0117f26c,word,44820000
+patch=1,EE,0117f0f0,word,aca00018
+patch=1,EE,0117e0b8,word,ac400000
+patch=1,EE,0117e8e4,word,ac400000
+patch=1,EE,011e1f94,word,ac400000
+patch=1,EE,011e2334,word,ac400000
+
+[No black Bars]
+patch=1,EE,0135717c,word,44800000
+patch=1,EE,0135721c,word,44806000
+
+[Disable Sun]
+patch=1,EE,01196ea8,word,24040000
+
+[Camera Symmetry (y-Axis) Fix]
+//patch=1,EE,0125bd2c,word,3c013f80
+//patch=1,EE,0125bd30,word,34210000
+//patch=1,EE,0125be90,word,3c013f80
+//patch=1,EE,0125be94,word,34210000
+//patch=1,EE,0125c424,word,3c013f80
+//patch=1,EE,0125c428,word,34210000
+
+[Enhance Background Sharpness]
+patch=1,EE,011a1d48,word,10000056
+
+[Patches/Codes Hacked]
+author=By Maori-Jigglypuff [Savas Guercebe]
+// For all Characters, Horse and Colossi real Brightness Calculator without additional Lights
+// [Disable all additional Lights with Loops and for real
+//  Light Adjustment using Percentage Calculation with RGB-Value Limiter]
+// [Wander, Mono, Agro and all Colossi true Shape and Skin will be revealed now]
+patch=1,EE,011ec050,word,3C0142C6
+patch=1,EE,011ec054,word,34212000
+patch=1,EE,011ec08c,word,0c7facc0
+patch=1,EE,011ec090,word,c4410000
+patch=1,EE,01feb300,word,3c0942c8
+patch=1,EE,01feb304,word,44891000
+patch=1,EE,01feb308,word,46020083
+patch=1,EE,01feb30c,word,46020882
+patch=1,EE,01feb310,word,460208c1
+patch=1,EE,01feb314,word,3c093f30
+patch=1,EE,01feb318,word,44890800
+patch=1,EE,01feb31c,word,46030834
+patch=1,EE,01feb320,word,45030001
+patch=1,EE,01feb324,word,460008c6
+patch=1,EE,01feb328,word,03e00008
+patch=1,EE,01feb32c,word,00000000
+patch=1,EE,011ec094,word,e7a30000
+patch=1,EE,011ec098,word,e7a30004
+patch=1,EE,011ec09c,word,e7a30008
+patch=1,EE,0117dc2c,word,AC400000
+patch=1,EE,011eb03c,word,0c7fac40
+patch=1,EE,01feb100,word,0080302d
+patch=1,EE,01feb104,word,64020000
+patch=1,EE,01feb108,word,70003ca9
+patch=1,EE,01feb10c,word,7cc70000
+patch=1,EE,01feb110,word,24420001
+patch=1,EE,01feb114,word,2c480003
+patch=1,EE,01feb118,word,1500fffb
+patch=1,EE,01feb11c,word,24c60010
+patch=1,EE,01feb120,word,78a90030
+patch=1,EE,01feb124,word,03e00008
+patch=1,EE,01feb128,word,7c890030
+patch=1,EE,011eb050,word,0c7fac4c
+patch=1,EE,01feb130,word,64020000
+patch=1,EE,01feb134,word,70003ca9
+patch=1,EE,01feb138,word,7c870000
+patch=1,EE,01feb13c,word,24420001
+patch=1,EE,01feb140,word,2c480004
+patch=1,EE,01feb144,word,1500fffb
+patch=1,EE,01feb148,word,24840010
+patch=1,EE,01feb14c,word,03e00008
+patch=1,EE,01feb150,word,00000000

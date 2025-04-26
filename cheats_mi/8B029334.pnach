@@ -1,0 +1,102 @@
+gametitle=Manhunt 2 [Uncut] SLES-54819 (E)
+
+[Patches/Codes Hacked]
+author=By Maori-Jigglypuff [Savas Guercebe]
+// World and Characters Brightness enhanced without additional bad Lights,
+// furthermore Percentage Calculation for special Brightness Adjust for
+// Wife and Daughter of Daniel Lamb in Episode "Ghosts"
+// [Characters true Shape and Skin will be revealed now]
+patch=1,EE,0031baac,word,34050040
+patch=1,EE,0031babc,word,34060040
+patch=1,EE,0031bab4,word,34070040
+patch=1,EE,0030e284,word,34050040
+patch=1,EE,0030e288,word,34060040
+patch=1,EE,0030e28c,word,34070040
+patch=1,EE,0030e29c,word,00000000
+patch=1,EE,0030e2a0,word,00000000
+patch=1,EE,0030e2a4,word,08122b68
+patch=1,EE,0030e2a8,word,00000000
+patch=1,EE,0048ada0,word,2405007f
+patch=1,EE,0048ada4,word,2406007f
+patch=1,EE,0048ada8,word,0c0dcade
+patch=1,EE,0048adac,word,2407007f
+patch=1,EE,0048adb0,word,3c02003f
+patch=1,EE,0048adb4,word,8c424548
+patch=1,EE,0048adb8,word,3403000a
+patch=1,EE,0048adbc,word,10430003
+patch=1,EE,0048adc0,word,00000000
+patch=1,EE,0048adc4,word,10000018
+patch=1,EE,0048adc8,word,00000000
+patch=1,EE,0048adcc,word,3c020048
+patch=1,EE,0048add0,word,8c42dcc4
+patch=1,EE,0048add4,word,2c4c0001
+patch=1,EE,0048add8,word,398c0001
+patch=1,EE,0048addc,word,340d0003
+patch=1,EE,0048ade0,word,01a2682b
+patch=1,EE,0048ade4,word,39ad0001
+patch=1,EE,0048ade8,word,118d0003
+patch=1,EE,0048adec,word,00000000
+patch=1,EE,0048adf0,word,1000000d
+patch=1,EE,0048adf4,word,00000000
+patch=1,EE,0048adf8,word,8fa200a0
+patch=1,EE,0048adfc,word,8c430030
+patch=1,EE,0048ae00,word,34020001
+patch=1,EE,0048ae04,word,00431024
+patch=1,EE,0048ae08,word,14400007
+patch=1,EE,0048ae0c,word,00000000
+patch=1,EE,0048ae10,word,10000001
+patch=1,EE,0048ae14,word,00000000
+patch=1,EE,0048ae18,word,24050058
+patch=1,EE,0048ae1c,word,24060058
+patch=1,EE,0048ae20,word,0c0dcade
+patch=1,EE,0048ae24,word,24070058
+patch=1,EE,0048ae28,word,080c38ab
+patch=1,EE,0048ae2c,word,00000000
+patch=1,EE,002d3b8c,word,08122b54
+patch=1,EE,0048ad50,word,0C0B3928
+patch=1,EE,0048ad54,word,00000000
+patch=1,EE,0048ad58,word,3C034200
+patch=1,EE,0048ad5c,word,44830800
+patch=1,EE,0048ad60,word,3C0342C8
+patch=1,EE,0048ad64,word,44831800
+patch=1,EE,0048ad68,word,460308C3
+patch=1,EE,0048ad6c,word,460300C2
+patch=1,EE,0048ad70,word,46030000
+patch=1,EE,0048ad74,word,3C023F80
+patch=1,EE,0048ad78,word,44821000
+patch=1,EE,0048ad7c,word,46020036
+patch=1,EE,0048ad80,word,45020001
+patch=1,EE,0048ad84,word,46001006
+patch=1,EE,0048ad88,word,080B4EE5
+patch=1,EE,0048ad8c,word,00000000
+patch=1,EE,00372a58,word,AC400000
+patch=1,EE,00372a60,word,AE200000
+patch=1,EE,00372a68,word,AE000000
+patch=1,EE,003060bc,word,34050000
+patch=1,EE,0035fd7c,word,34020001
+patch=1,EE,0035fc24,word,ae40823c
+patch=1,EE,00375548,word,1400000b
+patch=1,EE,00375550,word,0080102d
+patch=1,EE,00375554,word,64060000
+patch=1,EE,00375558,word,3c053f08
+patch=1,EE,00375560,word,44850000
+patch=1,EE,00375564,word,e4400000
+patch=1,EE,00375568,word,24c60001
+patch=1,EE,0037556c,word,2cc70003
+patch=1,EE,00375570,word,14e0fff9
+patch=1,EE,00375574,word,24420004
+
+[Disable Blur Effect]
+patch=1,EE,0035fa40,word,ac407f58
+
+[Disable Overall Fog Effect]
+patch=1,EE,0036d19c,word,44801000
+patch=1,EE,0036d1b0,word,46000B06
+
+[No Body Shadow Of The Character On The Ground]
+patch=1,EE,00312308,word,34020000
+
+[No Flashing Color Effects In Killing Sequences]
+patch=1,EE,001d1240,word,34020000
+patch=1,EE,001d1244,word,0002202B
+

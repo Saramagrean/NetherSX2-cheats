@@ -1,0 +1,6 @@
+gametitle=NHL 2K6 [SLES 53686] (E)
+
+[Game Fixes]
+author=by Prafull
+comment=Avoid hanging at loading screen
+patch=1,EE,00433150,word,00000000

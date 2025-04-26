@@ -2,9 +2,12 @@ gametitle=Shutokou Battle 0 (J)(SLPS-25028)
 
 [No-Interlacing]
 gsinterlacemode=1
-comment=No Interlacing Patch by Tokman5
-//While FMV is playing, deinterlacing will be temporary disabled due to streaming problem
-patch=1,EE,D06452A0,extended,01100001
-patch=1,EE,20263518,extended,34022000
-patch=1,EE,D06452A0,extended,01000001
-patch=1,EE,20263518,extended,30422000
+description=Attempts to disable interlaced offset rendering.
+author=asasega, Silent
+
+patch=0,EE,2015D09C,extended,00005025
+patch=0,EE,2015D15C,extended,00005025
+patch=0,EE,2015CFB0,extended,00005025 // Rear view mirror
+patch=0,EE,2015D224,extended,00005025 // Unknown in race
+patch=0,EE,201DCF94,extended,00005025 // Car preview in menus
+patch=0,EE,202630C4,extended,00000000

@@ -1,0 +1,7 @@
+gametitle=Kung Fu Panda (K)(SLKA-25436)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=by Arapapa
+//abaaaa3f 000080bf 00007a44
+patch=1,EE,00694e0c,word,3fe38e0a//3faaaaab

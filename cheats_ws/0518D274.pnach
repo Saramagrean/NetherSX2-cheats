@@ -1,0 +1,7 @@
+gametitle=Need for Speed - Most Wanted [Black Edition] [NTSC-U] [SLUS-21351]
+
+[widescreen 16:9]
+author=by NMY
+patch=1,EE,20553430,extended,3F800fff
+patch=1,EE,20553434,extended,3FF11111
+patch=1,EE,20AAFED0,extended,00000006

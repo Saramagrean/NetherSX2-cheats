@@ -1,0 +1,7 @@
+gametitle=Metal Slug 4 (SLUS_209.71;1) [Game CRC = 0xD62C4CD0]
+
+[NTSC Mode Extended / No Interlacing]
+comment=disable another interlaced code before
+patch=0,EE,201008EC,word,3C0701E0
+patch=0,EE,20101C60,word,03E00008
+patch=0,EE,20101C64,word,00000000

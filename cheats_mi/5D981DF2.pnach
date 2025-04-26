@@ -1,0 +1,6 @@
+gametitle=NHL 2K9 [SLES 55252] (E)
+
+[Game Fixes]
+author=by Prafull
+comment=avoid hanging at loading screen
+patch=1,EE,00430d38,word,00000000

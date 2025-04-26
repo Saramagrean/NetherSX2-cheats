@@ -1,0 +1,34 @@
+gametitle=WRC:Rally Evolved (SCES-53247)
+
+[Widescreen 20:9]
+gsaspectratio=Stretch
+author=by Racer_S (20:9 correct by l-kobra)
+patch=1,EE,2047BB00,extended,3EFFFFFF // 3F4CCCCD
+//original code by prafull - WRC Evolved (PAL) Nop branch delay slot instruction
+patch=1,EE,003CC894,word,00000000
+
+[Enable the debug menu]
+comment=press SELECT to activate
+patch=1,EE,00242334,word,24020001
+patch=1,EE,00242244,word,24020001
+
+[Disable the fog]
+patch=1,EE,00177a84,word,a0209cd8
+
+[Disable particles]
+patch=1,EE,004B56C8,word,a020b6e0
+
+[Enable the debug menu]
+comment=press the L3+R3 buttons to activate
+patch=1,EE,00241174,word,24020001
+
+[Debug Menu]
+author=by Codejunkies
+comment=Press L3+R3 or Select?
+patch=1,EE,D0241174,extended,90420000
+patch=1,EE,20241174,extended,24020001
+
+[Debug Menu v2]
+comment=Press L3+R3 or Select?
+patch=1,EE,20241174,extended,24020001
+patch=1,EE,204D069C,extended,00103410

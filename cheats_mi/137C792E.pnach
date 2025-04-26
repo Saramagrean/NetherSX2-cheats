@@ -4,3 +4,9 @@ gametitle=Transformers - Revenge of the Fallen (NTSC-U) SLUS-21881 137C792E
 author=asasega
 comment=Unlocked at 60 FPS. Might need enable 130% EE Overclock to be stable.
 patch=1,EE,0011E888,word,28420001 //28420002
+
+[Game Fixes]
+author=by Kozarrov
+comment=HW Patch, Fix Pause menu, some hud parts, etc
+patch=1,EE,0016ee38,word,3464fff0
+patch=1,EE,0016ee58,word,3464fffc

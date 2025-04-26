@@ -1,0 +1,6 @@
+gametitle=Fuuraiki 2 [SLPM 66163](J)
+
+[Game Fixes]
+author=by Prafull
+comment=Skip sceipusync, Fixes hang before going ingame
+patch=1,EE,002324dc,word,00000000

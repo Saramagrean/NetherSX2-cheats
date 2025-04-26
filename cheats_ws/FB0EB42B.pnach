@@ -1,0 +1,6 @@
+gametitle=NASCAR 07 (SLUS-21461)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=by mks1
+patch=1,EE,204C9738,word,3FE38E39

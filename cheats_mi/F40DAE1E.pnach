@@ -1,0 +1,11 @@
+gametitle=Transformers
+
+[Game Fixes]
+
+//Vif fifo
+patch=1,EE,0025D6B0,word,0
+patch=1,EE,0025D660,word,0
+patch=1,EE,0026EEE8,word,0
+
+//Mtvu
+patch=1,EE,006078A0,word,43fa0000

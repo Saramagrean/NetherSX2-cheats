@@ -1,0 +1,153 @@
+gametitle=Shadow of the Colossus [SCUS-97472] (U)
+
+comment=Patches/Codes Hacked By Maori-Jigglypuff [Savas Guercebe]
+
+[Widescreen Hack]
+gsaspectratio=Stretch
+comment=Ultrawide Hack
+patch=1,EE,2128A1E4,word,3fa80000
+
+[Widescreen Hack v2]
+gsaspectratio=Stretch
+comment=Ultrawide Hack 2
+patch=1,EE,2128A1E4,word,3fe5bc02
+
+[Disable Sun]
+// Via manipulating Setter-Function which now assigns Value 0 through $v1 to
+// Control Address which gets the 4 Byte constant 0-Value: 01286410 00000000
+patch=1,EE,0119baa8,word,3C020128
+patch=1,EE,0119baac,word,24030000
+patch=1,EE,0119bab0,word,03E00008
+patch=1,EE,0119bab4,word,AC436410
+
+[Disable Sun v2]
+// Via manipulating Getter-Function which assigns the Value 0 to Register $a0
+patch=1,EE,0119ba50,word,24040000
+
+[Disable Sun v3]
+// Via set inconspicuous constant Activator Value 1 to 0
+// And also set Sun Intensity Value Adder Register $a2 to 0
+// In order to finally place both Zeros fake Sum to Register $s0)
+patch=1,EE,01198c08,word,24100000
+
+[Disable Sun v4]
+patch=1,EE,0119ba48,word,03e00008
+patch=1,EE,0119ba4c,word,00000000
+
+[Disable (great deal of) Beam of Sunlight]
+// <return_one>
+patch=1,EE,0123c200,word,03E00008
+patch=1,EE,0123c204,word,24020001
+
+[No Dust (Dust-Variant 2) around Colossi Feet]
+patch=1,EE,01238fc0,word,03e00008
+patch=1,EE,01238fc4,word,00000000
+
+[No Dust (Dust-Variant 2) around Colossi Feet (alt.)]
+patch=1,EE,01237ed4,word,0000302D
+
+[No Dust around Colossi Feet]
+patch=1,EE,01238cc0,word,03e00008
+patch=1,EE,01238cc4,word,00000000
+
+[No Dust around Colossi Feet (alt.)]
+patch=1,EE,01237ddc,word,0000302D
+
+[No Shadow]
+patch=1,EE,011976a0,word,03e00008
+patch=1,EE,011976a4,word,00000000
+
+[Enhance Background Sharpness]
+patch=1,EE,011a6428,word,03e00008
+patch=1,EE,011a642c,word,00000000
+patch=1,EE,01185508,word,03e00008
+patch=1,EE,0118550c,word,00000000
+
+[No black Bars]
+// Assign Value Zero to Registers $f0 and $f12 instead of
+// Black Bar causing Value 0x3F800000 from Address 0x01465aa8
+patch=1,EE,0134634c,word,44800000
+patch=1,EE,013463ec,word,44806000
+
+[Maximum Graphics Booster]
+// Further enhance Background Sharpness
+patch=1,EE,01182c7c,word,24100001
+
+// ******************************************************************************
+// ******* Beginn of "Characters-, Horse- and Colossi-Brightness" Section *******
+// ******************************************************************************
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.01]
+patch=1,EE,011f02e0,word,3C013C23
+patch=1,EE,011f02e4,word,3421D70A
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.01125]
+//patch=1,EE,011f02e0,word,3C013C38
+//patch=1,EE,011f02e4,word,342151EC
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.0125]
+//patch=1,EE,011f02e0,word,3C013C4C
+//patch=1,EE,011f02e4,word,3421CCCD
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.015]
+//patch=1,EE,011f02e0,word,3C013C75
+//patch=1,EE,011f02e4,word,3421C28F
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.0175]
+//patch=1,EE,011f02e0,word,3C013C8F
+//patch=1,EE,011f02e4,word,34215C29
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.02]
+//patch=1,EE,011f02e0,word,3C013CA3
+//patch=1,EE,011f02e4,word,3421D70A
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.0225]
+//patch=1,EE,011f02e0,word,3C013CB8
+//patch=1,EE,011f02e4,word,342151EC
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.025]
+//patch=1,EE,011f02e0,word,3C013CCC
+//patch=1,EE,011f02e4,word,3421CCCD
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.0275]
+//patch=1,EE,011f02e0,word,3C013CE1
+//patch=1,EE,011f02e4,word,342147AE
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.03]
+//patch=1,EE,011f02e0,word,3C013CF5
+//patch=1,EE,011f02e4,word,3421C28F
+
+// or use this:
+
+// All Characters, Horse and Colossi bright
+// [Brightness Value: 0.035]
+//patch=1,EE,011f02e0,word,3C013D0F
+//patch=1,EE,011f02e4,word,34215C29

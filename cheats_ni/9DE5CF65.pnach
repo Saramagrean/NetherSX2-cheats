@@ -1,0 +1,7 @@
+gametitle=Gran Turismo 3 NTSC-J
+
+[No-Interlacing]
+gsinterlacemode=1
+author=Duxi
+description=GSdx Deinterlacing
+patch=1,EE,20256DB0,extended,34020001

@@ -1,0 +1,6 @@
+gametitle=Disney Pixar - Up [SLES 55523] (S)
+
+[Game Fixes]
+author=by Kozarrov
+comment=Fixes invisible text
+patch=1,EE,0040157c,word,46021002

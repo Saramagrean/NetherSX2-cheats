@@ -1,0 +1,40 @@
+gametitle=???
+
+[Widescreen 21:9]
+gsaspectratio=Stretch
+comment=ultrawidescreen 21:9 single race
+patch=1,EE,21C943E4,extended,40423F20
+patch=1,EE,21C94408,extended,BF9A0000
+
+[Disabled fog]
+patch=1,EE,606190A0,extended,7FFFFFFF
+patch=1,EE,00020001,extended,00000070
+
+[Blur effects disabled in replay]
+patch=1,EE,338F34,word,0
+patch=1,EE,339088,word,0
+
+[Disable most of the light sources on the course]
+patch=1,EE,33CF78,double,3E00008
+patch=1,EE,33D0B8,double,3E00008
+patch=1,EE,3922C8,double,3E00008
+patch=1,EE,392378,double,3E00008
+
+[Unlock all cars and tracks in arcade mod]
+patch=1,EE,42769A,byte,0
+
+[Max Cash]
+patch=1,EE,20A8E518,extended,44B14400
+
+[Change the shine of the car on the menu screen]
+patch=1,EE,101D1C90,extended,7777
+
+[Shine cars in race]
+patch=1,EE,2033F264,extended,0803FFB3
+patch=1,EE,200FFECC,extended,3C0FAAAA
+patch=1,EE,200FFED0,extended,448FF800
+patch=1,EE,200FFED4,extended,03E00008
+patch=1,EE,200FFED8,extended,461F0001
+
+[Get ready closed]
+patch=1,EE,3553B0,word,0

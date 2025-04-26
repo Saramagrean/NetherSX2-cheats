@@ -3,7 +3,5 @@ gametitle=Slotter Up Core 7: Dekitou da! Street Fighter II (SLPM_626.22;1) Game 
 [No-Interlacing]
 gsinterlacemode=1
 comment=enhancement no interlacing
-
-//no interlacing
 patch=1,EE,20100294,extended,3C070001
 patch=1,EE,201D4230,extended,00001446
