@@ -4,3 +4,10 @@ gametitle=Grand Theft Auto III (SLUS-20062)
 author=asasega
 comment=Patches the game to run at 60 FPS (Might need 180% EE Overclock to be stable).
 patch=1,EE,2027CEAC,extended,28420001
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,0024764C,word,3C023420
+patch=1,EE,0024768C,word,3C0253E0
+patch=1,EE,0027E260,word,3C025360

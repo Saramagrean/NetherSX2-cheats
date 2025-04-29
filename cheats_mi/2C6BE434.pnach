@@ -11,18 +11,18 @@ patch=1,EE,001130c8,word,03e00008
 patch=1,EE,001130cc,word,e78c9a90
 patch=1,EE,00242db4,word,0c044c32
 
-//Conditional codes for widescreen toggle in display menu
+[Conditional codes for widescreen toggle in display menu]
 patch=1,EE,e1010001,extended,007004ef
 patch=1,EE,2021dfe4,extended,0c044c2f
 
 patch=1,EE,e1010000,extended,007004ef
 patch=1,EE,2021dfe4,extended,0c044c32
 
-//Restore original FOV for cutscenes
+[Restore original FOV for cutscenes]
 patch=1,EE,e1010001,extended,006ff0cd
 patch=1,EE,2021dfe4,extended,0c044c32
 
-//Skybox fixes for the widescreen fix
+[Skybox fixes for the widescreen fix]
 patch=1,EE,002ee210,word,3c024120
 patch=1,EE,002ee4e0,word,3c024120
 patch=1,EE,002ee78c,word,3c024120
@@ -40,8 +40,52 @@ description=Removes the radiosity filter which causes a ghosting effect on the p
 //Remove Radiosity Filter
 patch=1,EE,2051A6D8,extended,00000000
 
+[Remove Ghosting Effects]
+author=PeterDelta
+description=Removes the ghosting effect without affecting the lighting
+patch=1,EE,00668C5C,extended,00000000
+patch=1,EE,00668CE8,extended,00000000
+patch=1,EE,E0010100,extended,007004E0
+patch=1,EE,007004E0,extended,00000130
+
 [60 FPS]
 author=someother1ne
 description=Unlocked at 60 FPS. Might need enable 130% EE Overclock to be stable.
 patch=1,EE,D066804C,extended,00000002
 patch=1,EE,0066804C,extended,10000001
+
+[Silentpatch Lite Fixes]
+author=DanielSantos, ported by kesterstudios, with consideration to Silent
+description=Silentpatch Lite Fixes for 3.00
+
+//------------------------------------------------Fixes------------------------------------------------//
+
+//Linear Filtering for License Plates
+patch=0,EE,204A4D94,extended,34630002 //ori $v1, 2 //RWLINEARFILTER   
+
+//Fixed ammo for melee weapons in cheats
+patch=0,EE,2059DFEC,extended,24060001 //li $s2 1 //knife
+patch=0,EE,2059E0F8,extended,24060001 //li $s2 1 //knife
+patch=0,EE,2059E2C0,extended,24060001 //li $s2 1 //chainsaw
+patch=0,EE,2059E394,extended,24060001 //li $s2 1 //chainsaw
+patch=0,EE,2059FDDC,extended,24060001 //li $s2 1 //parachute
+patch=0,EE,2059FB1C,extended,24060001 //li $s2 1 //katana
+
+//014C cargen counter fix (by spaceeinstein)
+patch=0,EE,20295C00,extended,2C61FFFF //slti => sltiu
+patch=0,EE,20295C04,extended,10000004 //beqz => b
+
+// Don't clean the car BEFORE Pay 'n Spray doors close, as it gets cleaned later again anyway!
+patch=0,EE,202E42FC,extended,00000000 //nop
+
+// Fixed muzzleflash not showing from last bullet
+patch=0,EE,20407464,extended,00000000 //nop
+
+// Help boxes showing with big message
+// Game seems to assume they can show together
+patch=0,EE,202AE4B0,extended,00000000 //nop
+
+// Weapon icon fix (crosshairs mess up rwRENDERSTATEZWRITEENABLE)
+patch=0,EE,202AAC54,extended,00000000 //nop
+patch=0,EE,202AB394,extended,00000000 //nop
+patch=0,EE,202AB3C4,extended,00000000 //nop

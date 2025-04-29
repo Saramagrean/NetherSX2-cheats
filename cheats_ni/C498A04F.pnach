@@ -1,0 +1,12 @@
+gametitle=Grand Theft Auto: Vice City (v1.50) (SLES_510.61)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,E0040001,extended,0043DEC0
+patch=1,EE,20113120,extended,34050050
+patch=1,EE,20113124,extended,24030002
+patch=1,EE,20113128,extended,0000000C
+patch=1,EE,2011312C,extended,03E00008
+patch=1,EE,00112B24,extended,00000000

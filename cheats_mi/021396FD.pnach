@@ -4,3 +4,10 @@ gametitle=Grand Theft Auto III (v1.40) (SLES_503.30)
 author=Snake356
 comment=Patches the game to run at 50 FPS (Might need 180% EE Overclock to be stable).
 patch=1,EE,2027D64C,extended,28420001
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,002474FC,word,3C029420
+patch=1,EE,0024753C,word,3C025400
+patch=1,EE,0027EA00,word,3C025380

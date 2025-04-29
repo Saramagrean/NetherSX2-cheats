@@ -1,0 +1,5 @@
+gametitle=Conflict - Vietnam (U)(SLUS-21045)
+
+[60 FPS]
+author=asasega
+patch=1,EE,20303570,word,2C420001

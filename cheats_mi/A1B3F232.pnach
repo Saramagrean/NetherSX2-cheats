@@ -4,3 +4,40 @@ gametitle=Grand Theft Auto: San Andreas (v1.03) (SLES-52541)
 author=Boludoz
 comment=Patches the game to run at 50 FPS (Might need 180% EE Overclock to be stable).
 patch=1,EE,006679CC,extended,00000001
+
+[Remove ghosting effects]
+author=PeterDelta
+description=Removes the ghosting effect keeping radiosity.
+patch=1,EE,006685DC,extended,00000000
+patch=1,EE,00668668,extended,00000000
+patch=1,EE,E0010100,extended,006FFA80
+patch=1,EE,006FFA80,extended,00000130
+
+[Remove Radiosity Filter]
+author=refractionpcsx2
+description=Removes the radiosity filter which causes a ghosting effect on the people and environment.
+patch=1,EE,2051A0C8,extended,00000000
+
+[Conditional codes for widescreen toggle in display menu]
+patch=1,EE,e1010001,extended,006ffa8f
+patch=1,EE,2021df84,extended,0c044c2f
+
+patch=1,EE,e1010000,extended,006ffa8f
+patch=1,EE,2021df84,extended,0c044c32
+
+[Restore original FOV for cutscenes]
+patch=1,EE,e1010001,extended,006fe66d
+patch=1,EE,2021df84,extended,0c044c32
+
+[Skybox fixes for the widescreen fix]
+patch=1,EE,002ee1d0,word,3c024120
+patch=1,EE,002ee4a0,word,3c024120
+patch=1,EE,002ee74c,word,3c024120
+patch=1,EE,002eedcc,word,3c024120
+patch=1,EE,002eea74,word,3c024120
+
+patch=1,EE,002ee1d8,word,34420000
+patch=1,EE,002ee4a8,word,34420000
+patch=1,EE,002ee754,word,34420000
+patch=1,EE,002eedd4,word,34420000
+patch=1,EE,002eea78,word,34420000

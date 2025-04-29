@@ -1,0 +1,12 @@
+gametitle=Grand Theft Auto III (v1.60) (SLES_503.30)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,E0040001,extended,004036C0
+patch=1,EE,20112FA0,extended,34050050
+patch=1,EE,20112FA4,extended,24030002
+patch=1,EE,20112FA8,extended,0000000C
+patch=1,EE,20112FAC,extended,03E00008
+patch=1,EE,0011299C,extended,00000000

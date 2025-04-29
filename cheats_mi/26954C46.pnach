@@ -4,3 +4,10 @@ gametitle=Grand Theft Auto: Vice City (v3.00) (SLES_510.61)
 author=Snake356
 comment=Patches the game to run at 50 FPS (Might need 180% EE Overclock to be stable).
 patch=1,EE,202788AC,extended,28420001
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,0024AE5C,word,3C02F380
+patch=1,EE,0024AECC,word,3C02F380
+patch=1,EE,002796A0,word,3C025380

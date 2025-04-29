@@ -1,0 +1,12 @@
+gametitle=Grand Theft Auto: San Andreas [PAL-M5] (v2.01) (SLES-52541)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,E0040001,extended,0066D3D8
+patch=1,EE,2053BBA0,extended,34050050
+patch=1,EE,2053BBA4,extended,24030002
+patch=1,EE,2053BBA8,extended,0000000C
+patch=1,EE,2053BBAC,extended,03E00008
+patch=1,EE,0054A06C,extended,00000000
