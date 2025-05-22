@@ -12,3 +12,9 @@ patch=1,EE,2015b274,extended,3c013f40 //3c013f80 //environment speed
 description=Removes black bars in cutscenes
 patch=1,EE,00109e90,word,3c01c380 // 3c01c316
 patch=1,EE,00109ec4,word,3c014380 // 3c014316
+
+[Reduce Camera Sensitivity]
+author=TechieSaru
+description=Reduces the Y-axis sensitivity
+patch=1,EE,2016CC1C,word,3C01B7E0
+patch=1,EE,2016CC20,word,3421CCF7

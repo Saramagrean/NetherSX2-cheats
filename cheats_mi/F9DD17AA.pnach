@@ -1,0 +1,6 @@
+gametitle=Ghost Rider (PAL-M) SLES-54317 F9DD17AA
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,00736440,extended,00000000

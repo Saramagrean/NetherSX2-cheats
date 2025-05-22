@@ -1,9 +1,9 @@
-gametitle=The Lord of the Rings - The Third Age (PAL-M5) (SLES-52801)
+gametitle=Il Signore degli Anelli - La terza era (PAL-I) SLES-52804 614F4CF4
 
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
 description=Renders the game in 16:9 aspect ratio
-patch=1,EE,20C36980,word,3F400000 //3F800000
-patch=1,EE,20C36990,word,3FB00000 //3F800000
-patch=1,EE,20C36998,word,3FB00000 //3F800000
+patch=1,EE,00C36980,word,3F400000
+patch=1,EE,00C36990,word,3FB00000
+patch=1,EE,00C36998,word,3FB00000

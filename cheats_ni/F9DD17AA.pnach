@@ -4,7 +4,9 @@ gametitle=Ghost Rider (PAL-M) SLES-54317 F9DD17AA
 gsinterlacemode=1
 author=PeterDelta
 description=SDTV 480p mode at start.
-patch=1,EE,00399DA0,word,34050050
-patch=1,EE,00399DA4,word,24030002
-patch=1,EE,00399DA8,word,0000000C
-patch=1,EE,00399DAC,word,03E00008
+patch=1,EE,002FF534,word,10640005
+//Old
+#patch=1,EE,00399DA0,word,34050050
+#patch=1,EE,00399DA4,word,24030002
+#patch=1,EE,00399DA8,word,0000000C
+#patch=1,EE,00399DAC,word,03E00008

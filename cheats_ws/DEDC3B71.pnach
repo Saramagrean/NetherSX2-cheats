@@ -3,6 +3,7 @@ gametitle=Shin Megami Tensei: Persona 4 (SLUS-21782B)
 [Widescreen 16:9]
 description=Renders the game in 16:9 aspect ratio, instead of 4:3.
 gsaspectratio=16:9
+author=pavachan & nemesis2000
 
 //16:9 by pavachan
 patch=1,EE,0076111c,word,3fe38e38

@@ -2,6 +2,13 @@ gametitle=Racing Battle C1 Grand Prix (J)(SLPM-65897)
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=github.com/igorciz777
+author=wxvu & igorciz777
 
-patch=1,EE,00167318,word,3c043f10 //3c043f40
+//Rendering: General
+patch=0,EE,20167318,extended,3C043F10 //3C043F40
+
+//Rendering: Reflections
+patch=0,EE,2016783C,extended,3C033F10 //3C033F40
+
+//Rendering: Rear View Mirror
+patch=0,EE,20167A58,extended,3C043F10 //3C043F40

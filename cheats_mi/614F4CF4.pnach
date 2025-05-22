@@ -3,5 +3,5 @@ gametitle=The Lord of the Rings - The Third Age (PAL-M5) (SLES-52801)
 [50 FPS]
 author=PeterDelta
 description=Might need EE Overclock at 130%.
-patch=1,EE,001C36DC,word,00000000 //4501FFF6
-patch=1,EE,00279890,word,3C013F00 //3C013F80 camera
+patch=1,EE,001C36DC,word,00000000
+patch=1,EE,00279890,word,3C013F00

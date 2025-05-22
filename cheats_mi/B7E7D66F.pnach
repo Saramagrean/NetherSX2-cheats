@@ -9,3 +9,8 @@ patch=1,EE,202EEEC8,extended,00000001
 author=PeterDelta
 description=Removes black bars in cutscenes
 patch=1,EE,0031F3F4,extended,00000001
+
+[Remove Blur/Bloom v2]
+author=PeterDelta
+description=Removes the post-processing blur/bloom effect
+patch=1,EE,0012658C,word,00000000

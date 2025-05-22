@@ -1,0 +1,10 @@
+gametitle=Shox - Rally Reinvented (E)(SLES-51144)
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+author=Arapapa
+comment=Widescreen hack 16:9 Old
+
+//X-Fov
+patch=1,EE,0020636c,word,3c013fe3 //3c013faa
+patch=1,EE,00206370,word,34218e2a //3421aaab
