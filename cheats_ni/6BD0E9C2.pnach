@@ -4,5 +4,10 @@ gametitle=Tom Clancy's Splinter Cell - Double Agent (PAL-M) SLES-53827 [ABE2FDE9
 [480p Mode]
 gsinterlacemode=1
 author=Gabominated
-description=SDTV 480p mode at start.  Might need enable EE Overclock to be stable.
-patch=1,EE,00114938,word,24120050 //00069403
+description=SDTV 480p mode at start - Might need EE overclocking to be stable.
+patch=1,EE,00114938,word,24120050 // 00069403 - video engine
+
+// ==========
+// Game can run at 60 FPS as opposed to 30 with an EE cycle rate of 300%.
+// Use at your own risk.
+// ==========

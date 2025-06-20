@@ -1,0 +1,25 @@
+﻿gametitle=Tom Clancy's Rainbow Six 3 * NTSC-U * SLUS-20883 * A80FBAAC
+// This disc has the same CRC as SLUS-21144.
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+author=Gabominated
+description=Widescreen hack for Single Player mode
+patch=1,EE,002015A4,word,3C014115 // 3C0140e0 - Y-FoV
+patch=1,EE,00132818,word,3c013F21 // 3c013f00 - Zoom
+patch=1,EE,001af8bc,word,3c013f21 // 3c013f00 - Render fix
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+patch=1,EE,0030f100,word,3c023f55
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+patch=1,EE,0030f100,word,3c023f64
+
+[60 FPS]
+author=asasega
+description=Might need EE overclocking to be stable.
+patch=1,EE,20653778,word,00000001

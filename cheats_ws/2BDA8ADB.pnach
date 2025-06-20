@@ -1,4 +1,5 @@
-gametitle=Project - Snowblind (NTSC-U)
+gametitle=Project - Snowblind SLUS-21037 2BDA8ADB secondary crc 7849F069
+//Corresponds to the main crc to activate the secondary crc 7849F069 called B03GM.ELF
 
 [Widescreen 16:9]
 gsaspectratio=16:9

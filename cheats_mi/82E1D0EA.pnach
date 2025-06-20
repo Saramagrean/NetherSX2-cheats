@@ -1,0 +1,6 @@
+gametitle=Tom Clancy's Ghost Recon 2 * NTSC-U * SLUS-21105 * 82E1D0EA
+
+[60 FPS]
+author=asasega
+description=Might need EE overclocking to be stable.
+patch=1,EE,205D9210,word,00000000

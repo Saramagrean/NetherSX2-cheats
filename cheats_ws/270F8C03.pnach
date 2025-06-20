@@ -1,0 +1,8 @@
+gametitle=Need for Speed - Most Wanted [NTSC-U] [SLUS-21267]
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Widescreen fix
+patch=1,EE,00AAFDD4,word,00000001
+patch=1,EE,0054BA38,word,3F400000

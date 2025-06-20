@@ -1,0 +1,6 @@
+gametitle=Project - Snowblind SLUS-21037 2BDA8ADB secondary crc 7849F069
+//Corresponds to the main crc to activate the secondary crc 7849F069 called B03GM.ELF
+
+[Disable Blur/Bloom]
+author=Gabominated
+description=Disable post-processing blur/bloom effect.

@@ -1,0 +1,6 @@
+gametitle=Need for Speed - Undercover (PAL-R) SLES-55353 A2BFF202
+
+[Remove Blur]
+author=PeterDelta
+description=Removes the blur effect
+patch=1,EE,0065CCFC,word,00000000

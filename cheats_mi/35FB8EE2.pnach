@@ -4,3 +4,10 @@ gametitle=Gun Survivor 2 - BioHazard Code - Veronica (with GunCon2) [NTSC-J] (SL
 patch=1,EE,20375c40,extended,40900000 // tori_x (horizontal)
 patch=1,EE,20375c50,extended,C0000000 // tory_y (height)
 patch=1,EE,20375c60,extended,41100000 // tori_z (distance)
+
+[No GunCon Flash]
+author=Souzooka
+description=Removes flash effect when using the GunCon2 Controller
+
+patch=0,EE,20359800,extended,03E00008 // jr ra  // Stub disp_flash function
+patch=0,EE,20359804,extended,00000000 // nop

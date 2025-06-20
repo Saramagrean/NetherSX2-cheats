@@ -1,8 +1,6 @@
 gametitle=Hitman 2 - Silent Assassin (PAL-S) (SLES-51110) (v1.01 and 2.00)
 
-[480p Mode]
-gsinterlacemode=1
+[NTSC Mode]
 author=Gabominated
-description=Forces progressive scan mode 480p at startup.
-patch=1,EE,20415930,extended,24120050 //00069403
-patch=1,EE,201016c8,extended,24060050 //24060003
+description=NTSC mode at start. FMVs remain in PAL.
+patch=1,EE,003066B4,word,14A20057 //10A20057

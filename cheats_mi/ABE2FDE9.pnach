@@ -1,0 +1,14 @@
+gametitle=Tom Clancy's Splinter Cell 4: Double Agent * PAL-M3 * SLES-53827 * ABE2FDE9
+// CRC shifts from ABE2FDE9 to 6BD0E9C2 (SC4_OFF.ELF) when selecting Single Player mode.
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=ElHecht, converted by pgert
+description=Solo/Coop mode widescreen hack.
+patch=1,EE,001F483C,word,3C0D3F55
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=ElHecht, converted by pgert
+description=Solo/Coop mode widescreen hack.
+patch=1,EE,001F483C,word,3C0D3F64

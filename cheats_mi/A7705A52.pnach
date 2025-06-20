@@ -1,19 +1,11 @@
 gametitle=Splinter Cell  * SLES-51466 * PAL-M5 * A7705A52
 
 [Widescreen 16:10]
-gsaspectratio=stretch
-author=sergx12
-comment=Widescreen Hack
-
-// ==========
-// pgert@150820
-// http://forums.pcsx2.net/Thread-PCSX2-Widescreen-Game-Patches?pid=240786#pid240786
-// ==========
-comment=- 16:10 Widescreen hack by ElHecht.
+gsaspectratio=Stretch
+author=sergx12 & ElHecht
 patch=1,EE,001CF890,word,3C053F55 // 3C053F80 - X-axis
 patch=1,EE,001CF930,word,34A55555 // AC450088 - X-axis
 patch=1,EE,001CF934,word,AC450088 // 8FA2005C
-// ==========
 
 // ==========
 // Notes (by pgert) - do not use.
@@ -24,3 +16,10 @@ patch=1,EE,001CF934,word,AC450088 // 8FA2005C
 // - X-axis patch by sergx12.
 // patch=1,EE,001CF890,word,3C053F40 // 3C053F80 - X-axis
 // ==========
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=sergx12 & ElHecht, converted by pgert
+patch=1,EE,001CF890,word,3C053F63
+patch=1,EE,001CF930,word,34A58E39
+patch=1,EE,001CF934,word,AC450088

@@ -1,12 +1,8 @@
-gametitle=Hitman 2 - Silent Assassin 
-region=(PAL-S) (SLES-51110) (PAL-G) (SLES-51109) (PAL-F) (SLES-51108) (PAL-E) (SLES-50992) (PAL-I) (SLES-51107)
-version=(v1.01 and 2.00)
+gametitle=Hitman 2 - Silent Assassin PAL-E SLES-50992 5B9ACF79
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen hack by ElHecht
-
-// 16:9
+description=Widescreen hack
 patch=1,EE,00313f7c,word,3c013f10 // 3c013f40 ver fov
 patch=1,EE,002bbe18,word,3c1b3f40 // 00000000 zoom
 patch=1,EE,002bc00c,word,3c013f00 // 3c013f80

@@ -1,0 +1,8 @@
+gametitle=Cold Fear NSTC-U SLUS-21047 ECFBAB36
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Enable native widescreen.
+patch=1,EE,0046EFB4,word,00000001
+patch=1,EE,004F9500,word,01000000

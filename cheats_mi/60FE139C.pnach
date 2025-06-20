@@ -1,5 +1,15 @@
 gametitle=Grand Theft Auto - San Andreas (SLPM-65984)
 
+[Remove Radiosity Filter]
+author=refractionpcsx2
+description=Removes the radiosity filter which causes a ghosting effect on the people and environment.
+patch=1,EE,2051B5E8,extended,00000000
+
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=1,EE,0034EA80,word,24020002 //24020001
+
 [Widescreen 16:9 Alt]
 gsaspectratio=16:9
 comment=Widescreen fix by BloodRaynare

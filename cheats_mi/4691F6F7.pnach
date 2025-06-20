@@ -1,0 +1,13 @@
+gametitle=Tom Clancy's The Sum of All Fears * PAL-M5 * SLES-51180 * 4691F6F7
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=arapapa, converted by pgert
+patch=1,EE,004d6f40,word,3c023f55
+patch=1,EE,004d6f58,word,3c02439A
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=arapapa, converted by pgert
+patch=1,EE,004d6f40,word,3c023f64
+patch=1,EE,004d6f58,word,3c024390

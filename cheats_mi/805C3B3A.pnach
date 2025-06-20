@@ -1,4 +1,4 @@
-gametitle=Need for Speed - Most Wanted [Black Edition] [PAL-M] [SLES-53857]
+gametitle=Need for Speed - Most Wanted [Black Edition] [PAL-M] [SLES-53857] 805C3B3A
 
 [Remove Brown Filter]
 author=fobes
@@ -10,3 +10,17 @@ patch=1,EE,2040A648,extended,00000000
 
 [Disable Sun]
 patch=1,EE,20386E4C,extended,00000000
+
+[Languages]
+author=Felixthecat1970
+description=Set language in BIOS: Italian, Spanish, Dutch.
+patch=0,EE,003862E4,extended,0C0C4A80
+patch=0,EE,202797D4,extended,0C14CF2C
+patch=0,EE,202797F0,extended,0C14CF2C
+patch=0,EE,20533CB0,extended,3C030057
+patch=0,EE,20533CB4,extended,8C62EE08
+patch=0,EE,20533CB8,extended,2C5B0003
+patch=0,EE,20533CBC,extended,13600002
+patch=0,EE,20533CC0,extended,00000000
+patch=0,EE,20533CC4,extended,0000102D
+patch=0,EE,20533CC8,extended,03E00008

@@ -1,5 +1,10 @@
 gametitle=Need for Speed - Most Wanted [NTSC-U] [SLUS-21267]
 
+[Remove Blur]
+author=PeterDelta
+description=Removes the blur effect
+patch=1,EE,0055014C,word,00000000
+
 [Remove Brown Filter]
 author=fobes
 description=Disables the brownish yellow post processing filter

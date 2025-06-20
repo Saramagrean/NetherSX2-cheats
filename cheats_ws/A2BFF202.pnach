@@ -1,0 +1,7 @@
+gametitle=Need for Speed - Undercover (PAL-R) SLES-55353 A2BFF202
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Widescreen fix
+patch=1,EE,00653630,word,3F400000

@@ -1,0 +1,6 @@
+gametitle=Killzone [PAL-M] SCES-52004 6624A78C
+
+[NTSC Mode]
+author=Gabominated
+description=Enable native NTSC Mode at start instead PAL Mode.
+patch=1,EE,001BD6B4,word,38420001

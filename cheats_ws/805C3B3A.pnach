@@ -1,0 +1,8 @@
+gametitle=Need for Speed - Most Wanted [Black Edition] [PAL-M] [SLES-53857] 805C3B3A
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Widescreen fix
+patch=1,EE,00AAF954,word,00000001
+patch=1,EE,0054BD38,word,3F400000

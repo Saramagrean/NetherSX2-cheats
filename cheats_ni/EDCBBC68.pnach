@@ -1,0 +1,7 @@
+gametitle=Mr. Bean (E)(SLES-54666)
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,00195B14,word,14000017 //10000017
+patch=1,EE,00195B30,word,10400014 //14400014

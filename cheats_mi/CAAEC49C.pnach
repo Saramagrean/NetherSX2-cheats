@@ -5,3 +5,10 @@ author=asasega
 comment=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
 patch=1,EE,00152014,word,24420002 //fps
 patch=1,EE,005DB004,word,3F000000 //speed
+
+[Disable Noise Filter]
+author=Gabominated
+description=Disable noise filter in gameplay.
+patch=1,EE,0055DF6C,extended,000000FF
+patch=1,EE,E0010004,extended,0057BA88
+patch=1,EE,0055DF6C,extended,00000000

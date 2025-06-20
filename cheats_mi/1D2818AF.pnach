@@ -14,6 +14,14 @@ author=asasega
 description=Might need EE Overclock at 130%.
 patch=1,EE,00113E2C,word,2C420001
 
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,00280754,word,24110000
+patch=1,EE,00280758,word,24120050
+patch=1,EE,00280764,word,24130001
+
 [Trigger control mapppings]
 author=Silent
 description=Adds extra controller setups, mirroring the scrapped prototype trigger-based setup, two Underground-like setups, and an Xbox HP2-like setup.

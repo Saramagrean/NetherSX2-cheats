@@ -1,0 +1,6 @@
+gametitle= Burnout [SLUS-20307] (U)
+
+[Disable Depth of Field]
+description=Disables the Depth of Field effect that subtly blurs distant objects.
+author=escape209
+patch=1,EE,20372D60,extended,00000000

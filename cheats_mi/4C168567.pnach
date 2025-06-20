@@ -1,0 +1,307 @@
+gametitle=Road Trip (NTSC-U) (SLUS-20398)
+
+[Force Hi-Quality Car Models]
+author=Souzooka
+description=Forces the highest-quality LOD for car models in the overworld
+
+patch=0,EE,202217CC,extended,4480B000 // mtc1 zero,f22 // Use 0.0f as distance from camera for LOD calc (also causes 3D wheels to appear!)
+
+[Anti-Blur]
+author=Souzooka
+description=Disables after-image effect
+
+// Returns from blur function under normal circumstances (keeps blur when entering/leaving buildings)
+patch=0,EE,20208154,extended,14A00010 // bne $a1, $zero, 0x208198
+patch=0,EE,20208158,extended,24050009 // addiu $a1, $zero, 0x9
+patch=0,EE,2020815C,extended,03E00008 // jr $ra
+patch=0,EE,20208160,extended,27BD0010 // addiu $sp, $sp, 0x10
+
+[Analog Steering]
+author=Souzooka
+description=Enables analog steering with the left analog stick (WIP; breaks player 2, race replays, front wheels don't turn)
+
+// First, we'll patch out the normal code which calculates steering magnitude at 0x21A3AC
+// The original code behaves something like this and calculates steering for all cars, including NPCs:
+//#define INPUT_MASK_RIGHT 0x2000;
+//#define INPUT_MASK_LEFT 0x8000;
+//
+//Car *car;
+//int grip; // Potentially not the exact value of Car->m_grip, there is a small calculation beforehand
+//int input_mask;
+//int steering_direction = car->m_steering_direction; // +0x1CE
+//
+//if (input_mask & INPUT_MASK_LEFT)
+//{
+//	// Turn to the left
+//	if (steering_direction <= 0)
+//	{
+//		// Already steering left
+//		steering_direction -= 1;
+//		if (steering_direction < -0x20)
+//		{
+//			steering_direction = -0x20;
+//		}
+//	}
+//	else
+//	{
+//		// Was turning right, whip it over
+//		// Also save the calculated grip value in this case
+//		car->m_grip = grip; // +0x1D8
+//		steering_direction = -steering_direction;
+//	}
+//}
+//else if (input_mask & INPUT_MASK_RIGHT)
+//{
+//	// Turn to the right
+//	if (steering_direction <= 0)
+//	{
+//		// Already steering right
+//		steering_direction += 1;
+//		if (steering_direction > 0x20)
+//		{
+//			steering_direction = 0x20;
+//		}
+//	}
+//	else
+//	{
+//		// Was turning left, whip it over
+//		// Also save the calculated grip value in this case
+//		car->m_grip = grip;
+//		steering_direction = -steering_direction;
+//	}
+//}
+//else
+//{
+//	// No turn input, dampen steering towards 0
+//	if (grip)
+//	{
+//		if (steering_direction > 4)
+//		{
+//			steering_direction -= 4;
+//		}
+//		else if (steering_direction >= 0)
+//		{
+//			steering_direction = 0;
+//		}
+//		else if (steering_direction < -4)
+//		{
+//			steering_direction += 4;
+//		}
+//		else if (steering_direction <= 0)
+//		{
+//			steering_direction = 0;
+//		}
+//	}
+//	car->m_grip = grip;
+//}
+//
+//car->m_steering_direction = steering_direction;
+
+// Overwrite this code with a jump to the new code and also saving some variables
+patch=0,EE,2021A3AC,extended,00C0A021 // addu s4,a2,zero
+patch=0,EE,2021A3B0,extended,02002021 // addu a0,s0,zero
+patch=0,EE,2021A3B4,extended,0C09E08E // jal 0x278238 (this was sceCdLayerSearchFile, which is unused)
+patch=0,EE,2021A3B8,extended,02202821 // addu a1,s1,zero
+patch=0,EE,2021A3BC,extended,02803021 // addu a2,s4,zero
+patch=0,EE,2021A3C0,extended,00402821 // addu a1,v0,zero
+patch=0,EE,2021A3C4,extended,10000024 // beq zero,zero,0x0021A458
+patch=0,EE,2021A3C8,extended,86020242 // lh v0,0x242(s0)
+
+// Now at 0x278238 we'll write some assembly which roughly matches this C code:
+// Note scePadRead is at 00273B48 and might be useable to improve player 2 behavior later
+//#define INPUT_MASK_RIGHT 0x2000;
+//#define INPUT_MASK_LEFT 0x8000;
+//
+//int do_steer(Car *car, int input_bitmask, int grip)
+//{
+//	const float DEADZONE = 0.1f;
+//
+//	// Total range of steering
+//	float max = 32.0f;
+//	float min = -max;
+//
+//	// Range of steering as dictated by analog stick position
+//	float delta_max = max;
+//	float delta_min = min;
+//
+//	// The change in steering direction
+//	float delta = 0.0f;
+//
+//	float steering_direction = car->m_steering_direction;
+//
+//	if (input_bitmask & INPUT_MASK_LEFT)
+//	{
+//		delta = -1.0f;
+//	}
+//	else if (input_bitmask & INPUT_MASK_RIGHT)
+//	{
+//		delta = 1.0f;
+//	}
+//
+//	if (/* car is player */)
+//	{
+//		float axis = /* poll left analog stick X axis */;
+//		if (std::fabsf(axis) >= DEADZONE)
+//		{
+//			delta = axis;
+//		}
+//	}
+//
+//	delta_max *= std::fabsf(delta);
+//	delta_min *= std::fabsf(delta);
+//
+//	if (delta < 0.0f)
+//	{
+//		// Turning left
+//		if (steering_direction <= 0.0f)
+//		{
+//			// Already turning left
+//			if (steering_direction > delta_min)
+//			{
+//				steering_direction = std::fmaxf(steering_direction + delta, delta_min);
+//			}
+//		}
+//		else
+//		{
+//			// Was turning right
+//			car->m_grip = grip;
+//			steering_direction = -steering_direction;
+//		}
+//	}
+//	else if (delta > 0.0f)
+//	{
+//		// Turning right
+//		if (steering_direction >= 0.0f)
+//		{
+//			// Already turning right
+//			if (steering_direction < delta_max)
+//			{
+//				steering_direction = std::fminf(steering_direction + delta, delta_max);
+//			}
+//		}
+//		else
+//		{
+//			// Was turning left
+//			car->m_grip = grip;
+//			steering_direction = -steering_direction;
+//		}
+//	}
+//	else
+//	{
+//		// No turning
+//		car->m_grip = grip;
+//	}
+//
+//	// Apply dampening
+//	if (grip)
+//	{
+//		// Softer dampening if the analog stick is being held
+//		float damp_factor = 4.0f * (1.0f - std::fabsf(delta));
+//		if (steering_direction > delta_max)
+//		{
+//			steering_direction = std::fmaxf(steering_direction - damp_factor, delta_max);
+//		}
+//		else if (steering_direction < delta_min)
+//		{
+//			steering_direction = std::fminf(steering_direction + damp_factor, delta_min);
+//		}
+//	}
+//
+//	car->m_steering_direction = steering_direction;
+//	return (int)steering_direction;
+//}
+
+patch=0,EE,20278238,extended,3C014200 // lui at,0x4200      //max = 32f
+patch=0,EE,2027823C,extended,44810000 // mtc1 at,f00
+patch=0,EE,20278240,extended,46000047 // neg.s f01,f00
+patch=0,EE,20278244,extended,C48300AC // lwc1 f03,0xAC(a0)  //unused int vec4 component on Car, initialized to 0, used to store float steering magnitude
+patch=0,EE,20278248,extended,30A82000 // andi t0,a1,0x2000
+patch=0,EE,2027824C,extended,30A98000 // andi t1,a1,0x8000
+patch=0,EE,20278250,extended,3C0A3F80 // lui t2,0x3F80
+patch=0,EE,20278254,extended,3C0BBF80 // lui t3,0xBF80
+patch=0,EE,20278258,extended,00000821 // addu at,zero,zero  //delta = 0.0f
+patch=0,EE,2027825C,extended,0148080B // movn at,t2,t0      //delta = 1.0f if input_bitmask & INPUT_MASK_RIGHT
+patch=0,EE,20278260,extended,0169080B // movn at,t3,t1      //delta = -1.0f if input_bitmask & INPUT_MASK_LEFT
+patch=0,EE,20278264,extended,44811000 // mtc1 at,f02
+patch=0,EE,20278268,extended,3C080033 // lui t0,0x0033
+patch=0,EE,2027826C,extended,8D085928 // lw t0,0x5928(t0)   //bitset to help tell if car is player has control, prevents inputs in replays
+patch=0,EE,20278270,extended,31020040 // andi v0,t0,0x0040
+patch=0,EE,20278274,extended,14400019 // bne v0,zero,0x002782DC //branch if in replay
+patch=0,EE,20278278,extended,31020080 // andi v0,t0,0x0080
+patch=0,EE,2027827C,extended,14400017 // bne v0,zero,0x002782DC //branch if in replay
+patch=0,EE,20278280,extended,00000000 // nop
+patch=0,EE,20278284,extended,90880198 // lbu t0,0x198(a0)   //player controls this car if this == 2
+patch=0,EE,20278288,extended,24010002 // addiu at,zero,0x2
+patch=0,EE,2027828C,extended,15010013 // bne t0,at,0x002782DC   //branch if not player car
+patch=0,EE,20278290,extended,3C010033 // lui at,0x0033
+patch=0,EE,20278294,extended,90285A86 // lbu t0,0x5A86(at)  //left analog [0..255] from last scePadRead call
+patch=0,EE,20278298,extended,3C013C00 // lui at,0x3C00
+patch=0,EE,2027829C,extended,34218081 // ori at,at,0x8081   //nextafterf(1/127.5f, 1f) // next is used so that full right gives result of >=1 after mult, instead of ~0.9999
+patch=0,EE,202782A0,extended,44815800 // mtc1 at,f11
+patch=0,EE,202782A4,extended,44882000 // mtc1 t0,f04
+patch=0,EE,202782A8,extended,46802120 // cvt.s.w f04,f04
+patch=0,EE,202782AC,extended,460B2102 // mul.s f04,f04,f11
+patch=0,EE,202782B0,extended,3C013F80 // lui at,0x3F80
+patch=0,EE,202782B4,extended,44815800 // mtc1 at,f11
+patch=0,EE,202782B8,extended,460B2101 // sub.s f04,f04,f11  //axis now normalized to ~[-1.0..1.0f]
+patch=0,EE,202782BC,extended,3C013DCC // lui at,0x3DCC
+patch=0,EE,202782C0,extended,3421CCCD // ori at,at,0xCCCD   //DEADZONE (0.1f)
+patch=0,EE,202782C4,extended,44815800 // mtc1 at,f11
+patch=0,EE,202782C8,extended,46002285 // abs.s f10,f04
+patch=0,EE,202782CC,extended,460B5034 // c.lt.s f10,f11
+patch=0,EE,202782D0,extended,45010002 // bc1t 0x002782DC    //branch if abs(axis) < DEADZONE
+patch=0,EE,202782D4,extended,00000000 // nop
+patch=0,EE,202782D8,extended,46002086 // mov.s f02,f04      //delta = axis
+patch=0,EE,202782DC,extended,460012C5 // abs.s f11,f02
+patch=0,EE,202782E0,extended,460B0002 // mul.s f00,f00,f11  //delta_max *= std::fabsf(delta);
+patch=0,EE,202782E4,extended,460B0842 // mul.s f01,f01,f11  //delta_min *= std::fabsf(delta);
+patch=0,EE,202782E8,extended,44805800 // mtc1 zero,f11
+patch=0,EE,202782EC,extended,460B1034 // c.lt.s f02,f11
+patch=0,EE,202782F0,extended,45000007 // bc1f 0x00278310    //branch if not turning left
+patch=0,EE,202782F4,extended,460B1836 // c.le.s f03,f11
+patch=0,EE,202782F8,extended,4500000E // bc1f 0x00278334    //branch if car was turning right
+patch=0,EE,202782FC,extended,46030834 // c.lt.s f01,f03
+patch=0,EE,20278300,extended,4500000E // bc1f 0x0027833C    //branch if delta_min is gte our last steering direction (i.e. we're steering more than the stick is pushed)
+patch=0,EE,20278304,extended,46021AC0 // add.s f11,f03,f02
+patch=0,EE,20278308,extended,1000000C // b 0x0027833C       //branch to dampening code
+patch=0,EE,2027830C,extended,460158E8 // max.s f03,f11,f01  //steering_direction = std::fmaxf(steering_direction + delta, delta_min);
+patch=0,EE,20278310,extended,46025834 // c.lt.s f11,f02
+patch=0,EE,20278314,extended,45000008 // bc1f 0x00278338    //branch if not turning right
+patch=0,EE,20278318,extended,46035836 // c.le.s f11,f03
+patch=0,EE,2027831C,extended,45000005 // bc1f 0x00278334    //branch if car was turning left
+patch=0,EE,20278320,extended,46001834 // c.lt.s f03,f00
+patch=0,EE,20278324,extended,45000005 // bc1f 0x0027833C    //branch if delta_max is lte our last steering direction (i.e. we're steering more than the stick is pushed)
+patch=0,EE,20278328,extended,46021AC0 // add.s f11,f03,f02
+patch=0,EE,2027832C,extended,10000003 // b 0x0027833C       //branch to dampening code
+patch=0,EE,20278330,extended,460058E9 // min.s f03,f11,f00  //steering_direction = std::fminf(steering_direction + delta, delta_max);
+patch=0,EE,20278334,extended,460018C7 // neg.s f03,f03      //steering_direction = -steering_direction (when changing direction)
+patch=0,EE,20278338,extended,AC8601D8 // sw a2,0x1D8(a0)    //car->m_grip = grip (when not steering or when changing direction)
+patch=0,EE,2027833C,extended,10C00018 // beq a2,zero,0x002783A0 //skip dampening if grip is 0
+patch=0,EE,20278340,extended,460012C5 // abs.s f11,f02
+patch=0,EE,20278344,extended,3C013F80 // lui at,0x3F80
+patch=0,EE,20278348,extended,44815000 // mtc1 at,f10
+patch=0,EE,2027834C,extended,460B52C1 // sub.s f11,f10,f11
+patch=0,EE,20278350,extended,3C014080 // lui at,0x4080
+patch=0,EE,20278354,extended,44815000 // mtc1 at,f10
+patch=0,EE,20278358,extended,460B5142 // mul.s f05,f10,f11  //float damp_factor = 4.0f * (1.0f - std::fabsf(delta));
+patch=0,EE,2027835C,extended,44805800 // mtc1 zero,f11
+patch=0,EE,20278360,extended,00000000 // nop
+patch=0,EE,20278364,extended,00000000 // nop
+patch=0,EE,20278368,extended,00000000 // nop
+patch=0,EE,2027836C,extended,46030034 // c.lt.s f00,f03
+patch=0,EE,20278370,extended,45000003 // bc1f 0x00278380    //branch if delta_max >= steering_direction, no dampening needed
+patch=0,EE,20278374,extended,00000000 // nop
+patch=0,EE,20278378,extended,460518C1 // sub.s f03,f03,f05
+patch=0,EE,2027837C,extended,460018E8 // max.s f03,f03,f00  //steering_direction = std::fmaxf(steering_direction - damp_factor, delta_max);
+patch=0,EE,20278380,extended,00000000 // nop
+patch=0,EE,20278384,extended,00000000 // nop
+patch=0,EE,20278388,extended,46011834 // c.lt.s f03,f01
+patch=0,EE,2027838C,extended,45000004 // bc1f 0x002783A0    //branch if delta_min <= steering_direction, no dampening needed
+patch=0,EE,20278390,extended,00000000 // nop
+patch=0,EE,20278394,extended,460518C0 // add.s f03,f03,f05
+patch=0,EE,20278398,extended,460118E9 // min.s f03,f03,f01  //steering_direction = std::fminf(steering_direction + damp_factor, delta_min);
+patch=0,EE,2027839C,extended,00000000 // nop
+patch=0,EE,202783A0,extended,E48300AC // swc1 f03,0xAC(a0)  //Save current steering direction back to our hijacked float member
+patch=0,EE,202783A4,extended,460018E4 // cvt.w.s f03,f03
+patch=0,EE,202783A8,extended,03E00008 // jr ra
+patch=0,EE,202783AC,extended,44021800 // mfc1 v0,f03        //return (int)steering_direction

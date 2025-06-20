@@ -1,0 +1,7 @@
+gametitle=Need for Speed - Carbon (PAL-R) SLES-54324 26DFEE66
+
+[Remove Blur/Bloom]
+author=PeterDelta
+description=Removes the post-processing blur/bloom effect
+patch=1,EE,006244C4,word,00000000
+patch=1,EE,006245F0,word,01000000

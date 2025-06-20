@@ -1,0 +1,8 @@
+gametitle=Need for Speed - Most Wanted [PAL-E] [SLES-53557] 692CBA8E
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Widescreen fix
+patch=1,EE,00AAFD54,word,00000001
+patch=1,EE,0054BD38,word,3F400000

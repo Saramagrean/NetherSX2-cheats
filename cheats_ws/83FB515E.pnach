@@ -1,18 +1,12 @@
-gametitle=Heroes of the Pacific (U)(SLUS-20943)
+gametitle=Heroes of the Pacific NTSC-U SLUS-20943 83FB515E
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen hack by Arapapa
-
-//Widescreen hack 16:9
-
-patch=1,EE,001bb1c8,word,08052064 // c6010068
-patch=1,EE,001bb1cc,word,00000000 // c602006c
-
-patch=1,EE,00148190,word,3c013f40 // 00000000
-patch=1,EE,00148194,word,4481f000 // 00000000
-patch=1,EE,00148198,word,c6010068 // 00000000
-patch=1,EE,0014819c,word,c602006c // 00000000
-patch=1,EE,001481a0,word,461e0843 // 00000000
-patch=1,EE,001481a4,word,e6010068 // 00000000
-patch=1,EE,001481a8,word,0806ec74 // 00000000
+author=Gabominated
+description=Widescreen hack
+patch=1,EE,20799100,extended,3FE38E3A //3FAAAAA7
+patch=1,EE,2067D740,extended,3F249244 //3F5B6DB6
+patch=1,EE,20799250,extended,3FE38E3A //3FAAAAA7
+patch=1,EE,20799254,extended,42C20000 //42920000
+patch=1,EE,207992E0,extended,00000002 //00000000
+patch=1,EE,20A178E4,extended,b3000000 //b3000000

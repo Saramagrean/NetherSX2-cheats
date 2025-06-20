@@ -1,0 +1,16 @@
+gametitle=Tom Clancy's Splinter Cell 2: Pandora Tomorrow * NTSC-U * SLUS-20958 * AEE8FDC4
+// CRC shifts from AEE8FDC4 to 0277247B (SC2A.ELF)
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+description=Combine with 'Widescreen 16:9'
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+description=Combine with 'Widescreen 16:9'
+
+[60 FPS]
+author=PeterDelta
+description=Might need EE overclocking to be stable (130%).

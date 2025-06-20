@@ -1,0 +1,13 @@
+gametitle=Tom Clancy's Splinter Cell 4: Double Agent * PAL-M3 * SLES-53827 * ABE2FDE9
+// CRC shifts from ABE2FDE9 to 6BD0E9C2 (SC4_OFF.ELF) when selecting Single Player mode.
+
+[480p Mode]Add commentMore actions
+gsinterlacemode=1
+author=Gabominated
+description=SDTV 480p mode at start - Might need EE overclocking to be stable.Add commentMore actions
+patch=1,EE,00114938,word,24120050 // 00069403 - video engine
+
+// ==========
+// Game can run at 60 FPS as opposed to 30 with an EE cycle rate of 300%.
+// Use at your own risk.
+// ==========

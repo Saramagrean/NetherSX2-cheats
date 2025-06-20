@@ -1,0 +1,6 @@
+gametitle=Need for Speed - Most Wanted [Black Edition] [PAL-M] [SLES-53857] 805C3B3A
+
+[NTSC Mode]
+author=Felixthecat1970
+description=NTSC mode at start.
+patch=0,EE,20322DB4,extended,0000102D

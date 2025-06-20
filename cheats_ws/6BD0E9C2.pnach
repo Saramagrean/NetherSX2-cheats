@@ -1,8 +1,8 @@
-gametitle=Tom Clancy's Splinter Cell - Double Agent (PAL-M) SLES-53827 [ABE2FDE9] secundary CRC 
-//Game changes ELF when select single player to SC4_OFF.ELF with active CRC 6BD0E9C2
+gametitle=Tom Clancy's Splinter Cell 4: Double Agent * PAL-M3 * SLES-53827 * 6BD0E9C2Add
+// CRC shifts from ABE2FDE9 to 6BD0E9C2 (SC4_OFF.ELF) when selecting Single Player mode.
 
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=ElHecht
-comment=16:9 Widescreen hack for Solo/Coop mode by ElHecht.
+description=Solo/Coop mode widescreen hack.
 patch=1,EE,001F483C,word,3C0D3F40 // 3C0D3F80 - X-axis

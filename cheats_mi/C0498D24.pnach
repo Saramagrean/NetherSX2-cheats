@@ -1,0 +1,18 @@
+gametitle=Tom Clancy's Splinter Cell 4: Double Agent * NTSC-U * SLUS-21356 * C0498D24
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+description=Combine with 'Widescreen 16:9'
+patch=1,EE,001f47d0,word,3c0c3f55
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+description=Combine with 'Widescreen 16:9'
+patch=1,EE,001f47d0,word,3c0c3f64
+
+// ==========
+// Game can run at 60 FPS as opposed to 30 with an EE cycle rate of 300%.
+// Use at your own risk.
+// ==========

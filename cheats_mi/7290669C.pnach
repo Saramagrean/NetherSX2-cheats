@@ -1,0 +1,8 @@
+gametitle=Time Crisis 3 SLUS_206.45
+
+[No GunCon Flash]
+author=Souzooka
+description=Removes flash effect when using the GunCon2 Controller
+
+patch=0,EE,201AC7F0,extended,03E00008 // jr ra  // Stub guncon2 flash function
+patch=0,EE,201AC7F4,extended,00000000 // nop

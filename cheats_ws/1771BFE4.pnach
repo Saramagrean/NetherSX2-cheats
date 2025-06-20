@@ -1,24 +1,12 @@
-gametitle=Soul Reaver 2
-comment=Widescreen Hack (FMV MOD)
+gametitle=Legacy of Kain - Soul Reaver 2 NTSC-U SLUS-20165 1771BFE4 v1.01
 
-//built-in widescreen
-patch=1,EE,001705fc,word,24020001
-patch=1,EE,00170600,word,3C010024
-patch=1,EE,00170604,word,AC22e920
-patch=1,EE,0017061c,word,46001146
-patch=1,EE,00170620,word,00000000
-patch=1,EE,00170624,word,00000000
-
-//gameplay both fov+
-patch=1,EE,001144a0,word,3c0143c0
-
-//render fix
-patch=1,EE,00112dcc,word,3C013F40
-
-//black border fix for cutscenes 
-patch=1,EE,0013db5c,word,3C01BF80
-patch=1,EE,0013db64,word,3c013f80
-
-//FMV Fix
-patch=1,EE,001d3bf8,word,24057604 //Y-Position
-patch=1,EE,001d3c10,word,240A1400 //Y-scaling
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated & pelvicthrustman
+description=Widescreen Hack
+patch=1,EE,001705FC,word,3C013F60 //3C013F95
+patch=1,EE,00170600,word,00000000 //34215556
+patch=1,EE,00170638,word,00000000 //1443000B
+patch=1,EE,0023E918,word,43c00000 //44000000 FOV
+patch=1,EE,00112DCC,word,3C013F40 //3C013F10 render fix
+patch=1,EE,0023E920,word,00000001 //00000000 debug ws mode

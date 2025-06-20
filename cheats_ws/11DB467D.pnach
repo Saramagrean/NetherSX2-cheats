@@ -1,13 +1,16 @@
-gametitle=Tom Clancy's Ghost Recon (PAL-M) (SLES_511.81) 11DB467D
+gametitle=Tom Clancy's Ghost Recon * PAL-M4 * SLES-51181 * 11DB467D
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=Somechump
-comment=Renders the game in 16:9 aspect ratio
-//Widescreen hack by nemesis2000 (Converted to PAL by Somechump)
-patch=1,EE,003a89c4,word,3c023f40 //sp
+author=nemesis2000, ported by Some ChumpAdd commentMore actions
+description=Solo/Coop mode widescreen hack.
+Add commentMore actions
+// Single Player mode
+patch=1,EE,003a89c4,word,3c023f40
 patch=1,EE,003a89e4,word,3c0243d6
-patch=1,EE,003a8ae4,word,3c023f40 //mp
+// Multi Player modeAdd commentMore actions
+patch=1,EE,003a8ae4,word,3c023f40
 patch=1,EE,003a8b04,word,3c0243d6
-patch=1,EE,0053ba44,word,3c023f0c //menu
+// MenuAdd commentMore actions
+patch=1,EE,0053ba44,word,3c023f0c
 patch=1,EE,0053ba54,word,3c0243d6

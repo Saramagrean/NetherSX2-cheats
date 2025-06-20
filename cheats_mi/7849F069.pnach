@@ -5,3 +5,8 @@ gametitle=Project - Snowblind SLUS-21037 2BDA8ADB secundary crc 7849F069
 author=asasega & Gabominated
 description=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
 patch=1,EE,002d4c04,word,2c620000 //0062102B
+
+[Disable Blur/Bloom]
+author=Gabominated
+description=Disable post-processing blur/bloom effect.
+patch=1,EE,004E97C8,word,00000000 //00000018

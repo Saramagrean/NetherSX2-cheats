@@ -1,0 +1,6 @@
+gametitle=Cold Fear (PAL-M) SLES-53158 E38A0AB6 
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,001449c8,word,240301c0 //24030200

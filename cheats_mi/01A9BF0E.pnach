@@ -1,0 +1,11 @@
+gametitle=Harry Potter and the Order of the Phoenix (PAL-M) SLES-54779 01A9BF0E
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+patch=1,EE,0065AA04,word,00000001
+
+[Remove Blur/Bloom]
+author=PeterDelta
+description=Removes the post-processing blur/bloom effect
+patch=1,EE,00324908,word,00000000

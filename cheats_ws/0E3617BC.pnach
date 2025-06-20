@@ -1,14 +1,9 @@
-gametitle=Pro Rally 2002 (E)(SLES-50637)
-
-author=Arapapa
-comment=Widescreen hack
+gametitle=Pro Rally 2002 PAL-M SLES-50637 FF920E90 Secondary CRC 0E3617BC
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-//Widescreen hack 16:9
-
-//For ELF CRC 0E3617BC
-
+author=ArapapaAdd commentMore actions
+description=Widescreen hack 16:9
 patch=1,EE,E0070030,extended,00100008
 patch=1,EE,2011b760,extended,08063b04
 patch=1,EE,2018ec10,extended,4617b042

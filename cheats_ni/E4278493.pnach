@@ -1,0 +1,6 @@
+gametitle=Disney/Pixar Cars - Race-O-Rama NTSC-U SLUS-21883 E4278493
+
+[NTSC/480p Mode]
+author=Gabominated
+description=Unlocked NTSC mode with 480p mode available at option menu.
+patch=1,EE,0015417c,word,24030003 //24030001

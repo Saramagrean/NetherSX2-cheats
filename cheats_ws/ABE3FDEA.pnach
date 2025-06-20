@@ -1,16 +1,7 @@
-gametitle=Splinter Cell 4 - Double Agent
+gametitle=Tom Clancy's Splinter Cell 4: Double Agent * SLES-53826 * PAL-M5 * ABE3FDEA
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-// ==========
-// pgert@150820
-// http://forums.pcsx2.net/Thread-PCSX2-Widescreen-Game-Patches?pid=240786#pid240786
-// ==========
-
-// ==========
-comment= Splinter Cell 4 - Double Agent * SLES-53826 * PAL-M5 * ABE3FDEA
-// ==========
-
-// ==========
-comment=- 16:9 Widescreen hack for Solo/Coop mode by ElHecht.
+author=ElHechtAdd commentMore actions
+description=Solo/Coop mode widescreen hack.Add commentMore actions
 patch=1,EE,001F483C,word,3C0D3F40 // 3C0D3F80 - X-axis

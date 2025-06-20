@@ -1,0 +1,6 @@
+gametitle=Harry Potter and the Prisoner of Azkaban (PAL-M) (SLES-52440)
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+patch=0,EE,00132110,word,240501C0

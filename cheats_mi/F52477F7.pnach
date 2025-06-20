@@ -1,6 +1,11 @@
-gametitle=Spider-Man: Friend or Foe (NTSC-U)
+gametitle=Spider-Man - Friend or Foe NTSC-U SLUS-21600 F52477F7
 
 [60 FPS]
+author=Gabominated
+description=Might need EE Overclock (180%).
+patch=1,EE,0037DCA0,word,00000001 //00000002
+
+[60 FPS Old]
 author=Gabominated
 description=Unlocked at 60 FPS. Might need enable EE Overclock to be stable.
 patch=1,EE,2037DCA0,extended,00000001 //00000002

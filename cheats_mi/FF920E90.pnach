@@ -1,0 +1,6 @@
+gametitle=Pro Rally 2002 PAL-M SLES-50637 FF920E90 Secondary CRC 0E3617BC
+//Corresponds to the main crc to activate the secondary crc 0E3617BC called RALLY.ELF
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock.

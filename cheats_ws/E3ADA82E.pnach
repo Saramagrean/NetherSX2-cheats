@@ -1,12 +1,14 @@
-gametitle=Spy Hunter (SLUS-20056)
+gametitle=Spy Hunter (NTSC-U) (SLUS-20056)
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen Patch (16:9) by Monsterjamp
+author=Souzooka
+description=16:9 3D
 
-//FOV
-patch=1,EE,20393FD0,word,3F400000
+// Replace a call to vkWindow::getPixelAspectRatio with our own constant value
+patch=0,EE,20288774,extended,3C013FA0   // lui at,0x3FA0 // 1.25f
+patch=0,EE,20288778,extended,44810000   // mtc1 at,f00
 
 //Prevents objects from disappearing from sides of screen
-patch=1,EE,2196FE00,word,3F0CCCCD
-patch=1,EE,2196FDE0,word,BF0CCCCD
+#patch=1,EE,2196FE00,word,3F0CCCCD
+#patch=1,EE,2196FDE0,word,BF0CCCCD

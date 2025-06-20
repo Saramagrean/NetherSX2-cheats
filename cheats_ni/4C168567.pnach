@@ -1,0 +1,8 @@
+gametitle=Road Trip (NTSC-U) (SLUS-20398)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=raceywacey
+description=Removes interlacing artefacts
+patch=0,EE,2026F3AC,extended,00000000   // nop
+patch=0,EE,2026F434,extended,00000000   // nop

@@ -1,0 +1,13 @@
+gametitle=Tom Clancy's Splinter Cell 2: Pandora Tomorrow * NTSC-K * SLKA-25180 * 002C5D88
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=nemesis2000 & arapapa, converted by pgert
+description=Combine with 'Widescreen 16:9'
+patch=1,EE,001b8c24,word,3c043f55
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=nemesis2000 & arapapa, converted by pgert
+description=Combine with 'Widescreen 16:9'
+patch=1,EE,001b8c24,word,3c043f64

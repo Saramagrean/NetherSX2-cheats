@@ -1,11 +1,8 @@
-gametitle=Bionicle Heroes (U)(SLUS-21428)
-comment=Widescreen Hack by Arapapa
+gametitle=Bionicle Heroes NTSC-U SLUS-21428 EB6C8519
 
-//Widescreen hack 16:9
-
-// Zoom fix (Internal Widescreen Option) 
-patch=1,EE,00388cf8,word,3c013f80 //3c013f40
-
-//X-Fov
-//403f013c 00008144 00000000 (4th)
-patch=1,EE,00388d28,word,3c013f10 //3c013f40
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Enable native widescreen.
+patch=1,EE,00388D04,word,3C013F10 //3C013F00 zoom fix
+patch=1,EE,0065F798,word,00000001 //00000000

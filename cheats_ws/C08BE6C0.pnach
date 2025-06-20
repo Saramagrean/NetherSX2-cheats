@@ -1,0 +1,7 @@
+gametitle=Psi-Ops - The Mindgate Conspiracy PAL-G SLES-52703 C08BE6C0
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Widescreen hack ported from NTSC-U version.
+patch=1,EE,0047000C,word,241102AA

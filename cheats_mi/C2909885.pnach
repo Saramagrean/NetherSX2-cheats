@@ -1,4 +1,4 @@
-gametitle=Need for Speed - Carbon [Collector's Edition] (PAL-E) (SLES-54492)
+gametitle=Need for Speed - Carbon [Collector's Edition] (PAL-E) (SLES-54492) C2909885
 
 [Fix Most Wanted Black Edition save detection]
 author=Silent
@@ -12,3 +12,9 @@ patch=0,EE,205B0490,extended,37353833
 patch=0,EE,2040134C,extended,0C10039F // j 00400E7C
 patch=0,EE,20400E7C,extended,3C02005B // lui v0,0x005B
 patch=0,EE,20400E84,extended,24420488 // addiu v0,v0,0x488
+
+[Remove Blur/Bloom]
+author=PeterDelta
+description=Removes the post-processing blur/bloom effect
+patch=1,EE,006241C4,word,00000000
+patch=1,EE,006242F0,word,01000000

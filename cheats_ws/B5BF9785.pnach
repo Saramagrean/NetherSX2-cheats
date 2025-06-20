@@ -1,0 +1,10 @@
+gametitle=Spy Hunter (PAL) (SLES-50268)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Souzooka
+description=16:9 3D
+
+// Replace a call to vkWindow::getPixelAspectRatio with our own constant value
+patch=0,EE,20285084,extended,3C013FF3   // lui at,0x3FF3 // 1.8984375f
+patch=0,EE,20285088,extended,44810000   // mtc1 at,f00

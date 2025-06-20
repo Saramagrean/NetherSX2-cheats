@@ -1,8 +1,6 @@
-gametitle=Evil Dead - Regeneration [SLUS-21048] (U)
+gametitle=Evil Dead - Regeneration PAL-E SLES-53457 9DE65987
 
-[60FPS Hack]
-author=asasega
-comment=Patches the game to run at 60FPS. Might require 180% EE Overclock
-
-//60FPS Hack
-patch=1,EE,006EA9E8,extended,00000001
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock (180%).
+patch=1,EE,00377194,word,24020002 //24020001

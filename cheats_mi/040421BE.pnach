@@ -1,0 +1,13 @@
+gametitle=Tom Clancy's Splinter Cell * NTSC-K * SLKA-25061 * 040421BE
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=nemesis2000 & arapapa, converted by pgert
+description=Combine with 'Widescreen 16:9'
+patch=1,EE,001d0b98,word,3c043f55
+
+[Widescreen 15:10]Add commentMore actions
+gsaspectratio=Stretch
+author=nemesis2000 & arapapa, converted by pgert
+description=Combine with 'Widescreen 16:9'
+patch=1,EE,001d0b98,word,3c043f64

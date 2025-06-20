@@ -1,6 +1,6 @@
-gametitle=The Lord of the Rings - The Return of the King (PAL-M5) (SLES-52017)
+gametitle=Lord of the Rings, The - The Return of the King PAL-M SLES-52017 9771C478
 
 [50 FPS]
-author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
-patch=1,EE,0014B318,word,10000013 //14400003
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0014B334,word,3C030000 //3C033F80

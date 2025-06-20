@@ -1,13 +1,7 @@
-gametitle=KILL.SWITCH (E)(SCES-52124)
+gametitle=Kill.switch PAL-M SCES-52124 91A65EAE
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen hack by Arapapa
-
-//Widescreen hack 16:9
-
-//Force turn on Widescreen
-patch=1,EE,2058A454,byte,00000001
-
-//Zoom fix
-patch=1,EE,0024d854,word,3c013f25 //3c013f00
+description=Widescreen hack
+patch=1,EE,2058A454,byte,00000001 //Force turn on Widescreen
+patch=1,EE,0024d854,word,3c013f25 //3c013f00 //Zoom fix

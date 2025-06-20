@@ -1,6 +1,11 @@
-gametitle=Need for Speed - Most Wanted [PAL-E] [SLES-53557]
+gametitle=Need for Speed - Most Wanted [PAL-E] [SLES-53557] 692CBA8E
 
 [Remove Brown Filter]
 author=fobes
 description=Disables the brownish yellow post processing filter
 patch=1,EE,00551058,extended,20000001
+
+[Remove Blur]
+author=PeterDelta
+description=Removes the blur effect
+patch=1,EE,00550424,word,00000000
