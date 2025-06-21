@@ -1,6 +1,6 @@
 gametitle=Harry Potter y la Cámara Secreta (S)[SLES-51195] CRC C5473413
 
-[50 FPS]
+[60 FPS]
 author=asasega
 description=Might need EE Overclock (130%).
 patch=1,EE,00544168,word,00000001

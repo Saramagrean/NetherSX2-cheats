@@ -1,0 +1,15 @@
+gametitle=Max Payne (PAL-E) SLES-50325 53DF159B MAIN_P.RUN
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,001F1F0C,extended,3C033F40
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start. Might need EE Overclock (300%).
+patch=1,EE,00112060,word,34050050
+patch=1,EE,00112064,word,24030002
+patch=1,EE,00112068,word,0000000C
+patch=1,EE,0011206C,word,03E00008

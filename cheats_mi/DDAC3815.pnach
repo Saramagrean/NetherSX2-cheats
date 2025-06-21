@@ -1,0 +1,6 @@
+gametitle=Shox - Rally Reinvented (PAL-A) SLES-51251 DDAC3815
+
+[Widescreen 16:9 Alt]
+gsaspectratio=16:9
+patch=1,EE,00206414,word,3c013fe3 //3c013faa
+patch=1,EE,00206418,word,34218e2a //3421aaab

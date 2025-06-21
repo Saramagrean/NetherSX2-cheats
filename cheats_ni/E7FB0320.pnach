@@ -1,0 +1,11 @@
+gametitle=Max Payne (PAL-E) SLES-50325 E7FB0320
+//Main CRC to activate CRC 53DF159B called MAIN_P.RUN
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start. Might need EE Overclock (300%).

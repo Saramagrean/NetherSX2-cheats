@@ -1,0 +1,6 @@
+gametitle=The Sims - Bustin' Out (PAL-M) (SLES-52047) BF0D1E1A
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+patch=1,EE,003B0A70,word,00000000

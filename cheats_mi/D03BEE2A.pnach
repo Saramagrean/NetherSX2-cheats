@@ -1,0 +1,11 @@
+gametitle=Max Payne 2 - The Fall of Max Payne (PAL-F) SLES-52337 D03BEE2A
+
+[Remove Blackbars]
+author=PeterDelta
+description=Removes black bars in cutscenes
+patch=1,EE,20729AE8,extended,3F800000
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock (300%).
+patch=1,EE,005C0DF8,word,00000001 //00000002

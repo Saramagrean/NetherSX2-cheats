@@ -1,11 +1,11 @@
-gametitle=Splinter Cell - Pandora Tomorrow (PAL-M) SLES-52149 80FAC91D SC2A.ELF
+gametitle=Tom Clancy's Splinter Cell - Pandora Tomorrow (PAL-M) SLES-52149 80FAC91D SC2A.ELF
 
 [50 FPS]
 author=PeterDelta
-description=Might need EE overclocking to be stable (130%).Add commentMore actions
-patch=1,EE,0018D7C8,word,24030001 // 24030002
+description=Might need EE Overclock (130%).
+patch=1,EE,0018D7C8,word,24030001 //24030002
 
-[Widescreen 16:10]Add commentMore actions
+[Widescreen 16:10]
 gsaspectratio=Stretch
 author=ElHecht
 description=Solo mode widescreen hack.

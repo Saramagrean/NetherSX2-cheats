@@ -1,0 +1,6 @@
+gametitle=The Mark of Kri (PAL-M5) (SCES-51164)
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+patch=0,EE,0010024C,word,240A0002

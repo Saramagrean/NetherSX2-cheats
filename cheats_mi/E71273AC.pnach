@@ -1,0 +1,10 @@
+gametitle=Torrente 3 - El Protector (PAL-S) SLES-53979 E71273AC
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,20102CD8,extended,00069403
+patch=1,EE,E0010000,extended,0056F5BC
+patch=1,EE,20102CD8,extended,24120050
+patch=1,EE,0010471C,extended,64420000

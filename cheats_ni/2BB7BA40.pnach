@@ -1,0 +1,6 @@
+gametitle=Need for Speed - Carbon [Collector's Edition] (PAL-F-G) SLES-54402 2BB7BA40
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+patch=0,EE,00394A7C,word,0000102D

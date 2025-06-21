@@ -1,9 +1,6 @@
 gametitle=Disney-Pixar Toy Story 3 (E)(SLES-55622)
 
-[480p Mode]
-gsinterlacemode=1
-author=PeterDelta
-description=SDTV 480p mode at start.
-patch=1,EE,005346A4,word,24110000
-patch=1,EE,005346A8,word,24120050
-patch=1,EE,005346B4,word,24130001
+[NTSC Mode]
+description=NTSC mode at start.
+patch=1,EE,0075158C,word,000001C0
+patch=1,EE,00752880,word,00067800

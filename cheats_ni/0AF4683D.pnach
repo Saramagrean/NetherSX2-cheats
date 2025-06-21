@@ -1,0 +1,8 @@
+gametitle=Project Minerva Professional (PAL) (SLES_524.72)
+
+[No-Interlacing]
+author=Souzooka
+gsinterlacemode=1
+description=Attempts to disable interlaced offset rendering.
+
+patch=0,EE,201C21EC,extended,00000000 // nop

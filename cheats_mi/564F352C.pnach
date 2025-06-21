@@ -2,10 +2,26 @@ gametitle=Max Payne 2 - The Fall of Max Payne (PAL-E) SLES-51954 564F352C
 
 [50/60 FPS]
 author=PeterDelta
-description=Might need EE Overclock at 300%.
+description=Might need EE Overclock (300%).
 patch=1,EE,005D8F78,word,00000001 //00000002
 
 [Remove Blackbars]
 author=PeterDelta
 description=Removes black bars in cutscenes
 patch=1,EE,207419F8,extended,3F800000
+
+[480p Mode Old]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,E0040000,extended,005D8F88
+patch=1,EE,2010D1E0,extended,34050050
+patch=1,EE,2010D1E4,extended,24030002
+patch=1,EE,2010D1E8,extended,0000000C
+patch=1,EE,2010D1EC,extended,03E00008
+patch=1,EE,E0040000,extended,01FFF89C
+patch=1,EE,2010D1E0,extended,24030002
+patch=1,EE,2010D1E4,extended,0000000C
+patch=1,EE,2010D1E8,extended,03E00008
+patch=1,EE,2010D1EC,extended,00000000
+patch=1,EE,006F1670,extended,00000000

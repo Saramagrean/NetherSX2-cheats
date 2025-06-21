@@ -27,3 +27,13 @@ patch=0,EE,101A3D78,extended,000007D7
 author=Nehalem
 description=Render all extra particles while driving
 patch=0,EE,20261E6C,extended,24120001
+
+[Disable Motion Blur]
+description=Disables Motion Blur
+author=escape209
+patch=1,EE,20665F2A,byte,00000000 // 00000001 // Disable Motion blur
+
+[Disable Bloom]
+description=Disables Bloom
+author=escape209
+patch=1,EE,20665F28,byte,00000000 // 00000001 // Disable Bloom

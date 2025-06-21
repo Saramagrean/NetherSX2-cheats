@@ -4,7 +4,9 @@ gametitle=Ferrari Challenge - Trofeo Pirelli (PAL-M) SLES-55294 5EEFD8C0
 gsinterlacemode=1
 author=PeterDelta
 description=SDTV 480p mode + 60 FPS at start.
-patch=1,EE,0043B8CC,word,3C050000
+patch=1,EE,001283C8,word,1400002B
 patch=1,EE,0043B8D4,word,3C060050
-patch=1,EE,0043B8DC,word,3C070001
-patch=1,EE,00644E94,word,3C88889A
+//Old Patch
+//patch=1,EE,0043B8CC,word,3C050000
+//patch=1,EE,0043B8DC,word,3C070001
+//patch=1,EE,00644E94,word,3C88889A

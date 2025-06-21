@@ -1,0 +1,8 @@
+gametitle=Max Payne (PAL-E) SLES-50325 53DF159B MAIN_P.RUN
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+patch=1,EE,0052FD14,word,24060002
+patch=1,EE,006951C4,word,00001C00
+patch=1,EE,006951E4,word,00001C00

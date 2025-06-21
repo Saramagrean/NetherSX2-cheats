@@ -1,6 +1,6 @@
 gametitle=Midnight Club - Street Racing (PAL-M) SLES-50071 831078BD
 
-[50 FPS]
+[50/60 FPS]
 author=PeterDelta
 description=Might need EE Overclock (130%).
 patch=1,EE,003054C4,extended,00000001

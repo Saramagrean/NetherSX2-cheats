@@ -1,0 +1,6 @@
+gametitle=Road Rage 3 (PAL-E) (SLES_519.30)
+
+[NTSC Mode]
+author=Souzooka
+description=Forces game to run in NTSC mode (restart required).
+patch=0,EE,20118E58,extended,24060002 // addiu a2,zero,0x2

@@ -1,13 +1,13 @@
 gametitle=Drive To Survive (U)(SLUS-21109)
+// Mashed: Fully Loaded (SLES-53152) and Drive to Survive (SLUS-21109) have native widescreenAdd commentMore actions
+// available in Screen options, so this patch is pointless
 
 [Widescreen 16:9]
 gsaspectratio=16:9
 comment=Widescreen Hack by Arapapa
 
 //Widescreen hack 16:9
-
 patch=1,EE,0019a430,word,08106838
-
 patch=1,EE,0041a0e0,word,46020002
 patch=1,EE,0041a0e4,word,3c013faa
 patch=1,EE,0041a0e8,word,3421aaab

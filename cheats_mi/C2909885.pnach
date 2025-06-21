@@ -16,5 +16,12 @@ patch=0,EE,20400E84,extended,24420488 // addiu v0,v0,0x488
 [Remove Blur/Bloom]
 author=PeterDelta
 description=Removes the post-processing blur/bloom effect
-patch=1,EE,006241C4,word,00000000
-patch=1,EE,006242F0,word,01000000
+patch=0,EE,006241C4,word,00000000
+patch=0,EE,00254370,word,24020000
+patch=0,EE,00254374,word,10620004
+patch=0,EE,006242F0,word,01000000
+
+[Disable Speed Effect]
+author=PeterDelta
+description=Removes the speed effect in race
+patch=0,EE,00402548,word,14A0003C

@@ -1,0 +1,8 @@
+gametitle=Jak and Daxter - The Precursor Legacy (NTSC-U) [SCUS-97124]
+// This CRC corresponds to an xdelta patched version of the game, needed for RetroAchievements. This is otherwise the exact same experience as the base game.
+
+[No-Interlacing]
+gsinterlacemode=1
+description=No Interlacing & No Blur
+patch=1,EE,202B2014,word,24060000
+patch=1,EE,208781B4,word,AEE0ED00

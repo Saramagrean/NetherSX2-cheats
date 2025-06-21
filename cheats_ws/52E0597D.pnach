@@ -1,5 +1,5 @@
-gametitle=Max Payne [PAL-M4] (SLES_503.26)
-//This pnach corresponds to the main CRC of the game, but it's just meant to activate SLES-50326_C669B63C.pnach
+gametitle=Max Payne (PAL-M4) SLES-50326 52E0597D
+//Main CRC to activate CRC C669B63C called MAIN_P.RUN
 
 [Widescreen 16:9]
 gsaspectratio=16:9
@@ -17,4 +17,4 @@ patch=1,EE,0050eb04,word,461e0082 //c68201f8
 
 //Mode 480p
 author=PeterDelta
-comment=Forces progressive scan mode 480p at startup. Might need enable 300% EE Overclock
+description=SDTV 480p mode at start. Might need EE Overclock (300%).

@@ -1,0 +1,6 @@
+gametitle=Midnight Club - Street Racing (PAL-M) SLES-50054 8CB701AF
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+patch=1,EE,00275180,word,0000102D

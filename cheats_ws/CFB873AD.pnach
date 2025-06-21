@@ -5,5 +5,4 @@ gsaspectratio=16:9
 author=PeterDelta
 description=Enable native widescreen
 patch=1,EE,004F12DC,extended,00000001
-
-#patch=1,EE,004F12DC,byte,01
+//patch=1,EE,004F12DC,byte,01

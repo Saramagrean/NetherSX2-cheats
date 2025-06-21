@@ -1,9 +1,6 @@
 gametitle=Made Man (E)(SLES-54443)
 
-[480p Mode]
-gsinterlacemode=1
+[NTSC Mode]
 author=PeterDelta
-description=Forces progressive scan mode 480p at startup.
-patch=1,EE,001CED74,word,24110000
-patch=1,EE,001CED78,word,24120050
-patch=1,EE,001CED84,word,24130001
+description=NTSC mode at start.
+patch=0,EE,00232A4C,word,14400007
