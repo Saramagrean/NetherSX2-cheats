@@ -3,3 +3,11 @@ gametitle=Urban Reign (SLUS_212.09)
 [De-Blur Patch]
 description=Removes screen blur.
 patch=1,EE,0034D308,extended,00000000
+
+[Force Progressive Scan]
+author=Michael
+description=Automatically boots the game in progressive scan mode (Fixes interlacing issues such as shaking and improves visual quality).
+
+//Force Progressive Scan
+patch=1,EE,201372e0,extended,0C04DCEC
+patch=1,EE,201372e8,extended,0C04DCEC

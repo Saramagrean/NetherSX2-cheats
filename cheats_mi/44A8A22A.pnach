@@ -1,0 +1,7 @@
+gametitle=God of War 2 - PAL [SCES_542.06]
+
+[Skip Cutscenes]
+author=Ezedequias
+description=With Any Action Button
+patch=1,EE,002D7B24,byte,01
+patch=1,EE,207FDC08,word,40638E39

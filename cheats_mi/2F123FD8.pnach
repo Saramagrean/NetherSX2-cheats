@@ -20,3 +20,8 @@ patch=1,EE,0016E724,word,00000000
 
 [Allow Mpeg Skip (By Pressing X)]
 patch=1,EE,001DD8C8,word,00000000
+
+[Skip Cutscenes]
+author=Ezedequias
+comment=With Any Action Button
+patch=1,EE,202D8194,byte,01
