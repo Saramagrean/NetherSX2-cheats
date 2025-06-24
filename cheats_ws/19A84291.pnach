@@ -1,22 +1,19 @@
-gametitle=Grand Theft Auto: San Andreas (SLUS-20946) / Ver 1.03
+gametitle=Grand Theft Auto: San Andreas (SLUS-20946) / Ver 1.03 [Subset - Viva Las Vegas]
+
+// This file is a copy of SLUS-20946_399A49CA.pnach, please keep these two in sync!
+// This game version is a dummy patch for a "Viva Las Vegas" RetroAchievements subset:
+// https://retroachievements.org/game/22085
 
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta, DanielSantos, ThirteenAG, kesterstudios
 description=GTA San Andreas Modern Widescreen Fix for 1.03
-
 patch=1,EE,006FF98F,extended,01 //Widescreen fix by PeterDelta
 patch=1,EE,0021DFE0,extended,A2
 patch=1,EE,0020A498,extended,AC
 patch=1,EE,0020817C,extended,AC
 patch=1,EE,002EC9C0,extended,40
 patch=1,EE,002ECA10,extended,D0
-// Zoom in scenes
-//patch=1,EE,0033D9C4,extended,3C013F80
-//patch=1,EE,E0020001,extended,0066B9F4
-//patch=1,EE,0033D9C4,extended,3C013F40
-//patch=1,EE,2021EDB4,extended,3C023FC0
-//patch=1,EE,2021EDB4,extended,3C024000
 //-------------------------------------------------HUD-------------------------------------------------//
 //patch=0,EE,20663C00,extended,3f666666 //Wanted Height
 patch=0,EE,20663C04,extended,3ecccccd //Wanted Width
@@ -30,7 +27,8 @@ patch=0,EE,2026EF18,extended,3c034280 //Radar Mask Width
 patch=0,EE,20269528,extended,3c024280 //Radar Width unknown
 patch=0,EE,2026E658,extended,3c024280 //Radar Width plane green overlay
 patch=0,EE,202AC8F8,extended,3c024258 //Radar Width plane overlay
-patch=0,EE,202AC964,extended,3c024270 //Radar Heigth plane overlaypatch=0,EE,202ACC4C,extended,3c0341e3 //Radar Disc Width left up - a esquerda dessa porra aqui
+patch=0,EE,202AC964,extended,3c024270 //Radar Heigth plane overlay
+patch=0,EE,202ACC4C,extended,3c0341e3 //Radar Disc Width left up - a esquerda dessa porra aqui
 patch=0,EE,202ACC50,extended,3c0243aa //Radar Disc Width left up - a parte de cima dessa porra aqui
 patch=0,EE,202ACC60,extended,3c034280 //Radar Disc Width left up - a direita dessa porra aqui
 patch=0,EE,202ACC64,extended,3c0243bf //Radar Disc Width left up - a parte de baixo dessa porra aqui
@@ -76,7 +74,8 @@ patch=0,EE,202AF56C,extended,0C0AA200 //jal _ZN5CFont8SetScaleEf # Jump And Link
 patch=0,EE,202AF570,extended,44836000 //mtc1 $v1, $f12
 patch=0,EE,202AF574,extended,0C0AA2F4 //jal _ZN5CFont15SetProportionalEh # Jump And Link
 patch=0,EE,202AF578,extended,24040001 //li $a0, 1 # Load Immediate
-patch=0,EE,202AF57C,extended,0C0AA310 //jal _ZN5CFont10SetJustifyEh # Jump And Linkpatch=0,EE,202AF580,extended,0000202D //move $a0, $zero
+patch=0,EE,202AF57C,extended,0C0AA310 //jal _ZN5CFont10SetJustifyEh # Jump And Link
+patch=0,EE,202AF580,extended,0000202D //move $a0, $zero
 patch=0,EE,202AF584,extended,0C0AA314 //jal _ZN5CFont14SetOrientationEh # Jump And Link
 patch=0,EE,202AF588,extended,0000202D //move $a0, $zero
 patch=0,EE,202AF58C,extended,0C0AA27C //jal _ZN5CFont12SetFontStyleEh # Jump And Link

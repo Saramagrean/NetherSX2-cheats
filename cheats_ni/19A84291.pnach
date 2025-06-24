@@ -1,0 +1,10 @@
+gametitle=Grand Theft Auto: San Andreas (SLUS-20946) / Ver 1.03 [Subset - Viva Las Vegas]
+
+// This file is a copy of SLUS-20946_399A49CA.pnach, please keep these two in sync!
+// This game version is a dummy patch for a "Viva Las Vegas" RetroAchievements subset:
+// https://retroachievements.org/game/22085
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2054986C,word,00000000

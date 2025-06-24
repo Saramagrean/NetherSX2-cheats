@@ -1,0 +1,31 @@
+gametitle= Sega Rally 2006 (NTSC-J SLPM-66212)
+
+[No-Interlacing (Option 2)]
+description=Attempts to disable interlaced offset rendering
+author=asasega
+gsinterlacemode=1
+patch=1,EE,20106FA0,extended,34030001
+patch=1,EE,20106FB4,extended,34021040
+
+[Render distance increase (+25%)]
+description=Increases the rendering distance by 25% from the default value
+author=Racer_S
+patch=1,EE,2017B150,extended,00000000
+
+[Render distance increase (+50%)]
+description=Increases the rendering distance by 50% from the default value
+author=Racer_S
+patch=1,EE,2017B150,extended,00000000
+patch=1,EE,203832EC,word,3F19999A
+
+[Render distance increase (+75%)]
+description=Increases the rendering distance by 75% from the default value
+author=Racer_S
+patch=1,EE,2017B150,extended,00000000
+patch=1,EE,203832EC,word,3F000000
+
+[Render distance increase (+100%)]
+description=Increases the rendering distance by 100% from the default value
+author=Racer_S
+patch=1,EE,2017B150,extended,00000000
+patch=1,EE,203832EC,word,3EB33333

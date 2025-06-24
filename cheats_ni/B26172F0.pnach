@@ -1,7 +1,9 @@
 gametitle= Sega Rally 2006 (NTSC-J SLPM-66212)
 
-[No-Interlacing]
-description=Attempts to disable interlaced offset rendering.
+[No-Interlacing (Option 1)]
+description=Attempts to disable interlaced offset rendering
+author=felixthecat1970
 gsinterlacemode=1
-patch=1,EE,20106FA0,extended,34030001
-patch=1,EE,20106FB4,extended,34021040
+patch=1,EE,1015AB9C,extended,240601C0
+patch=1,EE,10161338,extended,240401C0
+patch=1,EE,10161368,extended,240401C0

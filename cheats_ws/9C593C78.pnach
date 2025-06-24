@@ -1,18 +1,13 @@
-gametitle=The Godfather [PAL-Spain] (SLES_539.71)
+gametitle=The Godfather PAL-S SLES-53971 9C593C78
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen Hack by Arapapa
-
-//Widescreen hack 16:9
-
-//Zoom
-//003f013c 00608144
-patch=1,EE,0035f2ac,word,3c013f20 //3c013f00
-
-//Y-Fov
-//403f013c 00108144
-patch=1,EE,0036f42c,word,3c013f10 //3c013f40
-
-//Cutscene Bars
-patch=1,EE,006617B8,word,00000001
+author=Gabominated & Arapapa
+description=Widescreen hack port from SLUS-21385.
+patch=1,EE,00355AF0,word,080B9624
+patch=1,EE,002E5890,word,46140002
+patch=1,EE,002E5894,word,3c013f40
+patch=1,EE,002E5898,word,4481f000
+patch=1,EE,002E589C,word,461e0002
+patch=1,EE,002E58A0,word,080D56BD
+patch=1,EE,0035F2AC,word,3C013F20 //zoom by Arapapa

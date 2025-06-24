@@ -1,0 +1,11 @@
+gametitle=The Godfather NTSC-U SLUS-21385 D850707E
+
+[Remove Blackbars]
+author=Arapapa
+description=No blackbars in cutscenes.
+patch=1,EE,006617B8,word,00000001
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (180%).
+patch=1,EE,005C5D28,word,42EFC28F //426FC28F

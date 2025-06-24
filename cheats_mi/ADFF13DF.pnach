@@ -1,0 +1,10 @@
+gametitle=Ultimate Spider-Man (NTSC-J) SLPM-66404 ADFF13DF
+
+[60 FPS]
+author=PeterDelta & asasega
+description=Might need EE Overclock (130%).
+patch=1,EE,20311FB4,extended,4501FFE5
+patch=1,EE,206A0C20,extended,00000002
+patch=1,EE,E0020880,extended,007F06E4
+patch=1,EE,20311FB4,extended,00000000
+patch=1,EE,206A0C20,extended,00000001

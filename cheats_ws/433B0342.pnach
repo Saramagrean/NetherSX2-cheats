@@ -1,4 +1,4 @@
-gametitle=Tom Clancy's Ghost Recon: Advanced Warfighter * NTSC-U * SLUS-21422 * 433B0342
+gametitle=Tom Clancy's Ghost Recon - Advanced Warfighter NTSC-U SLUS-21422 75A5436A
 // CRC shifts from 433B0342 to 75A5436A (SP.IMG)
 
 // This pnach corresponds to the main CRC of the game,
@@ -7,3 +7,4 @@ gametitle=Tom Clancy's Ghost Recon: Advanced Warfighter * NTSC-U * SLUS-21422 * 
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=Gabominated
+description=Widescreen hack

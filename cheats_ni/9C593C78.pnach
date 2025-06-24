@@ -1,0 +1,6 @@
+gametitle=The Godfather PAL-S SLES-53971 9C593C78
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=0,EE,0036F3FC,word,1440002A

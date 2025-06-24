@@ -1,0 +1,7 @@
+gametitle=Tokyo Xtreme Racer: Drift 2 (NTSC-U - SLUS-21394)
+
+[Convert units from mph to km/h]
+description=Changes the ingame speedometer and gear menu to km/h
+author=JakeMR2
+patch=1,EE,001DBD88,extended,00003f80 //In-Game
+patch=1,EE,002ECD14,extended,00003f80 //Gear menu

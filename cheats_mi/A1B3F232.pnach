@@ -5,18 +5,23 @@ author=Boludoz
 comment=Patches the game to run at 50 FPS (Might need 180% EE Overclock to be stable).
 patch=1,EE,006679CC,extended,00000001
 
-[Remove ghosting effects]
-author=PeterDelta
-description=Removes the ghosting effect keeping radiosity.
-patch=1,EE,006685DC,extended,00000000
-patch=1,EE,00668668,extended,00000000
-patch=1,EE,E0010100,extended,006FFA80
-patch=1,EE,006FFA80,extended,00000130
+[Remove Ghosting Effects]
+author=Silent, PeterDelta
+description=Removes the ghosting effect from radiosity and color filter post effects, preserving the slight bloom effect. Also disables the seam remover post effect.
 
-[Remove Radiosity Filter]
-author=refractionpcsx2
-description=Removes the radiosity filter which causes a ghosting effect on the people and environment.
-patch=1,EE,2051A0C8,extended,00000000
+patch=0,EE,006685DC,extended,00 // CPostEffects::m_bSeamRemover
+patch=0,EE,20668664,extended,00000000 // CPostEffects::m_RadiosityFilterPasses
+
+// These values are read from stream.ini from the init overlay, so we have to patch them every frame
+patch=1,EE,206686A8,extended,00000000 // CPostEffects::m_colourLeftUOffset
+patch=1,EE,206686AC,extended,00000000 // CPostEffects::m_colourRightUOffset
+patch=1,EE,206686B0,extended,00000000 // CPostEffects::m_colourTopVOffset
+patch=1,EE,206686B4,extended,00000000 // CPostEffects::m_colourBottomVOffset
+
+[Remove Color Filter]
+author=Silent
+description=Removes the color filter, making the game look more like the PC version, without the yellow tint.
+patch=0,EE,20515658,extended,00000000 // NOP CPostEffects::ColourFilter
 
 [Conditional codes for widescreen toggle in display menu]
 patch=1,EE,e1010001,extended,006ffa8f
@@ -41,6 +46,13 @@ patch=1,EE,002ee4a8,word,34420000
 patch=1,EE,002ee754,word,34420000
 patch=1,EE,002eedd4,word,34420000
 patch=1,EE,002eea78,word,34420000
+
+[Scenes zoom]
+patch=1,EE,0033DAB4,extended,3C013F80
+patch=1,EE,E0020001,extended,0066C17C
+patch=1,EE,0033DAB4,extended,3C013F40
+patch=1,EE,2021EDB4,extended,3C023FC0
+patch=1,EE,2021EDB4,extended,3C024000
 
 [Widescreen 16:9 Alt]
 gsaspectratio=16:9

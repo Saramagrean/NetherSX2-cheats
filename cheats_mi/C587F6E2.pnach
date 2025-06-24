@@ -1,0 +1,14 @@
+gametitle=Tom Clancy's Splinter Cell * NTSC-U * SLUS-20652 * C587F6E2
+//This is for the ELF that pertains to the actual game. The initial CRC was A1B095EC.
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+description=Combine with 'Widescreen 16:9'
+patch=1,EE,001cf598,word,3c043f55
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+description=Combine with 'Widescreen 16:9'
+patch=1,EE,001cf598,word,3c043f64

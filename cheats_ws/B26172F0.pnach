@@ -1,10 +1,9 @@
-gametitle= Sega Rally 2006 (NTSC-J SLPM-66212)
+gametitle= Sega Rally 2006 (NTSC-J - SLPM-66212)
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment= Sega Rally 2006 (NTSC-J SLPM-66212) Widescreen Hack by VIRGIN KLM
-
-//Widescreen
+description= 16:9 proper widescreen
+author=VIRGIN KLM, Racer_S
 patch=1,EE,20383AF8,word,3FC71C71
 patch=1,EE,20356EA0,word,3FC71C71
 patch=1,EE,20356EC0,word,3FC71C71

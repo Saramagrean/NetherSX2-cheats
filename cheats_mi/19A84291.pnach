@@ -1,65 +1,13 @@
-gametitle=Grand Theft Auto: San Andreas (SLUS-20946GH) / Ver 1.03
+gametitle=Grand Theft Auto: San Andreas (SLUS-20946) / Ver 1.03 [Subset - Viva Las Vegas]
 
-[Widescreen 16:9 Alt]
-gsaspectratio=16:9
-comment=Widescreen fix by nemesis2000 (pnach by nemesis2000), port by flameofrecca
-
-//widescreen fix
-patch=1,EE,001130bc,word,3c013f9d
-patch=1,EE,001130c0,word,44810000
-patch=1,EE,001130c4,word,46006302
-patch=1,EE,001130c8,word,03e00008
-patch=1,EE,001130cc,word,e78c9a90
-patch=1,EE,00242d54,word,0c044c32
-
-[Conditional codes for widescreen toggle in display menu]
-patch=1,EE,e1010001,extended,006ff98f
-patch=1,EE,2021df84,extended,0c044c2f
-
-patch=1,EE,e1010000,extended,006ff98f
-patch=1,EE,2021df84,extended,0c044c32
-
-[Restore original FOV for cutscenes]
-patch=1,EE,e1010001,extended,006fe56d
-patch=1,EE,2021df84,extended,0c044c32
-
-[Skybox fixes for the widescreen fix]
-patch=1,EE,002ee0e0,word,3c024120
-patch=1,EE,002ee3b0,word,3c024120
-patch=1,EE,002ee65c,word,3c024120
-patch=1,EE,002ee984,word,3c024120
-patch=1,EE,002eecdc,word,3c024120
-
-patch=1,EE,002ee0e8,word,34420000
-patch=1,EE,002ee3b8,word,34420000
-patch=1,EE,002ee664,word,34420000
-patch=1,EE,002ee988,word,34420000
-patch=1,EE,002eece4,word,34420000
-
-[480p codes]
-//Only activate the 480p mode if the intro FMV is skipped/finished playing
-patch=1,EE,e003ffe0,extended,0088d900
-patch=1,EE,20358fbc,extended,24050000
-patch=1,EE,20358fb8,extended,24060050
-patch=1,EE,20358fc4,extended,24070001
-
-[DISPLAY2 Fix]
-comment=Only needed for the real PS2 hardware to fix the cut-off pictures (Does nothing in emulators, at least for now)
-patch=1,EE,00511eb8,word,8c430008
-
-[Screen position fixes for 480p - Optional (Again, only for real hardware)]
-patch=1,EE,108298ba,extended,00000083
-patch=1,EE,108298e2,extended,00000083
-patch=1,EE,10829c0a,extended,00000083
-patch=1,EE,10829c32,extended,00000083
-patch=1,EE,10829bda,extended,00000083
-patch=1,EE,10829bea,extended,00000083
-patch=1,EE,10829c4a,extended,00000083
-patch=1,EE,10829c5a,extended,00000083
+// This file is a copy of SLUS-20946_399A49CA.pnach, please keep these two in sync!
+// This game version is a dummy patch for a "Viva Las Vegas" RetroAchievements subset:
+// https://retroachievements.org/game/22085
 
 [Remove Ghosting Effects]
 author=Silent, PeterDelta
 description=Removes the ghosting effect from radiosity and color filter post effects, preserving the slight bloom effect. Also disables the seam remover post effect.
+
 patch=0,EE,006684DC,extended,00 // CPostEffects::m_bSeamRemover
 patch=0,EE,20668564,extended,00000000 // CPostEffects::m_RadiosityFilterPasses
 
@@ -72,11 +20,12 @@ patch=1,EE,206685B4,extended,00000000 // CPostEffects::m_colourBottomVOffset
 [Remove Color Filter]
 author=Silent
 description=Removes the color filter, making the game look more like the PC version, without the yellow tint.
+
 patch=0,EE,20515568,extended,00000000 // NOP CPostEffects::ColourFilter
 
 [60 FPS]
 author=asasega
-comment=Make sure you set your EE Cycle Rate to 130-180% 
+description=Make sure you set your EE Cycle Rate to 130-180%
 patch=1,EE,006678CC,extended,00000001
 
 [Silentpatch Lite Fixes]
@@ -95,6 +44,7 @@ patch=0,EE,2059DB60,extended,24060001 //li $s2 1 //chainsaw
 patch=0,EE,2059DC34,extended,24060001 //li $s2 1 //chainsaw
 patch=0,EE,2059F67C,extended,24060001 //li $s2 1 //parachute
 patch=0,EE,2059F3BC,extended,24060001 //li $s2 1 //katana
+
 //014C cargen counter fix (by spaceeinstein)
 patch=0,EE,20295AF0,extended,2C61FFFF //slti => sltiu
 patch=0,EE,20295AF4,extended,10000004 //beqz => b

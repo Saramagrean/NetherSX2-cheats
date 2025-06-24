@@ -1,0 +1,8 @@
+gametitle=Grand Theft Auto - San Andreas (PAL-G) (v2.01) SLES-52927 B61F872C
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta
+description=SDTV 480p mode at start.
+patch=1,EE,00358AAC,extended,24020050
+patch=1,EE,00549FEC,extended,00000000

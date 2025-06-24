@@ -1,6 +1,13 @@
-gametitle=The Godfather [PAL-Spain] (SLES_539.71)
+gametitle=The Godfather PAL-S SLES-53971 9C593C78
 
-[50 FPS]
+[50/60 FPS]
 author=Gabominated
-description=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
-patch=1,EE,202E4ECC,extended,00000000 //14400008 //fps
+description=Might need EE Overclock (180%).
+patch=1,EE,2036f410,extended,3c0142C8
+patch=1,EE,E001C28F,extended,005C5D28
+patch=1,EE,205C5D28,extended,42EFC28F
+
+[Remove Blackbars]
+author=Arapapa
+description=No blackbars in cutscenes.
+patch=1,EE,006617B8,word,00000001
