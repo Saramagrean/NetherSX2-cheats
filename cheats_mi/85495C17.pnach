@@ -1,6 +1,6 @@
 gametitle=Bionicle Heroes (E)(SLES-54150)
 
-[50 FPS]
+[50/60 FPS]
 author=Gabominated
 description=Might need EE Overclock.
 patch=1,EE,001C9674,word,24020002 //24020004

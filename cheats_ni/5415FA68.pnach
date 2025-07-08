@@ -1,0 +1,7 @@
+gametitle=Curious George PAL-M7 SLES-54364 5415FA68
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=0,EE,0039c9e4,word,00000003 //00000001
+patch=0,EE,00211F0C,word,24020002 //24020001

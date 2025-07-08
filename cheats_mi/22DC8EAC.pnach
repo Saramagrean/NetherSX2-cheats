@@ -1,0 +1,6 @@
+gametitle=007 - From Russia with Love (PAL-M7) SLES-53553 22DC8EAC
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=0,EE,002e266c,word,240201c0 //24020200

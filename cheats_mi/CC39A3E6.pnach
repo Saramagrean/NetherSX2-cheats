@@ -1,6 +1,6 @@
 gametitle=The Da Vinci Code (PAL-M) SLES-54031 CC39A3E6
 
-[50 FPS]
+[50/60 FPS]
 author=asasega
-comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+description=Might need EE Overclock (130%).
 patch=1,EE,001AD428,word,00000001

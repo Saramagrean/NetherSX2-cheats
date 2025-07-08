@@ -1,0 +1,7 @@
+gametitle=Castleween (E)(SLES-51249)
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC Mode at start.
+patch=0,EE,0021561C,word,10450006 //14450006
+patch=1,EE,0049B5C0,word,000001c0 //00000200

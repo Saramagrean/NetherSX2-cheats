@@ -2,6 +2,6 @@ gametitle=The Da Vinci Code (PAL-M) SLES-54031 CC39A3E6
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=PeterDelta
-comment=Widescreen Hack
+author=sergx12
+description=Widescreen Hack
 patch=1,EE,003AE5D8,word,3C023F40 //3C023F80
