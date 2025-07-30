@@ -1,4 +1,5 @@
-gametitle=Project Zero
+gametitle=Project Zero * SLES-50821 * PAL-M5 * 22E91837
+// Fatal Frame
 
 [No-Interlacing]
 gsinterlacemode=1
@@ -6,9 +7,3 @@ author=a_NUb_iS
 //  Search pattern: 3829050008004264 (little endian)
 //  Search mask:    ffffffffffffffff
 patch=1,EE,00235664,word,00000000 // 64420008
-[No-Interlacing]
-author=wagrenier
-patch=1,EE,0010ba94,word,00000000
-patch=1,EE,0010bac0,word,00000000
-patch=1,EE,00173620,word,00000000
-patch=1,EE,001829b0,word,00000000

@@ -1,24 +1,14 @@
-gametitle=Project Zero
+gametitle=Project Zero * SLES-50821 * PAL-M5 * 22E91837
+// Fatal Frame
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=ElHecht, nemesis2000 and pgert
-comment=Widescreen Hack
-// ==========
-// pgert@180129
-// http://forums.pcsx2.net/Thread-PCSX2-Widescreen-Game-Patches?pid=240786#pid240786
-// ==========
-comment= Project Zero * SLES-50821 * PAL-M5 * 22E91837
-comment=- Widescreen & HD pnach by pgert.
-comment=- Credits to ElHecht & nemesis2000.
+author=nemesis2000 & pgert
 
-// ==========
-// 16:9 support.
-// ==========
-patch=1,EE,00185B40,word,3C0145C0 // 3C014500 - HD-rendering fix for 00185B4C.
+//patch=1,EE,00185B40,word,3C0145C0 // 3C014500 - HD-rendering fix for 00185B4C.
 patch=1,EE,00185B4C,word,3C013F40 // 3C013F80 - X-axis of Cutscenes (including IntroCutscenes).
 patch=1,EE,0018A2CC,word,3C013F40 // 3C013F80 - X-axis of GamePlay.
-// ==========
+
 // Flashlight 16:9 Widescreen hack, ported by pgert from the NTSC-U pnach by nemesis2000,
 //  and modified so that the values are altered with half of the regular amount
 //  (0,875 instead of 0,75) - better.
@@ -27,11 +17,12 @@ patch=1,EE,00135B80,word,3C0141A8 // 3C0141C0
 patch=1,EE,00135BC4,word,3C014128 // 3C014140
 patch=1,EE,00135BFC,word,3C01410C // 3C014120
 patch=1,EE,0013715C,word,3C013F12 // 3C013F00
-// ==========
+
 // 16:9 Cinematics hack by nemesis2000.
 patch=1,EE,00182730,word,24027100 // 24026C00 - X-axis placement of Cinematics.
 patch=1,EE,00182740,word,24027100 // 24026C00 - X-axis placement of Cinematics.
 // - 6C00h = 27648d : width of Cinematics = 640d : 27648 + 1600 - 640/2 = 28160 : 28160d = 7100h
 patch=1,EE,00182748,word,24091E00 // 24092800 - width of Cinematics.
 // - 2800h = 10240d : width of Cinematics = 640d : 10240 - 1600 - 640*1.5 = 7680 : 7680d = 1E00h
-//==========
+
+// ==========
