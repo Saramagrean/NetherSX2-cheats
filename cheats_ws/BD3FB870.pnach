@@ -1,4 +1,5 @@
-gametitle=Kingdom Hearts: Final Mix
+gametitle=Kingdom Hearts: Final Mix (English patch) (Crazycatz00)
+comment=Widescreen patch + 60FPS toggle cheat by Michael P converted to NTSC-J by E.Mecenate
 
 [Widescreen 16:9]
 gsaspectratio=16:9
@@ -14,33 +15,6 @@ patch=1,EE,0010631c,word,3c071900
 //black border fix
 patch=1,EE,00104334,word,00000000
 patch=1,EE,00104454,word,00000000
-
-//Font fixes (for menu)
-patch=1,EE,001f0360,word,24120018
-patch=1,EE,001f060c,word,24030018
-patch=1,EE,001f0cf4,word,24100018
-patch=1,EE,001f1040,word,24160018
-patch=1,EE,001f1390,word,240b0018
-patch=1,EE,001f24a4,word,24100018
-patch=1,EE,001f27f0,word,24170018
-patch=1,EE,001f9c38,word,24090018
-patch=1,EE,001fa044,word,24140018
-
-//Space fixes
-patch=1,EE,001f0370,word,0015a1c0
-patch=1,EE,001f1044,word,000319c0
-patch=1,EE,001f1398,word,001561c0
-patch=1,EE,001f27f4,word,000319c0
-patch=1,EE,001fa0f4,word,001711c0
-
-//EVT font fix (for cutscenes and journal)
-patch=1,EE,0010d4f4,word,2403000F
-patch=1,EE,0010d504,word,3C013F1F
-patch=1,EE,0010d508,word,3421FFFC
-patch=1,EE,0010d518,word,24030012
-patch=1,EE,0010d528,word,3C013F40
-patch=1,EE,0010d8f0,word,3C014246
-patch=1,EE,0010d918,word,3C014216
 
 //Hide subtitles
 //patch=1,EE,2010d518,word,24030000
