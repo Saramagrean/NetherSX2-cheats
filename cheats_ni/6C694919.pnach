@@ -1,0 +1,10 @@
+gametitle=Car Racing Challenge (E)(SLES-53485)
+
+[No Interlacing]
+author=Souzooka
+description=Removes interlacing artefacts.
+gsinterlacemode=1
+
+// Took a bit to find this one -- the field index is multiplied by 8 using sll 3 then added to vertical position in some custom code
+// instead of the typical daddiu 8 operation
+patch=0,EE,20164904,extended,00003021 // addu a2,zero,zero ; Replaces andi a2,a1,1
