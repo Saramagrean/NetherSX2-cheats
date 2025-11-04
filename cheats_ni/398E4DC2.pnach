@@ -1,0 +1,6 @@
+gametitle=Grand Theft Auto: San Andreas (SLUS-20946) / Ver 1.03 [Subset - Vehicle Enthusiast]
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2054986C,word,00000000

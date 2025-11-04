@@ -1,0 +1,7 @@
+gametitle=Jackie Chan Adventures (PAL-M) SCES-52412 AC4DFD5A
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PliskinDev
+description=Renders the game in 16:9 aspect ratio
+patch=1,EE,002E2C70,word,3FF38E39

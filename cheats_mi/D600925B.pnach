@@ -1,0 +1,23 @@
+gametitle=The Great Escape (NTSC-U) SLUS-20670 D600925B
+
+[Widescreen 16:9 Old]
+gsaspectratio=16:9
+author=by Arapapa
+
+
+//Zoom
+patch=1,EE,002b89cc,word,3c013b01 //3c013acc
+patch=1,EE,002b89d0,word,34210000 //3421cccd
+
+//Y-Fov
+patch=1,EE,002b8a54,word,3c013b35 //3c013b08
+patch=1,EE,002b8a58,word,3421fe54 //34218889
+
+//Render fix
+patch=1,EE,002ca178,word,3c013d00 //3c013c8e
+patch=1,EE,002ca17c,word,34210000 //3421fa36
+
+[60 FPS]
+author=asasega
+description=Make sure you set your EE Cycle Rate to 130-180%
+patch=1,EE,202B3948,extended,2C420001

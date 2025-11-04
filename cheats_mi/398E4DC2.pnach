@@ -1,0 +1,85 @@
+gametitle=Grand Theft Auto: San Andreas (SLUS-20946) / Ver 1.03 [Subset - Vehicle Enthusiast]
+
+[Remove Ghosting Effects]
+author=Silent, PeterDelta
+description=Removes the ghosting effect from radiosity and color filter post effects, preserving the slight bloom effect. Also disables the seam remover post effect.
+
+patch=0,EE,006684DC,extended,00 // CPostEffects::m_bSeamRemover
+patch=0,EE,20668564,extended,00000000 // CPostEffects::m_RadiosityFilterPasses
+
+// These values are read from stream.ini from the init overlay, so we have to patch them every frame
+patch=1,EE,206685A8,extended,00000000 // CPostEffects::m_colourLeftUOffset
+patch=1,EE,206685AC,extended,00000000 // CPostEffects::m_colourRightUOffset
+patch=1,EE,206685B0,extended,00000000 // CPostEffects::m_colourTopVOffset
+patch=1,EE,206685B4,extended,00000000 // CPostEffects::m_colourBottomVOffset
+
+[Remove Color Filter]
+author=Silent
+description=Removes the color filter, making the game look more like the PC version, without the yellow tint.
+
+patch=0,EE,20515568,extended,00000000 // NOP CPostEffects::ColourFilter
+
+[60 FPS]
+author=asasega
+description=Make sure you set your EE Cycle Rate to 130-180%
+patch=1,EE,006678CC,extended,00000001
+
+[Silentpatch Lite Fixes]
+author=DanielSantos, with consideration to Silent
+description=Silentpatch Lite Fixes for 1.03
+
+//------------------------------------------------Fixes------------------------------------------------//
+
+//Linear Filtering for License Plates
+patch=0,EE,204A48A4,extended,34630002 //ori $v1, 2 //RWLINEARFILTER
+
+//Fixed ammo for melee weapons in cheats
+patch=0,EE,2059D88C,extended,24060001 //li $s2 1 //knife
+patch=0,EE,2059D998,extended,24060001 //li $s2 1 //knife
+patch=0,EE,2059DB60,extended,24060001 //li $s2 1 //chainsaw
+patch=0,EE,2059DC34,extended,24060001 //li $s2 1 //chainsaw
+patch=0,EE,2059F67C,extended,24060001 //li $s2 1 //parachute
+patch=0,EE,2059F3BC,extended,24060001 //li $s2 1 //katana
+
+//014C cargen counter fix (by spaceeinstein)
+patch=0,EE,20295AF0,extended,2C61FFFF //slti => sltiu
+patch=0,EE,20295AF4,extended,10000004 //beqz => b
+
+// Don't clean the car BEFORE Pay 'n Spray doors close, as it gets cleaned later again anyway!
+patch=0,EE,202E41CC,extended,00000000 //nop
+
+// Fixed muzzleflash not showing from last bullet
+patch=0,EE,204071F4,extended,00000000 //nop
+
+// Help boxes showing with big message
+// Game seems to assume they can show together
+patch=0,EE,202AE3A0,extended,00000000 //nop
+
+// Impound garages working correctly
+patch=0,EE,201C6088,extended,0C0BAA58 //jal CGarages::IsPointWithinAnyGarage(CVector &)
+patch=0,EE,201C63C0,extended,0C0BAA58 //jal CGarages::IsPointWithinAnyGarage(CVector &)
+patch=0,EE,201C6510,extended,0C0BAA58 //jal CGarages::IsPointWithinAnyGarage(CVector &)
+
+// Impounding after busted works
+patch=0,EE,202A09A4,extended,00000000 //nop
+
+// Weapon icon fix (crosshairs mess up rwRENDERSTATEZWRITEENABLE)
+patch=0,EE,202AAB44,extended,00000000 //nop
+patch=0,EE,202AB284,extended,00000000 //nop
+patch=0,EE,202AB2B4,extended,00000000 //nop
+
+//Fix 4th texture memory leak on effects
+patch=0,EE,203D4D50,extended,8E240018
+patch=0,EE,203D4D64,extended,AE200018
+
+
+[Outlines On Text Subtitles]
+author=ThirteenAG, DanielSantos, kesterstudios
+description=Replaces the drop shadows on subtitles with black outlines.
+
+//Set drop shadows to outline
+patch=0,EE,202A8B90,extended,3c01007c
+patch=0,EE,202A8B94,extended,a0202346
+patch=0,EE,202A8B98,extended,3c01007c
+patch=0,EE,202A8B9C,extended,a024234b
+patch=0,EE,202A8Ba8,extended,a024234c
