@@ -2,12 +2,19 @@ gametitle=Champions of Norrath (SLUS_20565)
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen hack by No.47
-patch=1,EE,20480074,word,3F3FFFFF
-patch=1,EE,204800E4,word,3F3FFFFF
-patch=1,EE,204800C4,word,3FE2FC95
-patch=1,EE,204801B8,word,3FE2FC95
-patch=1,EE,204801C0,word,3FE2FC95
-patch=1,EE,204801C8,word,3FE2FC95
-patch=1,EE,204801CC,word,3FE2FC95
-patch=1,EE,204801D4,word,3FE2FC95
+author=No.47 & Switz0018
+description=Updated version from the forum.
+patch=1,EE,20480074,word,3F1A0000 // 3F7FFFFF
+patch=1,EE,204800E4,word,3F1A0000 // 3F7FFFFF
+patch=1,EE,204800C4,word,3FE38E39 // 3FAA3D70
+patch=1,EE,204801B8,word,3FE38E39 // 3FAA3D70
+patch=1,EE,204801C0,word,3FE38E39 // 3FAA3D70
+patch=1,EE,204801C8,word,3FE38E39 // 3FAA3D70
+patch=1,EE,204801CC,word,3FE38E39 // 3FAA3D70
+patch=1,EE,204801D4,word,3FE38E39 // 3FAA3D70
+
+// Widescreen Inventory Fix by Switz0018 (UnstableZero)
+// Fixes the position of the pedestal and player characters in the inventory screen.
+patch=1,EE,101AD2B8,extended,00004297 // 0000423C - Player1 X
+patch=1,EE,101AD77C,extended,00004452 // 000043F6 - Pedestal1 X
+patch=1,EE,20480568,extended,C296C8B4 // C22DC8B4 - Player2 X

@@ -17,3 +17,10 @@ description=SDTV 480p mode at start.
 patch=1,EE,004938DC,word,24110000
 patch=1,EE,004938E0,word,24120050
 patch=1,EE,004938EC,word,24130001
+
+[Enable Black Edition]
+description=Black Edition content, Burger King Challenge and Castrol Ford GT always enabled
+author=Sal_89
+patch=1,EE,20574940,byte,1
+patch=1,EE,20574528,byte,1
+patch=1,EE,20574564,byte,1

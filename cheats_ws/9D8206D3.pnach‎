@@ -1,0 +1,47 @@
+gametitle=Project Zero II: Crimson Butterfly (Undub v1.0) * SLES-52384 * PAL-M5 * 9D8206D3
+// same serial-code as 9D87F3AF - the regular version.
+// Fatal Frame II: Crimson Butterfly
+
+// This game might have some problems with the Cinematics,
+// regardless of resolution or patches, however this pnach is not the cause of that.
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=nemesis2000
+
+patch=1,EE,0018F090,word,3C013F40 // 3C013F80 - X-axis of GamePlay (including Cutscenes). - 16:9
+patch=1,EE,00340DDC,word,3F400000 // 3F800000 - X-axis of GamePlay (initial Aspect value) - 16:9
+patch=1,EE,00210DC4,word,00000000 // 0C0845A4 - corrects the Cutscenes focus.
+
+// Flashlight Widescreen hack.
+patch=1,EE,0013B1DC,word,0C0541DB // 0C0541DC
+patch=1,EE,0013B264,word,0C0541DB // 0C0541DC
+patch=1,EE,0013B2CC,word,0C0541DB // 0C0541DC
+patch=1,EE,0013B344,word,0C0541DB // 0C0541DC
+patch=1,EE,0015076C,word,3C013F40 // 00000000 - 16:9
+patch=1,EE,001507DC,word,44810800 // 00000000
+patch=1,EE,001507E0,word,46016302 // 00000000
+
+// Cinematics hack.
+patch=1,EE,001E9308,word,E49E0030 // 0200202D
+patch=1,EE,001E930C,word,0200202D // FFA20068
+patch=1,EE,001E9310,word,FFA20068 // FFA30070
+patch=1,EE,001E9314,word,FFA30070 // 0C05E542
+patch=1,EE,001E9318,word,0C05E542 // FFA50090
+patch=1,EE,001E931C,word,FFA50090 // 0220102D
+patch=1,EE,001E9320,word,0220102D // DFB000B0
+patch=1,EE,001E9324,word,DFB000B0 // DFB100B8
+patch=1,EE,001E9328,word,DFB100B8 // DFBF00C0
+patch=1,EE,001E932C,word,DFBF00C0 // 03E00008
+patch=1,EE,001E9330,word,03E00008 // 27BD00D0
+patch=1,EE,001E9334,word,27BD00D0 // 00000000
+patch=1,EE,001E947C,word,10400003 // 10400004
+patch=1,EE,001E9484,word,10000002 // 10000003
+patch=1,EE,001E948C,word,8F84C00C // 00000000
+patch=1,EE,001E9498,word,4481F000 // 00000000
+
+// FMV-values.
+patch=1,EE,001E9490,word,3C013F40 // 8F84C00C - width (1.0f = 640). - 16:9
+patch=1,EE,00344BD8,word,0000006A // 00000000 - x-pos = (640-640*ratio)/(2*ratio) int. - 16:9
+
+// ==========

@@ -1,0 +1,7 @@
+gametitle=Armored Core - Silent Line (K) (SLKA_250.41)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=val
+description=Attempts to disable interlaced offset rendering.
+patch=1,EE,00310384,word,00000000

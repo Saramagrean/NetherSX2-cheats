@@ -1,0 +1,7 @@
+gametitle=Sonic Heroes (NTSC-U) (SLUS-20718) 78FF4E3B
+
+[60 FPS]
+author=asasega
+description=Might need EE Overclock at 130%.
+patch=1,EE,004777C0,word,00000001 //fps
+patch=1,EE,2028FF5C,word,24020001 //speed

@@ -11,3 +11,10 @@ description=Removes the blur effect
 patch=0,EE,00550424,word,00000000
 patch=0,EE,001FEDB8,word,24020000
 patch=0,EE,001FEDBC,word,10620004
+
+[Enable Black Edition]
+description=Black Edition content, Burger King Challenge and Castrol Ford GT always enabled
+author=Sal_89
+patch=1,EE,20574940,byte,1
+patch=1,EE,20574528,byte,1
+patch=1,EE,20574564,byte,1

@@ -1,0 +1,15 @@
+gametitle=Ys - The Ark of Napishtim (NTSC-U) (SLUS-20980)
+
+[Fix Analog Deadspot]
+author=Souzooka
+description=Fixes an issue where the player will not move if the analog stick is held to the top left.
+
+// This game skips movement processing if the analog stick axes are both 0.
+// This causes the top left of the stick to be a deadzone if using increased sensitivity.
+// Likely, the programmer wished to skip this processing if the analog stick was neutral,
+// but erroneously thought that X=0,Y=0 was neutral (instead of top left).
+
+// Nop X=0 check
+patch=0,EE,2021FC28,extended,0
+// Nop Y=0 check
+

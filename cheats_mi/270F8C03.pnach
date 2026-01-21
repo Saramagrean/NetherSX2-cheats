@@ -11,3 +11,10 @@ patch=0,EE,001FEDBC,word,10620004
 author=fobes
 description=Disables the brownish yellow post processing filter
 patch=1,EE,00550D58,extended,20000001
+
+[Enable Black Edition]
+description=Black Edition content, Burger King Challenge and Castrol Ford GT always enabled
+author=Sal_89
+patch=1,EE,20574640,byte,1
+patch=1,EE,20574228,byte,1
+patch=1,EE,20574264,byte,1

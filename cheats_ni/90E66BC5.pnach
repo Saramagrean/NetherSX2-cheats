@@ -1,13 +1,9 @@
 gametitle=Champions of Norrath (SLUS_20565)
 
 [No-Interlacing]
-description=Attempts to disable interlaced offset rendering.
-gsinterlacemode=1
-author=Agrippa
-comment=EE overclock is needed to avoid infrequent frame rate drops.
-patch=1,EE,204843E0,extended,00000000
-patch=1,EE,204843E4,extended,00000001
-patch=1,EE,20484474,extended,00000001
-patch=1,EE,20190AE4,extended,10000010
-patch=1,EE,20190B48,extended,10000005
-patch=1,EE,201913D8,extended,24020001
+author=Switz0018
+description=Removes interlacing. Does not Require EE overclock.
+patch=1,EE,001912CC,extended,0000102D // Don't load the vblankField byte.
+patch=1,EE,204843E0,extended,00000001 // Tripple-buffering
+patch=1,EE,204843E4,extended,00000000 // Progressive Mode (FullFrameMode internally)
+patch=1,EE,20484474,extended,00000001 // Another FullFrameMode internal flag, this does not do progressive.
