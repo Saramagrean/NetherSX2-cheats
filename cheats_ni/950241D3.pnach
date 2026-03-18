@@ -1,0 +1,7 @@
+gametitle=Fu-un Bakumatsu-den [NTSC-J] SLPM-65813 950241D3
+
+[No-Interlacing]
+gsinterlacemode=1
+author=val
+description=Attempts to disable interlaced offset rendering.
+patch=1,EE,0015586C,word,00000000 //DC441000

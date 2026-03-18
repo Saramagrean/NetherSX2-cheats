@@ -1,14 +1,15 @@
-gametitle=Racing Battle C1 Grand Prix (J)(SLPM-65897) (English Patched)
+gametitle=Racing Battle - C1 Grand Prix [NTSC-J] SLPM-65897 9C4C9611 [English Patch v8.1 Final]
 
 [Widescreen 16:10]
 gsaspectratio=Stretch
-author=wxvu & igorciz777
+author=val, igorciz777
+patch=1,EE,00167318,short,3F20 //3F40 //3D General
+patch=1,EE,0016783C,short,3F20 //3F40 //3D Reflections
+patch=1,EE,00167A58,short,3F20 //3F40 //3D Mirror
 
-//Rendering: General
-patch=0,EE,20167318,extended,3C043F20 //3C043F40
-
-//Rendering: Reflections
-patch=0,EE,2016783C,extended,3C033F20 //3C033F40
-
-//Rendering: Rear View Mirror
-patch=0,EE,20167A58,extended,3C043F20 //3C043F40
+[Native 10:7]
+gsaspectratio=10:7
+author=val, igorciz777
+patch=1,EE,00167318,short,3F33 //3F40 //3D General
+patch=1,EE,0016783C,short,3F33 //3F40 //3D Reflections
+patch=1,EE,00167A58,short,3F33 //3F40 //3D Mirror

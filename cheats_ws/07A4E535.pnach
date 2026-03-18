@@ -1,6 +1,9 @@
-gametitle=Tokyo Xtreme Racer: Drift (SLUS-21236)
+gametitle=Tokyo Xtreme Racer: Drift [NTSC-U] SLUS-21236 07A4E535
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen hack by nemesis2000 (pnach by nemesis2000)
-patch=1,EE,001196f4,word,3c043f40
+author=val
+patch=1,EE,003BC6CE,short,3F40 //3F80 //3D General
+patch=1,EE,003BDDCE,short,3F40 //3F80 //3D Reflections
+patch=1,EE,003BE38E,short,3F40 //3F80 //3D Mirror
+patch=1,EE,003BFA8E,short,3F40 //3F80 //3D Weather

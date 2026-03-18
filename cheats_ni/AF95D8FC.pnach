@@ -1,0 +1,7 @@
+gametitle=Fu-un Shinsen-gumi [NTSC-J] SLPM-65494 AF95D8FC
+
+[No-Interlacing]
+gsinterlacemode=1
+author=val
+description=Attempts to disable interlaced offset rendering.
+patch=1,EE,0013A494,word,00000000 //DC221000

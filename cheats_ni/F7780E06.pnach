@@ -4,4 +4,4 @@ gametitle=Kaido Racer PAL (SLES_531.91)
 gsinterlacemode=1
 author=val
 description=Attempts to disable interlaced offset rendering.
-patch=1,EE,001350F0,word,00000000
+patch=1,EE,001350F0,word,00000000 //DC241000

@@ -1,7 +1,9 @@
-﻿gametitle=Kaido Battle 2 - Chain Reaction [NTSC-J] (SLPM-65514)
+﻿gametitle=Kaido Battle 2 - Chain Reaction [NTSC-J] SLPM-65514 C37C1B76
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=nemesis2000
-description=Widescreen hack by nemesis2000 (pnach by nemesis2000)
-patch=1,EE,00149200,word,3c023f40
+author=val
+patch=1,EE,00435492,short,3F40 //3F80 //3D General
+patch=1,EE,004365D2,short,3F40 //3F80 //3D Reflections
+patch=1,EE,00437712,short,3F40 //3F80 //3D Mirror
+patch=1,EE,00438292,short,3F40 //3F80 //3D Weather

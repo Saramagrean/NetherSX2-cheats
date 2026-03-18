@@ -1,9 +1,8 @@
 gametitle=Champions: Return to Arms (NTSC-U)
 
 [No-Interlacing]
-author=Switz0018
+author=Agrippa, updated by Switz0018
 description=Disables interlacing. No EE overclock needed.
-patch=1,EE,2019D9B0,extended,0000102D // Don't load the vblankField Byte
-patch=1,EE,2044FD40,extended,00000001 // Tripple-buffering
-patch=1,EE,2044FD44,extended,00000000 // Progressive Mode (FullFrameMode Internally)
-patch=1,EE,2044FDB4,extended,00000001 // Another FullFrameMode flag, does not do progressive.
+patch=1,EE,0044FD40,extended,00000000 // Tripple-buffering
+patch=1,EE,0044FD44,extended,00000001 // Progressive Mode (FullFrameMode Internally)
+patch=1,EE,0044FDB4,extended,00000001 // Another FullFrameMode flag, does not do progressive.

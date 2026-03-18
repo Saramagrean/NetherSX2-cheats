@@ -10,3 +10,9 @@ patch=1,EE,2044FDB4,extended,00000001
 patch=1,EE,2019DB0C,extended,10000010
 patch=1,EE,2019DB6C,extended,10000004
 patch=1,EE,2019E3AC,extended,24020001
+
+[Online Loading Fix]
+author=Adam & Switz0018
+description=Patches the compression algorithm used for online.
+patch=2,EE,201BE0E0,extended,24100004
+patch=2,EE,201BE188,extended,26100001

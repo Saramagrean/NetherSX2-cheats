@@ -1,8 +1,9 @@
-gametitle=Kaido Racer 2 PAL (SLES_539.00)
+gametitle=Kaido Racer 2 [PAL] SLES-53900 C7993BCC
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=El_Patas
-comment=Widescreen hack by El_Patas
-//Gameplay 16:9
-patch=1,EE,203FDFD0,extended,3F400000 //3F800000 (Increases hor. axis)
+author=val
+patch=1,EE,003FDFD2,short,3F40 //3F80 //3D General
+patch=1,EE,003FF112,short,3F40 //3F80 //3D Reflections
+patch=1,EE,00400252,short,3F40 //3F80 //3D Mirror
+//patch=1,EE,003FE022,short,3F80 //3F80 //3D Weather

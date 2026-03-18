@@ -1,7 +1,9 @@
-﻿gametitle=Drift Racer - Kaido Battle [NTSC-J] (SLPM-65246)
+﻿gametitle=Kaido Battle [NTSC-J] SLPM-65246 0AD22FB5
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=nemesis2000
-description=Widescreen hack by nemesis2000 (pnach by nemesis2000)
-patch=1,EE,0013bd80,word,3c023f40
+author=val
+patch=1,EE,003B3CCE,short,3F40 //3F80 //3D General
+patch=1,EE,003B53CE,short,3F40 //3F80 //3D Reflections
+patch=1,EE,003B598E,short,3F40 //3F80 //3D Mirror
+patch=1,EE,003B708E,short,3F40 //3F80 //3D Weather

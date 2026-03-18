@@ -1,0 +1,8 @@
+gametitle=Crash Bandicoot Wrath Of Cortex (SLES-50386) (PAL) Ver 2.01
+
+[No-Interlacing]
+author=asasega; ported by CRASHARKI
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2016A368,extended,AF80E950 //AF82E950
+patch=1,EE,2016A374,extended,AF80E950 //AF82E950

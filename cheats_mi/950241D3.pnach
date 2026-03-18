@@ -1,0 +1,11 @@
+gametitle=Fu-un Bakumatsu-den [NTSC-J] SLPM-65813 950241D3
+
+[Widescreen 16:9 Old]
+gsaspectratio=16:9
+comment=Widescreen hack by Little Giant
+patch=1,EE,0014a394,word,3c023f40 //3c02bf80
+
+[Native 10:7]
+gsaspectratio=10:7
+author=val
+patch=1,EE,004555D2,short,3F6F //3F80 //3D General

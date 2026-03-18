@@ -1,6 +1,9 @@
-gametitle=Tokyo Xtreme Racer: Drift 2 (SLUS-21394)
+gametitle=Tokyo Xtreme Racer: Drift 2 [NTSC-U] SLUS-21394 B32E018E
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen hack by nemesis2000 (pnach by nemesis2000)
-patch=1,EE,203f59d0,extended,3f400000
+author=val
+patch=1,EE,003F59D2,short,3F40 //3F80 //3D General
+patch=1,EE,003F6B12,short,3F40 //3F80 //3D Reflections
+patch=1,EE,003F7C52,short,3F40 //3F80 //3D Mirror
+//patch=1,EE,003F5A22,short,3F80 //3F80 //3D Weather

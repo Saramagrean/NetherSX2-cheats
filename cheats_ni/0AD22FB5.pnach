@@ -4,4 +4,4 @@ gametitle=Drift Racer - Kaido Battle [NTSC-J] (SLPM-65246)
 gsinterlacemode=1
 author=val
 description=Attempts to disable interlaced offset rendering.
-patch=1,EE,00135ABC,word,00000000
+patch=1,EE,00135ABC,word,00000000 //DC221000
