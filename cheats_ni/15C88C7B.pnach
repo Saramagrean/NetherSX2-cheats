@@ -1,0 +1,16 @@
+gametitle=Kaitou Sly Cooper(J)(SCPS-15036)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=asasega & Meos
+description=No Interlacing & No Motion Blur
+
+// No Interlacing by asasega
+patch=1,EE,202037C4,extended,00000000
+
+// No Motion Blur by Meos
+patch=1,EE,2015F3BC,extended,08057CF3
+patch=1,EE,20190720,extended,080641CC
+patch=1,EE,201EB410,extended,0807AD07
+patch=1,EE,2012B958,extended,0804AE5F
+patch=1,EE,2015F9D4,extended,24060000

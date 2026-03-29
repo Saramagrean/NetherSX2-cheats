@@ -1,6 +1,9 @@
 gametitle=God Hand (SLUS-21503)
 
 [No-Interlacing]
-description=Attempts to disable interlaced offset rendering.
 gsinterlacemode=1
-patch=1,EE,2039697C,extended,34021070
+description=Forces 480p display mode
+author=mthsk
+patch=1,EE,00395224,word,24110000
+patch=1,EE,00395228,word,24120050
+patch=1,EE,00395234,word,24130001

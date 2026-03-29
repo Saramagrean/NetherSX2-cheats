@@ -1,0 +1,8 @@
+gametitle=Kao the Kangaroo: Round 2 (NTSC-U) (SLES-20296)
+
+[No-Interlacing]
+author=Rib
+gsinterlacemode=1
+description=Removes interlacing artifacts.
+patch=3,EE,0022F364,word,00000000
+patch=3,EE,0022F368,word,00000000

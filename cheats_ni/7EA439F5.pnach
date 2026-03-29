@@ -1,0 +1,7 @@
+gametitle=Grand Theft Auto: Liberty City Stories (SLUS-21423)
+
+[No Interlacing]
+author=Mensa
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,2035F1B4,extended,00000001

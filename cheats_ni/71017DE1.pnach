@@ -1,0 +1,16 @@
+gametitle=Sly Cooper and the Thievius Raccoonus (K)(SCKA-20004)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=asasega & Meos
+description=No Interlacing & No Motion Blur
+
+// No Interlacing by asasega
+patch=1,EE,20203F84,extended,00000000
+
+// No Motion Blur by Meos
+patch=1,EE,2015F604,extended,08057D85
+patch=1,EE,20190C20,extended,0806430C
+patch=1,EE,201EB7E8,extended,0807ADFD
+patch=1,EE,2012B958,extended,0804AE5F
+patch=1,EE,2015FC1C,extended,24060000

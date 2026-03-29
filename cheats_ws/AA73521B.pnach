@@ -1,0 +1,13 @@
+gametitle=Trigger Man (NTSC-U) (SLUS-20931)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Souzooka
+description=16:9 aspect ratio (some UI is stretched).
+
+// The game has an unfinished widescreen mode we can just force on here
+patch=1,EE,202777F4,extended,00000001
+
+// When widescreen is on, the game intentionally crunches the vertical FOV slightly (by 1.12x), for some reason.
+// We can just undo this effect by setting the multiplier to 1.
+patch=1,EE,20277808,extended,3F800000

@@ -1,0 +1,9 @@
+gametitle=Dark Cloud (SCUS-97111)
+
+[Flapping Duster Fix]
+author=WordofWind
+description=Fixes the bug introduced in the international version that caused the Flapping Duster to become unobtainable.
+patch=1,EE,201C0108,extended,0809BDA0
+patch=1,EE,2026F680,extended,3C100027
+patch=1,EE,2026F684,extended,26100900
+patch=1,EE,2026F688,extended,08070043

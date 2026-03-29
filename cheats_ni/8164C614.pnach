@@ -2,5 +2,11 @@ gametitle=Sly 3 - Honour Among Thieves SCES_534.09
 
 [No-Interlacing]
 gsinterlacemode=1
-comment=No Motion Blur by Meos
+author=asasega & Meos; ported by CRASHARKI
+description=No Interlacing & No Motion Blur
+
+// No Interlacing by asasega; ported by CRASHARKI
+patch=1,EE,20195F38,word,00000000
+
+// No Motion Blur by Meos
 patch=1,EE,201837D8,extended,00000000

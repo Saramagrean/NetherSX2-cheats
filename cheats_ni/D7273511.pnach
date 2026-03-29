@@ -1,0 +1,7 @@
+gametitle=Shin Megami Tensei - Digital Devil Saga (SLUS-20974) (CRC-D7273511)
+
+[No Interlacing]
+gsinterlacemode=1
+author=Altimor
+patch=1,EE,002D1558,word,00000000
+patch=1,EE,002D5060,word,00000000

@@ -1,0 +1,7 @@
+gametitle=Grand Theft Auto: Vice City Stories (SLUS-21590)
+
+[No Interlacing]
+author=Mensa
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20112B24,extended,00000001

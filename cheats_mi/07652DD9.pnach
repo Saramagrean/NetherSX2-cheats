@@ -1,7 +1,0 @@
-gametitle=Sly 2 - Band of Thieves (SCUS-97316)
-
-[No-Interlacing (Option 2)]
-author=Meos
-gsinterlacemode=1
-description=No Interlacing & No Motion Blur
-patch=1,EE,20160FA0,extended,00000000
