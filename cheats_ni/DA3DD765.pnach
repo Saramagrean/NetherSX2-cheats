@@ -2,16 +2,8 @@ gametitle=Sly Raccoon (PAL-M5) (SCES-50917)
 
 [No-Interlacing]
 gsinterlacemode=1
-author=asasega & Meos; ported by CRASHARKI
-description=No Interlacing & No Motion Blur
+author=asasega
+description=No Interlacing
 
-// No Interlacing by asasega; ported by CRASHARKI
+// No Interlacing by asasega
 patch=1,EE,20203444,word,00000000
-patch=1,EE,2015F9B8,word,00009025
-
-// No Motion Blur by Meos
-patch=1,EE,2015F32C,extended,08057CCF
-patch=1,EE,20190210,extended,08064088
-patch=1,EE,201EACD8,extended,0807AB39
-patch=1,EE,2012B958,extended,0804AE5F
-patch=1,EE,2015F944,extended,24060000

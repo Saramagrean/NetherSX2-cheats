@@ -1,0 +1,8 @@
+gametitle=Sly 3 - Honour Among Thieves SCES_534.09
+
+[No Motion Blur]
+author=Meos
+description=No Motion Blur
+
+// No Motion Blur by Meos
+patch=1,EE,201837D8,extended,00000000
