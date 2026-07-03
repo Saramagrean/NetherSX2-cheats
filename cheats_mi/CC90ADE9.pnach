@@ -1,0 +1,6 @@
+gametitle=Scarface - The World is Yours [Collector's Edition] PAL-A SLES-54534 CC90ADE9
+
+[50/60 FPS]
+author=asasega
+description=Might need EE Overclock (130%).
+patch=1,EE,20DAFABC,extended,00000000 //00000001

@@ -1,0 +1,11 @@
+gametitle=TimeSplitters 2 * NTSC-U * SLUS-20314 * 12532F1C
+
+[No Cutscene Letterbox]
+author=Muzzarino
+patch=1,EE,203C7030,short,00000000
+patch=1,EE,203C7058,short,000001C0
+patch=1,EE,203C7668,short,00000000
+patch=1,EE,203C766C,short,00000000
+patch=1,EE,203C767C,short,00000000
+patch=1,EE,203C7680,short,00000000
+patch=1,EE,203C7684,short,00000000

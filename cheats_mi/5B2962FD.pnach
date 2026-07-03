@@ -1,13 +1,18 @@
 gametitle=Lemony Snicket's A Series of Unfortunate Events (E)(SLES-52807) 5B2962FD
 
-[50 FPS]
+[50/60 FPS]
 author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable 130% EE Overclock to be stable.
+description=Might need EE Overclock (130%).
 patch=1,EE,0047D2C0,word,42C80000 //42480000
 patch=1,EE,0047D2C4,word,3C23D70A //3CA3D70A
 
 [Remove Blackbars]
 author=Arapapa
 description=Removes black bars in cutscenes
-//803f013c 00008144 34100046 00000000
-patch=1,EE,001c2e10,word,3c013a00 //3c013f80
+patch=1,EE,001C2E10,word,3C013A00 //3C013F80
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+patch=1,EE,002F5764,word,24020002
+patch=1,EE,003E4794,word,000001C0

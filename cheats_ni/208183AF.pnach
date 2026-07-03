@@ -1,0 +1,11 @@
+gametitle=Midnight Club 3 - DUB Edition Remix (PAL-M) SLES-53717 208183AF
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode at start.
+patch=0,EE,001BE694,word,14A0002F
+patch=1,EE,0061C4A4,word,00000000
+patch=0,EE,0038CA58,word,240201C0
+patch=0,EE,0052D518,word,3C013C88
+patch=0,EE,0052D51C,word,34218889
+patch=0,EE,0052D528,word,2402003C

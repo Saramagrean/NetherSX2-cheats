@@ -1,0 +1,6 @@
+gametitle=SNK vs. Capcom: SVC Chaos (NTSC-J) (SLPS-25316)
+
+[Autoboot Progressive Scan Mode]
+author=by felixthecat1970
+comment=old method use sw mode in PCSX2
+patch=1,EE,202E8C20,extended,24025000

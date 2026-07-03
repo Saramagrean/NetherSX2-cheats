@@ -1,7 +1,9 @@
-gametitle=Capcom vs SNK 2 (NTSC) (SLUS-20246)
+gametitle=Capcom vs. SNK 2: Mark of the Millennium 2001 (USA) (SLUS-20246)
 
-[No-Interlacing]
-description=Attempts to disable interlaced offset rendering.
-gsinterlacemode=1
-patch=1,EE,20101B74,extended,00000000
-patch=1,EE,20101DDC,extended,00000000
+[Full Frame Mode]
+author=felixthecat1970
+description=Enables the native full-frame output path at 640x448; the doubled vertical resolution causes dithering to fit within PS2 VRAM
+patch=0,EE,20134DB4,extended,24020002
+patch=0,EE,20134DB8,extended,AC22EDD0
+patch=0,EE,20134DC8,extended,AC20EDEC
+patch=0,EE,0039A5B0,extended,02010206

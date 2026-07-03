@@ -1,0 +1,7 @@
+gametitle=Scarface - The World is Yours [Collector's Edition] PAL-A SLES-54534 CC90ADE9
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=CRASHARKI
+description=Enable native widescreen.
+patch=1,EE,00DAFAC0,extended,00000001 //00000000

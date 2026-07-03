@@ -1,0 +1,7 @@
+gametitle=Scarface - The World is Yours NTSC-U SLUS-21111 41F4A178
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=CRASHARKI
+description=Enable native widescreen.
+patch=1,EE,00DAFAC0,extended,00000001 //00000000

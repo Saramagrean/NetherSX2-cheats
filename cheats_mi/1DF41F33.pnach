@@ -1,0 +1,6 @@
+gametitle=Dark Cloud 2 (SCUS-97213)
+
+[Disable Depth of Field]
+author=kojinov
+description=Disables Depth of Field resolving distant objects warping and shimmering.
+patch=1,EE,0017E36C,word,100001AA

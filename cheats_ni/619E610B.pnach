@@ -1,6 +1,9 @@
-gametitle= NeoGeo Online Collection Vol.2 The King of figthers Orochi SLPS_256.05;1) Game CRC = 0x619E610B
-comment=No intro + progressive 240p test by felixthecat1970
+gametitle=The King of Fighters Collection: The Orochi Saga (NTSC-J) (SLPS-25605)
 
-patch=1,EE,00139108,extended,24050000
-patch=1,EE,00109CF4,extended,24050000
-patch=1,EE,2011A904,extended,11CF000C
+[No-Interlacing]
+gsinterlacemode=1
+author=umechan
+description=Disables interlacing
+patch=1,EE,202A8094,extended,00000000
+patch=1,EE,202A811C,extended,00000000
+patch=1,EE,2019F3B4,extended,35EF0000

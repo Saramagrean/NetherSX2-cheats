@@ -1,0 +1,6 @@
+gametitle=Street Fighter EX3 (NTSC-J) (SLPS-20003)
+
+[Blur Removal]
+author=Immersion95
+description=Disables the fullscreen alpha blend pass
+patch=1,EE,20268358,extended,DF8297F0 // Disables alpha blending on the final fullscreen pass

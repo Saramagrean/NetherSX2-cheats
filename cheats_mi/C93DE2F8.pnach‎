@@ -1,0 +1,8 @@
+gametitle=Nickelodeon Barnyard (PAL-G) SLES-54377 C93DE2F8
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+patch=1,EE,0054BCA4,extended,00000001
+patch=1,EE,E0010010,extended,004F9034
+patch=1,EE,0054BCA4,extended,00000002

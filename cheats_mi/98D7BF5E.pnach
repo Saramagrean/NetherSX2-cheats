@@ -1,6 +1,16 @@
-gametitle=Gun [PAL-M] SLES-53523 98D7BF5E
+gametitle=Gun (PAL-M) SLES-53523 98D7BF5E
 
-[50 FPS]
+[50/60 FPS]
 author=PeterDelta
-comment=Unlocked at 50 FPS. Might need enable EE Overclock to be stable.
-patch=1,EE,0028E9E8,word,1000000B //1040000B beqz v0,0x0028EA18
+description=Might need EE Overclock (180%).
+patch=0,EE,0028E9C4,word,16000019
+
+[Remove Bloom]
+author=PeterDelta
+description=Removes the bloom effect.
+patch=1,EE,00C6EA30,word,00000000
+
+[Remove Sky Filter]
+author=PeterDelta
+description=Removes the sky filter, making the game look more natural.
+patch=1,EE,0047A544,word,00000000

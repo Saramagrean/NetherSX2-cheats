@@ -1,0 +1,13 @@
+gametitle=Raw Danger! (UNDUB v1.0-beta & NTSC Mode) * SLES_545.87 * PAL * A98B5AD6
+// same serial-code as A98B5B22 & 8DD6DDA3 - the regular version & NTSC Mode + Performance.
+
+[NTSC Mode]
+author=Souzooka
+description=Runs game at 30FPS.
+
+// Point to a NTSC video config for boot
+patch=0,EE,2016E74C,extended,24637EE0 // addiu v1,v1,0x7EE0
+
+// Affects the position of pages for the color correction filter (ScrEffHue)
+patch=0,EE,20228D94,extended,2444008C // addiu a0,v0,0x8C
+patch=0,EE,20228D9C,extended,24450118 // addiu a1,v0,0x118

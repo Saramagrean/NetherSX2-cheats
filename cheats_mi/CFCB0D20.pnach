@@ -8,6 +8,6 @@ patch=1,EE,20272AD4,extended,28420001
 [Remove Blackbars]
 author=PeterDelta
 description=Removes black bars in cutscenes
-patch=1,EE,00245C0C,word,3C02F380
-patch=1,EE,00245C7C,word,3C02F380
-patch=1,EE,002738C0,word,3C025380
+patch=0,EE,00245C0C,word,3C02F380
+patch=0,EE,00245C7C,word,3C02F380
+patch=0,EE,002738C0,word,3C025380

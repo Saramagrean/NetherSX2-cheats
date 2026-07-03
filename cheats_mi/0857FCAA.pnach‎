@@ -1,0 +1,6 @@
+gametitle=Hitman 2 - Silent Assassin (NTSC-U 1.01) (SLUS-20374)
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,20508090,extended,00000001 //00000002

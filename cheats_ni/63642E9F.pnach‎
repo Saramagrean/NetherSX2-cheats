@@ -1,0 +1,8 @@
+gametitle=Street Fighter EX3 (NTSC-J) (SLPS-20003)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=Immersion95
+description=Attempts to disable interlaced offset rendering.
+patch=1,EE,202678B0,extended,0000382D // Forces first sceGsSetHalfOffset field argument to 0
+patch=1,EE,202678F0,extended,0000382D // Forces second sceGsSetHalfOffset2 field argument to 0

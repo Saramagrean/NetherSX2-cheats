@@ -1,15 +1,9 @@
-gametitle=Pro Evolution Soccer 2010 (USA) [SLUS-21918]
+gametitle=Pro Evolution Soccer 2010 (NTSC-U) SLUS-21918 6579BD4D
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-comment=Widescreen hack by Arapapa
-
-//Widescreen 16:9
-
-//X-Fov
-patch=1,EE,001043fc,word,3c013f40 //00000000
+description=Renders the game in 16:9 aspect ratio
+patch=1,EE,001043FC,word,3C013F40 //00000000
 patch=1,EE,00104400,word,44810000 //00000000
-patch=1,EE,00104408,word,4600c602 //00000000
-
-//Render fix
-patch=1,EE,00125ddc,word,3c053fab //3c053f80
+patch=1,EE,00104408,word,4600C602 //00000000
+patch=1,EE,00125DDC,word,3C053FAB //3C053F80 Render fix

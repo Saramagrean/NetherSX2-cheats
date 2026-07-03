@@ -1,0 +1,6 @@
+gametitle=Largo Winch - Empire Under Threat (PAL-M5) SLES-50841 93A090CB
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+patch=0,EE,001017AC,word,24040000

@@ -1,0 +1,22 @@
+gametitle=DreamWorks Madagascar (PAL-G/F) SLES-53226 1468C474
+
+[NTSC Mode]
+author=PeterDelta
+description=NTSC mode on startup at 60 FPS.
+patch=0,EE,00434E7C,word,000001C0
+patch=0,EE,00434E94,word,000001C0
+patch=0,EE,00434EAC,word,000001C0
+patch=0,EE,00434EC0,word,000001C0
+patch=0,EE,00434EC4,word,000001C0
+patch=0,EE,00434EDC,word,000001C0
+patch=0,EE,0043508C,word,000001C0
+patch=0,EE,004350A4,word,000001C0
+patch=0,EE,004350BC,word,000001C0
+patch=0,EE,004350D0,word,000001C0
+patch=0,EE,004350D4,word,000001C0
+patch=0,EE,004350EC,word,000001C0
+patch=0,EE,004352E0,word,000001C0
+patch=0,EE,00435400,word,000001C0
+patch=1,EE,004B0704,extended,01
+patch=1,EE,E0010032,extended,00346DE4
+patch=1,EE,00346DE4,extended,77

@@ -1,0 +1,7 @@
+gametitle=Need for Speed - Underground 2 (v2.0) SLES-52725 0197EBD0
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Enable native widescreen
+patch=1,EE,004F12DC,byte,01

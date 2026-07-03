@@ -1,0 +1,9 @@
+gametitle=The Simpsons - Hit & Run (NTSC-U)
+
+[480p Mode]
+gsinterlacemode=1
+author=PeterDelta; ported by CRASHARKI
+description=SDTV 480p mode at start. Might need EE Overclock (130%)
+patch=1,EE,00404ACC,word,24110000 // 00058C03
+patch=1,EE,00404AD0,word,24120050 // 00069403
+patch=1,EE,00404ADC,word,24130001 // 00079C03

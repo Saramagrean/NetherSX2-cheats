@@ -1,0 +1,11 @@
+gametitle=Midnight Club 3 - DUB Edition Remix (PAL-M) SLES-53717 208183AF
+
+[50/60 FPS]
+author=PeterDelta
+description=Might need EE Overclock (180%).
+patch=0,EE,001A730C,word,24020001
+
+[Remove Bloom]
+author=PeterDelta
+description=Removes the post-processing bloom effect
+patch=1,EE,001D0E90,extended,00

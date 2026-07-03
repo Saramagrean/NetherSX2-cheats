@@ -1,0 +1,8 @@
+gametitle=Rockman X7 (NTSC-J) (SLPM-65331)
+
+[No-Interlacing]
+gsinterlacemode=1
+author=Immersion95
+description=Disables interlacing
+patch=1,EE,201069D4,extended,00000000
+patch=1,EE,20106C3C,extended,00000000

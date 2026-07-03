@@ -10,3 +10,9 @@ patch=1,EE,203EC754,extended,0000282D
 patch=1,EE,003EC758,extended,24060050
 patch=1,EE,203EC760,extended,24070001
 patch=1,EE,203ECB7C,extended,1040FFF6
+
+[No-Interlacing Old]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+patch=1,EE,20101E5C,extended,00000000
+patch=1,EE,201020C4,extended,00000000

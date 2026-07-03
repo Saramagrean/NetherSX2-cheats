@@ -1,0 +1,8 @@
+gametitle=Disney-Pixar's Cars (PAL-G) SLES-54012 04D27B79
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+patch=1,EE,001B1F44,extended,24040001
+patch=1,EE,E0010000,extended,008B88C4
+patch=1,EE,001B1F44,extended,24040002
